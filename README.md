@@ -6,7 +6,7 @@ This pipeline currently only extracts **map layer** and **map vehicle assets** d
 
 
 ## Components
-![Squad Wiki Pipeline breakdown](/files/doc/images/Squad-Wiki-Pipeline.png)
+![Squad Wiki Pipeline breakdown](/doc/images/Squad-Wiki-Pipeline.png)
 
 
 
