@@ -62,6 +62,6 @@ Please note, you have to re-install this Blueprint after every new release versi
 
 16. Drag the `MapGrabAssets` function from the left bar into the blueprint.
 
-17. Connect the Delay node with the function node. ![Connect Nodes](/doc/images/sdk/sdk_attach_function.png)
+17. Connect the Delay node with the function node. ![Connect Nodes](/doc/images/sdk/sdk_attatch_function.png)
 
 18. Compile and save the blueprint.
