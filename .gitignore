@@ -2,10 +2,7 @@ node_modules/*
 files/config/tokens/*
 !files/config/tokens/wiki.example.json
 files/output/*
-!files/output/.gitkeep
+!files/output/debug/
 files/output/debug/*
-!files/output/debug/.gitkeep
 files/input/*
-!files/input/.gitkeep
 files/temp/*
-!files/temp/.gitkeep

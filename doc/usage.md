@@ -1,6 +1,6 @@
 
 # Pipeline Usage
-Once you have completed the [installation](installation.md) and [configuration](configuration.md), you can now proceed to the actual usage of the pipeline.
+Once you have completed the [installation](doc/installation.md) and [configuration](doc/configuration.md), you can now proceed to the actual usage of the pipeline.
 
 Running the pipeline consists of four main steps:
 1. Export the game data from the [Squad SDK](https://squad.gamepedia.com/Squad_SDK)
@@ -24,7 +24,7 @@ Once [installation](/doc/installation.md) is complete the SDK data extraction wi
 
 Before running the SDK data extraction, open up the `Output Log` and type in `[Wiki]` within the filters. ![Output Filter](/doc/images/sdk/sdk_output.png)
 
-Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. It will automatically cycle through all the maps and layers - this will take quite a long time. ![Hit Play](/doc/images/sdk/sdk_play.png)
+Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. ![Hit Play](/doc/images/sdk/sdk_play.png)
 
 All data will output in the `Output Log`. Upon completion of the SDK data extraction you must select all in the output and manually paste it into a text editor and save it in `files/input/raw.txt`.
 
@@ -40,11 +40,11 @@ node rawtojson/raw-to-json.js
 #### Input
 The output from the SDK must be put in `files/input/raw.txt`.
 
-If you have CAF data this must be put in `files/input/raw_caf.txt` and CAF must be enabled in the main.json config - see [Configuration](configuration.md#main.json).
+If you have CAF data this must be put in `files/input/raw_caf.txt` and CAF must be enabled in the main.json config - see [Configuration](doc/configuration.md#main.json).
 
-Make sure you set the correct Squad $version every time you run this step - see [configuration](configuration.md).
+Make sure you set the correct Squad $version every time you run this step - see [configuration](doc/configuration.md).
 
-Also make sure that [all configuration files](configuration.md) are updated if new vehicles, factions or game modes are added to Squad.
+Also make sure that [all configuration files](doc/configuration.md) are updated if new vehicles, factions or game modes are added to Squad.
 
 #### Output
 The output will be placed at `files/output/finished_$VERSION.json`.
@@ -89,7 +89,7 @@ The following debug files are created for this step and can be found in `files/o
 
 
 ### 4) JSON_Wiki_Upload
-**\*Note\*** Token configuration is required for this step - see [Configuration](configuration.md#Tokens).
+**\*Note\*** Token configuration is required for this step - see [Configuration](doc/configuration.md#Tokens).
 
 This is used to take the data we've converted and upload it now to the wiki using the [MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page). The data is placed in interim Data pages and then goes automatically into the Cargo tables.
 

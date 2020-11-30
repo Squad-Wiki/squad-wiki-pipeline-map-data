@@ -24,44 +24,44 @@ Please note, you have to re-install this Blueprint after every new release versi
 
 4. Navigate to `/Content/UI/` within the SDK and open the Blueprint called `BP_HUD`.
 
-5. Create a new function in the BP_HUD Blueprint and name it `MapGrabAssets`.
+5. Create a new function in the BP_HUD Blueprint ![BP_HUD Blueprint](/files/doc/images/sdk/sdk_new_function.png) and name it `MapGrabAssets`.
 
-![BP_HUD Blueprint](/doc/images/sdk/sdk_new_function.png)
-
-6. Open up the blueprint `MapGrabAssets` again and select the entire script.
-
-![script selection](/doc/images/sdk/sdk_select_function.png)
+6. Open up the blueprint `MapGrabAssets` again and select the entire script ![script selection](/files/doc/images/sdk/sdk_select_function.png).
 
 7. Copy the selected script and paste it into the BP_HUD Blueprint.
 
-8. Move the Function Start (this should be in the middle of the paste) and move it to the start.
+8. Move the Function Start (this should be in the middle of the paste) ![Function Start](/files/doc/images/sdk/sdk_move_1.png) and move it to the start.
 
-![Function Start](/doc/images/sdk/sdk_move_1.png)
-
-9. Connect the Function Start to the first node in the Blueprint.
-
-![Blueprint Connect](/doc/images/sdk/sdk_move_2.png)
+9. Connect the Function Start to the first node in the Blueprint ![Blueprint Connect](/files/doc/images/sdk/sdk_move_2.png).
 
 10. Naviagate to the top right of the function and locate the nodes that reset arrays.
 
-11. Right click each variable (including the `PWorldSettings`) and promote them to variables. 
+11. Right click each variable (including the `PWorldSettings`) and promote them to variables. ![Promote to Variable](/files/doc/images/sdk/sdk_create_variable.png)
 
-![Promote to Variable](/doc/images/sdk/sdk_create_variable.png)
-
-12. The previous step will create new nodes for each variable, remove these nodes. 
-
-![Remove Nodes](/doc/images/sdk/sdk_delete_variable.png)
+12. The previous step will create new nodes for each variable, remove these nodes. ![Remove Nodes](/files/doc/images/sdk/sdk_delete_variable.png)
 
 13. Open up the `Event Graph` in the BP_HUD.
 
-14. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node. 
-
-![Copy Node](/doc/images/sdk/sdk_copy_delay.png)
+14. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node. ![Copy Node](/files/doc/images/sdk/sdk_copy_delay.png)
 
 15. Paste the delay node at the end of `Wait for Start of Match`
 
 16. Drag the `MapGrabAssets` function from the left bar into the blueprint.
 
-17. Connect the Delay node with the function node. ![Connect Nodes](/doc/images/sdk/sdk_attatch_function.png)
+17. Connect the Delay node with the function node. ![Connect Nodes](/files/doc/images/sdk/sdk_attach_function.png)
 
 18. Compile and save the blueprint.
+
+
+### Installing the JavaScript files
+
+The pipeline's JavaScript files must be in an uncompressed folder with the necessary perquisites listed below.
+
+Prerequisites:
+* The latest version of [Node](https://nodejs.org/en/download/)
+* Node module [Async](https://www.npmjs.com/package/async)
+* Node module [Request](https://www.npmjs.com/package/request)
+
+Node modules can be installed after installing Node by using `npm install {module}` within the base folder.
+
+All *Node modules* must be installed in the folder `node_modules/`.
