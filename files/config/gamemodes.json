@@ -1,0 +1,13 @@
+{
+    "Gamemodes": [
+        "RAAS",
+        "AAS",
+        "Skirmish",
+        "Invasion",
+        "Insurgency",
+        "Destruction",
+        "Tanks",
+        "TC",
+        "TA"
+    ]
+}

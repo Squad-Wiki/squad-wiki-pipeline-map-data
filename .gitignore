@@ -1,0 +1,8 @@
+node_modules/*
+files/config/tokens/*
+!files/config/tokens/wiki.example.json
+files/output/*
+!files/output/debug/
+files/output/debug/*
+files/input/*
+files/temp/*

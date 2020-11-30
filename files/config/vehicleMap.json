@@ -1,0 +1,544 @@
+{
+    "BP_minsk_C_Name": "Minsk 400",
+    "BP_minsk_C_DisplayName": "Minsk 400",
+
+    "BP_Minsk_black_C_Name": "Minsk 400",
+    "BP_Minsk_black_C_DisplayName": "Minsk 400",
+
+    "BP_Minsk_blue_C_Name": "Minsk 400",
+    "BP_Minsk_blue_C_DisplayName": "Minsk 400",
+
+    "BP_Minsk_green_C_Name": "Minsk 400",
+    "BP_Minsk_green_C_DisplayName": "Minsk 400",
+
+
+
+    
+    "BP_Technical_Transport_INS_C_Name": "Technical",
+    "BP_Technical_Transport_INS_C_DisplayName": "Technical Transport INS",
+
+    "BP_Technical_Transport_MIL_C_Name": "Technical",
+    "BP_Technical_Transport_MIL_C_DisplayName": "Technical Transport MIL",
+
+
+    "BP_Technical_Dshk_INS_C_Name": "Technical",
+    "BP_Technical_Dshk_INS_C_DisplayName": "Technical DShK-M",
+
+    "BP_Technical_Dshk_MIL_C_Name": "Technical",
+    "BP_Technical_Dshk_MIL_C_DisplayName": "Technical DShK-M",
+
+
+    "BP_Technical_Dshk_Shielded_INS_C_Name": "Technical",
+    "BP_Technical_Dshk_Shielded_INS_C_DisplayName": "Technical Shielded DShK-M",
+
+    "BP_Technical_Dshk_Shielded_MIL_C_Name": "Technical",
+    "BP_Technical_Dshk_Shielded_MIL_C_DisplayName": "Technical Shielded DShK-M",
+
+    "BP_Technical_Dshk_INS_Armoured_C_Name": "Technical",
+    "BP_Technical_Dshk_INS_Armoured_C_DisplayName": "Technical Armored DShK-M",
+
+
+    "BP_Technical_Logi_INS_C_Name": "Technical",
+    "BP_Technical_Logi_INS_C_DisplayName": "Technical Logistics INS",
+
+    "BP_Technical_Logi_MIL_C_Name": "Technical",
+    "BP_Technical_Logi_MIL_C_DisplayName": "Technical Logistics MIL",
+
+
+    "BP_Technical_SPG9_INS_C_Name": "Technical",
+    "BP_Technical_SPG9_INS_C_DisplayName": "Technical SPG",
+
+    "BP_Technical_SPG9_MIL_C_Name": "Technical",
+    "BP_Technical_SPG9_MIL_C_DisplayName": "Technical SPG",
+
+    "BP_Technical_SPG9_INS_Armoured_C_Name": "Technical",
+    "BP_Technical_SPG9_INS_Armoured_C_DisplayName": "Technical Armored SPG-9",
+
+
+    "BP_Technical_UB32_INS_C_Name": "Technical",
+    "BP_Technical_UB32_INS_C_DisplayName": "Technical Rocket Artillery",
+
+    "BP_Technical_UB32_MIL_C_Name": "Technical",
+    "BP_Technical_UB32_MIL_C_DisplayName": "Technical Rocket Artillery",
+
+
+
+
+    "BP_MATV_C_Name": "M-ATV",
+    "BP_MATV_C_DisplayName": "M-ATV",
+
+    "BP_MATV_Woodland_C_Name": "M-ATV",
+    "BP_MATV_Woodland_C_DisplayName": "M-ATV",
+
+    "BP_MATV_M240_C_Name": "M-ATV",
+    "BP_MATV_M240_C_DisplayName": "M-ATV M240",
+
+    "BP_MATV_M240_Woodland_C_Name": "M-ATV",
+    "BP_MATV_M240_Woodland_C_DisplayName": "M-ATV M240",
+
+    "BP_MATV_CROWS_C_Name": "M-ATV",
+    "BP_MATV_CROWS_C_DisplayName": "M-ATV CROWS",
+
+    "BP_MATV_CROWS_Woodland_C_Name": "M-ATV",
+    "BP_MATV_CROWS_Woodland_C_DisplayName": "M-ATV CROWS",
+
+    "BP_MATV_CROWS_M240_C_Name": "M-ATV",
+    "BP_MATV_CROWS_M240_C_DisplayName": "M-ATV CROWS M240",
+
+    "BP_MATV_CROWS_M240_Woodland_C_Name": "M-ATV",
+    "BP_MATV_CROWS_M240_Woodland_C_DisplayName": "M-ATV CROWS M240",
+
+
+    "BP_MATV_TOW_C_Name": "M-ATV",
+    "BP_MATV_TOW_C_DisplayName": "M-ATV TOW",
+
+    "BP_MATV_TOW_Woodland_C_Name": "M-ATV",
+    "BP_MATV_TOW_Woodland_C_DisplayName": "M-ATV TOW",
+
+
+
+
+    "BP_BTR80_RUS_C_Name": "BTR-80",
+    "BP_BTR80_RUS_C_DisplayName": "BTR-80",
+
+    "BP_BTR80_RUS_Desert_C_Name": "BTR-80",
+    "BP_BTR80_RUS_Desert_C_DisplayName": "BTR-80",
+
+    "BP_BTR80_Militia_C_Name": "BTR-80",
+    "BP_BTR80_Militia_C_DisplayName": "BTR-80",
+
+
+
+
+    "BP_BTR82A_RUS_C_Name": "BTR-82A",
+    "BP_BTR82A_RUS_C_DisplayName": "BTR-82A",
+
+    "BP_BTR82A_RUS_Desert_C_Name": "BTR-82A",
+    "BP_BTR82A_RUS_Desert_C_DisplayName": "BTR-82A",
+
+
+
+
+    "BP_Ural_375_C_Name": "URAL 375D",
+    "BP_Ural_375_C_DisplayName": "Ural 375-D Truck Transport",
+
+    "BP_Ural_375_Green_C_Name": "URAL 375D",
+    "BP_Ural_375_Green_C_DisplayName": "Ural 375-D Truck Transport",
+
+    "BP_Ural_375_Desert_C_Name": "URAL 375D",
+    "BP_Ural_375_Desert_C_DisplayName": "Ural 375-D Truck Transport",
+
+
+    "BP_Ural_375_Logi_C_Name": "URAL 375D",
+    "BP_Ural_375_Logi_C_DisplayName": "Ural 375-D Truck Logistics",
+
+    "BP_Ural_375_Logi_Green_C_Name": "URAL 375D",
+    "BP_Ural_375_Logi_Green_C_DisplayName": "Ural 375-D Truck Logistics",
+    
+    "BP_Ural_375_Logi_INS_C_Name": "URAL 375D",
+    "BP_Ural_375_Logi_INS_C_DisplayName": "Ural 375-D Truck Logistics",
+
+    "BP_Ural_375_Logi_Desert_C_Name": "URAL 375D",
+    "BP_Ural_375_Logi_Desert_C_DisplayName": "Ural 375-D Truck Logistics",
+
+
+    "BP_Ural_375_ZU23_C_Name": "URAL 375D",
+    "BP_Ural_375_ZU23_C_DisplayName": "Ural 375-D Truck ZU23",
+
+    "BP_Ural_375_ZU23_MIL_C_Name": "URAL 375D",
+    "BP_Ural_375_ZU23_MIL_C_DisplayName": "Ural 375-D Truck ZU23",
+
+
+
+
+    "BP_Ural_4320_C_Name": "URAL 4320",
+    "BP_Ural_4320_C_DisplayName": "URAL 4320 Truck Transport",
+
+    "BP_Ural_4320_Desert_C_Name": "URAL 4320",
+    "BP_Ural_4320_Desert_C_DisplayName": "URAL 4320 Truck Transport",
+
+    "BP_Ural_4320_MEA_C_Name": "URAL 4320",
+    "BP_Ural_4320_MEA_C_DisplayName": "URAL 4320 Truck Transport",
+
+
+    "BP_Ural_4320_logi_C_Name": "URAL 4320",
+    "BP_Ural_4320_logi_C_DisplayName": "URAL 4320 Truck Logistics",
+
+    "BP_Ural_4320_logi_Desert_C_Name": "URAL 4320",
+    "BP_Ural_4320_logi_Desert_C_DisplayName": "URAL 4320 Truck Logistics",
+
+    "BP_Ural_4320_logi_MEA_C_Name": "URAL 4320",
+    "BP_Ural_4320_logi_MEA_C_DisplayName": "URAL 4320 Truck Logistics",
+
+
+
+    "BP_US_Util_Desert_C_Name": "M939 Truck",
+    "BP_US_Util_Desert_C_DisplayName": "M939 Truck Transport",
+
+    "BP_US_Util_Woodland_C_Name": "M939 Truck",
+    "BP_US_Util_Woodland_C_DisplayName": "M939 Truck Transport",
+
+
+    "BP_US_Util_Desert_Logi_C_Name": "M939 Truck",
+    "BP_US_Util_Desert_Logi_C_DisplayName": "M939 Truck Logistics",
+
+    "BP_US_Util_Woodland_Logi_C_Name": "M939 Truck",
+    "BP_US_Util_Woodland_Logi_C_DisplayName": "M939 Truck Logistics",
+
+    
+
+
+    "BP_M1126_C_Name": "M1126",
+    "BP_M1126_C_DisplayName": "M1126",
+
+    "BP_M1126_Woodland_C_Name": "M1126",
+    "BP_M1126_Woodland_C_DisplayName": "M1126",
+
+
+    "BP_M1126_M240_C_Name": "M1126",
+    "BP_M1126_M240_C_DisplayName": "M1126 M240",
+
+    "BP_M1126_M240_Woodland_C_Name": "M1126",
+    "BP_M1126_M240_Woodland_C_DisplayName": "M1126 M240",
+
+
+
+
+    "BP_MTLB_VMK_RUS_Desert_C_Name" : "MT-LB",
+    "BP_MTLB_VMK_RUS_Desert_C_DisplayName" : "MT-LB",
+
+    "BP_MTLB_VMK_RUS_C_Name": "MT-LB",
+    "BP_MTLB_VMK_RUS_C_DisplayName": "MT-LB",
+
+    "BP_MTLB_VMK_MIL_C_Name": "MT-LB",
+    "BP_MTLB_VMK_MIL_C_DisplayName": "MT-LB",
+
+    "BP_MTLB_VMK_MEA_C_Name": "MT-LB",
+    "BP_MTLB_VMK_MEA_C_DisplayName": "MT-LB",
+
+    "BP_MTLB_INS_C_Name": "MT-LB", 
+    "BP_MTLB_INS_C_DisplayName": "MT-LB", 
+
+
+
+
+    "BP_MTLBM_6MA_RUS_C_Name": "MT-LBM",
+    "BP_MTLBM_6MA_RUS_C_DisplayName": "MT-LBM 6MA",
+
+    "BP_MTLBM_6MA_MEA_C_Name": "MT-LBM",
+    "BP_MTLBM_6MA_MEA_C_DisplayName": "MT-LBM 6MA",
+
+    "BP_MTLBM_6MA_RUS_Desert_C_Name": "MT-LBM",
+    "BP_MTLBM_6MA_RUS_Desert_C_DisplayName": "MT-LBM 6MA",
+
+    "BP_MTLBM_6MB_RUS_C_Name": "MT-LBM",
+    "BP_MTLBM_6MB_RUS_C_DisplayName": "MT-LBM 6MB",
+
+    "BP_MTLBM_6MB_RUS_Desert_C_Name": "MT-LBM",
+    "BP_MTLBM_6MB_RUS_Desert_C_DisplayName": "MT-LBM 6MB",
+
+    "BP_MTLBM_6MB_MIL_C_Name": "MT-LBM",
+    "BP_MTLBM_6MB_MIL_C_DisplayName": "MT-LBM 6MB",
+
+
+    "BP_MTLB_ZU23_MIL_C_Name": "MT-LBM",
+    "BP_MTLB_ZU23_MIL_C_DisplayName": "MT-LBM ZU23",
+
+    "BP_MTLB_ZU23_INS_C_Name": "MT-LBM",
+    "BP_MTLB_ZU23_INS_C_DisplayName": "MT-LBM ZU23",
+
+
+
+    "BP_BRDM-2_C_Name": "BRDM-2",
+    "BP_BRDM-2_C_DisplayName": "BRDM-2",
+
+    "BP_BRDM-2_RUS_C_Name": "BRDM-2",
+    "BP_BRDM-2_RUS_C_DisplayName": "BRDM-2",
+
+    "BP_BRDM-2_RUS_Desert_C_Name": "BRDM-2",
+    "BP_BRDM-2_RUS_Desert_C_DisplayName": "BRDM-2",
+
+    "BP_BRDM-2_Insurgents_C_Name": "BRDM-2",
+    "BP_BRDM-2_Insurgents_C_DisplayName": "BRDM-2",
+
+    "BP_BRDM-2_MEA_C_Name": "BRDM-2",
+    "BP_BRDM-2_MEA_C_DisplayName": "BRDM-2",
+
+
+    "BP_BRDM-2_Spandrel_C_Name": "BRDM-2",
+    "BP_BRDM-2_Spandrel_C_DisplayName": "BRDM-2 Spandrel",
+
+    "BP_BRDM-2_Spandrel_RUS_C_Name": "BRDM-2",
+    "BP_BRDM-2_Spandrel_RUS_C_DisplayName": "BRDM-2 Spandrel",
+
+    "BP_BRDM-2_Spandrel_RUS_Desert_C_Name": "BRDM-2",
+    "BP_BRDM-2_Spandrel_RUS_Desert_C_DisplayName": "BRDM-2 Spandrel",
+
+    "BP_BRDM-2_Spandrel_INS_C_Name": "BRDM-2",
+    "BP_BRDM-2_Spandrel_INS_C_DisplayName": "BRDM-2 Spandrel",
+
+    "BP_BRDM-2_MEA_Spandrel_C_Name": "BRDM-2",
+    "BP_BRDM-2_MEA_Spandrel_C_DisplayName": "BRDM-2 Spandrel",
+
+
+
+    "BP_BMP1_MIL_C_Name": "BMP-1",
+    "BP_BMP1_MIL_C_DisplayName": "BMP-1",
+
+    "BP_BMP1_INS_C_Name": "BMP-1",
+    "BP_BMP1_INS_C_DisplayName": "BMP-1",
+
+    "BP_BMP1_MEA_C_Name": "BMP-1",
+    "BP_BMP1_MEA_C_DisplayName": "BMP-1",
+
+
+    "BP_BMP1_MIL_ZU23_C_Name": "BMP-1",
+    "BP_BMP1_MIL_ZU23_C_DisplayName": "BMP-1 ZU23",
+
+    "BP_BMP1_INS_ZU23_C_Name": "BMP-1",
+    "BP_BMP1_INS_ZU23_C_DisplayName": "BMP-1 ZU23",
+
+
+
+
+    "BP_BMP2_C_Name": "BMP-2",
+    "BP_BMP2_C_DisplayName": "BMP-2",
+
+    "BP_BMP2_Desert_C_Name": "BMP-2",
+    "BP_BMP2_Desert_C_DisplayName": "BMP-2",
+
+    "BP_BMP2_MEA_C_Name": "BMP-2",
+    "BP_BMP2_MEA_C_DisplayName": "BMP-2",
+
+
+    "BP_BFV_C_Name": "M2A3",
+    "BP_BFV_C_DisplayName": "M2A3",
+
+    "BP_BFV_Woodland_C_Name": "M2A3",
+    "BP_BFV_Woodland_C_DisplayName": "M2A3",
+
+
+
+
+    "BP_FV510_C_Name": "FV510",
+    "BP_FV510_C_DisplayName": "FV510",
+
+    "BP_FV510_Woodland_C_Name": "FV510",
+    "BP_FV510_Woodland_C_DisplayName": "FV510",
+
+
+    "BP_FV510UA_C_Name": "FV510",
+    "BP_FV510UA_C_DisplayName": "FV510 (Up-Armoured)",
+
+    "BP_FV510UA_Woodland_C_Name": "FV510",
+    "BP_FV510UA_Woodland_C_DisplayName": "FV510 (Up-Armoured)",
+
+
+
+
+    "BP_FV432_C_Name": "FV432",
+    "BP_FV432_C_DisplayName": "FV432",
+
+    "BP_FV432_woodland_C_Name": "FV432",
+    "BP_FV432_woodland_C_DisplayName": "FV432",
+
+
+    "BP_FV432_RWS_C_Name":"FV432",
+    "BP_FV432_RWS_C_DisplayName": "FV432 RWS",
+
+    "BP_FV432_RWS_Woodland_C_Name":"FV432",
+    "BP_FV432_RWS_Woodland_C_DisplayName": "FV432 RWS",
+
+
+
+
+    "BP_Brit_Util_Truck_C_Name": "MAN HX",
+    "BP_Brit_Util_Truck_C_DisplayName": "MAN HX Truck Transport",
+
+    "BP_Brit_Util_Truck_Woodland_C_Name": "MAN HX",
+    "BP_Brit_Util_Truck_Woodland_C_DisplayName": "MAN HX Truck Transport",
+
+
+    "BP_Brit_Util_Truck_Logi_C_Name": "MAN HX",
+    "BP_Brit_Util_Truck_Logi_C_DisplayName": "MAN HX Truck Logistics",
+
+    "BP_Brit_Util_Truck_Logi_Woodland_C_Name": "MAN HX",
+    "BP_Brit_Util_Truck_Logi_Woodland_C_DisplayName": "MAN HX Truck Logistics",
+
+
+
+
+    "BP_M1A2_C_Name": "M1A2",
+    "BP_M1A2_C_DisplayName": "M1A2",
+
+    "BP_M1A2_Woodland_C_Name": "M1A2",
+    "BP_M1A2_Woodland_C_DisplayName": "M1A2",
+
+
+
+
+    "BP_FV4034_C_Name": "FV4034",
+    "BP_FV4034_C_DisplayName": "FV4034",
+
+    "BP_FV4034_Woodland_C_Name": "FV4034",
+    "BP_FV4034_Woodland_C_DisplayName": "FV4034",
+
+
+
+
+    "BP_T72B3_Desert_C_Name": "T-72",
+    "BP_T72B3_Desert_C_DisplayName": "T-72",
+
+    "BP_T72B3_C_Name": "T-72",
+    "BP_T72B3_C_DisplayName": "T-72",
+
+    "BP_T72AV_MEA_C_Name": "T-72",
+    "BP_T72AV_MEA_C_DisplayName": "T-72S",
+    
+
+
+
+    "BP_T62_C_Name": "T-62",
+    "BP_T62_C_DisplayName": "T-62",
+
+    "BP_T62_MIL_C_Name": "T-62",
+    "BP_T62_MIL_C_DisplayName": "T-62",
+
+    "BP_T62_MEA_C_Name": "T-62",
+    "BP_T62_MEA_C_DisplayName": "T-62",
+
+
+
+    "BP_MI8_C_Name": "Mi-8",
+    "BP_MI8_C_DisplayName": "Mi-8",
+
+
+
+
+    "BP_UH60_C_Name": "UH-60M",
+    "BP_UH60_C_DisplayName": "UH-60M",
+
+
+
+
+    "BP_2A6_Woodland_C_Name": "Leopard 2A6M",
+    "BP_2A6_Woodland_C_DisplayName": "Leopard 2A6M",
+
+    "BP_2A6_Desert_C_Name": "Leopard 2A6M",
+    "BP_2A6_Desert_C_DisplayName": "Leopard 2A6M",
+
+
+    "BP_2A6_Woodland_Cage_C_Name": "Leopard 2A6M",
+    "BP_2A6_Woodland_Cage_C_DisplayName": "Leopard 2A6M Caged",
+
+    "BP_2A6_Desert_Cage_C_Name": "Leopard 2A6M",
+    "BP_2A6_Desert_Cage_C_DisplayName": "Leopard 2A6M Caged",
+
+
+
+
+    "BP_LAV6_Desert_C_Name": "LAV 6.0",
+    "BP_LAV6_Desert_C_DisplayName": "LAV 6.0",
+
+    "BP_LAV6_Woodland_C_Name": "LAV 6.0",
+    "BP_LAV6_Woodland_C_DisplayName": "LAV 6.0",
+
+
+
+
+    "BP_TAPV_C_Name": "TAPV",
+    "BP_TAPV_C_DisplayName": "TAPV",
+
+    "BP_TAPV_Desert_C_Name": "TAPV",
+    "BP_TAPV_Desert_C_DisplayName": "TAPV",
+
+
+
+
+    "BP_M-Gator_Logistics_C_Name": "LUV-A1",
+    "BP_M-Gator_Logistics_C_DisplayName": "LUV-A1",
+
+    "BP_M-Gator_Transport_C_Name": "LUV-A1",
+    "BP_M-Gator_Transport_C_DisplayName": "LUV-A1",
+
+
+
+
+    "BP_CAF_Util_Desert_C_Name": "MSVS Truck",
+    "BP_CAF_Util_Desert_C_DisplayName": "MSVS Truck Transport",
+
+    "BP_CAF_Util_Woodland_C_Name": "MSVS Truck",
+    "BP_CAF_Util_Woodland_C_DisplayName": "MSVS Truck Transport",
+
+
+    "BP_CAF_Util_Desert_Logi_C_Name": "MSVS Truck",
+    "BP_CAF_Util_Desert_Logi_C_DisplayName": "MSVS Truck Logistics",
+
+    "BP_CAF_Util_Woodland_Logi_C_Name": "MSVS Truck",
+    "BP_CAF_Util_Woodland_Logi_C_DisplayName": "MSVS Truck Logistics",
+
+
+
+
+    "BP_Kamaz_5350_C_Name": "Kamaz 5350",
+    "BP_Kamaz_5350_C_DisplayName": "Kamaz 5350 Truck Transport",
+
+    "BP_Kamaz_5350_Desert_C_Name": "Kamaz 5350",
+    "BP_Kamaz_5350_Desert_C_DisplayName": "Kamaz 5350 Truck Transport",
+
+
+    "BP_Kamaz_5350_Logi_C_Name": "Kamaz 5350",
+    "BP_Kamaz_5350_Logi_C_DisplayName": "Kamaz 5350 Truck Logistics",
+
+    "BP_Kamaz_5350_Logi_Desert_C_Name": "Kamaz 5350",
+    "BP_Kamaz_5350_Logi_Desert_C_DisplayName": "Kamaz 5350 Truck Logistics",
+
+
+
+
+    "BP_Tigr_C_Name": "Tigr-M Kord",
+    "BP_Tigr_C_DisplayName": "Tigr-M Kord Open Top",
+
+    "BP_Tigr_Desert_C_Name": "Tigr-M Kord",
+    "BP_Tigr_Desert_C_DisplayName": "Tigr-M Kord Open Top",
+
+
+    "BP_Tigr_RWS_C_Name": "Tigr-M Kord",
+    "BP_Tigr_RWS_C_DisplayName" : "Tigr-M Kord RWS",
+
+    "BP_Tigr_RWS_Desert_C_Name": "Tigr-M Kord",
+    "BP_Tigr_RWS_Desert_C_DisplayName" : "Tigr-M Kord RWS",
+
+
+
+
+    "BP_LAV_RWS_C6_C_Name": "LAV III",
+    "BP_LAV_RWS_C6_C_DisplayName": "LAV III C6 RWS",
+
+    "BP_LAV_RWS_C6_Desert_C_Name": "LAV III",
+    "BP_LAV_RWS_C6_Desert_C_DisplayName": "LAV III C6 RWS",
+
+    "BP_LAV_RWS_M2_C_Name": "LAV III",
+    "BP_LAV_RWS_M2_C_DisplayName": "LAV III M2 RWS",
+
+    "BP_LAV_RWS_M2_Desert_C_Name": "LAV III",
+    "BP_LAV_RWS_M2_Desert_C_DisplayName": "LAV III M2 RWS",
+
+
+
+
+    "BP_MI17_MEA_C_Name": "Mi-8",
+    "BP_MI17_MEA_C_DisplayName": "Mi-17",
+
+    "BP_Safir_C_Name": "Simir",
+    "BP_Safir_C_DisplayName": "Simir Logistics",
+
+    "BP_Safir_Kord_C_Name": "Simir",
+    "BP_Safir_Kord_C_DisplayName": "Simir Kord",
+
+    "BP_Safir_MG3_C_Name": "Simir",
+    "BP_Safir_MG3_C_DisplayName": "Simir MG3",
+
+    "BP_Safir_Kornet_C_Name": "Simir",
+    "BP_Safir_Kornet_C_DisplayName": "Simir Kornet"
+}

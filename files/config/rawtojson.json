@@ -1,0 +1,11 @@
+{
+    "Teams": {
+        "INS" : "Insurgency",
+        "MIL": "Militia",
+        "USA": "United States Army",
+        "RU" : "Russia",
+        "GB": "Great Britain",
+        "CAF": "Canadian Armed Forces",
+        "MEA": "Middle Eastern Alliance"
+    }
+}
