@@ -2,10 +2,14 @@ node_modules/*
 files/config/tokens/*
 !files/config/tokens/wiki.example.json
 files/output/*
-!files/output/
-!files/output/debug/
+!files/output/.gitkeep
+!files/output/debug/.gitkeep
 files/output/debug/*
 files/input/*
-!files/input/
+!files/input/.gitkeep
 files/temp/*
+<<<<<<< HEAD
 !files/temp/
+=======
+!files/temp/.gitkeep
+>>>>>>> 89efc90 (Fixed missing folders. Fixed)
