@@ -62,57 +62,6 @@
     "BP_Technical_UB32_MIL_C_DisplayName": "Technical Rocket Artillery",
 
 
-    "BP_Technical4Seater_Logi_C_Name": "Technical",
-    "BP_Technical4Seater_Logi_C_DisplayName": "Pickup Truck Logistics",
-
-    "BP_Technical4Seater_Logi_Camo_C_Name": "Technical",
-    "BP_Technical4Seater_Logi_Camo_C_DisplayName": "Pickup Truck Logistics",
-
-    "BP_Technical4Seater_Transport_C_Name": "Technical",
-    "BP_Technical4Seater_Transport_C_DisplayName": "Picup Truck Transport",
-
-
-    "BP_Technical2Seater_White_Mortar_C_Name": "Technical",
-    "BP_Technical2Seater_White_Mortar_C_DisplayName": "Technical Mortar",
-
-    "BP_Technical2Seater_White_Dshk_C_Name": "Technical",
-    "BP_Technical2Seater_White_Dshk_C_DisplayName": "Technical Dshk-M",
-
-    "BP_Technical2Seater_White_UB32_C_Name": "Technical",
-    "BP_Technical2Seater_White_UB32_C_DisplayName": "Technical Rocket Artillery",
-
-    "BP_Technical2Seater_White_SPG9_C_Name": "Technical",
-    "BP_Technical2Seater_White_SPG9_C_DisplayName": "Technical SPG",
-
-    "BP_Technical2Seater_White_ZU23_C_Name": "Technical",
-    "BP_Technical2Seater_White_ZU23_C_DisplayName": "Technical ZU-23",
-
-    "BP_Technical2Seater_White_M2_C_Name": "Technical",
-    "BP_Technical2Seater_White_M2_C_DisplayName": "Technical M2 HB",
-
-    "BP_Technical2Seater_White_BMP1_C_Name": "Technical",
-    "BP_Technical2Seater_White_BMP1_C_DisplayName": "Technical BMP-1",
-
-
-    "BP_M1151_Technical_C_Name": "Technical",
-    "BP_M1151_Technical_C_DisplayName": "Technical DShK-M",
-    
-
-
-
-    "BP_LPPV_C_Name": "LPPV",
-    "BP_LPPV_C_DisplayName": "LPPV",
-
-    "BP_LPPV_Woodland_C_Name": "LPPV",
-    "BP_LPPV_Woodland_C_DisplayName": "LPPV",
-
-    "BP_LPPV_M2RWS_C_Name": "LPPV",
-    "BP_LPPV_M2RWS_C_DisplayName": "LPPV RWS",
-
-    "BP_LPPV_M2RWS_Woodland_C_Name": "LPPV",
-    "BP_LPPV_M2RWS_Woodland_C_DisplayName": "LPPV RWS",
-
-
 
 
     "BP_MATV_C_Name": "M-ATV",
@@ -377,8 +326,6 @@
     "BP_FV510_Woodland_C_Name": "FV510",
     "BP_FV510_Woodland_C_DisplayName": "FV510",
 
-    "BP_FV510UA_CTAS40_Woodland_C_Name": "FV510",
-    "BP_FV510UA_CTAS40_Woodland_C_DisplayName": "FV510 CTAS40",
 
     "BP_FV510UA_C_Name": "FV510",
     "BP_FV510UA_C_DisplayName": "FV510 (Up-Armoured)",
@@ -386,16 +333,6 @@
     "BP_FV510UA_Woodland_C_Name": "FV510",
     "BP_FV510UA_Woodland_C_DisplayName": "FV510 (Up-Armoured)",
 
-    "BP_FV510UA_CTAS40_C_Name": "FV510",
-    "BP_FV510UA_CTAS40_C_DisplayName": "FV510 CTAS40 (Up-Armoured)",
-
-
-
-    "BP_FV107_C_Name": "FV107",
-    "BP_FV107_C_DisplayName": "FV107",
-
-    "BP_FV107_Woodland_C_Name": "FV107",
-    "BP_FV107_Woodland_C_DisplayName": "FV107",
 
 
 
@@ -478,12 +415,6 @@
 
 
 
-    "BP_SA330_C_Name": "SA330",
-    "BP_SA330_C_DisplayName": "BP_SA330_C",
-
-
-
-
     "BP_UH60_C_Name": "UH-60M",
     "BP_UH60_C_DisplayName": "UH-60M",
 
@@ -525,16 +456,10 @@
 
 
     "BP_M-Gator_Logistics_C_Name": "LUV-A1",
-    "BP_M-Gator_Logistics_C_DisplayName": "LUV-A1 Logistics",
-
-    "BP_M-Gator_Logistics_ARID_C_Name": "LUV-A1",
-    "BP_M-Gator_Logistics_ARID_C_DisplayName": "LUV-A1 Logistics",
+    "BP_M-Gator_Logistics_C_DisplayName": "LUV-A1",
 
     "BP_M-Gator_Transport_C_Name": "LUV-A1",
-    "BP_M-Gator_Transport_C_DisplayName": "LUV-A1 Transport",
-
-    "BP_M-Gator_Transport_ARID_C_Name": "LUV-A1",
-    "BP_M-Gator_Transport_ARID_C_DisplayName": "LUV-A1 Transport",
+    "BP_M-Gator_Transport_C_DisplayName": "LUV-A1",
 
 
 
