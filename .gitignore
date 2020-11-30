@@ -8,8 +8,4 @@ files/output/debug/*
 files/input/*
 !files/input/.gitkeep
 files/temp/*
-<<<<<<< HEAD
-!files/temp/
-=======
 !files/temp/.gitkeep
->>>>>>> 89efc90 (Fixed missing folders. Fixed)
