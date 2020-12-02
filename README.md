@@ -100,4 +100,4 @@ This project would not have been possible without the invaluable help and suppor
 
 
 ## License
-This repository is under the Creative Commons Attribution-ShareAlike 4.0 International. See [License.md](/license.md).
+This repository is under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/). See [License.md](/license.md).
