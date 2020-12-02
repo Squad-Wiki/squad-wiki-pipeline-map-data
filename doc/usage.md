@@ -24,7 +24,7 @@ Once [installation](/doc/installation.md) is complete the SDK data extraction wi
 
 Before running the SDK data extraction, open up the `Output Log` and type in `[Wiki]` within the filters. ![Output Filter](/doc/images/sdk/sdk_output.png)
 
-Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. ![Hit Play](/doc/images/sdk/sdk_play.png)
+Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. It will automatically cycle through all the maps and layers - this will take quite a long time. ![Hit Play](/doc/images/sdk/sdk_play.png)
 
 All data will output in the `Output Log`. Upon completion of the SDK data extraction you must select all in the output and manually paste it into a text editor and save it in `files/input/raw.txt`.
 
