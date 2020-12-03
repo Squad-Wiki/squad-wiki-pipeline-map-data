@@ -1,6 +1,6 @@
 
 # Pipeline Usage
-Once you have completed the [installation](doc/installation.md) and [configuration](doc/configuration.md), you can now proceed to the actual usage of the pipeline.
+Once you have completed the [installation](installation.md) and [configuration](configuration.md), you can now proceed to the actual usage of the pipeline.
 
 Running the pipeline consists of four main steps:
 1. Export the game data from the [Squad SDK](https://squad.gamepedia.com/Squad_SDK)
@@ -40,11 +40,11 @@ node rawtojson/raw-to-json.js
 #### Input
 The output from the SDK must be put in `files/input/raw.txt`.
 
-If you have CAF data this must be put in `files/input/raw_caf.txt` and CAF must be enabled in the main.json config - see [Configuration](doc/configuration.md#main.json).
+If you have CAF data this must be put in `files/input/raw_caf.txt` and CAF must be enabled in the main.json config - see [Configuration](configuration.md#main.json).
 
-Make sure you set the correct Squad $version every time you run this step - see [configuration](doc/configuration.md).
+Make sure you set the correct Squad $version every time you run this step - see [configuration](configuration.md).
 
-Also make sure that [all configuration files](doc/configuration.md) are updated if new vehicles, factions or game modes are added to Squad.
+Also make sure that [all configuration files](configuration.md) are updated if new vehicles, factions or game modes are added to Squad.
 
 #### Output
 The output will be placed at `files/output/finished_$VERSION.json`.
@@ -89,7 +89,7 @@ The following debug files are created for this step and can be found in `files/o
 
 
 ### 4) JSON_Wiki_Upload
-**\*Note\*** Token configuration is required for this step - see [Configuration](doc/configuration.md#Tokens).
+**\*Note\*** Token configuration is required for this step - see [Configuration](configuration.md#Tokens).
 
 This is used to take the data we've converted and upload it now to the wiki using the [MediaWiki API](https://www.mediawiki.org/wiki/API:Main_page). The data is placed in interim Data pages and then goes automatically into the Cargo tables.
 
