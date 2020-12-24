@@ -65,7 +65,6 @@
     "LL_Sumari_MidDay": "Partial Clouds Mid Day",
     "UltraSky": "Sunset",
 
-    "LL_Tallil_Outskirts_MidDay": "Sunny Mid Day",
     "LL_Tallil_Outskirts_MidDay2": "Sunny Mid Day",
     "LL_Tallil_Outskirts_Morning": "Morning Sunrise",
     "LL_Tallil_Outskirts_Sandstorm": "Sandstorm",
@@ -74,14 +73,5 @@
     
     "LL_Yehorivka_Sunrise": "Sunrise",
     "LL_Yehorivka_MidDay": "Partial Clouds Mid Day",
-    "LL_Yehorivka_Overcast": "Overcast",
-
-    "LL_Goose_Bay_MidDay": "Sunny Mid Day",
-    "LL_Goose_Bay_Overcast": "Overcast",
-
-    "LL_Manic-5_MidDay": "Mid Day",
-    "LL_Manic-5_Sunset": "Sunset",
-    "LL_Manic-5_Overcast": "Overcast",
-
-    "LL_Nanisivik_SnowStorm": "Snowstorm"
+    "LL_Yehorivka_Overcast": "Overcast"
 }
