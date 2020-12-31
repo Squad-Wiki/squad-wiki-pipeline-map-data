@@ -6,7 +6,29 @@ let mainconfig = require('../files/config/main.json');
 let lightingMap = require('../files/config/lightingMap.json')
 const { info } = require("console");
 
+const gamemodes = require('../files/config/gamemodes.json')
+
 const layers = []
+
+const findGamemode = async(text) => {
+    let location = -1
+
+    let i = 0
+    // Try to find the location of the gamemode in the map name string. Looping through each gamemode to search for each one.
+
+    for(i = 0; i < gamemodes.Gamemodes.length; i++){
+        location = text.indexOf(gamemodes.Gamemodes[i])
+        if (location != -1) break;
+    }
+
+    // If we couldn't find the gamemode throw and error and stop here.
+    if(location == -1) throw("Couldn't find a gamemode for: " + text);
+
+    return {
+        location: location, 
+        gamemode: gamemodes.Gamemodes[i]
+    }
+}
 
 
 let loop = async(remaninglines, output, output2) => {
@@ -14,9 +36,12 @@ let loop = async(remaninglines, output, output2) => {
     //current = resetCurrent()
 
     let finishedJson = []
-
+    let finishedSetups = []
     let temp = null
     currentMap = {}
+    let tempLane = ""
+    currentSetup = {}
+
     while(remaninglines.indexOf("\n") >= -1){
         let lineEnd = remaninglines.indexOf("\n")
         let line = remaninglines.substring(0, lineEnd - 1)
@@ -25,6 +50,47 @@ let loop = async(remaninglines, output, output2) => {
 
         prefix = line.substring(line.indexOf("[") + 1, line.indexOf("]"))
         switch(prefix) {
+            case "Setup_Data":
+                datatype = line.substring(prefix.length + 3, line.indexOf(":"))
+                data = line.substring(line.indexOf(":") + 2, line.length)
+                console.log(Object.keys(currentSetup).length)
+                if(Object.keys(currentSetup).length === 0) {
+                    break;
+                }
+                if(line.includes("faction:")){
+                    finishedSetups.push(currentSetup)
+                    currentSetup = {}
+                }
+                break;
+            case "Setup":
+                if(currentSetup[datatype] != undefined) {
+                    if(Array.isArray(currentSetup[datatype])){
+                        currentSetup[datatype].push(data)
+                    }
+                    else {
+                        temp = currentSetup[datatype]
+                        currentSetup[datatype] = []
+                        currentSetup[datatype].push(temp)
+                        currentSetup[datatype].push(data)
+                    }
+                }
+                else {
+                    currentSetup[datatype] = data
+                }
+                datatype = line.substring(prefix.length + 3, line.indexOf(":"))
+                data = line.substring(line.indexOf(":") + 2, line.length)
+                if(datatype == 'New_Veh') {
+                    datatype = "vehicles"
+                    tempdata = {}
+
+                    tempdata.type = data.substring(0, data.indexOf(" x "))
+                    tempdata.count = data.substring(data.indexOf(" x ") + 3, data.indexOf(" |"))
+                    tempdata.delay = parseInt(data.substring(data.indexOf("Spawn Time: ") + 12, data.indexOf(" | Respawn Time: ")))
+                    tempdata.respawnTime = parseInt(data.substring(data.indexOf(" | Respawn Time: ") + 17, data.length))
+                    data = tempdata
+
+                }
+                break;
             case "Data":
                 if(line.includes("name:")){
                     //// New Map Detected
@@ -32,6 +98,15 @@ let loop = async(remaninglines, output, output2) => {
                         currentMap.Name = line.substring(13, line.length)
                         break;
                     }
+                    let gamemodeinfo = await findGamemode(currentMap.Name)
+            
+
+                    let mapPage = currentMap.Name.substring(0, gamemodeinfo.location - 1)
+                    let layerVersion = currentMap.Name.substring(gamemodeinfo.location + gamemodeinfo.gamemode.length + 1)
+                    currentMap.mapName = mapPage
+                    currentMap.gamemode = gamemodeinfo.gamemode
+                    currentMap.layerVersion = layerVersion
+
                     if(currentMap.border == undefined){
                         currentMap.mapSize = ("0x0 km")
                     }
@@ -44,6 +119,21 @@ let loop = async(remaninglines, output, output2) => {
                         else {
                             currentMap.mapSizeType = "Minimap Size"
                         }
+                    }
+
+                    if(currentMap.team1.Faction == undefined && currentMap.team1.allowedAlliances == undefined){
+                        currentMap.team1.allowedAlliances = [
+                            "BLUFOR",
+                            "REDFOR",
+                            "INDEPENDENT"
+                        ]
+                    }
+                    if(currentMap.team2.Faction == undefined && currentMap.team2.allowedAlliances == undefined){
+                        currentMap.team2.allowedAlliances = [
+                            "BLUFOR",
+                            "REDFOR",
+                            "INDEPENDENT"
+                        ]
                     }
                     finishedJson.push(currentMap)
                     currentMap = {}
@@ -115,21 +205,50 @@ let loop = async(remaninglines, output, output2) => {
             case "Flags":
                 datatype = line.substring(prefix.length + 3, line.indexOf(":"))
                 data = line.substring(line.indexOf(":") + 2, line.length)
-                if(team[datatype] != undefined) {
-                    if(Array.isArray(team[datatype])){
-                        team[datatype].push(data)
+                if(datatype == "Lane") {
+                    tempLane = data
+                    break;
+                }
+                if(currentMap.type !== undefined && currentMap.type.includes("RAASLane Graph")) {
+                    if(datatype == "Flag"){
+                        if(currentMap.lanes == undefined) currentMap.lanes = {}
+                        if(currentMap.lanes[tempLane] == undefined) currentMap.lanes[tempLane] = []
+                        currentMap.lanes[tempLane].push(data)
                     }
                     else {
-                        temp = team[datatype]
-                        team[datatype] = []
-                        team[datatype].push(temp)
-                        team[datatype].push(data)
+                        if(currentMap[datatype] != undefined) {
+                            if(Array.isArray(currentMap[datatype])){
+                                currentMap[datatype].push(data)
+                            }
+                            else {
+                                temp = currentMap[datatype]
+                                currentMap[datatype] = []
+                                currentMap[datatype].push(temp)
+                                currentMap[datatype].push(data)
+                            }
+                        }
+                        else {
+                            currentMap[datatype] = data
+                        }
                     }
                 }
-                else {
-                    team[datatype] = data
+                else{
+                    if(currentMap[datatype] != undefined) {
+                        if(Array.isArray(currentMap[datatype])){
+                            currentMap[datatype].push(data)
+                        }
+                        else {
+                            temp = currentMap[datatype]
+                            currentMap[datatype] = []
+                            currentMap[datatype].push(temp)
+                            currentMap[datatype].push(data)
+                        }
+                    }
+                    else {
+                        currentMap[datatype] = data
+                    }
+
                 }
-                if(currentMap.Flags == undefined)
                 break;
             case "Border":
                 borderpos = {}
@@ -150,11 +269,20 @@ let loop = async(remaninglines, output, output2) => {
         }
 
         if (remaninglines.indexOf("\n") == -1) {
+            tempBorderInfo = await borderCaculator(currentMap.border)
+                        currentMap.mapSize = tempBorderInfo.mapSize
+                        if(currentMap.border.length > 2){
+                            currentMap.mapSizeType = "Playable Area"
+                        }
+                        else {
+                            currentMap.mapSizeType = "Minimap Size"
+                        }
             finishedJson.push(currentMap)
             break; // If there are no new line characters we have no more lines left
         }
     }
     writejson = {}
+    writejson.Setups = finishedSetups
     writejson.Maps = finishedJson
     
     fs.writeFileSync(output, JSON.stringify(writejson, null, 4))
