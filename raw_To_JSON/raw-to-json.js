@@ -170,10 +170,11 @@ let loop = async(remaninglines, output, output2) => {
                 data = line.substring(line.indexOf(":") + 2, line.length)
                 if(datatype == 'New_Veh') {
                     datatype = "vehicles"
+                    if(team[datatype] == undefined) team[datatype] = []
                     tempdata = {}
 
                     tempdata.type = data.substring(0, data.indexOf(" x "))
-                    tempdata.count = data.substring(data.indexOf(" x ") + 3, data.indexOf(" |"))
+                    tempdata.count = parseInt(data.substring(data.indexOf(" x ") + 3, data.indexOf(" |")))
                     tempdata.delay = parseInt(data.substring(data.indexOf("Spawn Time: ") + 12, data.indexOf(" | Respawn Time: ")))
                     tempdata.respawnTime = parseInt(data.substring(data.indexOf(" | Respawn Time: ") + 17, data.indexOf(" | Raw Name:")))
                     tempdata.rawType = data.substring(data.indexOf(".") + 1, data.indexOf(" | Icon: "))
