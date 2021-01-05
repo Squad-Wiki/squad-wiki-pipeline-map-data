@@ -86,7 +86,9 @@ let loop = async(remaninglines, output, output2) => {
                     tempdata.type = data.substring(0, data.indexOf(" x "))
                     tempdata.count = data.substring(data.indexOf(" x ") + 3, data.indexOf(" |"))
                     tempdata.delay = parseInt(data.substring(data.indexOf("Spawn Time: ") + 12, data.indexOf(" | Respawn Time: ")))
-                    tempdata.respawnTime = parseInt(data.substring(data.indexOf(" | Respawn Time: ") + 17, data.length))
+                    tempdata.respawnTime = parseInt(data.substring(data.indexOf(" | Respawn Time: ") + 17, data.indexOf(" | Raw Name:")))
+                    tempdata.rawType = data.substring(data.indexOf(".") + 1, data.indexOf(" | Icon: "))
+                    tempdata.icon = data.substring(data.indexOf('.', data.indexOf(".") + 1) + 1, data.length)
                     data = tempdata
 
                 }
@@ -173,7 +175,9 @@ let loop = async(remaninglines, output, output2) => {
                     tempdata.type = data.substring(0, data.indexOf(" x "))
                     tempdata.count = data.substring(data.indexOf(" x ") + 3, data.indexOf(" |"))
                     tempdata.delay = parseInt(data.substring(data.indexOf("Spawn Time: ") + 12, data.indexOf(" | Respawn Time: ")))
-                    tempdata.respawnTime = parseInt(data.substring(data.indexOf(" | Respawn Time: ") + 17, data.length))
+                    tempdata.respawnTime = parseInt(data.substring(data.indexOf(" | Respawn Time: ") + 17, data.indexOf(" | Raw Name:")))
+                    tempdata.rawType = data.substring(data.indexOf(".") + 1, data.indexOf(" | Icon: "))
+                    tempdata.icon = data.substring(data.indexOf('.', data.indexOf(".") + 1) + 1, data.length)
                     data = tempdata
 
                 }
