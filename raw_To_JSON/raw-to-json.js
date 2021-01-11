@@ -81,6 +81,7 @@ let loop = async(remaninglines, output, output2) => {
                 data = line.substring(line.indexOf(":") + 2, line.length)
                 if(datatype == 'New_Veh') {
                     datatype = "vehicles"
+                    if(currentSetup[datatype] == undefined) currentSetup[datatype] = []
                     tempdata = {}
 
                     tempdata.type = data.substring(0, data.indexOf(" x "))
