@@ -1,0 +1,10 @@
+{
+    "blacklist": [
+        "JensensRange_Training_v1",
+        "JensensRange_Training_v2",
+        "JensensRange_Training_v3",
+        "CAF_JensensRange_Training_v4",
+        "Tutorial_Infantry",
+        "Tutorial_Helicopter"
+    ]
+}

@@ -8,5 +8,6 @@
   "Middle Eastern Alliance": "Middle Eastern Alliance",
   "REDFOR": ["Russian Ground Forces"],
   "BLUFOR": ["US Army", "British Army", "Canadian Army"],
-  "INDEPENDENT": ["Middle Eastern Alliance", "Irregular Militia", "Insurgents"]
+  "INDEPENDENT": ["Middle Eastern Alliance", "Irregular Militia", "Insurgents"],
+  "Civilians": "Civilians"
 }
