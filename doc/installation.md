@@ -29,7 +29,7 @@ Skip to step 6 if you are not using CAF files
 
 ![Asset Manager](/doc/images/sdk/sdk_asset_manager.png)
 
-5. Under `Primary Asset Types To Scan` add `/CanadianArmedForces` to the diectories list for elements 1-4
+5. Under `Primary Asset Types To Scan` add `/CanadianArmedForces` to the directory list for elements 1-4
 
 ![Add Element](/doc/images/sdk/sdk_add_directory.png)
 
@@ -37,7 +37,7 @@ Skip to step 6 if you are not using CAF files
 
 ![Add New Asset](/doc/images/sdk/sdk_add_primary_asset.png)
 
-7. Set the new `Primary Asset type` to `Map`, the `Asset Base Class` to `World` and the Directory to `/Game/Maps`
+7. Set the new `Primary Asset type` to `Map`, the `Asset Base Class` to `World` and the directory to `/Game/Maps`
 
 ![Asset Configure](/doc/images/sdk/sdk_new_primary_asset.png)
 
