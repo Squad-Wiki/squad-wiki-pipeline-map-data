@@ -26,7 +26,7 @@ const inputJsonCAF = require('../files/temp/finishedCAF.json')
 const factionMap = require('../files/config/factionMap.json')
 const vehicleMap = require('../files/config/vehicleMap.json')
 const flagMap = require(`../files/config/map/flagMap.json`)
-const setupBlacklist = require(`../files/config/blacklists/setup.json`)
+const setupBlacklist = require(`../files/config/blacklists/setups.json`)
 const layerBlacklist = require(`../files/config/blacklists/layers.json`)
 
 const async = require('async')
