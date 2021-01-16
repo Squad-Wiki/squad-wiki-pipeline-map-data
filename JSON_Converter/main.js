@@ -147,7 +147,7 @@ const main = async() => {
         setupObject.longName = setup.setup_Name
         setupObject.name = setup.shortname
         setupObject.type = setup.type
-        setupObject.badge = setup.badge
+        setupObject.badge = setup.badge + `_Division_Image.png`
         setupObject.vehicles = combVeh
         conMaps.Setups.push(setupObject)
     })
