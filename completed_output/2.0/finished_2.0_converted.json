@@ -5,7 +5,7 @@
             "longName": "2nd Battalion, Parachute Regiment",
             "name": "2 PARA",
             "type": "Air Assault",
-            "badge": "2_BPR",
+            "badge": "2_BPR_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MAN HX",
@@ -13,6 +13,13 @@
                     "Count": "3",
                     "Delay": 10,
                     "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "SA330",
+                    "DisplayName": "BP_SA330_C",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -21,7 +28,7 @@
             "longName": "1st Division",
             "name": "1st Division",
             "type": "Armored",
-            "badge": "Unit_GBArmy",
+            "badge": "Unit_GBArmy_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MAN HX",
@@ -43,6 +50,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "FV4034",
+                    "DisplayName": "FV4034",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -51,7 +65,7 @@
             "longName": "The Queen's Royal Hussars",
             "name": "QRH",
             "type": "Armored",
-            "badge": "QRH",
+            "badge": "QRH_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MAN HX",
@@ -80,6 +94,13 @@
                     "Count": "1",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "FV4034",
+                    "DisplayName": "FV4034",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -88,7 +109,7 @@
             "longName": "3rd Division",
             "name": "3rd Division",
             "type": "Combined Arms",
-            "badge": "3UKDIV",
+            "badge": "3UKDIV_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MAN HX",
@@ -138,6 +159,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "SA330",
+                    "DisplayName": "BP_SA330_C",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -146,7 +174,7 @@
             "longName": "1st Battalion, Grenadier Guards",
             "name": "GREN GDS",
             "type": "Light Infantry",
-            "badge": "GREN_GDS",
+            "badge": "GREN_GDS_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MAN HX",
@@ -161,6 +189,13 @@
                     "Count": "3",
                     "Delay": 0,
                     "icon": "truck_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "LPPV",
+                    "DisplayName": "LPPV",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 }
             ]
         },
@@ -169,7 +204,7 @@
             "longName": "1st Battalion, Yorkshire Regiment",
             "name": "1 YORKS",
             "type": "Mechanized",
-            "badge": "1_YORKS",
+            "badge": "1_YORKS_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MAN HX",
@@ -191,6 +226,13 @@
                     "Count": "6",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "FV4034",
+                    "DisplayName": "FV4034",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -199,7 +241,7 @@
             "longName": "3 Battalion The Rifles",
             "name": "3 RIFLES",
             "type": "Motorized",
-            "badge": "3_RIFLES",
+            "badge": "3_RIFLES_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MAN HX",
@@ -235,6 +277,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "trackedapc_vehicle_icon.png"
+                },
+                {
+                    "Name": "FV510",
+                    "DisplayName": "FV510 CTAS40 (Up-Armoured)",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "trackedifv_vehicle_icon.png"
                 }
             ]
         },
@@ -243,7 +292,7 @@
             "longName": "Insurgent Cell",
             "name": "INS Cell",
             "type": "Combined Arms",
-            "badge": "Unit_Insurgents",
+            "badge": "Unit_Insurgents_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Minsk 400",
@@ -307,6 +356,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "T-62",
+                    "DisplayName": "T-62",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -315,7 +371,7 @@
             "longName": "Omar's Freedom Fighters",
             "name": "INS Cell",
             "type": "Light Infantry",
-            "badge": "Unit_Insurgents",
+            "badge": "Unit_Insurgents_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Minsk 400",
@@ -337,6 +393,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "jeep_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "Technical",
+                    "DisplayName": "Technical DShK-M",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 }
             ]
         },
@@ -345,7 +408,7 @@
             "longName": "91st Air Assault Battalion",
             "name": "91st Air Assault",
             "type": "Air Assault",
-            "badge": "91th_Air_Assault_Battalion",
+            "badge": "91th_Air_Assault_Battalion_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Simir",
@@ -360,6 +423,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "jeep_vehicle_icon.png"
+                },
+                {
+                    "Name": "Mi-8",
+                    "DisplayName": "Mi-17",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -368,7 +438,7 @@
             "longName": "60th Prince Assur Armored Brigade",
             "name": "60th Armored Brigade",
             "type": "Armored",
-            "badge": "60th_Prince_Assur_Armored_Brigade",
+            "badge": "60th_Prince_Assur_Armored_Brigade_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "URAL 4320",
@@ -404,6 +474,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "T-72",
+                    "DisplayName": "T-72S",
+                    "Count": "4",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -412,7 +489,7 @@
             "longName": "1st Battalion, Legion of Babylon",
             "name": "1st Battalion",
             "type": "Combined Arms",
-            "badge": "1st_Battalion__Legion_of_babylon",
+            "badge": "1st_Battalion__Legion_of_babylon_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "URAL 4320",
@@ -504,6 +581,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "Mi-8",
+                    "DisplayName": "Mi-17",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -512,7 +596,7 @@
             "longName": "MEA Combined Arms Battalion",
             "name": "MEA",
             "type": "Combined Arms",
-            "badge": "Unit_MEAArmy",
+            "badge": "Unit_MEAArmy_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "URAL 4320",
@@ -583,6 +667,13 @@
                     "Count": "1",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "Mi-8",
+                    "DisplayName": "Mi-17",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -591,7 +682,7 @@
             "longName": "4th MEA Border Guards Group",
             "name": "4th Border Guards",
             "type": "Light Infantry",
-            "badge": "4th_Border_Guard_Force_Group",
+            "badge": "4th_Border_Guard_Force_Group_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "URAL 4320",
@@ -613,6 +704,13 @@
                     "Count": "1",
                     "Delay": 0,
                     "icon": "truck_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "Simir",
+                    "DisplayName": "Simir MG3",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 }
             ]
         },
@@ -621,7 +719,7 @@
             "longName": "3rd King Qadesh Mechanized Infantry Brigade",
             "name": "3rd Mechanized Infantry",
             "type": "Mechanized",
-            "badge": "3rd_King_Qadesh_Mechanized_Infantry_Brigade",
+            "badge": "3rd_King_Qadesh_Mechanized_Infantry_Brigade_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "URAL 4320",
@@ -657,6 +755,13 @@
                     "Count": "4",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "T-62",
+                    "DisplayName": "T-62",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -665,7 +770,7 @@
             "longName": "83rd Prince Zaid Motorized Infantry Brigade",
             "name": "83rd Motorized Infantry",
             "type": "Motorized",
-            "badge": "83rd_Prince_Zaid_Motorized_Infantry_Brigade",
+            "badge": "83rd_Prince_Zaid_Motorized_Infantry_Brigade_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "URAL 4320",
@@ -694,6 +799,13 @@
                     "Count": "4",
                     "Delay": 0,
                     "icon": "trackedapc_vehicle_icon.png"
+                },
+                {
+                    "Name": "MT-LB",
+                    "DisplayName": "MT-LB",
+                    "Count": "4",
+                    "Delay": 0,
+                    "icon": "trackedapc_vehicle_icon.png"
                 }
             ]
         },
@@ -702,7 +814,7 @@
             "longName": "Local Militia Group",
             "name": "MIL Group",
             "type": "Combined Arms",
-            "badge": "Unit_Militia",
+            "badge": "Unit_Militia_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "URAL 375D",
@@ -759,6 +871,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "T-62",
+                    "DisplayName": "T-62",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -767,7 +886,7 @@
             "longName": "People's Front",
             "name": "MIL PF",
             "type": "Light Infantry",
-            "badge": "Unit_Militia",
+            "badge": "Unit_Militia_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Technical",
@@ -789,6 +908,13 @@
                     "Count": "1",
                     "Delay": 0,
                     "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "Technical",
+                    "DisplayName": "Technical DShK-M",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 }
             ]
         },
@@ -797,7 +923,7 @@
             "longName": "108th Guards Airborne Kuban Cossack Order of the Red Star Regiment",
             "name": "108 Gv.DShP",
             "type": "Air Assault",
-            "badge": "108_Gv_DShP",
+            "badge": "108_Gv_DShP_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Kamaz 5350",
@@ -805,6 +931,13 @@
                     "Count": "3",
                     "Delay": 10,
                     "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "Mi-8",
+                    "DisplayName": "Mi-8",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -813,7 +946,7 @@
             "longName": "6th separate Czestochowa, Red Banner, Order of Kutuzov tank brigade ",
             "name": "6 OTBr",
             "type": "Armored",
-            "badge": "6_OTBr",
+            "badge": "6_OTBr_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Kamaz 5350",
@@ -835,6 +968,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "jeep_antitank_vehicle_icon.png"
+                },
+                {
+                    "Name": "T-72",
+                    "DisplayName": "T-72",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -843,7 +983,7 @@
             "longName": "49th Combined Arms Army",
             "name": "49 OA",
             "type": "Combined Arms",
-            "badge": "49_OA",
+            "badge": "49_OA_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Kamaz 5350",
@@ -893,6 +1033,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "Mi-8",
+                    "DisplayName": "Mi-8",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -901,7 +1048,7 @@
             "longName": "205th Detached Mechanized Cossacks Brigade, 1398th Separate Recon Company",
             "name": "1398 ORB",
             "type": "Light Infantry",
-            "badge": "1398_Recon",
+            "badge": "1398_Recon_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Kamaz 5350",
@@ -916,6 +1063,13 @@
                     "Count": "3",
                     "Delay": 0,
                     "icon": "truck_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "Tigr-M Kord",
+                    "DisplayName": "Tigr-M Kord Open Top",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 }
             ]
         },
@@ -924,7 +1078,7 @@
             "longName": "205th separate Cossacks mechanized rifle Brigade",
             "name": "205 OMSBr",
             "type": "Mechanized",
-            "badge": "205_OMSBr",
+            "badge": "205_OMSBr_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Kamaz 5350",
@@ -946,6 +1100,13 @@
                     "Count": "6",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "T-72",
+                    "DisplayName": "T-72",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -954,7 +1115,7 @@
             "longName": "247th Guards Air Assault Caucasus Cossacks Regiment",
             "name": "247 Gv.DShP",
             "type": "Motorized",
-            "badge": "247_Gv_DShP",
+            "badge": "247_Gv_DShP_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Kamaz 5350",
@@ -976,6 +1137,13 @@
                     "Count": "4",
                     "Delay": 0,
                     "icon": "apc_vehicle_icon.png"
+                },
+                {
+                    "Name": "BTR-82A",
+                    "DisplayName": "BTR-82A",
+                    "Count": "4",
+                    "Delay": 0,
+                    "icon": "ifv_vehicle_icon.png"
                 }
             ]
         },
@@ -984,7 +1152,7 @@
             "longName": "101 Airborne 1IBCT",
             "name": "101 Airborne 1IBCT",
             "type": "Air Assault",
-            "badge": "Unit_USArmy",
+            "badge": "Unit_USArmy_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "M939 Truck",
@@ -1006,6 +1174,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "jeep_vehicle_icon.png"
+                },
+                {
+                    "Name": "UH-60M",
+                    "DisplayName": "UH-60M",
+                    "Count": "4",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -1014,7 +1189,7 @@
             "longName": "504th Parachute Infantry Regiment, 82nd Airborne Division",
             "name": "504th PIR",
             "type": "Air Assault",
-            "badge": "504_PIR",
+            "badge": "504_PIR_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "M939 Truck",
@@ -1022,6 +1197,13 @@
                     "Count": "3",
                     "Delay": 10,
                     "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "UH-60M",
+                    "DisplayName": "UH-60M",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -1030,7 +1212,7 @@
             "longName": "37th Armor Regiment, 1st Armored Division",
             "name": "37th Armored",
             "type": "Armored",
-            "badge": "37_Armor",
+            "badge": "37_Armor_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "M939 Truck",
@@ -1052,6 +1234,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "jeep_antitank_vehicle_icon.png"
+                },
+                {
+                    "Name": "M1A2",
+                    "DisplayName": "M1A2",
+                    "Count": "6",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -1060,7 +1249,7 @@
             "longName": "1st Infantry Division",
             "name": "1st Infantry Division",
             "type": "Combined Arms",
-            "badge": "1_INF",
+            "badge": "1_INF_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "M939 Truck",
@@ -1103,6 +1292,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "UH-60M",
+                    "DisplayName": "UH-60M",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -1111,7 +1307,7 @@
             "longName": "149th Maneuver Enhancement Brigade, Kentucky Army National Guard",
             "name": "149th MEB",
             "type": "Light Infantry",
-            "badge": "238_KY_ARNG",
+            "badge": "238_KY_ARNG_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "M939 Truck",
@@ -1126,6 +1322,13 @@
                     "Count": "3",
                     "Delay": 0,
                     "icon": "truck_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "M-ATV",
+                    "DisplayName": "M-ATV M240",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 }
             ]
         },
@@ -1134,7 +1337,7 @@
             "longName": "1st Cavalry Regiment, 1st Armored Division",
             "name": "1st Cavalry",
             "type": "Mechanized",
-            "badge": "1_Cav",
+            "badge": "1_Cav_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "M939 Truck",
@@ -1156,6 +1359,13 @@
                     "Count": "6",
                     "Delay": 0,
                     "icon": "trackedifv_vehicle_icon.png"
+                },
+                {
+                    "Name": "M1A2",
+                    "DisplayName": "M1A2",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -1164,7 +1374,7 @@
             "longName": "2nd Cavalry Regiment",
             "name": "2nd Cavalry",
             "type": "Motorized",
-            "badge": "2_CAV",
+            "badge": "2_CAV_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "M939 Truck",
@@ -1186,6 +1396,13 @@
                     "Count": "6",
                     "Delay": 0,
                     "icon": "apc_vehicle_icon.png"
+                },
+                {
+                    "Name": "M1126",
+                    "DisplayName": "M1126 M240",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "apc_vehicle_icon.png"
                 }
             ]
         },
@@ -1194,7 +1411,7 @@
             "longName": "3rd Battalion, The Royal Canadian Regiment (3 RCR)",
             "name": "3 RCR",
             "type": "Air Assault",
-            "badge": "3_RCR",
+            "badge": "3_RCR_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MSVS Truck",
@@ -1216,6 +1433,13 @@
                     "Count": "2",
                     "Delay": 0,
                     "icon": "jeep_turret_vehicle_icon.png"
+                },
+                {
+                    "Name": "UH-60M",
+                    "DisplayName": "UH-60M",
+                    "Count": "4",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -1224,7 +1448,7 @@
             "longName": "Lord Strathcona's Horse",
             "name": "LdSH",
             "type": "Armored",
-            "badge": "LdSH",
+            "badge": "LdSH_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MSVS Truck",
@@ -1253,6 +1477,13 @@
                     "Count": "4",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "Leopard 2A6M",
+                    "DisplayName": "Leopard 2A6M Caged",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -1261,7 +1492,7 @@
             "longName": "1 Canadian Mechanized Brigade Group",
             "name": "1 CMBG",
             "type": "Combined Arms",
-            "badge": "1_CMBG",
+            "badge": "1_CMBG_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MSVS Truck",
@@ -1318,6 +1549,13 @@
                     "Count": "1",
                     "Delay": 20,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "UH-60M",
+                    "DisplayName": "UH-60M",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -1326,7 +1564,7 @@
             "longName": "3rd Battallion, Princess Patricia's Canadian Light Infantry",
             "name": "3PPCLI",
             "type": "Light Infantry",
-            "badge": "3_PPCLI",
+            "badge": "3_PPCLI_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MSVS Truck",
@@ -1341,6 +1579,13 @@
                     "Count": "3",
                     "Delay": 0,
                     "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "TAPV",
+                    "DisplayName": "TAPV",
+                    "Count": "1",
+                    "Delay": 10,
+                    "icon": "jeep_turret_vehicle_icon.png"
                 }
             ]
         },
@@ -1349,7 +1594,7 @@
             "longName": "Canadian Combat Support Brigade",
             "name": "CCSB",
             "type": "Support",
-            "badge": "CCSB",
+            "badge": "CCSB_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MSVS Truck",
@@ -1378,6 +1623,13 @@
                     "Count": "1",
                     "Delay": 0,
                     "icon": "apc_vehicle_icon.png"
+                },
+                {
+                    "Name": "UH-60M",
+                    "DisplayName": "UH-60M",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "transporthelo_vehicle_icon.png"
                 }
             ]
         },
@@ -1386,7 +1638,7 @@
             "longName": "1st Battalion, Royal 22e Régiment",
             "name": "Van Doos",
             "type": "Mechanized",
-            "badge": "Van_Doos",
+            "badge": "Van_Doos_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MSVS Truck",
@@ -1415,6 +1667,13 @@
                     "Count": "1",
                     "Delay": 0,
                     "icon": "tank_vehicle_icon.png"
+                },
+                {
+                    "Name": "Leopard 2A6M",
+                    "DisplayName": "Leopard 2A6M Caged",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "tank_vehicle_icon.png"
                 }
             ]
         },
@@ -1423,7 +1682,7 @@
             "longName": "Royal Westminster Regiment",
             "name": "The Westies",
             "type": "Motorized",
-            "badge": "The_Westies",
+            "badge": "The_Westies_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "MSVS Truck",
@@ -1445,6 +1704,13 @@
                     "Count": "6",
                     "Delay": 10,
                     "icon": "jeep_turret_vehicle_icon.png"
+                },
+                {
+                    "Name": "LAV 6.0",
+                    "DisplayName": "LAV 6.0",
+                    "Count": "2",
+                    "Delay": 0,
+                    "icon": "ifv_vehicle_icon.png"
                 }
             ]
         }

@@ -53,30 +53,20 @@ let loop = async(remaninglines, output, output2) => {
             case "Setup_Data":
                 datatype = line.substring(prefix.length + 3, line.indexOf(":"))
                 data = line.substring(line.indexOf(":") + 2, line.length)
-                console.log(Object.keys(currentSetup).length)
+                
                 if(Object.keys(currentSetup).length === 0) {
+                    currentSetup[datatype] = data
                     break;
                 }
-                if(line.includes("faction:")){
-                    finishedSetups.push(currentSetup)
-                    currentSetup = {}
+                else {
+                    if(line.includes("faction:")){
+                        finishedSetups.push(currentSetup)
+                        currentSetup = {}
+                    }
                 }
+                currentSetup[datatype] = data
                 break;
             case "Setup":
-                if(currentSetup[datatype] != undefined) {
-                    if(Array.isArray(currentSetup[datatype])){
-                        currentSetup[datatype].push(data)
-                    }
-                    else {
-                        temp = currentSetup[datatype]
-                        currentSetup[datatype] = []
-                        currentSetup[datatype].push(temp)
-                        currentSetup[datatype].push(data)
-                    }
-                }
-                else {
-                    currentSetup[datatype] = data
-                }
                 datatype = line.substring(prefix.length + 3, line.indexOf(":"))
                 data = line.substring(line.indexOf(":") + 2, line.length)
                 if(datatype == 'New_Veh') {
@@ -92,6 +82,20 @@ let loop = async(remaninglines, output, output2) => {
                     tempdata.icon = data.substring(data.indexOf('.', data.indexOf(".") + 1) + 1, data.length)
                     data = tempdata
 
+                }
+                if(currentSetup[datatype] != undefined) {
+                    if(Array.isArray(currentSetup[datatype])){
+                        currentSetup[datatype].push(data)
+                    }
+                    else {
+                        temp = currentSetup[datatype]
+                        currentSetup[datatype] = []
+                        currentSetup[datatype].push(temp)
+                        currentSetup[datatype].push(data)
+                    }
+                }
+                else {
+                    currentSetup[datatype] = data
                 }
                 break;
             case "Data":

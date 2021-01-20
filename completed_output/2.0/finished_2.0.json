@@ -22,6 +22,14 @@
                     "respawnTime": 0,
                     "rawType": "BP_Technical_Transport_INS_C",
                     "icon": "map_jeep_transport"
+                },
+                {
+                    "type": "Ural-375D Transport Truck",
+                    "count": "0",
+                    "delay": 0,
+                    "respawnTime": 0,
+                    "rawType": "BP_Ural_375_C",
+                    "icon": "map_truck_transport"
                 }
             ]
         },
@@ -29,7 +37,8 @@
             "faction": "Civilians",
             "setup_Name": "Local Civilians with no vehicles.",
             "type": "Unarmed",
-            "shortname": "Local CIvilians"
+            "shortname": "Local CIvilians",
+            "badge": "T_Flag_Neutral"
         },
         {
             "faction": "British Army",
@@ -45,6 +54,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_Brit_Util_Truck_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "SA330",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_SA330_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -78,6 +95,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_FV510UA_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "FV4034",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_FV4034_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -119,6 +144,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_FV510UA_CTAS40_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "FV4034",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_FV4034_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -184,6 +217,14 @@
                     "respawnTime": 20,
                     "rawType": "BP_FV4034_C",
                     "icon": "tank"
+                },
+                {
+                    "type": "SA330",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_SA330_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -209,6 +250,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_Brit_Util_Truck_Logi_C",
                     "icon": "map_truck_logistics"
+                },
+                {
+                    "type": "LPPV",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 5,
+                    "rawType": "BP_LPPV_C",
+                    "icon": "map_jeep"
                 }
             ]
         },
@@ -242,6 +291,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_FV510UA_CTAS40_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "FV4034",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_FV4034_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -291,6 +348,14 @@
                     "respawnTime": 6,
                     "rawType": "BP_FV107_C",
                     "icon": "map_trackedapc"
+                },
+                {
+                    "type": "FV520 CTAS40",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 15,
+                    "rawType": "BP_FV510UA_CTAS40_C",
+                    "icon": "map_trackedifv"
                 }
             ]
         },
@@ -380,6 +445,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_BMP1_INS_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "T-62",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_T62_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -413,6 +486,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_Technical_Transport_INS_C",
                     "icon": "map_jeep_transport"
+                },
+                {
+                    "type": "Technical DShK",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 5,
+                    "rawType": "BP_Technical_Dshk_INS_C",
+                    "icon": "map_jeep"
                 }
             ]
         },
@@ -438,6 +519,14 @@
                     "respawnTime": 6,
                     "rawType": "BP_Safir_MG3_C",
                     "icon": "map_jeep"
+                },
+                {
+                    "type": "Mi-17",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_MI17_MEA_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -486,6 +575,14 @@
                     "delay": 0,
                     "respawnTime": 20,
                     "rawType": "BP_T62_MEA_C",
+                    "icon": "tank"
+                },
+                {
+                    "type": "T-72S",
+                    "count": "4",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_T72AV_MEA_C",
                     "icon": "tank"
                 }
             ]
@@ -600,6 +697,14 @@
                     "respawnTime": 20,
                     "rawType": "BP_T72AV_MEA_C",
                     "icon": "tank"
+                },
+                {
+                    "type": "Mi-17",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_MI17_MEA_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -689,6 +794,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_T72AV_MEA_C",
                     "icon": "tank"
+                },
+                {
+                    "type": "Mi-17",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_MI17_MEA_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -722,6 +835,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_Ural_4320_logi_MEA_C",
                     "icon": "map_truck_logistics"
+                },
+                {
+                    "type": "Simir MG3",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 5,
+                    "rawType": "BP_Safir_MG3_C",
+                    "icon": "map_jeep"
                 }
             ]
         },
@@ -771,6 +892,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_BMP2_MEA_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "T-62",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_T62_MEA_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -811,6 +940,14 @@
                     "delay": 0,
                     "respawnTime": 10,
                     "rawType": "BP_MTLBM_6MA_MEA_C",
+                    "icon": "map_trackedapc"
+                },
+                {
+                    "type": "MT-LB VMK",
+                    "count": "4",
+                    "delay": 0,
+                    "respawnTime": 10,
+                    "rawType": "BP_MTLB_VMK_MEA_C",
                     "icon": "map_trackedapc"
                 }
             ]
@@ -885,6 +1022,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_BMP1_INS_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "T-62",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_T62_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -918,6 +1063,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_Ural_375_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "Technical DShK",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 5,
+                    "rawType": "BP_Technical_Dshk_MIL_C",
+                    "icon": "map_jeep"
                 }
             ]
         },
@@ -935,6 +1088,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_Kamaz_5350_Desert_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "Mi-8",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_MI8_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -968,6 +1129,14 @@
                     "respawnTime": 6,
                     "rawType": "BP_BRDM-2_Spandrel_RUS_Desert_C",
                     "icon": "map_jeep_antitank"
+                },
+                {
+                    "type": "T-72B3",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_T72B3_Desert_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -1033,6 +1202,14 @@
                     "respawnTime": 20,
                     "rawType": "BP_T72B3_Desert_C",
                     "icon": "tank"
+                },
+                {
+                    "type": "Mi-8",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_MI8_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -1058,6 +1235,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_Kamaz_5350_Logi_Desert_C",
                     "icon": "map_truck_logistics"
+                },
+                {
+                    "type": "Tigr-M Kord",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_Tigr_Desert_C",
+                    "icon": "map_jeep"
                 }
             ]
         },
@@ -1091,6 +1276,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_BMP2_Desert_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "T-72B3",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_T72B3_Desert_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -1124,6 +1317,14 @@
                     "respawnTime": 10,
                     "rawType": "BP_BTR80_RUS_Desert_C",
                     "icon": "apc"
+                },
+                {
+                    "type": "BTR-82A",
+                    "count": "4",
+                    "delay": 0,
+                    "respawnTime": 15,
+                    "rawType": "BP_BTR82A_RUS_Desert_C",
+                    "icon": "map_ifv"
                 }
             ]
         },
@@ -1157,6 +1358,14 @@
                     "respawnTime": 6,
                     "rawType": "BP_MATV_C",
                     "icon": "map_jeep"
+                },
+                {
+                    "type": "UH-60M",
+                    "count": "4",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_UH60_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -1174,6 +1383,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_US_Util_Desert_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "UH-60M",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_UH60_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -1207,6 +1424,14 @@
                     "respawnTime": 6,
                     "rawType": "BP_MATV_TOW_C",
                     "icon": "map_jeep_antitank"
+                },
+                {
+                    "type": "M1A2",
+                    "count": "6",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_M1A2_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -1264,6 +1489,14 @@
                     "respawnTime": 20,
                     "rawType": "BP_M1A2_C",
                     "icon": "tank"
+                },
+                {
+                    "type": "UH-60M",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_UH60_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -1289,6 +1522,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_US_Util_Desert_Logi_C",
                     "icon": "map_truck_logistics"
+                },
+                {
+                    "type": "M-ATV M240",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_MATV_M240_C",
+                    "icon": "map_jeep"
                 }
             ]
         },
@@ -1322,6 +1563,14 @@
                     "respawnTime": 15,
                     "rawType": "BP_BFV_C",
                     "icon": "map_trackedifv"
+                },
+                {
+                    "type": "M1A2",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_M1A2_C",
+                    "icon": "tank"
                 }
             ]
         },
@@ -1354,6 +1603,14 @@
                     "delay": 0,
                     "respawnTime": 10,
                     "rawType": "BP_M1126_C",
+                    "icon": "apc"
+                },
+                {
+                    "type": "M1126 CROWS M240",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 10,
+                    "rawType": "BP_M1126_M240_C",
                     "icon": "apc"
                 }
             ]
@@ -1388,6 +1645,14 @@
                     "respawnTime": 6,
                     "rawType": "BP_TAPV_Desert_C",
                     "icon": "map_jeep_turret"
+                },
+                {
+                    "type": "UH-60M",
+                    "count": "4",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_UH60_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -1428,6 +1693,14 @@
                     "delay": 0,
                     "respawnTime": 20,
                     "rawType": "BP_2A6_Desert_C",
+                    "icon": "map_tank"
+                },
+                {
+                    "type": "Leopard 2A6M CAN",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_2A6_Desert_Cage_C",
                     "icon": "map_tank"
                 }
             ]
@@ -1502,6 +1775,14 @@
                     "respawnTime": 20,
                     "rawType": "BP_2A6_Desert_C",
                     "icon": "map_tank"
+                },
+                {
+                    "type": "UH-60M",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_UH60_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -1527,6 +1808,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_CAF_Util_Desert_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "TAPV M2",
+                    "count": "1",
+                    "delay": 10,
+                    "respawnTime": 15,
+                    "rawType": "BP_TAPV_Desert_C",
+                    "icon": "map_jeep_turret"
                 }
             ]
         },
@@ -1568,6 +1857,14 @@
                     "respawnTime": 6,
                     "rawType": "BP_LAV_RWS_C6_Desert_C",
                     "icon": "map_apc"
+                },
+                {
+                    "type": "UH-60M",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_UH60_C",
+                    "icon": "map_transporthelo"
                 }
             ]
         },
@@ -1609,6 +1906,14 @@
                     "respawnTime": 20,
                     "rawType": "BP_2A6_Desert_C",
                     "icon": "map_tank"
+                },
+                {
+                    "type": "Leopard 2A6M CAN",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 20,
+                    "rawType": "BP_2A6_Desert_Cage_C",
+                    "icon": "map_tank"
                 }
             ]
         },
@@ -1642,6 +1947,14 @@
                     "respawnTime": 3,
                     "rawType": "BP_TAPV_Desert_C",
                     "icon": "map_jeep_turret"
+                },
+                {
+                    "type": "LAV 6",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 15,
+                    "rawType": "BP_LAV6_Desert_C",
+                    "icon": "map_ifv"
                 }
             ]
         }
