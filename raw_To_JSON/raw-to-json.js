@@ -128,14 +128,14 @@ let loop = async(remaninglines, output, output2) => {
                         }
                     }
 
-                    if(currentMap.team1.Faction == undefined && currentMap.team1.allowedAlliances == undefined){
+                    if(currentMap.team1.faction == undefined && currentMap.team1.allowedAlliances == undefined){
                         currentMap.team1.allowedAlliances = [
                             "BLUFOR",
                             "REDFOR",
                             "INDEPENDENT"
                         ]
                     }
-                    if(currentMap.team2.Faction == undefined && currentMap.team2.allowedAlliances == undefined){
+                    if(currentMap.team2.faction == undefined && currentMap.team2.allowedAlliances == undefined){
                         currentMap.team2.allowedAlliances = [
                             "BLUFOR",
                             "REDFOR",

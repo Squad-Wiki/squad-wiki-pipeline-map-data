@@ -2199,11 +2199,6 @@
                         "rawType": "BP_MATV_M240_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -2320,11 +2315,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -2463,11 +2453,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -2600,11 +2585,6 @@
                         "rawType": "BP_Ural_375_ZU23_C",
                         "icon": "map_truck_antiair"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -2868,11 +2848,6 @@
                         "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -3030,11 +3005,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -3207,11 +3177,6 @@
                         "rawType": "BP_Technical4Seater_Logi_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -3374,11 +3339,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -3567,11 +3527,6 @@
                         "rawType": "BP_BMP1_INS_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -3742,11 +3697,6 @@
                         "rawType": "BP_Technical_Dshk_MIL_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -3887,11 +3837,6 @@
                         "rawType": "BP_Technical_Dshk_INS_Armoured_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -4012,11 +3957,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -4031,11 +3971,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -4189,11 +4124,6 @@
                         "rawType": "BP_BFV_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -4214,11 +4144,6 @@
                         "rawType": "BP_BFV_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -4352,11 +4277,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -4465,11 +4385,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -4608,11 +4523,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -4713,11 +4623,6 @@
                         "rawType": "BP_MI17_MEA_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -5115,11 +5020,6 @@
                         "rawType": "BP_Kamaz_5350_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -5220,11 +5120,6 @@
                         "rawType": "BP_Ural_375_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -5636,11 +5531,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -5725,11 +5615,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -6151,11 +6036,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -6272,11 +6152,6 @@
                         "rawType": "BP_Ural_375_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -6697,11 +6572,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -6802,11 +6672,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -7227,11 +7092,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -7340,11 +7200,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -7764,11 +7619,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -7861,11 +7711,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -8304,11 +8149,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -8433,11 +8273,6 @@
                         "rawType": "BP_Technical_SPG9_MIL_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -8858,11 +8693,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -8987,11 +8817,6 @@
                         "rawType": "BP_Technical_SPG9_MIL_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -9567,11 +9392,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -9664,11 +9484,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -9771,11 +9586,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -9852,11 +9662,6 @@
                         "rawType": "BP_Safir_Kornet_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -9966,11 +9771,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -10039,11 +9839,6 @@
                         "rawType": "BP_Tigr_Desert_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -10144,11 +9939,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -10305,11 +10095,6 @@
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -10416,11 +10201,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -10569,11 +10349,6 @@
                         "rawType": "BP_Technical_Dshk_INS_Armoured_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -10684,11 +10459,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -10837,11 +10607,6 @@
                         "rawType": "BP_Technical_Dshk_INS_Armoured_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -10952,11 +10717,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -11033,11 +10793,6 @@
                         "rawType": "BP_Tigr_RWS_Desert_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -11152,11 +10907,6 @@
                         "rawType": "BP_FV432_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -11233,11 +10983,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -11408,11 +11153,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -11481,11 +11221,6 @@
                         "rawType": "BP_Ural_4320_MEA_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -11755,11 +11490,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -11876,11 +11606,6 @@
                         "rawType": "BP_Technical4Seater_Logi_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -12134,11 +11859,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -12263,11 +11983,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -12529,11 +12244,6 @@
                         "rawType": "BP_BFV_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -12674,11 +12384,6 @@
                         "rawType": "BP_Technical4Seater_Logi_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -12935,11 +12640,6 @@
                         "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -13104,11 +12804,6 @@
                         "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -13401,11 +13096,6 @@
                         "rawType": "BP_T62_MEA_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -13610,11 +13300,6 @@
                         "rawType": "BP_T62_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -13874,11 +13559,6 @@
                         "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -14059,11 +13739,6 @@
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -14307,11 +13982,6 @@
                         "rawType": "BP_M1126_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -14404,11 +14074,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -14673,11 +14338,6 @@
                         "rawType": "BP_Brit_Util_Truck_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -14794,11 +14454,6 @@
                         "rawType": "BP_T72AV_MEA_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -15061,11 +14716,6 @@
                         "rawType": "BP_M1A2_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -15182,11 +14832,6 @@
                         "rawType": "BP_T72AV_MEA_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -15784,11 +15429,6 @@
                         "rawType": "BP_M1126_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -15881,11 +15521,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -16123,11 +15758,6 @@
                         "rawType": "BP_M1126_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -16220,11 +15850,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -16327,11 +15952,6 @@
                         "rawType": "BP_MATV_CROWS_Woodland_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -16408,11 +16028,6 @@
                         "rawType": "BP_Tigr_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -16521,11 +16136,6 @@
                         "rawType": "BP_M1126_Woodland_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -16602,11 +16212,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -16717,11 +16322,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -16830,11 +16430,6 @@
                         "rawType": "BP_Technical_Transport_MIL_C",
                         "icon": "map_jeep_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -16940,11 +16535,6 @@
                         "rawType": "BP_FV107_Woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -17069,11 +16659,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -17182,11 +16767,6 @@
                         "rawType": "BP_FV107_Woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -17271,11 +16851,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -17403,11 +16978,6 @@
                         "rawType": "BP_FV432_RWS_Woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -17484,11 +17054,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -17598,11 +17163,6 @@
                         "rawType": "BP_FV432_RWS_Woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -17695,11 +17255,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -17748,11 +17303,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -17767,11 +17317,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -17848,11 +17393,6 @@
                         "rawType": "BP_US_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -17897,11 +17437,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -18000,11 +17535,6 @@
                         "rawType": "BP_Tigr_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -18105,11 +17635,6 @@
                         "rawType": "BP_Technical_Transport_MIL_C",
                         "icon": "map_jeep_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -18371,11 +17896,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -18476,11 +17996,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -18741,11 +18256,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -18838,11 +18348,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -19106,11 +18611,6 @@
                         "rawType": "BP_US_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -19195,11 +18695,6 @@
                         "rawType": "BP_Kamaz_5350_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -19448,11 +18943,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -19577,11 +19067,6 @@
                         "rawType": "BP_Technical_UB32_MIL_C",
                         "icon": "map_jeep_artillery"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -19846,11 +19331,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -19959,11 +19439,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -20233,11 +19708,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -20378,11 +19848,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -20652,11 +20117,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -20757,11 +20217,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -21054,11 +20509,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -21167,11 +20617,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -21440,11 +20885,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -21529,11 +20969,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -21666,11 +21101,6 @@
                         "rawType": "BP_MATV_Woodland_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -21755,11 +21185,6 @@
                         "rawType": "BP_T72B3_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -22028,11 +21453,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -22133,11 +21553,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -22257,11 +21672,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -22276,11 +21686,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -22532,11 +21937,6 @@
                         "rawType": "BP_MATV_Woodland_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -22621,11 +22021,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -22728,11 +22123,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -22817,11 +22207,6 @@
                         "rawType": "BP_T62_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -22920,11 +22305,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -23001,11 +22381,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -23160,11 +22535,6 @@
                         "rawType": "BP_MI17_MEA_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -23289,11 +22659,6 @@
                         "rawType": "BP_T62_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -23598,11 +22963,6 @@
                         "rawType": "BP_FV510UA_Woodland_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -23687,11 +23047,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -24030,11 +23385,6 @@
                         "rawType": "BP_US_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -24295,11 +23645,6 @@
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -24619,11 +23964,6 @@
                         "rawType": "BP_FV432_woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -24852,11 +24192,6 @@
                         "rawType": "BP_Technical_SPG9_INS_Armoured_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -25176,11 +24511,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -25377,11 +24707,6 @@
                         "rawType": "BP_Technical_Logi_INS_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -25697,11 +25022,6 @@
                         "rawType": "BP_Brit_Util_Truck_Logi_Woodland_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -25890,11 +25210,6 @@
                         "rawType": "BP_Technical_Logi_INS_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -26218,11 +25533,6 @@
                         "rawType": "BP_US_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -26403,11 +25713,6 @@
                         "rawType": "BP_Technical_Logi_INS_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -26731,11 +26036,6 @@
                         "rawType": "BP_Technical_UB32_MIL_C",
                         "icon": "map_jeep_artillery"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -26836,11 +26136,6 @@
                         "rawType": "BP_Technical_UB32_INS_C",
                         "icon": "map_jeep_artillery"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -27168,11 +26463,6 @@
                         "rawType": "BP_FV432_RWS_Woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -27257,11 +26547,6 @@
                         "rawType": "BP_T72B3_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -27571,11 +26856,6 @@
                         "rawType": "BP_MATV_TOW_Woodland_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -27668,11 +26948,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -27974,11 +27249,6 @@
                         "rawType": "BP_FV432_RWS_Woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -28063,11 +27333,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -28305,11 +27570,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -28324,11 +27584,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -28633,11 +27888,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -28722,11 +27972,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -29059,11 +28304,6 @@
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -29188,11 +28428,6 @@
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -29491,11 +28726,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -29596,11 +28826,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -29907,11 +29132,6 @@
                         "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -30004,11 +29224,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_Desert_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -30340,11 +29555,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -30541,11 +29751,6 @@
                         "rawType": "BP_BMP1_INS_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -30856,11 +30061,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -31129,11 +30329,6 @@
                         "rawType": "BP_Technical_Logi_INS_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -31439,11 +30634,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -31664,11 +30854,6 @@
                         "rawType": "BP_BMP1_INS_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -31973,11 +31158,6 @@
                         "rawType": "BP_M1126_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -32070,11 +31250,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -32393,11 +31568,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -32482,11 +31652,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -32813,11 +31978,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -32918,11 +32078,6 @@
                         "rawType": "BP_BRDM-2_MEA_C",
                         "icon": "map_jeep_artillery"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -33254,11 +32409,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -33359,11 +32509,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -33594,11 +32739,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -33613,11 +32753,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -33922,11 +33057,6 @@
                         "rawType": "BP_BTR80_RUS_Desert_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -34043,11 +33173,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -34150,11 +33275,6 @@
                         "rawType": "BP_Tigr_Desert_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -34239,11 +33359,6 @@
                         "rawType": "BP_BRDM-2_MEA_C",
                         "icon": "map_jeep_artillery"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -34346,11 +33461,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -34491,11 +33601,6 @@
                         "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -34593,11 +33698,6 @@
                         "rawType": "BP_Tigr_Desert_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -34706,11 +33806,6 @@
                         "rawType": "BP_Technical_SPG9_INS_Armoured_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -34820,11 +33915,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -34909,11 +33999,6 @@
                         "rawType": "BP_Safir_Kornet_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -35024,11 +34109,6 @@
                         "rawType": "BP_Tigr_RWS_Desert_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -35121,11 +34201,6 @@
                         "rawType": "BP_MTLB_VMK_MEA_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -35173,11 +34248,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -35192,11 +34262,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -35297,11 +34362,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -35394,11 +34454,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -35679,11 +34734,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -35776,11 +34826,6 @@
                         "rawType": "BP_Tigr_RWS_Desert_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -36077,11 +35122,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -36182,11 +35222,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -36483,11 +35518,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -36692,11 +35722,6 @@
                         "rawType": "BP_Technical_Logi_INS_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -36991,11 +36016,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -37216,11 +36236,6 @@
                         "rawType": "BP_Ural_375_Logi_INS_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -37527,11 +36542,6 @@
                         "rawType": "BP_MATV_CROWS_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -37632,11 +36642,6 @@
                         "rawType": "BP_BRDM-2_MEA_C",
                         "icon": "map_jeep_artillery"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -37876,11 +36881,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -37895,11 +36895,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -38196,11 +37191,6 @@
                         "rawType": "BP_FV4034_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -38301,11 +37291,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -38825,11 +37810,6 @@
                         "rawType": "BP_FV4034_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -38922,11 +37902,6 @@
                         "rawType": "BP_T72B3_Desert_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -39021,11 +37996,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -39102,11 +38072,6 @@
                         "rawType": "BP_Ural_4320_logi_MEA_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -39194,11 +38159,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -39267,11 +38227,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -39373,11 +38328,6 @@
                         "rawType": "BP_Kamaz_5350_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -39502,11 +38452,6 @@
                         "rawType": "BP_Technical_Logi_INS_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -39596,11 +38541,6 @@
                         "rawType": "BP_Kamaz_5350_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -39677,11 +38617,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -39741,11 +38676,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -39760,11 +38690,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -39865,11 +38790,6 @@
                         "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -39946,11 +38866,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -40045,11 +38960,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -40150,11 +39060,6 @@
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -40265,11 +39170,6 @@
                         "rawType": "BP_Kamaz_5350_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -40370,11 +39270,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -40475,11 +39370,6 @@
                         "rawType": "BP_MATV_Woodland_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -40580,11 +39470,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -40694,11 +39579,6 @@
                         "rawType": "BP_MATV_Woodland_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -40799,11 +39679,6 @@
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -40851,11 +39726,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -40870,11 +39740,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -40966,11 +39831,6 @@
                         "rawType": "BP_M1126_Woodland_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -41031,11 +39891,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -41161,11 +40016,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -41250,11 +40100,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -41488,11 +40333,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -41665,11 +40505,6 @@
                         "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -41810,11 +40645,6 @@
                         "rawType": "BP_MATV_M240_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -41907,11 +40737,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -41989,11 +40814,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -42008,11 +40828,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -42120,11 +40935,6 @@
                         "rawType": "BP_MATV_CROWS_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -42185,11 +40995,6 @@
                         "rawType": "BP_BTR80_RUS_Desert_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -42323,11 +41128,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -42428,11 +41228,6 @@
                         "rawType": "BP_Safir_Kornet_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -42543,11 +41338,6 @@
                         "rawType": "BP_US_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -42632,11 +41422,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -42746,11 +41531,6 @@
                         "rawType": "BP_Brit_Util_Truck_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -42827,11 +41607,6 @@
                         "rawType": "BP_Kamaz_5350_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -42949,11 +41724,6 @@
                         "rawType": "BP_US_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -43046,11 +41816,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -43175,11 +41940,6 @@
                         "rawType": "BP_BFV_Woodland_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -43264,11 +42024,6 @@
                         "rawType": "BP_BTR80_RUS_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -43382,11 +42137,6 @@
                         "rawType": "BP_US_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -43479,11 +42229,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -43609,11 +42354,6 @@
                         "rawType": "BP_FV107_Woodland_C",
                         "icon": "map_trackedapc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -43698,11 +42438,6 @@
                         "rawType": "BP_T72B3_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -43828,11 +42563,6 @@
                         "rawType": "BP_MATV_Woodland_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -43925,11 +42655,6 @@
                         "rawType": "BP_BTR80_RUS_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -43990,11 +42715,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -44009,11 +42729,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -44066,11 +42781,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -44091,11 +42801,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -44206,11 +42911,6 @@
                         "rawType": "BP_US_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -44295,11 +42995,6 @@
                         "rawType": "BP_BMP2_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -44418,11 +43113,6 @@
                         "rawType": "BP_MATV_Woodland_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -44515,11 +43205,6 @@
                         "rawType": "BP_BTR80_RUS_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -44695,11 +43380,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -44784,11 +43464,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -45023,11 +43698,6 @@
                         "rawType": "BP_M1A2_Woodland_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -45152,11 +43822,6 @@
                         "rawType": "BP_BRDM-2_Spandrel_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -45299,11 +43964,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -45364,11 +44024,6 @@
                         "rawType": "BP_Technical_Dshk_MIL_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -45579,11 +44234,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -45676,11 +44326,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -45878,11 +44523,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -45983,11 +44623,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -46216,11 +44851,6 @@
                         "rawType": "BP_MATV_TOW_Woodland_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -46345,11 +44975,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -46607,11 +45232,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -46720,11 +45340,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -46822,11 +45437,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -46841,11 +45451,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -46994,11 +45599,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -47075,11 +45675,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -47243,11 +45838,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -47340,11 +45930,6 @@
                         "rawType": "BP_Tigr_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -47554,11 +46139,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -47667,11 +46247,6 @@
                         "rawType": "BP_Tigr_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -47758,11 +46333,6 @@
                         "rawType": "BP_LPPV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -47839,11 +46409,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -47936,11 +46501,6 @@
                         "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -48057,11 +46617,6 @@
                         "rawType": "BP_Technical_Transport_INS_C",
                         "icon": "map_jeep_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -48127,11 +46682,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -48184,11 +46734,6 @@
                         "rawType": "BP_Technical_Dshk_INS_Armoured_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -48275,11 +46820,6 @@
                         "rawType": "BP_MATV_M240_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -48348,11 +46888,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -48431,11 +46966,6 @@
                         "rawType": "BP_Brit_Util_Truck_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -48488,11 +47018,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -48539,11 +47064,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -48558,11 +47078,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -48647,11 +47162,6 @@
                         "rawType": "BP_MATV_M240_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -48720,11 +47230,6 @@
                         "rawType": "BP_Safir_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -48897,11 +47402,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -49018,11 +47518,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -49211,11 +47706,6 @@
                         "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -49348,11 +47838,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -49525,11 +48010,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -49646,11 +48126,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -49806,11 +48281,6 @@
                         "rawType": "BP_BMP2_Desert_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -49927,11 +48397,6 @@
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -50086,11 +48551,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -50231,11 +48691,6 @@
                         "rawType": "BP_Ural_375_Logi_INS_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -50502,11 +48957,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -50631,11 +49081,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -50808,11 +49253,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -50921,11 +49361,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -51107,11 +49542,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -51228,11 +49658,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -51316,11 +49741,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -51335,11 +49755,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -51432,11 +49847,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -51451,11 +49861,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -51650,11 +50055,6 @@
                         "rawType": "BP_BMP1_MIL_ZU23_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -51795,11 +50195,6 @@
                         "rawType": "BP_Technical2Seater_White_ZU23_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -52076,11 +50471,6 @@
                         "rawType": "BP_M1A2_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -52101,11 +50491,6 @@
                         "rawType": "BP_M1A2_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -52273,11 +50658,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -52386,11 +50766,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -52513,11 +50888,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -52586,11 +50956,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -52685,11 +51050,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -52758,11 +51118,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -52922,11 +51277,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -53035,11 +51385,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -53212,11 +51557,6 @@
                         "rawType": "BP_M1126_Woodland_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -53325,11 +51665,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -53478,11 +51813,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -53567,11 +51897,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -53731,11 +52056,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -53860,11 +52180,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -54044,11 +52359,6 @@
                         "rawType": "BP_US_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -54165,11 +52475,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -54341,11 +52646,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -54454,11 +52754,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -54622,11 +52917,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -54703,11 +52993,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -54879,11 +53164,6 @@
                         "rawType": "BP_SA330_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -54992,11 +53272,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -55168,11 +53443,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -55257,11 +53527,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -55425,11 +53690,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -55538,11 +53798,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -55590,11 +53845,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -55609,11 +53859,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -55660,11 +53905,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -55679,11 +53919,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -55758,11 +53993,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -55777,11 +54007,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -55863,11 +54088,6 @@
                         "rawType": "BP_T72B3_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -55888,11 +54108,6 @@
                         "rawType": "BP_T72B3_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -56052,11 +54267,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -56157,11 +54367,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -56310,11 +54515,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -56407,11 +54607,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -56558,11 +54753,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -56671,11 +54861,6 @@
                         "rawType": "BP_Technical4Seater_Transport_C",
                         "icon": "map_jeep_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -56837,11 +55022,6 @@
                         "rawType": "BP_CAF_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -56966,11 +55146,6 @@
                         "rawType": "BP_Safir_MG3_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -57375,11 +55550,6 @@
                         "rawType": "BP_CAF_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -57456,11 +55626,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -57880,11 +56045,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -57985,11 +56145,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -58396,11 +56551,6 @@
                         "rawType": "BP_TAPV_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -58485,11 +56635,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -58593,11 +56738,6 @@
                         "rawType": "BP_CAF_Util_Desert_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -58666,11 +56806,6 @@
                         "rawType": "BP_BTR82A_RUS_Desert_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -58772,11 +56907,6 @@
                         "rawType": "BP_TAPV_Desert_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -58853,11 +56983,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -59128,11 +57253,6 @@
                         "rawType": "BP_LAV6_Desert_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -59281,11 +57401,6 @@
                         "rawType": "BP_Technical4Seater_Logi_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -59554,11 +57669,6 @@
                         "rawType": "BP_2A6_Desert_C",
                         "icon": "map_tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -59635,11 +57745,6 @@
                         "rawType": "BP_Ural_4320_MEA_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -59754,11 +57859,6 @@
                         "rawType": "BP_CAF_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -59827,11 +57927,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -60084,11 +58179,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -60189,11 +58279,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -60347,11 +58432,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -60420,11 +58500,6 @@
                         "rawType": "BP_Technical_SPG9_MIL_C",
                         "icon": "map_jeep_antitank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -60578,11 +58653,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -60691,11 +58761,6 @@
                         "rawType": "BP_Tigr_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -60969,11 +59034,6 @@
                         "rawType": "BP_CAF_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -61058,11 +59118,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -61323,11 +59378,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -61412,11 +59462,6 @@
                         "rawType": "BP_Ural_375_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -61677,11 +59722,6 @@
                         "rawType": "BP_2A6_Woodland_Cage_C",
                         "icon": "map_tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -61782,11 +59822,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -62048,11 +60083,6 @@
                         "rawType": "BP_LAV6_Woodland_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -62145,11 +60175,6 @@
                         "rawType": "BP_MATV_CROWS_Woodland_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -62426,11 +60451,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -62523,11 +60543,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -62654,11 +60669,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -62775,11 +60785,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Unknown",
@@ -63084,11 +61089,6 @@
                         "rawType": "BP_LAV6_Woodland_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -63189,11 +61189,6 @@
                         "rawType": "BP_Ural_375_Logi_INS_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -63501,11 +61496,6 @@
                         "rawType": "BP_TAPV_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -63590,11 +61580,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -63886,11 +61871,6 @@
                         "rawType": "BP_TAPV_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -63967,11 +61947,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -64270,11 +62245,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -64367,11 +62337,6 @@
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -64464,11 +62429,6 @@
                         "rawType": "BP_LAV_RWS_C6_Desert_C",
                         "icon": "map_apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -64537,11 +62497,6 @@
                         "rawType": "BP_Ural_4320_logi_MEA_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -64838,11 +62793,6 @@
                         "rawType": "BP_LAV_RWS_C6_Desert_C",
                         "icon": "map_apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -64967,11 +62917,6 @@
                         "rawType": "BP_Technical_Logi_INS_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -65270,11 +63215,6 @@
                         "rawType": "BP_CAF_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -65375,11 +63315,6 @@
                         "rawType": "BP_Kamaz_5350_Logi_Desert_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -65671,11 +63606,6 @@
                         "rawType": "BP_2A6_Desert_C",
                         "icon": "map_tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -65760,11 +63690,6 @@
                         "rawType": "BP_Ural_375_Logi_INS_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -65883,11 +63808,6 @@
                         "rawType": "BP_2A6_Desert_Cage_C",
                         "icon": "map_tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -65988,11 +63908,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -66136,11 +64051,6 @@
                         "rawType": "BP_2A6_Woodland_C",
                         "icon": "map_tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -66241,11 +64151,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -66379,11 +64284,6 @@
                         "rawType": "BP_CAF_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -66468,11 +64368,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -66606,11 +64501,6 @@
                         "rawType": "BP_LAV6_Woodland_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -66719,11 +64609,6 @@
                         "rawType": "BP_Technical_Logi_MIL_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -66872,11 +64757,6 @@
                         "rawType": "BP_LAV6_Woodland_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -66969,11 +64849,6 @@
                         "rawType": "BP_BFV_Woodland_C",
                         "icon": "map_trackedifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -67122,11 +64997,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -67235,11 +65105,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -67396,11 +65261,6 @@
                         "rawType": "BP_LAV6_Woodland_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -67469,11 +65329,6 @@
                         "rawType": "BP_Ural_375_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -67632,11 +65487,6 @@
                         "rawType": "BP_2A6_Woodland_Cage_C",
                         "icon": "map_tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -67729,11 +65579,6 @@
                         "rawType": "BP_T72B3_C",
                         "icon": "tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -67890,11 +65735,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -67979,11 +65819,6 @@
                         "rawType": "BP_MI8_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -68049,11 +65884,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -68068,11 +65898,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -68134,11 +65959,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -68153,11 +65973,6 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -68281,11 +66096,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -68370,11 +66180,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "TC Hex Zone",
@@ -68469,11 +66274,6 @@
                         "rawType": "BP_TAPV_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -68542,11 +66342,6 @@
                         "rawType": "BP_Kamaz_5350_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -68695,11 +66490,6 @@
                         "rawType": "BP_TAPV_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -68792,11 +66582,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -68936,11 +66721,6 @@
                         "rawType": "BP_TAPV_Desert_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -69033,11 +66813,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -69178,11 +66953,6 @@
                         "rawType": "BP_TAPV_Desert_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -69275,11 +67045,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -69427,11 +67192,6 @@
                         "rawType": "BP_CAF_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -69532,11 +67292,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -69715,11 +67470,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -69820,11 +67570,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -69970,11 +67715,6 @@
                         "rawType": "BP_CAF_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -70075,11 +67815,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -70207,11 +67942,6 @@
                         "rawType": "BP_TAPV_C",
                         "icon": "map_jeep_turret"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -70304,11 +68034,6 @@
                         "rawType": "BP_Tigr_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -70529,11 +68254,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -70618,11 +68338,6 @@
                         "rawType": "BP_BTR82A_RUS_C",
                         "icon": "map_ifv"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -70713,11 +68428,6 @@
                         "rawType": "BP_CAF_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -70794,11 +68504,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -70971,11 +68676,6 @@
                         "rawType": "BP_UH60_C",
                         "icon": "map_transporthelo"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -71092,11 +68792,6 @@
                         "rawType": "BP_BTR80_RUS_Desert_C",
                         "icon": "apc"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASGraph",
@@ -71253,11 +68948,6 @@
                         "rawType": "BP_2A6_Desert_Cage_C",
                         "icon": "map_tank"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -71358,11 +69048,6 @@
                         "rawType": "BP_Safir_Kord_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
@@ -71536,11 +69221,6 @@
                         "rawType": "BP_CAF_Util_Woodland_C",
                         "icon": "map_truck_transport"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -71617,11 +69297,6 @@
                         "rawType": "BP_Technical4Seater_Logi_Camo_C",
                         "icon": "map_jeep_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "Invasion Random Graph",
@@ -71793,11 +69468,6 @@
                         "rawType": "BP_CAF_Util_Woodland_Logi_C",
                         "icon": "map_truck_logistics"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -71914,11 +69584,6 @@
                         "rawType": "BP_Tigr_RWS_C",
                         "icon": "map_jeep"
                     }
-                ],
-                "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
                 ]
             },
             "type": "RAASLane Graph",
