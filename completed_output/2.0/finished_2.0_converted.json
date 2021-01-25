@@ -10,13 +10,27 @@
                 {
                     "Name": "MAN HX",
                     "DisplayName": "MAN HX Truck Transport",
-                    "Count": "3",
-                    "Delay": 10,
+                    "Count": "1",
+                    "Delay": 6,
                     "icon": "truck_transport_vehicle_icon.png"
                 },
                 {
+                    "Name": "MAN HX",
+                    "DisplayName": "MAN HX Truck Logistics",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "truck_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "LPPV",
+                    "DisplayName": "LPPV",
+                    "Count": 2,
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
+                },
+                {
                     "Name": "SA330",
-                    "DisplayName": "BP_SA330_C",
+                    "DisplayName": "SA330",
                     "Count": "6",
                     "Delay": 0,
                     "icon": "transporthelo_vehicle_icon.png"
@@ -162,7 +176,7 @@
                 },
                 {
                     "Name": "SA330",
-                    "DisplayName": "BP_SA330_C",
+                    "DisplayName": "SA330",
                     "Count": "2",
                     "Delay": 0,
                     "icon": "transporthelo_vehicle_icon.png"
@@ -303,17 +317,45 @@
                 },
                 {
                     "Name": "Technical",
+                    "DisplayName": "Technical Logistics INS",
+                    "Count": "3",
+                    "Delay": 0,
+                    "icon": "jeep_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "Technical",
+                    "DisplayName": "Pickup Truck Logistics",
+                    "Count": "3",
+                    "Delay": 0,
+                    "icon": "jeep_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "Technical",
+                    "DisplayName": "Pickup Truck Transport",
+                    "Count": "3",
+                    "Delay": 0,
+                    "icon": "jeep_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "URAL 375D",
+                    "DisplayName": "Ural 375-D Truck Transport",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "Technical",
                     "DisplayName": "Technical Rocket Artillery",
-                    "Count": 2,
+                    "Count": "1",
                     "Delay": 0,
                     "icon": "jeep_artillery_vehicle_icon.png"
                 },
                 {
                     "Name": "Technical",
-                    "DisplayName": "Technical Logistics INS",
-                    "Count": "3",
+                    "DisplayName": "Technical Dshk-M",
+                    "Count": "1",
                     "Delay": 0,
-                    "icon": "jeep_logistics_vehicle_icon.png"
+                    "icon": "jeep_vehicle_icon.png"
                 },
                 {
                     "Name": "Technical",
@@ -323,18 +365,18 @@
                     "icon": "jeep_antitank_vehicle_icon.png"
                 },
                 {
+                    "Name": "Technical",
+                    "DisplayName": "Technical Mortar",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_artillery_vehicle_icon.png"
+                },
+                {
                     "Name": "MT-LB",
                     "DisplayName": "MT-LB",
                     "Count": "1",
                     "Delay": 0,
                     "icon": "trackedapc_vehicle_icon.png"
-                },
-                {
-                    "Name": "URAL 375D",
-                    "DisplayName": "Ural 375-D Truck Transport",
-                    "Count": "1",
-                    "Delay": 0,
-                    "icon": "truck_transport_vehicle_icon.png"
                 },
                 {
                     "Name": "BRDM-2",
@@ -371,7 +413,7 @@
             "longName": "Omar's Freedom Fighters",
             "name": "INS Cell",
             "type": "Light Infantry",
-            "badge": "Unit_Insurgents_Division_Image.png",
+            "badge": "Fighters_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Minsk 400",
@@ -420,7 +462,7 @@
                 {
                     "Name": "Simir",
                     "DisplayName": "Simir MG3",
-                    "Count": "2",
+                    "Count": 2,
                     "Delay": 0,
                     "icon": "jeep_vehicle_icon.png"
                 },
@@ -886,7 +928,7 @@
             "longName": "People's Front",
             "name": "MIL PF",
             "type": "Light Infantry",
-            "badge": "Unit_Militia_Division_Image.png",
+            "badge": "Peoples_Division_Image.png",
             "vehicles": [
                 {
                     "Name": "Technical",
@@ -928,9 +970,23 @@
                 {
                     "Name": "Kamaz 5350",
                     "DisplayName": "Kamaz 5350 Truck Transport",
-                    "Count": "3",
-                    "Delay": 10,
+                    "Count": "1",
+                    "Delay": 6,
                     "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "Kamaz 5350",
+                    "DisplayName": "Kamaz 5350 Truck Logistics",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "truck_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "Tigr-M Kord",
+                    "DisplayName": "Tigr-M Kord Open Top",
+                    "Count": 2,
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 },
                 {
                     "Name": "Mi-8",
@@ -1193,10 +1249,24 @@
             "vehicles": [
                 {
                     "Name": "M939 Truck",
+                    "DisplayName": "M939 Truck Logistics",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "truck_logistics_vehicle_icon.png"
+                },
+                {
+                    "Name": "M939 Truck",
                     "DisplayName": "M939 Truck Transport",
-                    "Count": "3",
+                    "Count": "1",
                     "Delay": 10,
                     "icon": "truck_transport_vehicle_icon.png"
+                },
+                {
+                    "Name": "M-ATV",
+                    "DisplayName": "M-ATV",
+                    "Count": "1",
+                    "Delay": 0,
+                    "icon": "jeep_vehicle_icon.png"
                 },
                 {
                     "Name": "UH-60M",
@@ -1968,57 +2038,113 @@
         {
             "Name": "Al Basrah Insurgency v1",
             "team1": {
-                "faction": "British Army",
+                "faction": "BLUFOR",
                 "tickets": "200",
                 "vehicles": [
                     {
-                        "Name": "FV510",
-                        "DisplayName": "FV510 (Up-Armoured)",
-                        "Count": 2,
-                        "Delay": 0,
-                        "icon": "trackedifv_vehicle_icon.png"
+                        "Name": "US Army#Air Assault",
+                        "DisplayName": "Air Assault",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "USArmy Flag.PNG"
                     },
                     {
-                        "Name": "MAN HX",
-                        "DisplayName": "MAN HX Truck Logistics",
-                        "Count": 3,
-                        "Delay": 0,
-                        "icon": "truck_logistics_vehicle_icon.png"
+                        "Name": "US Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "USArmy Flag.PNG"
                     },
                     {
-                        "Name": "FV510",
-                        "DisplayName": "FV510",
-                        "Count": 1,
-                        "Delay": 0,
-                        "icon": "trackedifv_vehicle_icon.png"
+                        "Name": "US Army#Light Infantry",
+                        "DisplayName": "Light Infantry",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "USArmy Flag.PNG"
                     },
                     {
-                        "Name": "LPPV",
-                        "DisplayName": "LPPV",
-                        "Count": 1,
-                        "Delay": 0,
-                        "icon": "jeep_vehicle_icon.png"
+                        "Name": "US Army#Mechanized",
+                        "DisplayName": "Mechanized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "USArmy Flag.PNG"
                     },
                     {
-                        "Name": "FV432",
-                        "DisplayName": "FV432",
-                        "Count": 1,
-                        "Delay": 0,
-                        "icon": "trackedapc_vehicle_icon.png"
+                        "Name": "US Army#Combined Arms",
+                        "DisplayName": "Combined Arms",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "USArmy Flag.PNG"
                     },
                     {
-                        "Name": "MAN HX",
-                        "DisplayName": "MAN HX Truck Transport",
-                        "Count": 1,
-                        "Delay": 6,
-                        "icon": "truck_transport_vehicle_icon.png"
+                        "Name": "British Army#Air Assault",
+                        "DisplayName": "Air Assault",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "GB flag.jpg"
                     },
                     {
-                        "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
-                        "Count": 1,
-                        "Delay": 10,
-                        "icon": "transporthelo_vehicle_icon.png"
+                        "Name": "British Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "GB flag.jpg"
+                    },
+                    {
+                        "Name": "British Army#Light Infantry",
+                        "DisplayName": "Light Infantry",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "GB flag.jpg"
+                    },
+                    {
+                        "Name": "British Army#Mechanized",
+                        "DisplayName": "Mechanized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "GB flag.jpg"
+                    },
+                    {
+                        "Name": "British Army#Combined Arms",
+                        "DisplayName": "Combined Arms",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "GB flag.jpg"
+                    },
+                    {
+                        "Name": "Canadian Army#Air Assault",
+                        "DisplayName": "Air Assault",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Flag of Canada.png"
+                    },
+                    {
+                        "Name": "Canadian Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Flag of Canada.png"
+                    },
+                    {
+                        "Name": "Canadian Army#Light Infantry",
+                        "DisplayName": "Light Infantry",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Flag of Canada.png"
+                    },
+                    {
+                        "Name": "Canadian Army#Mechanized",
+                        "DisplayName": "Mechanized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Flag of Canada.png"
+                    },
+                    {
+                        "Name": "Canadian Army#Combined Arms",
+                        "DisplayName": "Combined Arms",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Flag of Canada.png"
                     }
                 ]
             },
@@ -2143,7 +2269,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 20,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -2285,7 +2411,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 20,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -2347,7 +2473,7 @@
                     },
                     {
                         "Name": "Technical",
-                        "DisplayName": "Picup Truck Transport",
+                        "DisplayName": "Pickup Truck Transport",
                         "Count": 1,
                         "Delay": 0,
                         "icon": "jeep_transport_vehicle_icon.png"
@@ -2496,7 +2622,7 @@
                     },
                     {
                         "Name": "Technical",
-                        "DisplayName": "Picup Truck Transport",
+                        "DisplayName": "Pickup Truck Transport",
                         "Count": 1,
                         "Delay": 6,
                         "icon": "jeep_transport_vehicle_icon.png"
@@ -2570,65 +2696,6 @@
                 ]
             },
             "team2": {
-                "faction": "REDFOR or BLUFOR or INDEPENDENT",
-                "tickets": "150",
-                "vehicles": [
-                    {
-                        "Name": "Russian Ground Forces#Light Infantry",
-                        "DisplayName": "Light Infantry",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "RGF Flag.PNG"
-                    },
-                    {
-                        "Name": "US Army#Light Infantry",
-                        "DisplayName": "Light Infantry",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "USArmy Flag.PNG"
-                    },
-                    {
-                        "Name": "British Army#Light Infantry",
-                        "DisplayName": "Light Infantry",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "GB flag.jpg"
-                    },
-                    {
-                        "Name": "Canadian Army#Light Infantry",
-                        "DisplayName": "Light Infantry",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "Flag of Canada.png"
-                    },
-                    {
-                        "Name": "Middle Eastern Alliance#Light Infantry",
-                        "DisplayName": "Light Infantry",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "MEA_Flag.png"
-                    },
-                    {
-                        "Name": "Irregular Militia#Light Infantry",
-                        "DisplayName": "Light Infantry",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "IM Flag.PNG"
-                    },
-                    {
-                        "Name": "Insurgents#Light Infantry",
-                        "DisplayName": "Light Infantry",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "Insurgents Flag.PNG"
-                    }
-                ]
-            },
-            "CapturePoints": "5"
-        },
-        {
-            "Name": "Al Basrah Skirmish v2",
-            "team1": {
                 "faction": "BLUFOR or REDFOR or INDEPENDENT",
                 "tickets": "150",
                 "vehicles": [
@@ -2683,7 +2750,11 @@
                     }
                 ]
             },
-            "team2": {
+            "CapturePoints": "5"
+        },
+        {
+            "Name": "Al Basrah Skirmish v2",
+            "team1": {
                 "faction": "BLUFOR or INDEPENDENT",
                 "tickets": "150",
                 "vehicles": [
@@ -2728,6 +2799,19 @@
                         "Count": -1,
                         "Delay": -1,
                         "icon": "Insurgents Flag.PNG"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "REDFOR",
+                "tickets": "150",
+                "vehicles": [
+                    {
+                        "Name": "Russian Ground Forces#Light Infantry",
+                        "DisplayName": "Light Infantry",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "RGF Flag.PNG"
                     }
                 ]
             },
@@ -2806,7 +2890,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 10,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -3155,7 +3239,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 10,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -3504,7 +3588,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 6,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -3746,7 +3830,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 10,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -3881,7 +3965,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 10,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -7740,7 +7824,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 10,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -8466,7 +8550,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -8575,7 +8659,7 @@
                         "Name": "M1A2",
                         "DisplayName": "M1A2",
                         "Count": 1,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -8630,7 +8714,7 @@
                         "Name": "T-72",
                         "DisplayName": "T-72",
                         "Count": 1,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -9606,7 +9690,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 10,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -10425,7 +10509,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -11358,7 +11442,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -11607,7 +11691,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -12537,7 +12621,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 6,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -13221,7 +13305,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -13400,7 +13484,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -14639,6 +14723,120 @@
             "CapturePoints": "5"
         },
         {
+            "Name": "Mutaha AAS v2",
+            "team1": {
+                "faction": "BLUFOR or REDFOR or INDEPENDENT",
+                "tickets": "300",
+                "vehicles": [
+                    {
+                        "Name": "US Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "USArmy Flag.PNG"
+                    },
+                    {
+                        "Name": "British Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "GB flag.jpg"
+                    },
+                    {
+                        "Name": "Canadian Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Flag of Canada.png"
+                    },
+                    {
+                        "Name": "Russian Ground Forces#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "RGF Flag.PNG"
+                    },
+                    {
+                        "Name": "Middle Eastern Alliance#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "MEA_Flag.png"
+                    },
+                    {
+                        "Name": "Irregular Militia#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "IM Flag.PNG"
+                    },
+                    {
+                        "Name": "Insurgents#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Insurgents Flag.PNG"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "BLUFOR or REDFOR or INDEPENDENT",
+                "tickets": "300",
+                "vehicles": [
+                    {
+                        "Name": "US Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "USArmy Flag.PNG"
+                    },
+                    {
+                        "Name": "British Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "GB flag.jpg"
+                    },
+                    {
+                        "Name": "Canadian Army#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Flag of Canada.png"
+                    },
+                    {
+                        "Name": "Russian Ground Forces#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "RGF Flag.PNG"
+                    },
+                    {
+                        "Name": "Middle Eastern Alliance#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "MEA_Flag.png"
+                    },
+                    {
+                        "Name": "Irregular Militia#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "IM Flag.PNG"
+                    },
+                    {
+                        "Name": "Insurgents#Motorized",
+                        "DisplayName": "Motorized",
+                        "Count": -1,
+                        "Delay": -1,
+                        "icon": "Insurgents Flag.PNG"
+                    }
+                ]
+            },
+            "CapturePoints": "6"
+        },
+        {
             "Name": "Mutaha Invasion v1",
             "team1": {
                 "faction": "British Army",
@@ -14702,7 +14900,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 1,
                         "Delay": 10,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -14722,7 +14920,7 @@
                     },
                     {
                         "Name": "Technical",
-                        "DisplayName": "Picup Truck Transport",
+                        "DisplayName": "Pickup Truck Transport",
                         "Count": 1,
                         "Delay": 6,
                         "icon": "jeep_transport_vehicle_icon.png"
@@ -16858,7 +17056,7 @@
                     {
                         "Name": "T-62",
                         "DisplayName": "T-62",
-                        "Count": 1,
+                        "Count": 2,
                         "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
@@ -16896,13 +17094,6 @@
                         "Count": 1,
                         "Delay": 0,
                         "icon": "apc_vehicle_icon.png"
-                    },
-                    {
-                        "Name": "T-62",
-                        "DisplayName": "T-62",
-                        "Count": 1,
-                        "Delay": 20,
-                        "icon": "tank_vehicle_icon.png"
                     }
                 ]
             },
@@ -18415,7 +18606,7 @@
                     },
                     {
                         "Name": "Technical",
-                        "DisplayName": "Picup Truck Transport",
+                        "DisplayName": "Pickup Truck Transport",
                         "Count": 1,
                         "Delay": 6,
                         "icon": "jeep_transport_vehicle_icon.png"
@@ -18543,7 +18734,7 @@
                     },
                     {
                         "Name": "Technical",
-                        "DisplayName": "Picup Truck Transport",
+                        "DisplayName": "Pickup Truck Transport",
                         "Count": 1,
                         "Delay": 6,
                         "icon": "jeep_transport_vehicle_icon.png"
@@ -19098,7 +19289,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -19863,7 +20054,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 6,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -20219,7 +20410,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -20262,7 +20453,7 @@
                         "Name": "T-62",
                         "DisplayName": "T-62",
                         "Count": 1,
-                        "Delay": 10,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -20462,8 +20653,8 @@
                     {
                         "Name": "M1A2",
                         "DisplayName": "M1A2",
-                        "Count": 2,
-                        "Delay": 20,
+                        "Count": 1,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -20479,6 +20670,13 @@
                         "Count": 1,
                         "Delay": 6,
                         "icon": "truck_transport_vehicle_icon.png"
+                    },
+                    {
+                        "Name": "M1A2",
+                        "DisplayName": "M1A2",
+                        "Count": 1,
+                        "Delay": 20,
+                        "icon": "tank_vehicle_icon.png"
                     },
                     {
                         "Name": "UH-60M",
@@ -20689,7 +20887,7 @@
                     },
                     {
                         "Name": "SA330",
-                        "DisplayName": "BP_SA330_C",
+                        "DisplayName": "SA330",
                         "Count": 2,
                         "Delay": 0,
                         "icon": "transporthelo_vehicle_icon.png"
@@ -21686,7 +21884,7 @@
                     },
                     {
                         "Name": "Technical",
-                        "DisplayName": "Picup Truck Transport",
+                        "DisplayName": "Pickup Truck Transport",
                         "Count": 1,
                         "Delay": 10,
                         "icon": "jeep_transport_vehicle_icon.png"
@@ -22426,7 +22624,7 @@
                         "Name": "Leopard 2A6M",
                         "DisplayName": "Leopard 2A6M",
                         "Count": 2,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     }
                 ]
@@ -22474,7 +22672,7 @@
                         "Name": "T-72",
                         "DisplayName": "T-72S",
                         "Count": 2,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -23265,7 +23463,7 @@
                         "Name": "T-62",
                         "DisplayName": "T-62",
                         "Count": 1,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -24372,7 +24570,7 @@
                         "Name": "T-62",
                         "DisplayName": "T-62",
                         "Count": 2,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -24793,7 +24991,7 @@
                         "Name": "T-62",
                         "DisplayName": "T-62",
                         "Count": 1,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -25121,7 +25319,7 @@
                         "Name": "T-62",
                         "DisplayName": "T-62",
                         "Count": 1,
-                        "Delay": 20,
+                        "Delay": 15,
                         "icon": "tank_vehicle_icon.png"
                     },
                     {
@@ -26566,112 +26764,56 @@
         {
             "Name": "CAF Sumari AAS v1",
             "team1": {
-                "faction": "BLUFOR or REDFOR or INDEPENDENT",
+                "faction": "Canadian Army",
                 "tickets": "250",
                 "vehicles": [
                     {
-                        "Name": "US Army#Divisions",
-                        "DisplayName": "US Army",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "USArmy Flag.PNG"
+                        "Name": "MSVS Truck",
+                        "DisplayName": "MSVS Truck Logistics",
+                        "Count": 3,
+                        "Delay": 0,
+                        "icon": "truck_logistics_vehicle_icon.png"
                     },
                     {
-                        "Name": "British Army#Divisions",
-                        "DisplayName": "British Army",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "GB flag.jpg"
+                        "Name": "MSVS Truck",
+                        "DisplayName": "MSVS Truck Transport",
+                        "Count": 1,
+                        "Delay": 6,
+                        "icon": "truck_transport_vehicle_icon.png"
                     },
                     {
-                        "Name": "Canadian Army#Divisions",
-                        "DisplayName": "Canadian Army",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "Flag of Canada.png"
-                    },
-                    {
-                        "Name": "Russian Ground Forces#Divisions",
-                        "DisplayName": "Russian Ground Forces",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "RGF Flag.PNG"
-                    },
-                    {
-                        "Name": "Middle Eastern Alliance#Divisions",
-                        "DisplayName": "Middle Eastern Alliance",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "MEA_Flag.png"
-                    },
-                    {
-                        "Name": "Irregular Militia#Divisions",
-                        "DisplayName": "Irregular Militia",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "IM Flag.PNG"
-                    },
-                    {
-                        "Name": "Insurgents#Divisions",
-                        "DisplayName": "Insurgents",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "Insurgents Flag.PNG"
+                        "Name": "LAV III",
+                        "DisplayName": "LAV III C6 RWS",
+                        "Count": 1,
+                        "Delay": 0,
+                        "icon": "apc_vehicle_icon.png"
                     }
                 ]
             },
             "team2": {
-                "faction": "BLUFOR or REDFOR or INDEPENDENT",
+                "faction": "Middle Eastern Alliance",
                 "tickets": "250",
                 "vehicles": [
                     {
-                        "Name": "US Army#Divisions",
-                        "DisplayName": "US Army",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "USArmy Flag.PNG"
+                        "Name": "URAL 4320",
+                        "DisplayName": "URAL 4320 Truck Transport",
+                        "Count": 1,
+                        "Delay": 6,
+                        "icon": "truck_transport_vehicle_icon.png"
                     },
                     {
-                        "Name": "British Army#Divisions",
-                        "DisplayName": "British Army",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "GB flag.jpg"
+                        "Name": "Simir",
+                        "DisplayName": "Simir Kord",
+                        "Count": 3,
+                        "Delay": 0,
+                        "icon": "jeep_vehicle_icon.png"
                     },
                     {
-                        "Name": "Canadian Army#Divisions",
-                        "DisplayName": "Canadian Army",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "Flag of Canada.png"
-                    },
-                    {
-                        "Name": "Russian Ground Forces#Divisions",
-                        "DisplayName": "Russian Ground Forces",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "RGF Flag.PNG"
-                    },
-                    {
-                        "Name": "Middle Eastern Alliance#Divisions",
-                        "DisplayName": "Middle Eastern Alliance",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "MEA_Flag.png"
-                    },
-                    {
-                        "Name": "Irregular Militia#Divisions",
-                        "DisplayName": "Irregular Militia",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "IM Flag.PNG"
-                    },
-                    {
-                        "Name": "Insurgents#Divisions",
-                        "DisplayName": "Insurgents",
-                        "Count": -1,
-                        "Delay": -1,
-                        "icon": "Insurgents Flag.PNG"
+                        "Name": "Simir",
+                        "DisplayName": "Simir Logistics",
+                        "Count": 4,
+                        "Delay": 0,
+                        "icon": "jeep_logistics_vehicle_icon.png"
                     }
                 ]
             },
@@ -27202,8 +27344,7 @@
                         "icon": "transporthelo_vehicle_icon.png"
                     }
                 ]
-            },
-            "CapturePoints": "67"
+            }
         }
     ]
 }
