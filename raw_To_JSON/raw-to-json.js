@@ -105,11 +105,18 @@ let loop = async(remaninglines, output, output2) => {
                         currentMap.Name = line.substring(13, line.length)
                         break;
                     }
-                    let gamemodeinfo = await findGamemode(currentMap.Name)
             
 
-                    let mapPage = currentMap.Name.substring(0, gamemodeinfo.location - 1)
-                    let layerVersion = currentMap.Name.substring(gamemodeinfo.location + gamemodeinfo.gamemode.length + 1)
+                    if(currentMap.rawName.includes("CAF")) {
+                        tempName = currentMap.rawName.substring(4, currentMap.rawName.length)
+                    }
+                    else{
+                        tempName = currentMap.Name
+                    }
+                    let gamemodeinfo = await findGamemode(tempName)
+
+                    let mapPage = tempName.substring(0, gamemodeinfo.location - 1).replaceAll("_", " ")
+                    let layerVersion = tempName.substring(gamemodeinfo.location + gamemodeinfo.gamemode.length + 1)
                     currentMap.mapName = mapPage
                     currentMap.gamemode = gamemodeinfo.gamemode
                     currentMap.layerVersion = layerVersion

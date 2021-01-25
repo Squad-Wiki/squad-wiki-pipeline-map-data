@@ -55053,7 +55053,7 @@
                 "05-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF AlBasrah",
+            "mapName": "Al Basrah",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "2.8x2.9 km",
@@ -55338,7 +55338,7 @@
                 "05-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF AlBasrah",
+            "mapName": "Al Basrah",
             "gamemode": "Invasion",
             "layerVersion": "v2",
             "mapSize": "2.8x2.9 km",
@@ -55817,7 +55817,7 @@
                 "05-Aniva"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Belaya",
+            "mapName": "Belaya",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "3.3x3.9 km",
@@ -56339,7 +56339,7 @@
                 ]
             },
             "capturePoints": "5",
-            "mapName": "CAF Belaya",
+            "mapName": "Belaya",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "3.3x3.9 km",
@@ -56829,7 +56829,7 @@
                 ]
             },
             "capturePoints": "5",
-            "mapName": "CAF Belaya",
+            "mapName": "Belaya",
             "gamemode": "RAAS",
             "layerVersion": "v2",
             "mapSize": "3.3x3.9 km",
@@ -56998,7 +56998,7 @@
                 "06-Monolith"
             ],
             "capturePoints": "6",
-            "mapName": "CAF Chora",
+            "mapName": "Chora",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "4.1x4.1 km",
@@ -57177,7 +57177,7 @@
                 ]
             },
             "capturePoints": "5",
-            "mapName": "CAF Chora",
+            "mapName": "Chora",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "4.1x4.1 km",
@@ -57593,7 +57593,7 @@
                 "05-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Fallujah",
+            "mapName": "Fallujah",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "3.0x2.7 km",
@@ -57958,7 +57958,7 @@
                 ]
             },
             "capturePoints": "6",
-            "mapName": "CAF Fallujah",
+            "mapName": "Fallujah",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "3.0x2.7 km",
@@ -58119,7 +58119,7 @@
                 "05-BP_CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Fools Road",
+            "mapName": "Fools Road",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "1.8x1.8 km",
@@ -58218,7 +58218,7 @@
                 "06-Postville"
             ],
             "capturePoints": "6",
-            "mapName": "CAF Goose Bay",
+            "mapName": "GooseBay",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "3.9x4.0 km",
@@ -58471,7 +58471,7 @@
                 "05-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Goose Bay",
+            "mapName": "GooseBay",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "3.9x4.0 km",
@@ -58692,7 +58692,7 @@
                 "01-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Goose Bay",
+            "mapName": "GooseBay",
             "gamemode": "Invasion",
             "layerVersion": "v2",
             "mapSize": "3.9x4.0 km",
@@ -58974,7 +58974,7 @@
                 ]
             },
             "capturePoints": "6",
-            "mapName": "CAF Goose Bay",
+            "mapName": "GooseBay",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "3.9x4.0 km",
@@ -59310,7 +59310,7 @@
                 "06-Fortified Hill"
             ],
             "capturePoints": "6",
-            "mapName": "CAF Gorodok",
+            "mapName": "Gorodok",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "4.0x4.0 km",
@@ -59654,7 +59654,7 @@
                 "05-BP_CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Gorodok",
+            "mapName": "Gorodok",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "4.0x4.0 km",
@@ -60015,7 +60015,7 @@
                 "06-BP_CaptureZoneCluster"
             ],
             "capturePoints": "6",
-            "mapName": "CAF Gorodok",
+            "mapName": "Gorodok",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "4.0x4.0 km",
@@ -60391,7 +60391,7 @@
                 ]
             },
             "capturePoints": "7",
-            "mapName": "CAF Gorodok",
+            "mapName": "Gorodok",
             "gamemode": "RAAS",
             "layerVersion": "v2",
             "mapSize": "4.0x4.0 km",
@@ -60728,7 +60728,7 @@
             "type": "TC Hex Zone",
             "Number of Hexes": "64",
             "capturePoints": "64",
-            "mapName": "CAF Gorodok",
+            "mapName": "Gorodok",
             "gamemode": "TC",
             "layerVersion": "v1",
             "mapSize": "4.0x4.0 km",
@@ -60974,9 +60974,9 @@
                 "100-Jensen's Test Track"
             ],
             "capturePoints": "3",
-            "mapName": "Jensen's",
-            "gamemode": "Traning",
-            "layerVersion": "Range",
+            "mapName": "JensensRange",
+            "gamemode": "Training",
+            "layerVersion": "v4",
             "mapSize": "4.0x4.0 km",
             "mapSizeType": "Minimap Size"
         },
@@ -61381,7 +61381,7 @@
                 "05-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Kamdesh",
+            "mapName": "Kamdesh",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "3.5x3.5 km",
@@ -61772,8 +61772,8 @@
                 "05-BP_CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Kamdesh",
-            "gamemode": "TC",
+            "mapName": "Kamdesh",
+            "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "3.5x3.5 km",
             "mapSizeType": "Playable Area"
@@ -62132,8 +62132,8 @@
             "type": "TC Hex Zone",
             "Number of Hexes": "33",
             "capturePoints": "33",
-            "mapName": "CAF Kamdesh",
-            "gamemode": "RAAS",
+            "mapName": "Kamdesh",
+            "gamemode": "TC",
             "layerVersion": "v1",
             "mapSize": "3.5x3.5 km",
             "mapSizeType": "Playable Area"
@@ -62528,7 +62528,7 @@
                 "04-CaptureZoneCluster"
             ],
             "capturePoints": "4",
-            "mapName": "CAF Kohat",
+            "mapName": "Kohat",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "3.9x3.4 km",
@@ -62690,7 +62690,7 @@
                 "06-BP_CaptureZoneCluster"
             ],
             "capturePoints": "6",
-            "mapName": "CAF Kokan Valley",
+            "mapName": "Kokan Valley",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "2.5x2.5 km",
@@ -63112,7 +63112,7 @@
                 ""
             ],
             "capturePoints": "8",
-            "mapName": "CAF Lashkar Valley",
+            "mapName": "Lashkar Valley",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "4.1x3.8 km",
@@ -63511,7 +63511,7 @@
                 ]
             },
             "capturePoints": "7",
-            "mapName": "CAF Lashkar Valley",
+            "mapName": "Lashkar Valley",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "4.1x3.8 km",
@@ -63875,7 +63875,7 @@
             "type": "TC Hex Zone",
             "Number of Hexes": "62",
             "capturePoints": "62",
-            "mapName": "CAF Lashkar Valley",
+            "mapName": "Lashkar Valley",
             "gamemode": "TC",
             "layerVersion": "v1",
             "mapSize": "4.1x3.8 km",
@@ -64103,7 +64103,7 @@
                 ]
             },
             "capturePoints": "6",
-            "mapName": "CAF Logar Valley",
+            "mapName": "Logar Valley",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "1.8x1.8 km",
@@ -64344,7 +64344,7 @@
                 "07-Ranch Estate"
             ],
             "capturePoints": "7",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "3.9x3.9 km",
@@ -64561,7 +64561,7 @@
                 "07-Hilltop OP"
             ],
             "capturePoints": "7",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "AAS",
             "layerVersion": "v2",
             "mapSize": "3.9x3.9 km",
@@ -64801,7 +64801,7 @@
                 "01-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "3.9x3.9 km",
@@ -65041,7 +65041,7 @@
                 "05-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "Invasion",
             "layerVersion": "v2",
             "mapSize": "3.9x3.9 km",
@@ -65321,7 +65321,7 @@
                 ]
             },
             "capturePoints": "7",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "3.9x3.9 km",
@@ -65539,7 +65539,7 @@
                 ]
             },
             "capturePoints": "5",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "RAAS",
             "layerVersion": "v2",
             "mapSize": "3.9x3.9 km",
@@ -65795,7 +65795,7 @@
                 ]
             },
             "capturePoints": "7",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "RAAS",
             "layerVersion": "v3",
             "mapSize": "3.9x3.9 km",
@@ -66014,7 +66014,7 @@
                 ]
             },
             "capturePoints": "6",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "RAAS",
             "layerVersion": "v4",
             "mapSize": "3.9x3.9 km",
@@ -66099,7 +66099,7 @@
                 "05-Mont Joie Outskirts"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "Skirmish",
             "layerVersion": "v1",
             "mapSize": "3.9x3.9 km",
@@ -66184,7 +66184,7 @@
                 "05-East Baie Comeau"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "Skirmish",
             "layerVersion": "v2",
             "mapSize": "3.9x3.9 km",
@@ -66385,7 +66385,7 @@
             "type": "TC Hex Zone",
             "Number of Hexes": "55",
             "capturePoints": "55",
-            "mapName": "CAF Manic",
+            "mapName": "Manic",
             "gamemode": "TC",
             "layerVersion": "v2",
             "mapSize": "3.9x3.9 km",
@@ -66554,7 +66554,7 @@
                 "05-BP_CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Mestia",
+            "mapName": "Mestia",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "2.4x2.4 km",
@@ -66793,7 +66793,7 @@
                 "05-Staging Area"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Mutaha",
+            "mapName": "Mutaha",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "2.8x2.8 km",
@@ -67025,7 +67025,7 @@
                 "05-BP_CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Mutaha",
+            "mapName": "Mutaha",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "2.8x2.8 km",
@@ -67259,7 +67259,7 @@
                 "07-BP_CaptureZoneCluster"
             ],
             "capturePoints": "7",
-            "mapName": "CAF Mutaha",
+            "mapName": "Mutaha",
             "gamemode": "RAAS",
             "layerVersion": "v2",
             "mapSize": "2.8x2.8 km",
@@ -67505,7 +67505,7 @@
                 "07-Lower Cambridge Bay"
             ],
             "capturePoints": "7",
-            "mapName": "CAF Nanisivik",
+            "mapName": "Nanisivik",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "3.9x3.9 km",
@@ -67782,7 +67782,7 @@
                 "05-CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Nanisivik",
+            "mapName": "Nanisivik",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "3.9x3.9 km",
@@ -68037,7 +68037,7 @@
                 ]
             },
             "capturePoints": "5",
-            "mapName": "CAF Nanisivik",
+            "mapName": "Nanisivik",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "3.9x3.9 km",
@@ -68264,7 +68264,7 @@
                 ]
             },
             "capturePoints": "5",
-            "mapName": "CAF Narva",
+            "mapName": "Narva",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "2.8x2.8 km",
@@ -68555,7 +68555,7 @@
                 ]
             },
             "capturePoints": "8",
-            "mapName": "CAF Skorpo",
+            "mapName": "Skorpo",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "7.7x4.3 km",
@@ -68717,7 +68717,7 @@
                 "07-Training Camp"
             ],
             "capturePoints": "7",
-            "mapName": "CAF Sumari",
+            "mapName": "Sumari",
             "gamemode": "AAS",
             "layerVersion": "v1",
             "mapSize": "1.3x1.3 km",
@@ -69005,7 +69005,7 @@
                 "06-Batha"
             ],
             "capturePoints": "6",
-            "mapName": "CAF Tallil Outskirts",
+            "mapName": "Tallil Outskirts",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "4.1x4.2 km",
@@ -69270,7 +69270,7 @@
                 ]
             },
             "capturePoints": "5",
-            "mapName": "CAF Tallil Outskirts",
+            "mapName": "Tallil Outskirts",
             "gamemode": "RAAS",
             "layerVersion": "v2",
             "mapSize": "4.1x4.2 km",
@@ -69509,7 +69509,7 @@
                 "05-BP_CaptureZoneCluster"
             ],
             "capturePoints": "5",
-            "mapName": "CAF Yehorivka",
+            "mapName": "Yehorivka",
             "gamemode": "Invasion",
             "layerVersion": "v1",
             "mapSize": "5.0x5.0 km",
@@ -69820,7 +69820,7 @@
                 ]
             },
             "capturePoints": "7",
-            "mapName": "CAF Yehorivka",
+            "mapName": "Yehorivka",
             "gamemode": "RAAS",
             "layerVersion": "v1",
             "mapSize": "5.0x5.0 km",
