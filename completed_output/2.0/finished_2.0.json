@@ -12,7 +12,7 @@
                     "count": "0",
                     "delay": 0,
                     "respawnTime": 0,
-                    "rawType": "BP_minsk_C",
+                    "rawType": "BP_Minsk_black_C",
                     "icon": "map_motorcycle"
                 },
                 {
@@ -49,11 +49,35 @@
             "vehicles": [
                 {
                     "type": "HX60 Transport Truck",
-                    "count": "3",
-                    "delay": 10,
+                    "count": "1",
+                    "delay": 6,
                     "respawnTime": 3,
                     "rawType": "BP_Brit_Util_Truck_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "HX60 Logistics Truck",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_Brit_Util_Truck_Logi_C",
+                    "icon": "map_truck_logistics"
+                },
+                {
+                    "type": "LPPV",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_LPPV_C",
+                    "icon": "map_jeep"
+                },
+                {
+                    "type": "LPPV",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_LPPV_C",
+                    "icon": "map_jeep"
                 },
                 {
                     "type": "SA330",
@@ -371,16 +395,8 @@
                     "count": "4",
                     "delay": 0,
                     "respawnTime": 1,
-                    "rawType": "BP_Minsk_black_C",
+                    "rawType": "BP_Minsk_blue_C",
                     "icon": "map_motorcycle"
-                },
-                {
-                    "type": "Technical UB-32",
-                    "count": "1",
-                    "delay": 0,
-                    "respawnTime": 6,
-                    "rawType": "BP_Technical_UB32_INS_C",
-                    "icon": "map_jeep_artillery"
                 },
                 {
                     "type": "Logistics Pickup Truck",
@@ -391,12 +407,44 @@
                     "icon": "map_jeep_logistics"
                 },
                 {
+                    "type": "Logistics Pickup Truck",
+                    "count": "3",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_Technical4Seater_Logi_C",
+                    "icon": "map_jeep_logistics"
+                },
+                {
+                    "type": "Transport Pickup Truck",
+                    "count": "3",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_Technical4Seater_Transport_C",
+                    "icon": "map_jeep_transport"
+                },
+                {
+                    "type": "Ural-375D Transport Truck",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_Ural_375_Desert_C",
+                    "icon": "map_truck_transport"
+                },
+                {
                     "type": "Technical UB-32",
                     "count": "1",
                     "delay": 0,
                     "respawnTime": 6,
                     "rawType": "BP_Technical_UB32_INS_C",
                     "icon": "map_jeep_artillery"
+                },
+                {
+                    "type": "Technical DShK Shielded",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_Technical2Seater_White_Dshk_C",
+                    "icon": "map_jeep"
                 },
                 {
                     "type": "Technical SPG-9",
@@ -407,20 +455,20 @@
                     "icon": "map_jeep_antitank"
                 },
                 {
+                    "type": "Technical Mortar",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_Technical2Seater_White_Mortar_C",
+                    "icon": "map_jeep_artillery"
+                },
+                {
                     "type": "MT-LB PKT",
                     "count": "1",
                     "delay": 0,
                     "respawnTime": 6,
                     "rawType": "BP_MTLB_INS_C",
                     "icon": "map_trackedapc"
-                },
-                {
-                    "type": "Ural-375D Transport Truck",
-                    "count": "1",
-                    "delay": 0,
-                    "respawnTime": 6,
-                    "rawType": "BP_Ural_375_Desert_C",
-                    "icon": "map_truck_transport"
                 },
                 {
                     "type": "BRDM-2",
@@ -461,7 +509,7 @@
             "setup_Name": "Omar's Freedom Fighters",
             "type": "Light Infantry",
             "shortname": "INS Cell",
-            "badge": "Unit_Insurgents",
+            "badge": "Fighters",
             "vehicles": [
                 {
                     "type": "Minsk 400",
@@ -514,7 +562,15 @@
                 },
                 {
                     "type": "Simir MG3",
-                    "count": "2",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_Safir_MG3_C",
+                    "icon": "map_jeep"
+                },
+                {
+                    "type": "Simir MG3",
+                    "count": "1",
                     "delay": 0,
                     "respawnTime": 6,
                     "rawType": "BP_Safir_MG3_C",
@@ -1038,7 +1094,7 @@
             "setup_Name": "People's Front",
             "type": "Light Infantry",
             "shortname": "MIL PF",
-            "badge": "Unit_Militia",
+            "badge": "Peoples",
             "vehicles": [
                 {
                     "type": "Technical",
@@ -1083,11 +1139,35 @@
             "vehicles": [
                 {
                     "type": "KamAZ 5350 Transport Truck",
-                    "count": "3",
-                    "delay": 10,
+                    "count": "1",
+                    "delay": 6,
                     "respawnTime": 3,
                     "rawType": "BP_Kamaz_5350_Desert_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "KamAZ 5350 Logistics Truck",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+                    "icon": "map_truck_logistics"
+                },
+                {
+                    "type": "Tigr-M Kord",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_Tigr_Desert_C",
+                    "icon": "map_jeep"
+                },
+                {
+                    "type": "Tigr-M Kord",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_Tigr_Desert_C",
+                    "icon": "map_jeep"
                 },
                 {
                     "type": "Mi-8",
@@ -1377,12 +1457,28 @@
             "badge": "504_PIR",
             "vehicles": [
                 {
+                    "type": "M939 Logistics Truck",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_US_Util_Desert_Logi_C",
+                    "icon": "map_truck_logistics"
+                },
+                {
                     "type": "M939 Transport Truck",
-                    "count": "3",
+                    "count": "1",
                     "delay": 10,
                     "respawnTime": 3,
                     "rawType": "BP_US_Util_Desert_C",
                     "icon": "map_truck_transport"
+                },
+                {
+                    "type": "M-ATV M2 HB",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 6,
+                    "rawType": "BP_MATV_C",
+                    "icon": "map_jeep"
                 },
                 {
                     "type": "UH-60M",
@@ -2389,7 +2485,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -2461,7 +2557,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -2477,7 +2573,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -2566,100 +2662,24 @@
                 }
             ],
             "team1": {
-                "faction": "British Army",
-                "teamSetupName": "British Armed Forces",
+                "faction": "",
+                "teamSetupName": "",
                 "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
-                "actions": "4",
-                "commander": "true",
-                "vehicles": [
-                    {
-                        "type": "FV510 UA",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 14,
-                        "rawType": "BP_FV510UA_C",
-                        "icon": "map_trackedifv"
-                    },
-                    {
-                        "type": "HX60 Logistics Truck",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 3,
-                        "rawType": "BP_Brit_Util_Truck_Logi_C",
-                        "icon": "map_truck_logistics"
-                    },
-                    {
-                        "type": "HX60 Logistics Truck",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 3,
-                        "rawType": "BP_Brit_Util_Truck_Logi_C",
-                        "icon": "map_truck_logistics"
-                    },
-                    {
-                        "type": "FV510 UA",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 14,
-                        "rawType": "BP_FV510UA_C",
-                        "icon": "map_trackedifv"
-                    },
-                    {
-                        "type": "FV510",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 14,
-                        "rawType": "BP_FV510_C",
-                        "icon": "map_trackedifv"
-                    },
-                    {
-                        "type": "HX60 Logistics Truck",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 3,
-                        "rawType": "BP_Brit_Util_Truck_Logi_C",
-                        "icon": "map_truck_logistics"
-                    },
-                    {
-                        "type": "LPPV",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 5,
-                        "rawType": "BP_LPPV_C",
-                        "icon": "map_jeep"
-                    },
-                    {
-                        "type": "FV432",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 6,
-                        "rawType": "BP_FV432_C",
-                        "icon": "map_trackedapc"
-                    },
-                    {
-                        "type": "HX60 Transport Truck",
-                        "count": 1,
-                        "delay": 6,
-                        "respawnTime": 3,
-                        "rawType": "BP_Brit_Util_Truck_C",
-                        "icon": "map_truck_transport"
-                    },
-                    {
-                        "type": "SA330",
-                        "count": 1,
-                        "delay": 10,
-                        "respawnTime": 6,
-                        "rawType": "BP_SA330_C",
-                        "icon": "map_transporthelo"
-                    }
-                ],
+                "actions": "0",
+                "commander": "false",
+                "FacSetup": "None",
                 "allowedAlliances": [
-                    "BLUFOR",
-                    "REDFOR",
-                    "INDEPENDENT"
+                    "BLUFOR"
+                ],
+                "factionSetups": [
+                    "Air Assault",
+                    "Motorized",
+                    "Light Infantry",
+                    "Mechanized",
+                    "Combined Arms"
                 ]
             },
             "team2": {
@@ -2693,7 +2713,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -2710,14 +2738,6 @@
                         "delay": 0,
                         "respawnTime": 0,
                         "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -2821,14 +2841,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
@@ -2837,7 +2849,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -2857,7 +2877,7 @@
             },
             "type": "Unknown",
             "Flag": [
-                "00-GB Main",
+                "00-Team1 Main",
                 "100-INS Main"
             ],
             "capturePoints": "2",
@@ -3064,14 +3084,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
@@ -3080,7 +3092,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3088,7 +3108,7 @@
                         "count": 1,
                         "delay": 6,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3096,6 +3116,22 @@
                         "count": 1,
                         "delay": 6,
                         "respawnTime": 1,
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
@@ -3105,22 +3141,6 @@
                         "delay": 0,
                         "respawnTime": 0,
                         "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3416,7 +3436,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3424,7 +3444,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3440,14 +3468,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
@@ -3456,15 +3476,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3473,6 +3485,14 @@
                         "delay": 0,
                         "respawnTime": 0,
                         "rawType": "BP_Minsk_green_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3695,7 +3715,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3703,7 +3723,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3808,7 +3828,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3816,7 +3836,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3824,7 +3844,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -3990,13 +4010,13 @@
                 "actions": "0",
                 "commander": "false",
                 "FacSetup": "None",
+                "factionSetups": [
+                    "Light Infantry"
+                ],
                 "allowedAlliances": [
                     "BLUFOR",
                     "REDFOR",
                     "INDEPENDENT"
-                ],
-                "factionSetups": [
-                    "Light Infantry"
                 ]
             },
             "team2": {
@@ -4009,13 +4029,13 @@
                 "actions": "0",
                 "commander": "false",
                 "FacSetup": "None",
-                "allowedAlliances": [
-                    "REDFOR",
-                    "BLUFOR",
-                    "INDEPENDENT"
-                ],
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -4077,7 +4097,6 @@
                 "FacSetup": "None",
                 "allowedAlliances": [
                     "BLUFOR",
-                    "REDFOR",
                     "INDEPENDENT"
                 ],
                 "factionSetups": [
@@ -4095,8 +4114,7 @@
                 "commander": "false",
                 "FacSetup": "None",
                 "allowedAlliances": [
-                    "BLUFOR",
-                    "INDEPENDENT"
+                    "REDFOR"
                 ],
                 "factionSetups": [
                     "Light Infantry"
@@ -8380,7 +8398,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -8396,7 +8414,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -8918,7 +8936,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -10236,14 +10254,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
                         "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
@@ -10252,7 +10262,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_green_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -10268,7 +10286,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -10276,7 +10294,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -10516,7 +10534,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -10532,7 +10550,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -10540,7 +10558,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -10784,14 +10802,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
                         "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
@@ -10800,7 +10810,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -11775,7 +11793,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -11783,7 +11801,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -11791,7 +11809,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -12565,14 +12583,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
@@ -12581,7 +12591,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -12963,7 +12981,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -12971,7 +12989,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -12979,7 +12997,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -12987,7 +13005,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13059,15 +13077,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13083,7 +13093,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -13445,7 +13463,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13453,7 +13471,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13525,7 +13543,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13541,7 +13559,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13549,7 +13567,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13581,7 +13599,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13902,7 +13920,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13910,7 +13928,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13918,7 +13936,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13926,7 +13944,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -13998,7 +14016,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -14022,7 +14040,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -14038,7 +14056,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -17008,23 +17026,23 @@
                         "count": 1,
                         "delay": 6,
                         "respawnTime": 1,
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 1,
                         "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 6,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 6,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -18068,7 +18086,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -18076,7 +18094,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -21409,7 +21427,7 @@
                     {
                         "type": "M1A2",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_M1A2_Woodland_C",
                         "icon": "tank"
@@ -21498,7 +21516,7 @@
                     {
                         "type": "T-72B3",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T72B3_C",
                         "icon": "tank"
@@ -23164,16 +23182,8 @@
                         "count": 4,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Technical UB-32",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 6,
-                        "rawType": "BP_Technical_UB32_INS_C",
-                        "icon": "map_jeep_artillery"
                     },
                     {
                         "type": "Logistics Pickup Truck",
@@ -23184,12 +23194,44 @@
                         "icon": "map_jeep_logistics"
                     },
                     {
+                        "type": "Logistics Pickup Truck",
+                        "count": 3,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Technical4Seater_Logi_C",
+                        "icon": "map_jeep_logistics"
+                    },
+                    {
+                        "type": "Transport Pickup Truck",
+                        "count": 3,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Technical4Seater_Transport_C",
+                        "icon": "map_jeep_transport"
+                    },
+                    {
+                        "type": "Ural-375D Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Ural_375_Desert_C",
+                        "icon": "map_truck_transport"
+                    },
+                    {
                         "type": "Technical UB-32",
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 6,
                         "rawType": "BP_Technical_UB32_INS_C",
                         "icon": "map_jeep_artillery"
+                    },
+                    {
+                        "type": "Technical DShK Shielded",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Technical2Seater_White_Dshk_C",
+                        "icon": "map_jeep"
                     },
                     {
                         "type": "Technical SPG-9",
@@ -23200,20 +23242,20 @@
                         "icon": "map_jeep_antitank"
                     },
                     {
+                        "type": "Technical Mortar",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Technical2Seater_White_Mortar_C",
+                        "icon": "map_jeep_artillery"
+                    },
+                    {
                         "type": "MT-LB PKT",
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 6,
                         "rawType": "BP_MTLB_INS_C",
                         "icon": "map_trackedapc"
-                    },
-                    {
-                        "type": "Ural-375D Transport Truck",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 6,
-                        "rawType": "BP_Ural_375_Desert_C",
-                        "icon": "map_truck_transport"
                     },
                     {
                         "type": "BRDM-2",
@@ -24034,7 +24076,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24106,6 +24148,14 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
                         "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
@@ -24114,7 +24164,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24130,15 +24180,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24154,23 +24196,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24195,6 +24221,22 @@
                         "delay": 0,
                         "respawnTime": 0,
                         "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_green_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24226,7 +24268,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24234,7 +24276,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24250,7 +24292,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -24623,7 +24665,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24695,6 +24737,22 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
                         "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
@@ -24711,30 +24769,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
@@ -24743,15 +24777,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24768,6 +24794,22 @@
                         "delay": 0,
                         "respawnTime": 0,
                         "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -24791,7 +24833,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25156,7 +25198,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25204,7 +25246,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25212,7 +25254,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25260,7 +25302,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25284,7 +25326,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25300,7 +25342,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25308,7 +25350,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25677,7 +25719,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25733,7 +25775,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25757,7 +25799,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25773,7 +25815,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -25781,7 +25823,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -26206,7 +26248,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -26270,7 +26312,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -26286,7 +26328,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -26294,7 +26336,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -26318,7 +26360,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -26334,7 +26376,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -28990,15 +29032,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -29007,6 +29041,14 @@
                         "delay": 0,
                         "respawnTime": 1,
                         "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -29135,7 +29177,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -29143,7 +29185,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -30400,6 +30442,22 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
+                        "rawType": "BP_Minsk_green_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_green_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
                         "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
@@ -30408,23 +30466,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -30456,7 +30498,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -30464,7 +30506,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -30472,7 +30514,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -30892,6 +30934,70 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
@@ -30900,71 +31006,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31028,7 +31070,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31036,7 +31078,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31060,7 +31102,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31068,7 +31110,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31475,7 +31517,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31483,7 +31525,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31491,7 +31533,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31515,7 +31557,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31523,7 +31565,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31547,7 +31589,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31555,7 +31597,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31595,7 +31637,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -31604,14 +31654,6 @@
                         "delay": 0,
                         "respawnTime": 0,
                         "rawType": "BP_minsk_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -34390,7 +34432,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -34406,7 +34456,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -34414,15 +34464,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -34446,7 +34488,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -34613,6 +34655,22 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
@@ -34622,22 +34680,6 @@
                         "delay": 0,
                         "respawnTime": 1,
                         "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -36551,23 +36593,23 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
                         "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -36599,7 +36641,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -36607,7 +36649,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -37067,7 +37109,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -37082,14 +37124,6 @@
                         "type": "Minsk 400",
                         "count": 1,
                         "delay": 6,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
                         "respawnTime": 1,
                         "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
@@ -37099,7 +37133,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -37107,7 +37149,7 @@
                         "count": 1,
                         "delay": 6,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -37155,7 +37197,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -37188,9 +37230,9 @@
                 "02-CaptureZoneCluster",
                 "03-CaptureZoneCluster",
                 "03-CaptureZoneCluster",
-                "04E-CaptureZoneCluster",
+                "",
                 "04W-CaptureZoneCluster",
-                "05E-CaptureZoneCluster",
+                "",
                 "05W-CaptureZoneCluster"
             ],
             "capturePoints": "8",
@@ -39417,31 +39459,31 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
                         "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_minsk_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -40081,7 +40123,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -40105,7 +40147,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -40730,7 +40772,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -40754,7 +40796,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -41231,6 +41273,92 @@
             "mapSizeType": "Playable Area"
         },
         {
+            "Name": "Mutaha AAS v2",
+            "rawName": "Mutaha_AAS_v2",
+            "lightingLevel": "LL_Mutaha_Sunrise",
+            "lighting": "Sunrise",
+            "border": [
+                {
+                    "x": -95528,
+                    "y": 164177,
+                    "z": 417
+                },
+                {
+                    "x": 184941,
+                    "y": 164092,
+                    "z": 417
+                },
+                {
+                    "x": 184951,
+                    "y": -116800,
+                    "z": 417
+                },
+                {
+                    "x": -95484,
+                    "y": -116800,
+                    "z": 417
+                },
+                {
+                    "x": -95528,
+                    "y": 164177,
+                    "z": 417
+                }
+            ],
+            "team1": {
+                "faction": "",
+                "teamSetupName": "",
+                "tickets": "300",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "0",
+                "commander": "false",
+                "FacSetup": "None",
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
+                ],
+                "factionSetups": [
+                    "Motorized"
+                ]
+            },
+            "team2": {
+                "faction": "",
+                "teamSetupName": "",
+                "tickets": "300",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "0",
+                "commander": "false",
+                "FacSetup": "None",
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
+                ],
+                "factionSetups": [
+                    "Motorized"
+                ]
+            },
+            "type": "AAS Graph",
+            "Flag": [
+                "01-Compound",
+                "02 - Riverview",
+                "03- Intersection",
+                "04-South District",
+                "05- East Checkpoint",
+                "06- Outskirts"
+            ],
+            "capturePoints": "6",
+            "mapName": "Mutaha",
+            "gamemode": "AAS",
+            "layerVersion": "v2",
+            "mapSize": "2.8x2.8 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
             "Name": "Mutaha Invasion v1",
             "rawName": "Mutaha_Invasion_v1",
             "lightingLevel": "LL_Mutaha_Moonlit",
@@ -41446,14 +41574,6 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
                         "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
@@ -41462,7 +41582,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -41470,7 +41590,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -41502,7 +41630,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -41518,7 +41646,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -46196,7 +46324,7 @@
                     {
                         "type": "T-62",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T62_MIL_C",
                         "icon": "tank"
@@ -47886,7 +48014,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -47902,7 +48030,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -48021,7 +48149,7 @@
                         "count": 4,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -49764,7 +49892,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -49772,7 +49900,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -49796,7 +49924,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 0,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -51479,7 +51607,15 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
+                        "icon": "map_motorcycle"
+                    },
+                    {
+                        "type": "Minsk 400",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 1,
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -51496,14 +51632,6 @@
                         "delay": 0,
                         "respawnTime": 1,
                         "rawType": "BP_Minsk_green_C",
-                        "icon": "map_motorcycle"
-                    },
-                    {
-                        "type": "Minsk 400",
-                        "count": 1,
-                        "delay": 0,
-                        "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -51616,7 +51744,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -51632,7 +51760,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -51640,7 +51768,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -51648,7 +51776,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -52334,7 +52462,7 @@
                         "count": 1,
                         "delay": 10,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_C",
+                        "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     },
                     {
@@ -52342,7 +52470,7 @@
                         "count": 3,
                         "delay": 0,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_Logi_C",
+                        "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     },
                     {
@@ -52350,7 +52478,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 6,
-                        "rawType": "BP_MATV_Woodland_C",
+                        "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     },
                     {
@@ -52358,7 +52486,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 10,
-                        "rawType": "BP_M1126_Woodland_C",
+                        "rawType": "BP_M1126_C",
                         "icon": "apc"
                     },
                     {
@@ -52366,7 +52494,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 15,
-                        "rawType": "BP_BFV_Woodland_C",
+                        "rawType": "BP_BFV_C",
                         "icon": "map_trackedifv"
                     },
                     {
@@ -52374,7 +52502,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 20,
-                        "rawType": "BP_M1A2_Woodland_C",
+                        "rawType": "BP_M1A2_C",
                         "icon": "tank"
                     },
                     {
@@ -52407,7 +52535,7 @@
                         "count": 1,
                         "delay": 10,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_C",
+                        "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     },
                     {
@@ -52415,7 +52543,7 @@
                         "count": 3,
                         "delay": 0,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_Logi_C",
+                        "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     },
                     {
@@ -52423,7 +52551,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 6,
-                        "rawType": "BP_MATV_Woodland_C",
+                        "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     },
                     {
@@ -52431,7 +52559,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 10,
-                        "rawType": "BP_M1126_Woodland_C",
+                        "rawType": "BP_M1126_C",
                         "icon": "apc"
                     },
                     {
@@ -52439,7 +52567,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 15,
-                        "rawType": "BP_BFV_Woodland_C",
+                        "rawType": "BP_BFV_C",
                         "icon": "map_trackedifv"
                     },
                     {
@@ -52447,7 +52575,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 20,
-                        "rawType": "BP_M1A2_Woodland_C",
+                        "rawType": "BP_M1A2_C",
                         "icon": "tank"
                     },
                     {
@@ -52506,7 +52634,7 @@
                         "count": 1,
                         "delay": 10,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_C",
+                        "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     },
                     {
@@ -52514,7 +52642,7 @@
                         "count": 3,
                         "delay": 0,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_Logi_C",
+                        "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     },
                     {
@@ -52522,7 +52650,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 6,
-                        "rawType": "BP_MATV_Woodland_C",
+                        "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     },
                     {
@@ -52530,7 +52658,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 10,
-                        "rawType": "BP_M1126_Woodland_C",
+                        "rawType": "BP_M1126_C",
                         "icon": "apc"
                     },
                     {
@@ -52538,7 +52666,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 15,
-                        "rawType": "BP_BFV_Woodland_C",
+                        "rawType": "BP_BFV_C",
                         "icon": "map_trackedifv"
                     },
                     {
@@ -52546,7 +52674,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 20,
-                        "rawType": "BP_M1A2_Woodland_C",
+                        "rawType": "BP_M1A2_C",
                         "icon": "tank"
                     },
                     {
@@ -52579,7 +52707,7 @@
                         "count": 1,
                         "delay": 10,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_C",
+                        "rawType": "BP_US_Util_Desert_C",
                         "icon": "map_truck_transport"
                     },
                     {
@@ -52587,7 +52715,7 @@
                         "count": 3,
                         "delay": 0,
                         "respawnTime": 3,
-                        "rawType": "BP_US_Util_Woodland_Logi_C",
+                        "rawType": "BP_US_Util_Desert_Logi_C",
                         "icon": "map_truck_logistics"
                     },
                     {
@@ -52595,7 +52723,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 6,
-                        "rawType": "BP_MATV_Woodland_C",
+                        "rawType": "BP_MATV_C",
                         "icon": "map_jeep"
                     },
                     {
@@ -52603,7 +52731,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 10,
-                        "rawType": "BP_M1126_Woodland_C",
+                        "rawType": "BP_M1126_C",
                         "icon": "apc"
                     },
                     {
@@ -52611,7 +52739,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 15,
-                        "rawType": "BP_BFV_Woodland_C",
+                        "rawType": "BP_BFV_C",
                         "icon": "map_trackedifv"
                     },
                     {
@@ -52619,7 +52747,7 @@
                         "count": 2,
                         "delay": 0,
                         "respawnTime": 20,
-                        "rawType": "BP_M1A2_Woodland_C",
+                        "rawType": "BP_M1A2_C",
                         "icon": "tank"
                     },
                     {
@@ -53671,7 +53799,7 @@
                     {
                         "type": "T-62",
                         "count": 1,
-                        "delay": 10,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T62_MIL_C",
                         "icon": "tank"
@@ -54160,7 +54288,7 @@
                     {
                         "type": "M1A2",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_M1A2_Woodland_C",
                         "icon": "tank"
@@ -56460,7 +56588,7 @@
                         "count": 5,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_black_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -56524,7 +56652,7 @@
                         "count": 3,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_green_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -59054,7 +59182,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -59062,7 +59190,7 @@
                         "count": 1,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_green_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -59413,7 +59541,7 @@
                     {
                         "type": "Leopard 2A6M CAN",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_2A6_Desert_C",
                         "icon": "map_tank"
@@ -59421,7 +59549,7 @@
                     {
                         "type": "Leopard 2A6M CAN",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_2A6_Desert_C",
                         "icon": "map_tank"
@@ -59486,7 +59614,7 @@
                     {
                         "type": "T-72S",
                         "count": 2,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T72AV_MEA_C",
                         "icon": "tank"
@@ -61231,7 +61359,7 @@
                     {
                         "type": "T-62",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T62_MIL_C",
                         "icon": "tank"
@@ -63042,7 +63170,7 @@
                         "count": 4,
                         "delay": 0,
                         "respawnTime": 3,
-                        "rawType": "BP_minsk_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     },
                     {
@@ -64236,7 +64364,7 @@
                         "count": 8,
                         "delay": 0,
                         "respawnTime": 10,
-                        "rawType": "BP_Minsk_black_C",
+                        "rawType": "BP_Minsk_blue_C",
                         "icon": "map_motorcycle"
                     }
                 ],
@@ -64854,9 +64982,9 @@
                 "03-BP_CaptureZoneCluster",
                 "03-BP_CaptureZoneCluster",
                 "04E-BP_CaptureZoneCluster",
-                "04W-BP_CaptureZoneCluster",
+                "",
                 "05E-BP_CaptureZoneCluster",
-                "05W-BP_CaptureZoneCluster"
+                ""
             ],
             "capturePoints": "8",
             "mapName": "CAF Lashkar Valley",
@@ -65573,13 +65701,13 @@
                         "count": 4,
                         "delay": 0,
                         "respawnTime": 1,
-                        "rawType": "BP_Minsk_blue_C",
+                        "rawType": "BP_minsk_C",
                         "icon": "map_motorcycle"
                     },
                     {
                         "type": "T-62",
                         "count": 2,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T62_C",
                         "icon": "tank"
@@ -66514,7 +66642,7 @@
                     {
                         "type": "T-62",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T62_MIL_C",
                         "icon": "tank"
@@ -67296,7 +67424,7 @@
                     {
                         "type": "T-62",
                         "count": 1,
-                        "delay": 20,
+                        "delay": 15,
                         "respawnTime": 20,
                         "rawType": "BP_T62_MIL_C",
                         "icon": "tank"
@@ -70536,7 +70664,7 @@
                 }
             ],
             "team1": {
-                "faction": "",
+                "faction": "Canadian Army",
                 "teamSetupName": "CAF Battlegroup",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -70593,7 +70721,7 @@
                 ]
             },
             "team2": {
-                "faction": "",
+                "faction": "Middle Eastern Alliance",
                 "teamSetupName": "MEA Combined Arms Battalion",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -72058,7 +72186,6 @@
             },
             "type": "TC Hex Zone",
             "Number of Hexes": "67",
-            "capturePoints": "67",
             "mapSize": "5.0x5.0 km",
             "mapSizeType": "Playable Area"
         }
