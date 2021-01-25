@@ -3957,6 +3957,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -3971,6 +3976,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -17303,6 +17313,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -17317,6 +17332,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -21672,6 +21692,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -21686,6 +21711,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -27570,6 +27600,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -27584,6 +27619,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -32739,6 +32779,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -32753,6 +32798,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -34248,6 +34298,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -34262,6 +34317,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -36881,6 +36941,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -36895,6 +36960,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -38676,6 +38746,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -38690,6 +38765,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -39726,6 +39806,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -39740,6 +39825,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -40814,6 +40904,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -40828,6 +40923,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -42715,6 +42815,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -42729,6 +42834,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -45437,6 +45547,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -45451,6 +45566,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -47064,6 +47184,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -47078,6 +47203,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -49741,6 +49871,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -49755,6 +49890,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -49847,6 +49987,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -49861,6 +50006,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -53845,6 +53995,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -53859,6 +54014,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -53905,6 +54065,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -53919,6 +54084,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -53993,6 +54163,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -54007,6 +54182,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -65884,6 +66064,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -65898,6 +66083,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
@@ -65959,6 +66149,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "team2": {
@@ -65973,6 +66168,11 @@
                 "FacSetup": "None",
                 "factionSetups": [
                     "Light Infantry"
+                ],
+                "allowedAlliances": [
+                    "BLUFOR",
+                    "REDFOR",
+                    "INDEPENDENT"
                 ]
             },
             "type": "AAS Graph",
