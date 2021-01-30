@@ -34,11 +34,31 @@ module.exports = {
     wikiformat: async() => {
         console.log("Setting up each layer into the correct data format...");
         let MapLayers = {}
+        let finisheddivisions = []
+        // Loop through each division and create an object with the data we will need in a format similar to the cargo tables.
+        await asyncForEach(convertedJson.Setups, async(division) => {
+            if(finisheddivisions[division.faction] == undefined) finisheddivisions[division.faction] = []
+            let tempdivision = {
+                faction: division.faction, type: division.type, name: division.name, longname: division.longName, badge: division.badge, info: ""
+            }
 
-        // Loop through each map and create an object with the data we will need in a format similar to the cargo tables.
+            finaldivision = {}
+            finaldivision.division = tempdivision
+            finaldivision.vehicles = []
+
+            await asyncForEach(division.vehicles, async(vehicle) => {
+                let tempVeh = {
+                    faction: division.faction, divisionname: division.name, vehicle: vehicle.Name, vehicledisplayname: vehicle.DisplayName,
+                    count: vehicle.Count, delay: vehicle.Delay , icon: vehicle.icon
+                }
+                finaldivision.vehicles.push(tempVeh)
+            })
+            finisheddivisions[division.faction].push(finaldivision)
+            
+        })
         await asyncForEach(convertedJson.Maps, async(layer) => {
             //--------------------------
-            //- Setup Map Layers Table -
+            //- division Map Layers Table -
             //--------------------------
 
             let gamemodeinfo = await findGamemode(layer.Name)
@@ -55,44 +75,46 @@ module.exports = {
             tempMapLayer.MapPage = MapPage
             tempMapLayer.GameMode = gamemodeinfo.gamemode
             tempMapLayer.LayerVersion = LayerVersion
-            tempMapLayer.Team1Faction = layer.Team1.Faction
-            tempMapLayer.Team1Tickets = layer.Team1.Tickets
-            tempMapLayer.Team2Faction = layer.Team2.Faction
-            tempMapLayer.Team2Tickets = layer.Team2.Tickets
+            tempMapLayer.Team1Faction = layer.team1.faction
+            tempMapLayer.Team1Tickets = layer.team1.tickets
+            tempMapLayer.Team2Faction = layer.team2.faction
+            tempMapLayer.Team2Tickets = layer.team2.tickets
             tempMapLayer.CapturePoints = layer.CapturePoints
 
 
 
             //------------------------------
-            //- Setup Vehicle Assets Table -
+            //- division Vehicle Assets Table -
             //------------------------------
 
             let tempVehicleAssets = []
 
-            await asyncForEach(layer.Team1.Vehicles, (vehicle) => {
+            await asyncForEach(layer.team1.vehicles, (vehicle) => {
                 let tempVehicleAsset = {}
                 tempVehicleAsset.MapPage = MapPage
                 tempVehicleAsset.GameMode = gamemodeinfo.gamemode
                 tempVehicleAsset.LayerVersion = LayerVersion
-                tempVehicleAsset.TeamFaction = layer.Team1.Faction
+                tempVehicleAsset.TeamFaction = layer.team1.faction
                 tempVehicleAsset.Vehicle = vehicle.Name
                 tempVehicleAsset.VehicleDisplayName = vehicle.DisplayName
                 tempVehicleAsset.Count = vehicle.Count
                 tempVehicleAsset.Delay = vehicle.Delay
+                tempVehicleAsset.icon = vehicle.icon
 
                 tempVehicleAssets.push(tempVehicleAsset)
             })
 
-            await asyncForEach(layer.Team2.Vehicles, (vehicle) => {
+            await asyncForEach(layer.team2.vehicles, (vehicle) => {
                 let tempVehicleAsset = {}
                 tempVehicleAsset.MapPage = MapPage
                 tempVehicleAsset.GameMode = gamemodeinfo.gamemode
                 tempVehicleAsset.LayerVersion = LayerVersion
-                tempVehicleAsset.TeamFaction = layer.Team2.Faction
+                tempVehicleAsset.TeamFaction = layer.team2.faction
                 tempVehicleAsset.Vehicle = vehicle.Name
                 tempVehicleAsset.VehicleDisplayName = vehicle.DisplayName
                 tempVehicleAsset.Count = vehicle.Count
                 tempVehicleAsset.Delay = vehicle.Delay
+                tempVehicleAsset.icon = vehicle.icon
 
                 tempVehicleAssets.push(tempVehicleAsset)
             })
@@ -104,8 +126,11 @@ module.exports = {
             if(MapLayers[MapPage] === undefined) MapLayers[MapPage] = []
             MapLayers[MapPage].push(MapLayer)
         })
-
-        return MapLayers
+        let object = {
+            MapLayers: MapLayers,
+            finisheddivisions: finisheddivisions
+        }
+        return object
     }
 }
 
@@ -121,11 +146,11 @@ module.exports = {
                 var mapName = map.Name.substring(0, gameLocation - 1)
                 var version = map.Name.substring(gameLocation + gamemode.length + 1, map.Name.length);
 
-                var Team1Faction = map.Team1.Faction;
-                var Team1Tickets = map.Team1.Tickets;
+                var Team1Faction = map.team1.faction;
+                var Team1Tickets = map.team1.tickets;
 
-                var Team2Faction = map.Team2.Faction;
-                var Team2Tickets = map.Team2.Tickets;
+                var Team2Faction = map.team2.faction;
+                var Team2Tickets = map.team2.tickets;
                 console.log(version);
             });
         });

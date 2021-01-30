@@ -10,6 +10,7 @@ const async = require('async')
 
 const wiki = require('./wiki');
 const json = require('./json');
+const { wikiformat } = require('./json/json');
 var cookieJar = request.jar()
 
 var url = "https://squad.gamepedia.com/api.php"
@@ -25,10 +26,13 @@ require.extensions['.txt'] = function (module, filename) {
 };
 
 const main = async() => {
-    let MapLayers = await json.json.wikiformat()
+    let WikiFormat = await json.json.wikiformat()
+    let MapLayers = WikiFormat.MapLayers
 
     // Log the object we created in a JSON format
     fs.writeFileSync('./files/output/debug/MapLayers.json', JSON.stringify(MapLayers, null, 4))
+
+    fs.writeFileSync('./files/output/debug/divisions.json', WikiFormat.finisheddivisions.toString())
 
     // Generate a login token
     wiki.tokens.generatelogintoken(cookieJar, (cookieJar2, logintoken) => {
@@ -59,7 +63,6 @@ const main = async() => {
                     // Loop through each layer, and each vehicle and then save that to the wiki.
                     for (var mapKey in MapLayers) {
                         let map = MapLayers[mapKey]
-                        console.log(map)
                         let tempData = ""
 
                         await asyncForEach(map, async(layer) => {
@@ -79,7 +82,6 @@ const main = async() => {
                             tempData += text 
                                 + `\n\n\n\n\n`
                 
-
                             await asyncForEach(layer.VehicleAssets, async(vehicle) => {
 
                                 tempData +=`{{#cargo_store:\n`
@@ -92,55 +94,54 @@ const main = async() => {
                                     +  `|vehicledisplayname= ${vehicle.VehicleDisplayName}\n`
                                     +  `|count= ${vehicle.Count}\n`
                                     +  `|delay= ${vehicle.Delay}\n`
+                                    +  `|icon= ${vehicle.icon}`
                                     +  `}}\n`
                             })
 
-                            tempData += "\n\n\n [[Category:Cargo_Map_Data]]"
+                            tempData += "\n\n\n [[Category:Cargo_Map_Data]]\n\n\n"
                         })
 
                         fs.appendFileSync('./files/output/debug/CargoDebug.txt', tempData)
-                        let params = {
-                            action: "edit",
-                            title: `Data:${map[0].MapLayerInfo.MapPage}`,
-                            summary: `Updated Data Pages to ${VERSION}. Bot Action.`,
-                            text: tempData,
-                            bot: true,
-                            token: csrftoken
-                        }
+                        //wikiUpload(map[0].MapLayerInfo.MapPage, tempData, csrftoken)
+                    }
+                    for(var divisionKey in WikiFormat.finisheddivisions) {
+                        let faction = WikiFormat.finisheddivisions[divisionKey]
+                        let tempData = ``
 
-                        request.post(
-                            {
-                                uri: url,
-                                jar: cookieJar,
-                                form: params
-                            },
-                            function(err, response, body){
-                                fs.writeFile("./files/output/debug/error.json",JSON.stringify(response.body, null,4), function(err){} );
-                            }
-                        ) 
-                        
-                        let paramspurge = {
-                            action: "purge",
-                            titles: `${map[0].MapLayerInfo.MapPage}`,
-                            bot: true,
-                            token: csrftoken
-                        }
+                        await asyncForEach(faction, async(divisionobject) =>{
+                            division = divisionobject.division
 
-                        setTimeout(() => {
-                            request.post(
-                                {
-                                    uri: url,
-                                    jar: cookieJar,
-                                    form: paramspurge
-                                },
-                                (err, response, body) => {
-    
-                                },
-                            )
-                        }, 10000)
-
+                            tempData += ``
+                            + `{{#cargo_store:\n`
+                            + `_table= divisions\n`
+                            + `|faction= ${division.faction}\n`
+                            + `|type= ${division.type}\n`
+                            + `|name= ${division.name}\n`
+                            + `|longname= ${division.longname}\n`
+                            + `|badge= ${division.badge}\n`
+                            + `|info= ${division.info}\n`
+                            + `}}\n\n\n\n\n\n`
+                            await asyncForEach(divisionobject.vehicles, async(vehicle) => {
+                                tempData +=``
+                                + `{{#cargo_store:\n`
+                                + `_table= division_vehicle_assets\n`
+                                + `|faction= ${vehicle.faction}\n`
+                                + `|divisionname= ${vehicle.divisionname}\n`
+                                + `|vehicle= ${vehicle.vehicle}\n`
+                                + `|vehicledisplayname= ${vehicle.vehicledisplayname}\n`
+                                + `|count= ${vehicle.count}\n`
+                                + `|delay= ${vehicle.delay}\n`
+                                + `|icon= ${vehicle.icon}\n`
+                                + `}}\n`
+                            })
+                        })
+                        tempData += `\n\n\n [[Category:Cargo_Division_Data]]\n\n\n`
+                        fs.appendFileSync('./files/output/debug/CargoDebug.txt', tempData)
+                        await wikiUpload(division.faction, tempData, csrftoken)
                     }
                 })
+
+
             }
             
         )
@@ -148,4 +149,49 @@ const main = async() => {
     })  
 }
 
+
+const wikiUpload = async(pageName, data, csrftoken) => {
+    let params = {
+            action: "edit",
+            title: `Data:${pageName}`,
+            summary: `Updated Data Pages to ${VERSION}. Bot Action.`,
+            text: data,
+            bot: true,
+            token: csrftoken,
+            format: JSON
+        }
+
+        request.post(
+            {
+                uri: url,
+                jar: cookieJar,
+                form: params
+            },
+            function(err, response, body){
+                fs.writeFile("./files/output/debug/error.json",JSON.stringify(response.body, null,4), function(err){} );
+            }
+        ) 
+        
+        let paramspurge = {
+            action: "purge",
+            titles: `${pageName}`,
+            bot: true,
+            token: csrftoken
+        }
+
+        setTimeout(() => {
+            request.post(
+                {
+                    uri: url,
+                    jar: cookieJar,
+                    form: paramspurge
+                },
+                (err, response, body) => {
+
+                },
+            )
+        }, 10000)
+
+}
 main()
+
