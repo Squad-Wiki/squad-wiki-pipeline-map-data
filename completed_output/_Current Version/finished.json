@@ -2059,7 +2059,7 @@
         {
             "Name": "Al Basrah AAS v1",
             "rawName": "AlBasrah_AAS_v1",
-            "levelName": ": Albasrah_AAS_v1",
+            "levelName": "Albasrah_AAS_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -2338,7 +2338,7 @@
         {
             "Name": "Al Basrah AAS v2",
             "rawName": "AlBasrah_AAS_v2",
-            "levelName": ": Albasrah_AAS_v2",
+            "levelName": "Albasrah_AAS_v2",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -2609,7 +2609,7 @@
         {
             "Name": "Al Basrah Insurgency v1",
             "rawName": "AlBasrah_Insurgency_v1",
-            "levelName": ": Albasrah_Insurgency_v1",
+            "levelName": "Albasrah_Insurgency_v1",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
             "border": [
@@ -2923,7 +2923,7 @@
         {
             "Name": "Al Basrah Invasion v1",
             "rawName": "AlBasrah_Invasion_v1",
-            "levelName": ": Albasrah_invasion_v1",
+            "levelName": "Albasrah_invasion_v1",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
             "border": [
@@ -3258,7 +3258,7 @@
         {
             "Name": "Al Basrah Invasion v2",
             "rawName": "AlBasrah_Invasion_v2",
-            "levelName": ": Albasrah_invasion_v2",
+            "levelName": "Albasrah_invasion_v2",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -3609,7 +3609,7 @@
         {
             "Name": "Al Basrah RAAS v1",
             "rawName": "AlBasrah_RAAS_v1",
-            "levelName": ": Albasrah_RAAS_v1",
+            "levelName": "Albasrah_RAAS_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -3937,7 +3937,7 @@
         {
             "Name": "Al Basrah Skirmish v1",
             "rawName": "AlBasrah_Skirmish_v1",
-            "levelName": ": Albasrah_Skirmish_v1",
+            "levelName": "Albasrah_Skirmish_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -4105,7 +4105,7 @@
         {
             "Name": "Al Basrah Skirmish v2",
             "rawName": "AlBasrah_Skirmish_v2",
-            "levelName": ": Albasrah_Skirmish_v2",
+            "levelName": "Albasrah_Skirmish_v2",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
             "border": [
@@ -4240,7 +4240,7 @@
         {
             "Name": "Al Basrah TA v1",
             "rawName": "AlBasrah_TA_v1",
-            "levelName": ": Albasrah_TA_v1",
+            "levelName": "Albasrah_TA_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -4330,7 +4330,7 @@
         {
             "Name": "Al Basrah TC v1",
             "rawName": "AlBasrah_TC_v1",
-            "levelName": ": Albasrah_TC_v1",
+            "levelName": "Albasrah_TC_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -4569,7 +4569,7 @@
         {
             "Name": "Al Basrah TC v2",
             "rawName": "AlBasrah_TC_v2",
-            "levelName": ": Albasrah_TC_v2",
+            "levelName": "Albasrah_TC_v2",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
             "border": [
@@ -4808,7 +4808,7 @@
         {
             "Name": "Belaya AAS v1",
             "rawName": "Belaya_AAS_v1",
-            "levelName": ": Belaya_AAS_v1",
+            "levelName": "Belaya_AAS_v1",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -5312,7 +5312,7 @@
         {
             "Name": "Belaya AAS v2",
             "rawName": "Belaya_AAS_v2",
-            "levelName": ": Belaya_AAS_v2",
+            "levelName": "Belaya_AAS_v2",
             "lightingLevel": "LL_Belaya_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -5810,7 +5810,7 @@
         {
             "Name": "Belaya Invasion v1",
             "rawName": "Belaya_Invasion_v1",
-            "levelName": ": Belaya_Invasion_v1",
+            "levelName": "Belaya_Invasion_v1",
             "lightingLevel": "LL_Belaya_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -6347,7 +6347,7 @@
         {
             "Name": "Belaya Invasion v2",
             "rawName": "Belaya_Invasion_v2",
-            "levelName": ": Belaya_Invasion_v2",
+            "levelName": "Belaya_Invasion_v2",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -6868,7 +6868,7 @@
         {
             "Name": "Belaya Invasion v3",
             "rawName": "Belaya_Invasion_v3",
-            "levelName": ": Belaya_Invasion_v3",
+            "levelName": "Belaya_Invasion_v3",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -7396,7 +7396,7 @@
         {
             "Name": "Belaya RAAS v1",
             "rawName": "Belaya_RAAS_v1",
-            "levelName": ": Belaya_RAAS_v1",
+            "levelName": "Belaya_RAAS_v1",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -7927,7 +7927,7 @@
         {
             "Name": "Belaya RAAS v2",
             "rawName": "Belaya_RAAS_v2",
-            "levelName": ": Belaya_RAAS_v2",
+            "levelName": "Belaya_RAAS_v2",
             "lightingLevel": "LL_Belaya_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -8472,7 +8472,7 @@
         {
             "Name": "Belaya RAAS v3",
             "rawName": "Belaya_RAAS_v3",
-            "levelName": ": Belaya_RAAS_v3",
+            "levelName": "Belaya_RAAS_v3",
             "lightingLevel": "LL_Belaya_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -9017,7 +9017,7 @@
         {
             "Name": "Belaya Skirmish v1",
             "rawName": "Belaya_Skirmish_v1",
-            "levelName": ": Belaya_Skirmish_v1",
+            "levelName": "Belaya_Skirmish_v1",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -9207,7 +9207,7 @@
         {
             "Name": "Belaya TC v1",
             "rawName": "Belaya_TC_v1",
-            "levelName": ": Belaya_TC_v1",
+            "levelName": "Belaya_TC_v1",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -9713,7 +9713,7 @@
         {
             "Name": "Chora AAS v1",
             "rawName": "Chora_AAS_v1",
-            "levelName": ": Chora_AAS_v1",
+            "levelName": "Chora_AAS_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -9899,7 +9899,7 @@
         {
             "Name": "Chora AAS v2",
             "rawName": "Chora_AAS_v2",
-            "levelName": ": Chora_AAS_v2",
+            "levelName": "Chora_AAS_v2",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -10076,7 +10076,7 @@
         {
             "Name": "Chora Insurgency v1",
             "rawName": "Chora_Insurgency_v1",
-            "levelName": ": Chora_Insurgency_v1",
+            "levelName": "Chora_Insurgency_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -10331,7 +10331,7 @@
         {
             "Name": "Chora Invasion v1",
             "rawName": "Chora_Invasion_v1",
-            "levelName": ": Chora_Invasion_v1",
+            "levelName": "Chora_Invasion_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -10590,7 +10590,7 @@
         {
             "Name": "Chora Invasion v2",
             "rawName": "Chora_Invasion_v2",
-            "levelName": ": Chora_Invasion_v2",
+            "levelName": "Chora_Invasion_v2",
             "lightingLevel": "LL_Chora_Dawn",
             "lighting": "Early Dawn (Dark)",
             "border": [
@@ -10849,7 +10849,7 @@
         {
             "Name": "Chora RAAS v1",
             "rawName": "Chora_RAAS_v1",
-            "levelName": ": Chora_RAAS_v1",
+            "levelName": "Chora_RAAS_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -11056,7 +11056,7 @@
         {
             "Name": "Chora RAAS v2",
             "rawName": "Chora_RAAS_v2",
-            "levelName": ": Chora_RAAS_v2",
+            "levelName": "Chora_RAAS_v2",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -11226,7 +11226,7 @@
         {
             "Name": "Chora Skirmish v1",
             "rawName": "Chora_Skirmish_v1",
-            "levelName": ": Chora_Skirmish_v1",
+            "levelName": "Chora_Skirmish_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -11330,7 +11330,7 @@
         {
             "Name": "Chora TC v1",
             "rawName": "Chora_TC_v1",
-            "levelName": ": Chora_TC_v1",
+            "levelName": "Chora_TC_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -11493,7 +11493,7 @@
         {
             "Name": "Fallujah AAS v1",
             "rawName": "Fallujah_AAS_v1",
-            "levelName": ": Fallujah_AAS_v1",
+            "levelName": "Fallujah_AAS_v1",
             "lightingLevel": "LL_Fallujah_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -11887,7 +11887,7 @@
         {
             "Name": "Fallujah AAS v2",
             "rawName": "Fallujah_AAS_v2",
-            "levelName": ": Fallujah_AAS_v2",
+            "levelName": "Fallujah_AAS_v2",
             "lightingLevel": "LL_Fallujah_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -12265,7 +12265,7 @@
         {
             "Name": "Fallujah Insurgency v1",
             "rawName": "Fallujah_Insurgency_v1",
-            "levelName": ": Fallujah_Insurgency_v1",
+            "levelName": "Fallujah_Insurgency_v1",
             "lightingLevel": "LL_Fallujah_MidDay2",
             "lighting": "Dusty Mid Day",
             "border": [
@@ -12662,7 +12662,7 @@
         {
             "Name": "Fallujah Invasion v1",
             "rawName": "Fallujah_Invasion_v1",
-            "levelName": ": Fallujah_Invasion_v1",
+            "levelName": "Fallujah_Invasion_v1",
             "lightingLevel": "LL_Fallujah_MidDay2",
             "lighting": "Dusty Mid Day",
             "border": [
@@ -13087,7 +13087,7 @@
         {
             "Name": "Fallujah Invasion v2",
             "rawName": "Fallujah_Invasion_v2",
-            "levelName": ": Fallujah_Invasion_v2",
+            "levelName": "Fallujah_Invasion_v2",
             "lightingLevel": "LL_Fallujah_MidDay2",
             "lighting": "Dusty Mid Day",
             "border": [
@@ -13583,7 +13583,7 @@
         {
             "Name": "Fallujah Invasion v3",
             "rawName": "Fallujah_Invasion_v3",
-            "levelName": ": Fallujah_Invasion_v3",
+            "levelName": "Fallujah_Invasion_v3",
             "lightingLevel": "LL_Fallujah_MidDay2",
             "lighting": "Dusty Mid Day",
             "border": [
@@ -14023,7 +14023,7 @@
         {
             "Name": "Fallujah RAAS v1",
             "rawName": "Fallujah_RAAS_v1",
-            "levelName": ": Fallujah_RAAS_v1",
+            "levelName": "Fallujah_RAAS_v1",
             "lightingLevel": "LL_Fallujah_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -14364,7 +14364,7 @@
         {
             "Name": "Fallujah RAAS v2",
             "rawName": "Fallujah_RAAS_v2",
-            "levelName": ": Fallujah_RAAS_v2",
+            "levelName": "Fallujah_RAAS_v2",
             "lightingLevel": "LL_Fallujah_Morning",
             "lighting": "Clear Morning",
             "border": [
@@ -14743,7 +14743,7 @@
         {
             "Name": "Fallujah RAAS v3",
             "rawName": "Fallujah_RAAS_v3",
-            "levelName": ": Fallujah_RAAS_v3",
+            "levelName": "Fallujah_RAAS_v3",
             "lightingLevel": "LL_Fallujah_Morning",
             "lighting": "Clear Morning",
             "border": [
@@ -15138,7 +15138,7 @@
         {
             "Name": "Fallujah Skirmish v1",
             "rawName": "Fallujah_Skirmish_v1",
-            "levelName": ": Fallujah_Skirmish_v1",
+            "levelName": "Fallujah_Skirmish_v1",
             "lightingLevel": "LL_Fallujah_Night",
             "lighting": "Clear Night",
             "border": [
@@ -15311,7 +15311,7 @@
         {
             "Name": "Fallujah Skirmish v2",
             "rawName": "Fallujah_Skirmish_v2",
-            "levelName": ": Fallujah_Skirmish_v2",
+            "levelName": "Fallujah_Skirmish_v2",
             "lightingLevel": "LL_Fallujah_Sandstorm",
             "lighting": "Sand Storm Mid Day",
             "border": [
@@ -15559,7 +15559,7 @@
         {
             "Name": "Fallujah TC v1",
             "rawName": "Fallujah_TC_v1",
-            "levelName": ": Fallujah_TC_v1",
+            "levelName": "Fallujah_TC_v1",
             "lightingLevel": "LL_Fallujah_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -15889,7 +15889,7 @@
         {
             "Name": "Fallujah TC v2",
             "rawName": "Fallujah_TC_v2",
-            "levelName": ": Fallujah_TC_v2",
+            "levelName": "Fallujah_TC_v2",
             "lightingLevel": "LL_Fallujah_Sandstorm",
             "lighting": "Sand Storm Mid Day",
             "border": [
@@ -16219,7 +16219,7 @@
         {
             "Name": "Fool's Road AAS v1",
             "rawName": "FoolsRoad_AAS_v1",
-            "levelName": ": Fools_Road_AAS_v1",
+            "levelName": "Fools_Road_AAS_v1",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -16404,7 +16404,7 @@
         {
             "Name": "Fool's Road AAS v2",
             "rawName": "FoolsRoad_AAS_v2",
-            "levelName": ": Fools_Road_AAS_v2",
+            "levelName": "Fools_Road_AAS_v2",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -16591,7 +16591,7 @@
         {
             "Name": "Fool's Road Destruction v1",
             "rawName": "FoolsRoad_Destruction_v1",
-            "levelName": ": Fools_Road_Destruction_v1",
+            "levelName": "Fools_Road_Destruction_v1",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -16805,7 +16805,7 @@
         {
             "Name": "Fool's Road Invasion v1",
             "rawName": "FoolsRoad_Invasion_1",
-            "levelName": ": Fools_Road_Invasion_v1",
+            "levelName": "Fools_Road_Invasion_v1",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -17038,7 +17038,7 @@
         {
             "Name": "Fool's Road RAAS v1",
             "rawName": "FoolsRoad_RAAS_v1",
-            "levelName": ": Fools_Road_RAAS_v1",
+            "levelName": "Fools_Road_RAAS_v1",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -17250,7 +17250,7 @@
         {
             "Name": "Fool's Road RAAS v2",
             "rawName": "FoolsRoad_RAAS_v2",
-            "levelName": ": Fools_Road_RAAS_v2",
+            "levelName": "Fools_Road_RAAS_v2",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -17436,7 +17436,7 @@
         {
             "Name": "Fool's Road RAAS v3",
             "rawName": "FoolsRoad_RAAS_v3",
-            "levelName": ": Fools_Road_RAAS_v3",
+            "levelName": "Fools_Road_RAAS_v3",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -17639,7 +17639,7 @@
         {
             "Name": "Fool's Road Skirmish v1",
             "rawName": "FoolsRoad_Skirmish_v1",
-            "levelName": ": Fools_Road_Skirmish_v1",
+            "levelName": "Fools_Road_Skirmish_v1",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -17744,7 +17744,7 @@
         {
             "Name": "Fool's Road Skirmish v2",
             "rawName": "FoolsRoad_Skirmish_v2",
-            "levelName": ": Fools_Road_Skirmish_v2",
+            "levelName": "Fools_Road_Skirmish_v2",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -17863,7 +17863,7 @@
         {
             "Name": "Fool's Road TC v1",
             "rawName": "FoolsRoad_TC_v1",
-            "levelName": ": Fools_Road_TC_v1",
+            "levelName": "Fools_Road_TC_v1",
             "lightingLevel": "LL_Fools_Road_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -18058,7 +18058,7 @@
         {
             "Name": "Gorodok AAS v1",
             "rawName": "Gorodok_AAS_v1",
-            "levelName": ": Gorodok_AAS_v1",
+            "levelName": "Gorodok_AAS_v1",
             "lightingLevel": "LL_Gorodok_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -18427,7 +18427,7 @@
         {
             "Name": "Gorodok AAS v2",
             "rawName": "Gorodok_AAS_v2",
-            "levelName": ": Gorodok_AAS_v2",
+            "levelName": "Gorodok_AAS_v2",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -18783,7 +18783,7 @@
         {
             "Name": "Gorodok Destruction v1",
             "rawName": "Gorodok_Destruction_v1",
-            "levelName": ": Gorodok_Destruction_v1",
+            "levelName": "Gorodok_Destruction_v1",
             "lightingLevel": "LL_Gorodok_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -19124,7 +19124,7 @@
         {
             "Name": "Gorodok Insurgency v1",
             "rawName": "Gorodok_Insurgency_v1",
-            "levelName": ": Gorodok_Insurgency_v1",
+            "levelName": "Gorodok_Insurgency_v1",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -19497,7 +19497,7 @@
         {
             "Name": "Gorodok Invasion v1",
             "rawName": "Gorodok_Invasion_v1",
-            "levelName": ": Gorodok_Invasion_v1",
+            "levelName": "Gorodok_Invasion_v1",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -19875,7 +19875,7 @@
         {
             "Name": "Gorodok Invasion v2",
             "rawName": "Gorodok_Invasion_v2",
-            "levelName": ": Gorodok_Invasion_v2",
+            "levelName": "Gorodok_Invasion_v2",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -20285,7 +20285,7 @@
         {
             "Name": "Gorodok RAAS",
             "rawName": "Gorodok_RAAS_v1",
-            "levelName": ": Gorodok_RAAS_v1",
+            "levelName": "Gorodok_RAAS_v1",
             "lightingLevel": "LL_Gorodok_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -20678,7 +20678,7 @@
         {
             "Name": "Gorodok RAAS v2",
             "rawName": "Gorodok_RAAS_v2",
-            "levelName": ": Gorodok_RAAS_v2",
+            "levelName": "Gorodok_RAAS_v2",
             "lightingLevel": "LL_Gorodok_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -21056,7 +21056,7 @@
         {
             "Name": "Gorodok RAAS v3",
             "rawName": "Gorodok_RAAS_v3",
-            "levelName": ": Gorodok_RAAS_v3",
+            "levelName": "Gorodok_RAAS_v3",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -21408,7 +21408,7 @@
         {
             "Name": "Gorodok RAAS v4",
             "rawName": "Gorodok_RAAS_v4",
-            "levelName": ": Gorodok_RAAS_v4",
+            "levelName": "Gorodok_RAAS_v4",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -21625,7 +21625,7 @@
         {
             "Name": "Gorodok RAAS v5",
             "rawName": "Gorodok_RAAS_v5",
-            "levelName": ": Gorodok_RAAS_v5",
+            "levelName": "Gorodok_RAAS_v5",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -21996,7 +21996,7 @@
         {
             "Name": "Gorodok Skirmish v1",
             "rawName": "Gorodok_Skirmish_v1",
-            "levelName": ": Gorodok_Skirmish_v1",
+            "levelName": "Gorodok_Skirmish_v1",
             "lightingLevel": "LL_Gorodok_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -22171,7 +22171,7 @@
         {
             "Name": "Gorodok TC v1",
             "rawName": "Gorodok_TC_v1",
-            "levelName": ": Gorodok_TC_v1",
+            "levelName": "Gorodok_TC_v1",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -22501,7 +22501,7 @@
         {
             "Name": "Jensen's Training Range",
             "rawName": "JensensRange_GB-MIL",
-            "levelName": ": Jensens_Range_v1",
+            "levelName": "Jensens_Range_v1",
             "lightingLevel": "LL_Jensens_Range_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -22692,7 +22692,7 @@
         {
             "Name": "Jensen's Training Range",
             "rawName": "JensensRange_US-RUS",
-            "levelName": ": Jensens_Range_v2",
+            "levelName": "Jensens_Range_v2",
             "lightingLevel": "LL_Jensens_Range_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -22867,7 +22867,7 @@
         {
             "Name": "Jensen's Training Range",
             "rawName": "JensensRange_MEA-INS",
-            "levelName": ": Jensens_Range_v3",
+            "levelName": "Jensens_Range_v3",
             "lightingLevel": "LL_Jensens_Range_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -23146,7 +23146,7 @@
         {
             "Name": "Kamdesh AAS v1",
             "rawName": "Kamdesh_AAS_v1",
-            "levelName": ": Kamdesh_AAS_v1",
+            "levelName": "Kamdesh_AAS_v1",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -23537,7 +23537,7 @@
         {
             "Name": "Kamdesh Insurgency v1",
             "rawName": "Kamdesh_Insurgency_v1",
-            "levelName": ": Kamdesh_Insurgency_v1",
+            "levelName": "Kamdesh_Insurgency_v1",
             "lightingLevel": "LL_Kamdesh_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -24133,7 +24133,7 @@
         {
             "Name": "Kamdesh Insurgency v2",
             "rawName": "Kamdesh_Insurgency_v2",
-            "levelName": ": Kamdesh_Insurgency_v2",
+            "levelName": "Kamdesh_Insurgency_v2",
             "lightingLevel": "LL_Kamdesh_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -24681,7 +24681,7 @@
         {
             "Name": "Kamdesh Invasion v1",
             "rawName": "Kamdesh_Invasion_v1",
-            "levelName": ": Kamdesh_Invasion_v1",
+            "levelName": "Kamdesh_Invasion_v1",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -25201,7 +25201,7 @@
         {
             "Name": "Kamdesh Invasion v2",
             "rawName": "Kamdesh_Invasion_v2",
-            "levelName": ": Kamdesh_Invasion_v2",
+            "levelName": "Kamdesh_Invasion_v2",
             "lightingLevel": "LL_Kamdesh_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -25705,7 +25705,7 @@
         {
             "Name": "Kamdesh Invasion v3",
             "rawName": "Kamdesh_Invasion_v3",
-            "levelName": ": Kamdesh_Invasion_v3",
+            "levelName": "Kamdesh_Invasion_v3",
             "lightingLevel": "LL_Kamdesh_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -26209,7 +26209,7 @@
         {
             "Name": "Kamdesh RAAS v1",
             "rawName": "Kamdesh_RAAS_v1",
-            "levelName": ": Kamdesh_RAAS_v1",
+            "levelName": "Kamdesh_RAAS_v1",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -26653,7 +26653,7 @@
         {
             "Name": "Kamdesh RAAS v2",
             "rawName": "Kamdesh_RAAS_v2",
-            "levelName": ": Kamdesh_RAAS_v2",
+            "levelName": "Kamdesh_RAAS_v2",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -27047,7 +27047,7 @@
         {
             "Name": "Kamdesh RAAS v3",
             "rawName": "Kamdesh_RAAS_v3",
-            "levelName": ": Kamdesh_RAAS_v3",
+            "levelName": "Kamdesh_RAAS_v3",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -27449,7 +27449,7 @@
         {
             "Name": "Kamdesh RAAS v4",
             "rawName": "Kamdesh_RAAS_v4",
-            "levelName": ": Kamdesh_RAAS_v4",
+            "levelName": "Kamdesh_RAAS_v4",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -27833,7 +27833,7 @@
         {
             "Name": "Kamdesh Skirmish",
             "rawName": "Kamdesh_Skirmish_v1",
-            "levelName": ": Kamdesh_Skirmish_v1",
+            "levelName": "Kamdesh_Skirmish_v1",
             "lightingLevel": "LL_Kamdesh_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -28126,7 +28126,7 @@
         {
             "Name": "Kamdesh TC v1",
             "rawName": "Kamdesh_TC_v1",
-            "levelName": ": Kamdesh_TC_v1",
+            "levelName": "Kamdesh_TC_v1",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -28511,7 +28511,7 @@
         {
             "Name": "Kamdesh TC v2",
             "rawName": "Kamdesh_TC_v2",
-            "levelName": ": Kamdesh_TC_v2",
+            "levelName": "Kamdesh_TC_v2",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -28968,7 +28968,7 @@
         {
             "Name": "Kohat AAS v1",
             "rawName": "Kohat_AAS_v1",
-            "levelName": ": Kohat_AAS_v1",
+            "levelName": "Kohat_AAS_v1",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -29375,7 +29375,7 @@
         {
             "Name": "Kohat AAS v2",
             "rawName": "Kohat_AAS_v2",
-            "levelName": ": Kohat_AAS_v2",
+            "levelName": "Kohat_AAS_v2",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -29775,7 +29775,7 @@
         {
             "Name": "Kohat Insurgency v1",
             "rawName": "Kohat_Insurgency_v1",
-            "levelName": ": Kohat_Insurgency_v1",
+            "levelName": "Kohat_Insurgency_v1",
             "lightingLevel": "LL_Kohat_Early_Morning",
             "lighting": "Early Morning",
             "border": [
@@ -30298,7 +30298,7 @@
         {
             "Name": "Kohat Invasion v1",
             "rawName": "Kohat_Invasion_v1",
-            "levelName": ": Kohat_Invasion_v1",
+            "levelName": "Kohat_Invasion_v1",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -30880,7 +30880,7 @@
         {
             "Name": "Kohat Invasion v2",
             "rawName": "Kohat_Invasion_v2",
-            "levelName": ": Kohat_Invasion_v2",
+            "levelName": "Kohat_Invasion_v2",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -31405,7 +31405,7 @@
         {
             "Name": "Kohat RAAS v1",
             "rawName": "Kohat_RAAS_v1",
-            "levelName": ": Kohat_RAAS_v1",
+            "levelName": "Kohat_RAAS_v1",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -31824,7 +31824,7 @@
         {
             "Name": "Kohat RAAS v2",
             "rawName": "Kohat_RAAS_v2",
-            "levelName": ": Kohat_RAAS_v2",
+            "levelName": "Kohat_RAAS_v2",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -32227,7 +32227,7 @@
         {
             "Name": "Kohat RAAS v3",
             "rawName": "Kohat_RAAS_v3",
-            "levelName": ": Kohat_RAAS_v3",
+            "levelName": "Kohat_RAAS_v3",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -32651,7 +32651,7 @@
         {
             "Name": "Kohat RAAS v4",
             "rawName": "Kohat_RAAS_v4",
-            "levelName": ": Kohat_RAAS_v4",
+            "levelName": "Kohat_RAAS_v4",
             "lightingLevel": "LL_Kohat_Early_Morning",
             "lighting": "Early Morning",
             "border": [
@@ -33068,7 +33068,7 @@
         {
             "Name": "Kohat Skirmish v1",
             "rawName": "Kohat_Skirmish_v1",
-            "levelName": ": Kohat_Skirmish_v1",
+            "levelName": "Kohat_Skirmish_v1",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -33353,7 +33353,7 @@
         {
             "Name": "Kohat TC v1",
             "rawName": "Kohat_TC_v1",
-            "levelName": ": Kohat_TC_v1",
+            "levelName": "Kohat_TC_v1",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -33768,7 +33768,7 @@
         {
             "Name": "Kokan AAS v1",
             "rawName": "Kokan_AAS_v1",
-            "levelName": ": Kokan_Valley_AAS_v1",
+            "levelName": "Kokan_Valley_AAS_v1",
             "lightingLevel": "LL_Kokan_Valley_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -33963,7 +33963,7 @@
         {
             "Name": "Kokan Insurgency v1",
             "rawName": "Kokan_Insurgency_v1",
-            "levelName": ": Kokan_Valley_Insurgency_v1",
+            "levelName": "Kokan_Valley_Insurgency_v1",
             "lightingLevel": "LL_Kokan_Valley_MidDay_Sunny",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -34201,7 +34201,7 @@
         {
             "Name": "Kokan Invasion v1",
             "rawName": "Kokan_Invasion_v1",
-            "levelName": ": Kokan_Valley_Invasion_v1",
+            "levelName": "Kokan_Valley_Invasion_v1",
             "lightingLevel": "LL_Kokan_Valley_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -34411,7 +34411,7 @@
         {
             "Name": "Kokan RAAS v1",
             "rawName": "Kokan_RAAS_v1",
-            "levelName": ": Kokan_Valley_RAAS_v1",
+            "levelName": "Kokan_Valley_RAAS_v1",
             "lightingLevel": "LL_Kokan_Valley_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -34606,7 +34606,7 @@
         {
             "Name": "Kokan RAAS v2",
             "rawName": "Kokan_RAAS_v2",
-            "levelName": ": Kokan_Valley_RAAS_v2",
+            "levelName": "Kokan_Valley_RAAS_v2",
             "lightingLevel": "LL_Kokan_Valley_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -34808,7 +34808,7 @@
         {
             "Name": "Kokan Skirmish v1",
             "rawName": "Kokan_Skirmish_v1",
-            "levelName": ": Kokan_Valley_Skirmish_v1",
+            "levelName": "Kokan_Valley_Skirmish_v1",
             "lightingLevel": "LL_Kokan_Valley_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -34929,7 +34929,7 @@
         {
             "Name": "Kokan TC v1",
             "rawName": "Kokan_TC_v1",
-            "levelName": ": Kokan_Valley_TC_v1",
+            "levelName": "Kokan_Valley_TC_v1",
             "lightingLevel": "LL_Kokan_Valley_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -35116,7 +35116,7 @@
         {
             "Name": "Lashkar Valley AAS v1",
             "rawName": "LashkarValley_AAS_v1",
-            "levelName": ": Lashkar_Valley_AAS_v1",
+            "levelName": "Lashkar_Valley_AAS_v1",
             "lightingLevel": "LL_Lashkar_Daytime",
             "lighting": "Mid Day",
             "border": [
@@ -35497,7 +35497,7 @@
         {
             "Name": "Lashkar Valley AAS v2",
             "rawName": "LashkarValley_AAS_v2",
-            "levelName": ": Lashkar_Valley_AAS_v2",
+            "levelName": "Lashkar_Valley_AAS_v2",
             "lightingLevel": "LL_Lashkar_Daytime",
             "lighting": "Mid Day",
             "border": [
@@ -35894,7 +35894,7 @@
         {
             "Name": "Lashkar Valley Insurgency v1",
             "rawName": "LashkarValley_Insurgency_v1",
-            "levelName": ": Lashkar_Valley_Insurgency_v1",
+            "levelName": "Lashkar_Valley_Insurgency_v1",
             "lightingLevel": "LL_Lashkar_Early_Morning",
             "lighting": "Early Morning",
             "border": [
@@ -36393,7 +36393,7 @@
         {
             "Name": "Lashkar Valley Invasion v1",
             "rawName": "LashkarValley_Invasion_v1",
-            "levelName": ": Lashkar_Valley_Invasion_v1",
+            "levelName": "Lashkar_Valley_Invasion_v1",
             "lightingLevel": "LL_Lashkar_Rainstorm",
             "lighting": "Rain Storm",
             "border": [
@@ -36912,7 +36912,7 @@
         {
             "Name": "Lashkar Valley RAAS v1",
             "rawName": "LashkarValley_RAAS_v1",
-            "levelName": ": Lashkar_Valley_RAAS_v1",
+            "levelName": "Lashkar_Valley_RAAS_v1",
             "lightingLevel": "LL_Lashkar_Early_Morning",
             "lighting": "Early Morning",
             "border": [
@@ -37338,7 +37338,7 @@
         {
             "Name": "Lashkar Valley Skirmish v1",
             "rawName": "LashkarValley_Skirmish_v1",
-            "levelName": ": Lashkar_Valley_Skirmish_v1",
+            "levelName": "Lashkar_Valley_Skirmish_v1",
             "lightingLevel": "LL_Lashkar_Daytime",
             "lighting": "Mid Day",
             "border": [
@@ -37631,7 +37631,7 @@
         {
             "Name": "Lashkar Valley TC v1",
             "rawName": "LashkarValley_TC_v1",
-            "levelName": ": Lashkar_Valley_TC_v1",
+            "levelName": "Lashkar_Valley_TC_v1",
             "lightingLevel": "LL_Lashkar_Rainstorm",
             "lighting": "Rain Storm",
             "border": [
@@ -38020,7 +38020,7 @@
         {
             "Name": "Lashkar Valley TC v2",
             "rawName": "LashkarValley_TC_v2",
-            "levelName": ": Lashkar_Valley_TC_v2",
+            "levelName": "Lashkar_Valley_TC_v2",
             "lightingLevel": "LL_Lashkar_Rainstorm",
             "lighting": "Rain Storm",
             "border": [
@@ -38321,7 +38321,7 @@
         {
             "Name": "Lashkar Valley TC v3",
             "rawName": "LashkarValley_TC_v3",
-            "levelName": ": Lashkar_Valley_TC_v3",
+            "levelName": "Lashkar_Valley_TC_v3",
             "lightingLevel": "LL_Lashkar_Early_Morning",
             "lighting": "Early Morning",
             "border": [
@@ -38702,7 +38702,7 @@
         {
             "Name": "Logar Valley AAS",
             "rawName": "Logar_AAS_v1",
-            "levelName": ": Logar_Valley_AAS_v1",
+            "levelName": "Logar_Valley_AAS_v1",
             "lightingLevel": "LL_Logar_Valley_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -38882,7 +38882,7 @@
         {
             "Name": "Logar Valley AAS v2",
             "rawName": "Logar_AAS_v2",
-            "levelName": ": Logar_Valley_AAS_v2",
+            "levelName": "Logar_Valley_AAS_v2",
             "lightingLevel": "LL_Logar_Valley_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -39036,7 +39036,7 @@
         {
             "Name": "Logar Valley Insurgency v1",
             "rawName": "Logar_Insurgency_v1",
-            "levelName": ": Logar_Valley_Insurgency_v1",
+            "levelName": "Logar_Valley_Insurgency_v1",
             "lightingLevel": "LL_Logar_Valley_Evening",
             "lighting": "Evening",
             "border": [
@@ -39258,7 +39258,7 @@
         {
             "Name": "Logar Valley RAAS v1",
             "rawName": "Logar_RAAS_v1",
-            "levelName": ": Logar_Valley_RAAS_v1",
+            "levelName": "Logar_Valley_RAAS_v1",
             "lightingLevel": "LL_Logar_Valley_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -39440,7 +39440,7 @@
         {
             "Name": "Logar Valley Skirmish",
             "rawName": "Logar_Skirmish_v1",
-            "levelName": ": Logar_Valley_Skirmish_v1",
+            "levelName": "Logar_Valley_Skirmish_v1",
             "lightingLevel": "LL_Logar_Valley_Evening",
             "lighting": "Evening",
             "border": [
@@ -39553,7 +39553,7 @@
         {
             "Name": "Logar Valley TC v1",
             "rawName": "Logar_TC_v1",
-            "levelName": ": Logar_Valley_TC_v1",
+            "levelName": "Logar_Valley_TC_v1",
             "lightingLevel": "LL_Logar_Valley_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -39724,7 +39724,7 @@
         {
             "Name": "Mestia AAS v1",
             "rawName": "Mestia_AAS_v1",
-            "levelName": ": Mestia_AAS_V1",
+            "levelName": "Mestia_AAS_V1",
             "lightingLevel": "LL_Mestia_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -39927,7 +39927,7 @@
         {
             "Name": "Mestia Invasion v1",
             "rawName": "Mestia_Invasion_v1",
-            "levelName": ": Mestia_Invasion_V1",
+            "levelName": "Mestia_Invasion_V1",
             "lightingLevel": "LL_Mestia_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -40136,7 +40136,7 @@
         {
             "Name": "Mestia Invasion v2",
             "rawName": "Mestia_Invasion_v2",
-            "levelName": ": Mestia_Invasion_V2",
+            "levelName": "Mestia_Invasion_V2",
             "lightingLevel": "LL_Mestia_MidDay",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -40338,7 +40338,7 @@
         {
             "Name": "Mestia RAAS v1",
             "rawName": "Mestia_RAAS_v1",
-            "levelName": ": Mestia_RAAS_v1",
+            "levelName": "Mestia_RAAS_v1",
             "lightingLevel": "LL_Mestia_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -40548,7 +40548,7 @@
         {
             "Name": "Mestia Skirmish v1",
             "rawName": "Mestia_Skirmish_v1",
-            "levelName": ": Mestia_Skirmish_v1",
+            "levelName": "Mestia_Skirmish_v1",
             "lightingLevel": "LL_Mestia_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -40660,7 +40660,7 @@
         {
             "Name": "Mestia TC v1",
             "rawName": "Mestia_TC_v1",
-            "levelName": ": Mestia_TC_v1",
+            "levelName": "Mestia_TC_v1",
             "lightingLevel": "LL_Mestia_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -40807,7 +40807,7 @@
         {
             "Name": "Mutaha AAS v1",
             "rawName": "Mutaha_AAS_v1",
-            "levelName": ": Mutaha_AAS_v1",
+            "levelName": "Mutaha_AAS_v1",
             "lightingLevel": "LL_Mutaha_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -41023,7 +41023,7 @@
         {
             "Name": "Mutaha AAS v2",
             "rawName": "Mutaha_AAS_v2",
-            "levelName": ": Mutaha_AAS_v2",
+            "levelName": "Mutaha_AAS_v2",
             "lightingLevel": "LL_Mutaha_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -41176,7 +41176,7 @@
         {
             "Name": "Mutaha Invasion v1",
             "rawName": "Mutaha_Invasion_v1",
-            "levelName": ": Mutaha_Invasion_v1",
+            "levelName": "Mutaha_Invasion_v1",
             "lightingLevel": "LL_Mutaha_Moonlit",
             "lighting": "Dusk",
             "border": [
@@ -41497,7 +41497,7 @@
         {
             "Name": "Mutaha RAAS v1",
             "rawName": "Mutaha_RAAS_v1",
-            "levelName": ": Mutaha_RAAS_v1",
+            "levelName": "Mutaha_RAAS_v1",
             "lightingLevel": "LL_Mutaha_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -41730,7 +41730,7 @@
         {
             "Name": "Mutaha Skirmish v1",
             "rawName": "Mutaha_Skirmish_v1",
-            "levelName": ": Mutaha_Skirmish_v1",
+            "levelName": "Mutaha_Skirmish_v1",
             "lightingLevel": "LL_Mutaha_Sandstorm",
             "lighting": "Sandstorm",
             "border": [
@@ -41873,7 +41873,7 @@
         {
             "Name": "Mutaha TC v1",
             "rawName": "Mutaha_TC_v1",
-            "levelName": ": Mutaha_TC_v1",
+            "levelName": "Mutaha_TC_v1",
             "lightingLevel": "LL_Mutaha_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -42035,7 +42035,7 @@
         {
             "Name": "Mutaha TC v2",
             "rawName": "Mutaha_TC_v2",
-            "levelName": ": Mutaha_TC_v2",
+            "levelName": "Mutaha_TC_v2",
             "lightingLevel": "LL_Mutaha_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -42269,7 +42269,7 @@
         {
             "Name": "Narva AAS v1",
             "rawName": "Narva_AAS_v1",
-            "levelName": ": Narva_AAS_v1",
+            "levelName": "Narva_AAS_v1",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -42471,7 +42471,7 @@
         {
             "Name": "Narva AAS v2",
             "rawName": "Narva_AAS_v2",
-            "levelName": ": Narva_AAS_v2",
+            "levelName": "Narva_AAS_v2",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -42657,7 +42657,7 @@
         {
             "Name": "Narva AAS v3",
             "rawName": "Narva_AAS_v3",
-            "levelName": ": Narva_AAS_v3",
+            "levelName": "Narva_AAS_v3",
             "lightingLevel": "LL_Narva_Foggy",
             "lighting": "Foggy",
             "border": [
@@ -42866,7 +42866,7 @@
         {
             "Name": "Narva_Destruction v1",
             "rawName": "Narva_Destruction_v1",
-            "levelName": ": Narva_Destruction_v1",
+            "levelName": "Narva_Destruction_v1",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -43072,7 +43072,7 @@
         {
             "Name": "Narva Invasion v1",
             "rawName": "Narva_Invasion_v1",
-            "levelName": ": Narva_Invasion_v1",
+            "levelName": "Narva_Invasion_v1",
             "lightingLevel": "LL_Narva_Morning",
             "lighting": "Sunrise",
             "border": [
@@ -43282,7 +43282,7 @@
         {
             "Name": "Narva Invasion v2",
             "rawName": "Narva_Invasion_v2",
-            "levelName": ": Narva_Invasion_v2",
+            "levelName": "Narva_Invasion_v2",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -43492,7 +43492,7 @@
         {
             "Name": "Narva RAAS v1",
             "rawName": "Narva_RAAS_v1",
-            "levelName": ": Narva_RAAS_v1",
+            "levelName": "Narva_RAAS_v1",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -43728,7 +43728,7 @@
         {
             "Name": "Narva Skirmish v1",
             "rawName": "Narva_Skirmish_v1",
-            "levelName": ": Narva_Skirmish_v1",
+            "levelName": "Narva_Skirmish_v1",
             "lightingLevel": "LL_Narva_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -43828,7 +43828,7 @@
         {
             "Name": "Narva TA v1",
             "rawName": "Narva_TA_v1",
-            "levelName": ": Narva_TA_v1",
+            "levelName": "Narva_TA_v1",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -43895,7 +43895,7 @@
         {
             "Name": "Narva TC v1",
             "rawName": "Narva_TC_v1",
-            "levelName": ": Narva_TC_v1",
+            "levelName": "Narva_TC_v1",
             "lightingLevel": "LL_Narva_Foggy",
             "lighting": "Foggy",
             "border": [
@@ -44090,7 +44090,7 @@
         {
             "Name": "Narva TC v2",
             "rawName": "Narva_TC_v2",
-            "levelName": ": Narva_TC_v2",
+            "levelName": "Narva_TC_v2",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -44301,7 +44301,7 @@
         {
             "Name": "Skorpo AAS v1",
             "rawName": "Skorpo_AAS_v1",
-            "levelName": ": Skorpo_AAS_v1",
+            "levelName": "Skorpo_AAS_v1",
             "lightingLevel": "LL_Skorpo_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -44567,7 +44567,7 @@
         {
             "Name": "Skorpo Invasion v1",
             "rawName": "Skorpo_Invasion_v1",
-            "levelName": ": Skorpo_Invasion_v1",
+            "levelName": "Skorpo_Invasion_v1",
             "lightingLevel": "LL_Skorpo_Afternoon",
             "lighting": "Sunset",
             "border": [
@@ -44928,7 +44928,7 @@
         {
             "Name": "Skorpo Invasion v2",
             "rawName": "Skorpo_Invasion_v2",
-            "levelName": ": Skorpo_Invasion_v2",
+            "levelName": "Skorpo_Invasion_v2",
             "lightingLevel": "LL_Skorpo_Afternoon",
             "lighting": "Sunset",
             "border": [
@@ -45130,7 +45130,7 @@
         {
             "Name": "Skorpo RAAS_v1",
             "rawName": "Skorpo_RAAS_v1",
-            "levelName": ": Skorpo_RAAS_v1",
+            "levelName": "Skorpo_RAAS_v1",
             "lightingLevel": "LL_Skorpo_Foggy",
             "lighting": "Foggy",
             "border": [
@@ -45447,7 +45447,7 @@
         {
             "Name": "Skorpo RAAS v2",
             "rawName": "Skorpo_RAAS_v2",
-            "levelName": ": Skorpo_RAAS_v2",
+            "levelName": "Skorpo_RAAS_v2",
             "lightingLevel": "LL_Skorpo_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -45749,7 +45749,7 @@
         {
             "Name": "Skorpo RAAS v3",
             "rawName": "Skorpo_RAAS_v3",
-            "levelName": ": Skorpo_RAAS_v3",
+            "levelName": "Skorpo_RAAS_v3",
             "lightingLevel": "LL_Skorpo_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -46105,7 +46105,7 @@
         {
             "Name": "Skorpo RAAS v4",
             "rawName": "Skorpo_RAAS_v4",
-            "levelName": ": Skorpo_RAAS_v4",
+            "levelName": "Skorpo_RAAS_v4",
             "lightingLevel": "LL_Skorpo_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -46460,7 +46460,7 @@
         {
             "Name": "Skorpo Skirmish v1",
             "rawName": "Skorpo_Skirmish_v1",
-            "levelName": ": Skorpo_Skirmish_v1",
+            "levelName": "Skorpo_Skirmish_v1",
             "lightingLevel": "LL_Skorpo_Foggy",
             "lighting": "Foggy",
             "border": [
@@ -46605,7 +46605,7 @@
         {
             "Name": "Skorpo TC v1",
             "rawName": "Skorpo_TC_v1",
-            "levelName": ": Skorpo_TC_v1",
+            "levelName": "Skorpo_TC_v1",
             "lightingLevel": "LL_Skorpo_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -46824,7 +46824,7 @@
         {
             "Name": "Skorpo TC v2",
             "rawName": "Skorpo_TC_v2",
-            "levelName": ": Skorpo_TC_v2",
+            "levelName": "Skorpo_TC_v2",
             "lightingLevel": "LL_Skorpo_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -47080,7 +47080,7 @@
         {
             "Name": "Skorpo TC v3",
             "rawName": "Skorpo_TC_v3",
-            "levelName": ": Skorpo_TC_v3",
+            "levelName": "Skorpo_TC_v3",
             "lightingLevel": "LL_Skorpo_Afternoon",
             "lighting": "Sunset",
             "border": [
@@ -47398,7 +47398,7 @@
         {
             "Name": "Sumari AAS v1",
             "rawName": "Sumari_AAS_v1",
-            "levelName": ": Sumari_AAS_v1",
+            "levelName": "Sumari_AAS_v1",
             "lightingLevel": "LL_Sumari_Early_Morning",
             "lighting": "Sunrise",
             "border": [
@@ -47567,7 +47567,7 @@
         {
             "Name": "Sumari Insurgency v1",
             "rawName": "Sumari_Insurgency_v1",
-            "levelName": ": Sumari_Insurgency_v1",
+            "levelName": "Sumari_Insurgency_v1",
             "lightingLevel": "LL_Sumari_Early_Morning",
             "lighting": "Sunrise",
             "border": [
@@ -47773,7 +47773,7 @@
         {
             "Name": "Sumari Invasion v1",
             "rawName": "Sumari_Invasion_v1",
-            "levelName": ": Sumari_Invasion_v1",
+            "levelName": "Sumari_Invasion_v1",
             "lightingLevel": "LL_Sumari_Early_Morning",
             "lighting": "Sunrise",
             "border": [
@@ -47896,7 +47896,7 @@
         {
             "Name": "Sumari RAAS v1",
             "rawName": "Sumari_RAAS_v1",
-            "levelName": ": Sumari_RAAS_v1",
+            "levelName": "Sumari_RAAS_v1",
             "lightingLevel": "LL_Sumari_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -48051,7 +48051,7 @@
         {
             "Name": "Sumari RAAS v2",
             "rawName": "Sumari_RAAS_v2",
-            "levelName": ": Sumari_RAAS_v2",
+            "levelName": "Sumari_RAAS_v2",
             "lightingLevel": "LL_Sumari_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -48182,7 +48182,7 @@
         {
             "Name": "Sumari Skirmish v1",
             "rawName": "Sumari_Skirmish_v1",
-            "levelName": ": Sumari_Skirmish_v1",
+            "levelName": "Sumari_Skirmish_v1",
             "border": [
                 {
                     "x": -63973,
@@ -48301,7 +48301,7 @@
         {
             "Name": "Sumari TC v1",
             "rawName": "Sumari_TC_v1",
-            "levelName": ": Sumari_TC_v1",
+            "levelName": "Sumari_TC_v1",
             "lightingLevel": "LL_Sumari_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -48448,7 +48448,7 @@
         {
             "Name": "Tallil AAS_v1",
             "rawName": "Tallil_AAS_v1",
-            "levelName": ": Tallil_Outskirts_AAS_v1",
+            "levelName": "Tallil_Outskirts_AAS_v1",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -48745,7 +48745,7 @@
         {
             "Name": "Tallil AAS v2",
             "rawName": "Tallil_AAS_v2",
-            "levelName": ": Tallil_Outskirts_AAS_v2",
+            "levelName": "Tallil_Outskirts_AAS_v2",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -49066,7 +49066,7 @@
         {
             "Name": "Tallil Invasion v1",
             "rawName": "Tallil_Invasion_v1",
-            "levelName": ": Tallil_Outskirts_Invasion_v1",
+            "levelName": "Tallil_Outskirts_Invasion_v1",
             "lightingLevel": "LL_Tallil_Outskirts_Morning",
             "lighting": "Morning Sunrise",
             "border": [
@@ -49354,7 +49354,7 @@
         {
             "Name": "Tallil Invasion v2",
             "rawName": "Tallil_Invasion_v2",
-            "levelName": ": Tallil_Outskirts_Invasion_v2",
+            "levelName": "Tallil_Outskirts_Invasion_v2",
             "lightingLevel": "LL_Tallil_Outskirts_Morning",
             "lighting": "Morning Sunrise",
             "border": [
@@ -49625,7 +49625,7 @@
         {
             "Name": "Tallil Invasion v3",
             "rawName": "Tallil_Invasion_v3",
-            "levelName": ": Tallil_Outskirts_Invasion_v3",
+            "levelName": "Tallil_Outskirts_Invasion_v3",
             "lightingLevel": "LL_Tallil_Outskirts_Morning",
             "lighting": "Morning Sunrise",
             "border": [
@@ -49921,7 +49921,7 @@
         {
             "Name": "Tallil RAAS v1",
             "rawName": "Tallil_RAAS_v1",
-            "levelName": ": Tallil_Outskirts_RAAS_v1",
+            "levelName": "Tallil_Outskirts_RAAS_v1",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -50074,7 +50074,7 @@
         {
             "Name": "Tallil RAAS v2",
             "rawName": "Tallil_RAAS_v2",
-            "levelName": ": Tallil_Outskirts_RAAS_v2",
+            "levelName": "Tallil_Outskirts_RAAS_v2",
             "lightingLevel": "LL_Tallil_Outskirts_Morning",
             "lighting": "Morning Sunrise",
             "border": [
@@ -50363,7 +50363,7 @@
         {
             "Name": "Tallil RAAS v3",
             "rawName": "Tallil_RAAS_v3",
-            "levelName": ": Tallil_Outskirts_RAAS_v3",
+            "levelName": "Tallil_Outskirts_RAAS_v3",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -50645,7 +50645,7 @@
         {
             "Name": "Tallil RAAS v4",
             "rawName": "Tallil_RAAS_v4",
-            "levelName": ": Tallil_Outskirts_RAAS_v4",
+            "levelName": "Tallil_Outskirts_RAAS_v4",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -50942,7 +50942,7 @@
         {
             "Name": "Tallil Skirmish v1",
             "rawName": "Tallil_Skirmish_v1",
-            "levelName": ": Tallil_Outskirts_Skirmish_v1",
+            "levelName": "Tallil_Outskirts_Skirmish_v1",
             "lightingLevel": "LL_Tallil_Outskirts_Sandstorm",
             "lighting": "Sandstorm",
             "border": [
@@ -51083,7 +51083,7 @@
         {
             "Name": "Tallil Skirmish v2",
             "rawName": "Tallil_Skirmish_v2",
-            "levelName": ": Tallil_Outskirts_Skirmish_v2",
+            "levelName": "Tallil_Outskirts_Skirmish_v2",
             "lightingLevel": "LL_Tallil_Outskirts_Morning",
             "lighting": "Morning Sunrise",
             "border": [
@@ -51233,7 +51233,7 @@
         {
             "Name": "Tallil Skirmish v3",
             "rawName": "Tallil_Skirmish_v3",
-            "levelName": ": Tallil_Outskirts_Skirmish_v3",
+            "levelName": "Tallil_Outskirts_Skirmish_v3",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -51568,7 +51568,7 @@
         {
             "Name": "Tallil Tanks v1",
             "rawName": "Tallil_Tanks_v1",
-            "levelName": ": Tallil_Outskirts_Tanks_v1",
+            "levelName": "Tallil_Outskirts_Tanks_v1",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -51735,7 +51735,7 @@
         {
             "Name": "Tallil Tanks v2",
             "rawName": "Tallil_Tanks_v2",
-            "levelName": ": Tallil_Outskirts_Tanks_v2",
+            "levelName": "Tallil_Outskirts_Tanks_v2",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -51886,7 +51886,7 @@
         {
             "Name": "Tallil TA v1",
             "rawName": "Tallil_TA_v1",
-            "levelName": ": Tallil_Outskirts_TA_v1",
+            "levelName": "Tallil_Outskirts_TA_v1",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -51986,7 +51986,7 @@
         {
             "Name": "Tallil TC v1",
             "rawName": "Tallil_TC_v1",
-            "levelName": ": Tallil_Outskirts_TC_v1",
+            "levelName": "Tallil_Outskirts_TC_v1",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -52259,7 +52259,7 @@
         {
             "Name": "Helicopter Tutorial",
             "rawName": "Tutorial_Helicopter",
-            "levelName": ": Helicopter_Tutorial",
+            "levelName": "Helicopter_Tutorial",
             "border": [
                 {
                     "x": -159994,
@@ -52450,7 +52450,7 @@
         {
             "Name": "Infantry Tutorial",
             "rawName": "Tutorial_Infantry",
-            "levelName": ": Infantry_Tutorial",
+            "levelName": "Infantry_Tutorial",
             "lightingLevel": "Tutorial_Crucible_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -52616,7 +52616,7 @@
         {
             "Name": "Yehorivka AAS v1",
             "rawName": "Yehorivka_AAS_v1",
-            "levelName": ": Yehorivka_AAS_v1",
+            "levelName": "Yehorivka_AAS_v1",
             "lightingLevel": "LL_Yehorivka_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -52889,7 +52889,7 @@
         {
             "Name": "Yehorivka AAS v2",
             "rawName": "Yehorivka_AAS_v2",
-            "levelName": ": Yehorivka_AAS_v2",
+            "levelName": "Yehorivka_AAS_v2",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -53170,7 +53170,7 @@
         {
             "Name": "Yehorivka Destruction v1",
             "rawName": "Yehorivka_Destruction_v1",
-            "levelName": ": Yehorivka_Destruction_v1",
+            "levelName": "Yehorivka_Destruction_v1",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -53398,7 +53398,7 @@
         {
             "Name": "Yehorivka Invasion v1",
             "rawName": "Yehorivka_Invasion_v1",
-            "levelName": ": Yehorivka_Invasion_v1",
+            "levelName": "Yehorivka_Invasion_v1",
             "lightingLevel": "LL_Yehorivka_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -53686,7 +53686,7 @@
         {
             "Name": "Yehorivka Invasion v2",
             "rawName": "Yehorivka_Invasion_v2",
-            "levelName": ": Yehorivka_Invasion_v2",
+            "levelName": "Yehorivka_Invasion_v2",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -53982,7 +53982,7 @@
         {
             "Name": "Yehorivka RAAS v1",
             "rawName": "Yehorivka_RAAS_v1",
-            "levelName": ": Yehorivka_RAAS_v1",
+            "levelName": "Yehorivka_RAAS_v1",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -54286,7 +54286,7 @@
         {
             "Name": "Yehorivka RAAS v2",
             "rawName": "Yehorivka_RAAS_v2",
-            "levelName": ": Yehorivka_RAAS_v2",
+            "levelName": "Yehorivka_RAAS_v2",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -54502,7 +54502,7 @@
         {
             "Name": "Yehorivka RAAS v3",
             "rawName": "Yehorivka_RAAS_v3",
-            "levelName": ": Yehorivka_RAAS_v3",
+            "levelName": "Yehorivka_RAAS_v3",
             "lightingLevel": "LL_Yehorivka_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -54806,7 +54806,7 @@
         {
             "Name": "Yehorivka RAAS v4",
             "rawName": "Yehorivka_RAAS_v4",
-            "levelName": ": Yehorivka_RAAS_v4",
+            "levelName": "Yehorivka_RAAS_v4",
             "lightingLevel": "LL_Yehorivka_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -55038,7 +55038,7 @@
         {
             "Name": "Yehorivka RAAS v5",
             "rawName": "Yehorivka_RAAS_v5",
-            "levelName": ": Yehorivka_RAAS_v5",
+            "levelName": "Yehorivka_RAAS_v5",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -55310,7 +55310,7 @@
         {
             "Name": "Yehorivka Skirmish v1",
             "rawName": "Yehorivka_Skirmish_v1",
-            "levelName": ": Yehorivka_Skirmish_v1",
+            "levelName": "Yehorivka_Skirmish_v1",
             "lightingLevel": "LL_Yehorivka_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -55415,7 +55415,7 @@
         {
             "Name": "Yehorivka Skirmish v2",
             "rawName": "Yehorivka_Skirmish_v2",
-            "levelName": ": Yehorivka_Skirmish_v2",
+            "levelName": "Yehorivka_Skirmish_v2",
             "lightingLevel": "LL_Yehorivka_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -55518,7 +55518,7 @@
         {
             "Name": "Yehorivka Skirmish v3",
             "rawName": "Yehorivka_Skirmish_v3",
-            "levelName": ": Yehorivka_Skirmish_v3",
+            "levelName": "Yehorivka_Skirmish_v3",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -55652,7 +55652,7 @@
         {
             "Name": "Yehorivka TA v1",
             "rawName": "Yehorivka_TA_v1",
-            "levelName": ": Yehorivka_TA_v1",
+            "levelName": "Yehorivka_TA_v1",
             "lightingLevel": "LL_Yehorivka_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -55752,7 +55752,7 @@
         {
             "Name": "Yehorivka TC v1",
             "rawName": "Yehorivka_TC_v1",
-            "levelName": ": Yehorivka_TC_v1",
+            "levelName": "Yehorivka_TC_v1",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -56009,7 +56009,7 @@
         {
             "Name": "Yehorivka TC v2",
             "rawName": "Yehorivka_TC_v2",
-            "levelName": ": Yehorivka_TC_V2",
+            "levelName": "Yehorivka_TC_V2",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -56250,7 +56250,7 @@
         {
             "Name": "CAF AlBasrah Invasion v1",
             "rawName": "CAF_AlBasrah_Invasion_v1",
-            "levelName": ": CAF_Al_Basrah_Invasion_v1",
+            "levelName": "CAF_Al_Basrah_Invasion_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -56512,7 +56512,7 @@
         {
             "Name": "CAF AlBasrah Invasion v2",
             "rawName": "CAF_AlBasrah_Invasion_v2",
-            "levelName": ": CAF_Al_Basrah_Invasion_v2",
+            "levelName": "CAF_Al_Basrah_Invasion_v2",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
             "border": [
@@ -56790,7 +56790,7 @@
         {
             "Name": "CAF Belaya AAS v1",
             "rawName": "CAF_Belaya_AAS_v1",
-            "levelName": ": CAF_Belaya_AAS_v1",
+            "levelName": "CAF_Belaya_AAS_v1",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -57270,7 +57270,7 @@
         {
             "Name": "CAF Belaya RAAS v1",
             "rawName": "CAF_Belaya_RAAS_v1",
-            "levelName": ": CAF_Belaya_RAAS_v1",
+            "levelName": "CAF_Belaya_RAAS_v1",
             "lightingLevel": "LL_Belaya_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -57793,7 +57793,7 @@
         {
             "Name": "CAF Belaya RAAS v2",
             "rawName": "CAF_Belaya_RAAS_v2",
-            "levelName": ": CAF_Belaya_RAAS_v2",
+            "levelName": "CAF_Belaya_RAAS_v2",
             "lightingLevel": "LL_Belaya_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -58284,7 +58284,7 @@
         {
             "Name": "CAF Chora AAS v1",
             "rawName": "CAF_Chora_AAS_v1",
-            "levelName": ": CAF_Chora_AAS_v1",
+            "levelName": "CAF_Chora_AAS_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -58454,7 +58454,7 @@
         {
             "Name": "CAF Chora RAAS v1",
             "rawName": "CAF_Chora_RAAS_v1",
-            "levelName": ": CAF_Chora_RAAS_v1",
+            "levelName": "CAF_Chora_RAAS_v1",
             "lightingLevel": "LL_Chora_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -58634,7 +58634,7 @@
         {
             "Name": "CAF Fallujah Invasion v1",
             "rawName": "CAF_Fallujah_Invasion_v1",
-            "levelName": ": CAF_Fallujah_Invasion_v1",
+            "levelName": "CAF_Fallujah_Invasion_v1",
             "lightingLevel": "LL_Fallujah_Night",
             "lighting": "Clear Night",
             "border": [
@@ -59051,7 +59051,7 @@
         {
             "Name": "CAF Fallujah RAAS v1",
             "rawName": "CAF_Fallujah_RAAS_v1",
-            "levelName": ": CAF_Fallujah_RAAS_v1",
+            "levelName": "CAF_Fallujah_RAAS_v1",
             "lightingLevel": "LL_Fallujah_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -59417,7 +59417,7 @@
         {
             "Name": "CAF Fools Road RAAS v1",
             "rawName": "CAF_Fools_Road_RAAS_v1",
-            "levelName": ": CAF_Fools_Road_RAAS_v1",
+            "levelName": "CAF_Fools_Road_RAAS_v1",
             "lightingLevel": "LL_Fools_Road_Evening",
             "lighting": "Sunny Afternoon",
             "border": [
@@ -59579,7 +59579,7 @@
         {
             "Name": "CAF Goose Bay AAS v1",
             "rawName": "CAF_GooseBay_AAS_v1",
-            "levelName": ": CAF_Goose_Bay_AAS_v1",
+            "levelName": "CAF_Goose_Bay_AAS_v1",
             "lightingLevel": "LL_Goose_Bay_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -59793,7 +59793,7 @@
         {
             "Name": "CAF Goose Bay Invasion v1",
             "rawName": "CAF_GooseBay_Invasion_v1",
-            "levelName": ": CAF_Goose_Bay_Invasion_v1",
+            "levelName": "CAF_Goose_Bay_Invasion_v1",
             "lightingLevel": "LL_Goose_Bay_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -60047,7 +60047,7 @@
         {
             "Name": "CAF Goose Bay Invasion v2",
             "rawName": "CAF_GooseBay_Invasion_v2",
-            "levelName": ": CAF_Goose_Bay_Invasion_v2",
+            "levelName": "CAF_Goose_Bay_Invasion_v2",
             "lightingLevel": "LL_Goose_Bay_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -60269,7 +60269,7 @@
         {
             "Name": "CAF Goose Bay RAAS v1",
             "rawName": "CAF_GooseBay_RAAS_v1",
-            "levelName": ": CAF_Goose_Bay_RAAS_v1",
+            "levelName": "CAF_Goose_Bay_RAAS_v1",
             "lightingLevel": "LL_Goose_Bay_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -60552,7 +60552,7 @@
         {
             "Name": "CAF Goose Bay Skirmish v1",
             "rawName": "CAF_GooseBay_Skirmish_v1",
-            "levelName": ": CAF_Goose_Bay_Skirmish_v1",
+            "levelName": "CAF_Goose_Bay_Skirmish_v1",
             "lightingLevel": "LL_Goose_Bay_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -60677,7 +60677,7 @@
         {
             "Name": "CAF Gorodok AAS v1",
             "rawName": "CAF_Gorodok_AAS_v1",
-            "levelName": ": CAF_Gorodok_AAS_v1",
+            "levelName": "CAF_Gorodok_AAS_v1",
             "lightingLevel": "LL_Gorodok_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -61014,7 +61014,7 @@
         {
             "Name": "CAF Gorodok Invasion v1",
             "rawName": "CAF_Gorodok_Invasion_v1",
-            "levelName": ": CAF_Gorodok_Invasion_v1",
+            "levelName": "CAF_Gorodok_Invasion_v1",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -61359,7 +61359,7 @@
         {
             "Name": "CAF Gorodok RAAS v1",
             "rawName": "CAF_Gorodok_RAAS_v1",
-            "levelName": ": CAF_Gorodok_RAAS_v1",
+            "levelName": "CAF_Gorodok_RAAS_v1",
             "lightingLevel": "LL_Gorodok_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -61737,7 +61737,7 @@
         {
             "Name": "CAF Gorodok RAAS v2",
             "rawName": "CAF_Gorodok_RAAS_v2",
-            "levelName": ": CAF_Gorodok_RAAS_v2",
+            "levelName": "CAF_Gorodok_RAAS_v2",
             "lightingLevel": "LL_Gorodok_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -62114,7 +62114,7 @@
         {
             "Name": "CAF Gorodok TC v1",
             "rawName": "CAF_Gorodok_TC_v1",
-            "levelName": ": CAF_Gorodok_TC_v1",
+            "levelName": "CAF_Gorodok_TC_v1",
             "lightingLevel": "LL_Gorodok_Evening",
             "lighting": "Sunset",
             "border": [
@@ -62452,7 +62452,7 @@
         {
             "Name": "Jensen's Traning Range",
             "rawName": "CAF_JensensRange_CAF-RUS",
-            "levelName": ": CAF_Jensens_Range_v4",
+            "levelName": "CAF_Jensens_Range_v4",
             "lightingLevel": "LL_Jensens_Range_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -62675,7 +62675,7 @@
         {
             "Name": "CAF Kamdesh Invasion v1",
             "rawName": "CAF_Kamdesh_Invasion_v1",
-            "levelName": ": CAF_Kamdesh_Invasion_v1",
+            "levelName": "CAF_Kamdesh_Invasion_v1",
             "lightingLevel": "LL_Kamdesh_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -63083,7 +63083,7 @@
         {
             "Name": "CAF Kamdesh TC v1",
             "rawName": "CAF_Kamdesh_TC_v1",
-            "levelName": ": CAF_Kamdesh_RAAS_v1",
+            "levelName": "CAF_Kamdesh_RAAS_v1",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -63475,7 +63475,7 @@
         {
             "Name": "CAF Kamdesh RAAS v1",
             "rawName": "CAF_Kamdesh_RAAS_v1",
-            "levelName": ": CAF_Kamdesh_TC_v1",
+            "levelName": "CAF_Kamdesh_TC_v1",
             "lightingLevel": "LL_Kamdesh_Stormy",
             "lighting": "Stormy",
             "border": [
@@ -63836,7 +63836,7 @@
         {
             "Name": "CAF Kohat Invasion v1",
             "rawName": "CAF_Kohat_Invasion_v1",
-            "levelName": ": CAF_Kohat_Invasion_v1",
+            "levelName": "CAF_Kohat_Invasion_v1",
             "lightingLevel": "LL_Kohat_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -64233,7 +64233,7 @@
         {
             "Name": "CAF Kokan Valley RAAS v1",
             "rawName": "CAF_Kokan_Valley_RAAS_v1",
-            "levelName": ": CAF_Kokan_Valley_RAAS_v1",
+            "levelName": "CAF_Kokan_Valley_RAAS_v1",
             "lightingLevel": "LL_Kokan_Valley_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -64396,7 +64396,7 @@
         {
             "Name": "CAF Lashkar Valley Invasion v1",
             "rawName": "CAF_Lashkar_Valley_Invasion_v1",
-            "levelName": ": CAF_Lashkar_Valley_Invasion_v1",
+            "levelName": "CAF_Lashkar_Valley_Invasion_v1",
             "lightingLevel": "LL_Lashkar_Early_Morning",
             "lighting": "Early Morning",
             "border": [
@@ -64819,7 +64819,7 @@
         {
             "Name": "CAF Lashkar Valley RAAS v1",
             "rawName": "CAF_Lashkar_Valley_RAAS_v1",
-            "levelName": ": CAF_Lashkar_Valley_RAAS_v1",
+            "levelName": "CAF_Lashkar_Valley_RAAS_v1",
             "lightingLevel": "LL_Lashkar_Rainstorm",
             "lighting": "Rain Storm",
             "border": [
@@ -65219,7 +65219,7 @@
         {
             "Name": "CAF Lashkar Valley TC v1",
             "rawName": "CAF_Lashkar_Valley_TC_v1",
-            "levelName": ": CAF_Lashkar_Valley_TC_v1",
+            "levelName": "CAF_Lashkar_Valley_TC_v1",
             "lightingLevel": "LL_Lashkar_Rainstorm",
             "lighting": "Rain Storm",
             "border": [
@@ -65584,7 +65584,7 @@
         {
             "Name": "CAF Logar Valley RAAS v1",
             "rawName": "CAF_Logar_Valley_RAAS_v1",
-            "levelName": ": CAF_Logar_Valley_RAAS_v1",
+            "levelName": "CAF_Logar_Valley_RAAS_v1",
             "lightingLevel": "LL_Logar_Valley_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -65813,7 +65813,7 @@
         {
             "Name": "CAF Manic AAS v1",
             "rawName": "CAF_Manic_AAS_v1",
-            "levelName": ": CAF_Manic-5_AAS_v1",
+            "levelName": "CAF_Manic-5_AAS_v1",
             "lightingLevel": "LL_Manic-5_MidDay",
             "lighting": "Mid Day",
             "border": [
@@ -66055,7 +66055,7 @@
         {
             "Name": "CAF Manic AAS v2",
             "rawName": "CAF_Manic_AAS_v2",
-            "levelName": ": CAF_Manic-5_AAS_v2",
+            "levelName": "CAF_Manic-5_AAS_v2",
             "lightingLevel": "LL_Manic-5_MidDay",
             "lighting": "Mid Day",
             "border": [
@@ -66273,7 +66273,7 @@
         {
             "Name": "CAF Manic Invasion v1",
             "rawName": "CAF_Manic_Invasion_v1",
-            "levelName": ": CAF_Manic-5_Invasion_v1",
+            "levelName": "CAF_Manic-5_Invasion_v1",
             "lightingLevel": "LL_Manic-5_MidDay",
             "lighting": "Mid Day",
             "border": [
@@ -66514,7 +66514,7 @@
         {
             "Name": "CAF Manic Invasion v2",
             "rawName": "CAF_Manic_Invasion_v2",
-            "levelName": ": CAF_Manic-5_Invasion_v2",
+            "levelName": "CAF_Manic-5_Invasion_v2",
             "lightingLevel": "LL_Manic-5_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -66755,7 +66755,7 @@
         {
             "Name": "CAF Manic RAAS v1",
             "rawName": "CAF_Manic_RAAS_v1",
-            "levelName": ": CAF_Manic-5_RAAS_v1",
+            "levelName": "CAF_Manic-5_RAAS_v1",
             "lightingLevel": "LL_Manic-5_MidDay",
             "lighting": "Mid Day",
             "border": [
@@ -67036,7 +67036,7 @@
         {
             "Name": "CAF Manic RAAS v2",
             "rawName": "CAF_Manic_RAAS_v2",
-            "levelName": ": CAF_Manic-5_RAAS_v2",
+            "levelName": "CAF_Manic-5_RAAS_v2",
             "lightingLevel": "LL_Manic-5_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -67255,7 +67255,7 @@
         {
             "Name": "CAF Manic RAAS v3",
             "rawName": "CAF_Manic_RAAS_v3",
-            "levelName": ": CAF_Manic-5_RAAS_v3",
+            "levelName": "CAF_Manic-5_RAAS_v3",
             "lightingLevel": "LL_Manic-5_MidDay",
             "lighting": "Mid Day",
             "border": [
@@ -67512,7 +67512,7 @@
         {
             "Name": "CAF Manic RAAS v4",
             "rawName": "CAF_Manic_RAAS_v4",
-            "levelName": ": CAF_Manic-5_RAAS_v4",
+            "levelName": "CAF_Manic-5_RAAS_v4",
             "lightingLevel": "LL_Manic-5_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -67732,7 +67732,7 @@
         {
             "Name": "CAF Manic Skirmish v1",
             "rawName": "CAF_Manic_Skirmish_v1",
-            "levelName": ": CAF_Manic-5_Skirmish_v1",
+            "levelName": "CAF_Manic-5_Skirmish_v1",
             "lightingLevel": "LL_Manic-5_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -67876,7 +67876,7 @@
         {
             "Name": "CAF Manic Skirmish v2",
             "rawName": "CAF_Manic_Skirmish_v2",
-            "levelName": ": CAF_Manic-5_Skirmish_v2",
+            "levelName": "CAF_Manic-5_Skirmish_v2",
             "lightingLevel": "LL_Manic-5_MidDay",
             "lighting": "Mid Day",
             "border": [
@@ -67996,7 +67996,7 @@
         {
             "Name": "CAF Manic TC v2",
             "rawName": "CAF_Manic_TC_v2",
-            "levelName": ": CAF_Manic-5_TC_v1",
+            "levelName": "CAF_Manic-5_TC_v1",
             "lightingLevel": "LL_Manic-5_Sunset",
             "lighting": "Sunset",
             "border": [
@@ -68198,7 +68198,7 @@
         {
             "Name": "CAF Mestia RAAS v1",
             "rawName": "CAF_Mestia_RAAS_v1",
-            "levelName": ": CAF_Mestia_RAAS_v1",
+            "levelName": "CAF_Mestia_RAAS_v1",
             "lightingLevel": "LL_Mestia_Overcast",
             "lighting": "Overcast",
             "border": [
@@ -68368,7 +68368,7 @@
         {
             "Name": "CAF Mutaha AAS v1",
             "rawName": "CAF_Mutaha_AAS_v1",
-            "levelName": ": CAF_Mutaha_AAS_v1",
+            "levelName": "CAF_Mutaha_AAS_v1",
             "lightingLevel": "LL_Mutaha_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -68608,7 +68608,7 @@
         {
             "Name": "CAF Mutaha RAAS v1",
             "rawName": "CAF_Mutaha_RAAS_v1",
-            "levelName": ": CAF_Mutaha_RAAS_v1",
+            "levelName": "CAF_Mutaha_RAAS_v1",
             "lightingLevel": "LL_Mutaha_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -68841,7 +68841,7 @@
         {
             "Name": "CAF Mutaha RAAS v2",
             "rawName": "CAF_Mutaha_RAAS_v2",
-            "levelName": ": CAF_Mutaha_RAAS_v2",
+            "levelName": "CAF_Mutaha_RAAS_v2",
             "lightingLevel": "LL_Mutaha_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -69076,7 +69076,7 @@
         {
             "Name": "CAF Narva RAAS v1",
             "rawName": "CAF_Narva_RAAS_v1",
-            "levelName": ": CAF_Narva_RAAS_v1",
+            "levelName": "CAF_Narva_RAAS_v1",
             "lightingLevel": "LL_Narva_MidDay_Clouds",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -69304,7 +69304,7 @@
         {
             "Name": "CAF Skorpo RAAS v1",
             "rawName": "CAF_Skorpo_RAAS_v1",
-            "levelName": ": CAF_Skorpo_RAAS_v1",
+            "levelName": "CAF_Skorpo_RAAS_v1",
             "lightingLevel": "LL_Skorpo_Midday",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -69596,7 +69596,7 @@
         {
             "Name": "CAF Sumari AAS v1",
             "rawName": "CAF_Sumari_AAS_v1",
-            "levelName": ": CAF_Sumari_AAS_v1",
+            "levelName": "CAF_Sumari_AAS_v1",
             "lightingLevel": "LL_Sumari_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -69759,7 +69759,7 @@
         {
             "Name": "CAF Tallil Outskirts RAAS v1",
             "rawName": "CAF_Tallil_Outskirts_RAAS_v1",
-            "levelName": ": CAF_Tallil_Outskirts_RAAS_v1",
+            "levelName": "CAF_Tallil_Outskirts_RAAS_v1",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -70048,7 +70048,7 @@
         {
             "Name": "CAF Tallil Outskirts RAAS v2",
             "rawName": "CAF_Tallil_Outskirts_RAAS_v2",
-            "levelName": ": CAF_Tallil_Outskirts_RAAS_v2",
+            "levelName": "CAF_Tallil_Outskirts_RAAS_v2",
             "lightingLevel": "LL_Tallil_Outskirts_MidDay",
             "lighting": "Sunny Mid Day",
             "border": [
@@ -70314,7 +70314,7 @@
         {
             "Name": "CAF Yehorivka Invasion v1",
             "rawName": "CAF_Yehorivka_Invasion_v1",
-            "levelName": ": CAF_Yehorivka_Invasion_v1",
+            "levelName": "CAF_Yehorivka_Invasion_v1",
             "lightingLevel": "LL_Yehorivka_Sunrise",
             "lighting": "Sunrise",
             "border": [
@@ -70554,7 +70554,7 @@
         {
             "Name": "CAF Yehorivka RAAS v1",
             "rawName": "CAF_Yehorivka_RAAS_v1",
-            "levelName": ": CAF_Yehorivka_RAAS_v1",
+            "levelName": "CAF_Yehorivka_RAAS_v1",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
@@ -70866,7 +70866,7 @@
         {
             "Name": "CAF Yehorivka TC v2",
             "rawName": "CAF_Yehorivka_TC_v2",
-            "levelName": ": CAF_Yehorivka_TC_V1",
+            "levelName": "CAF_Yehorivka_TC_V1",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
             "border": [
