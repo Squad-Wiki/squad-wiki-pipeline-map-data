@@ -43,8 +43,6 @@ node raw_To_JSON/raw-to-json.js
 #### Input
 The output from the SDK must be put in `files/input/raw.txt`.
 
-If you have CAF data this must be put in `files/input/raw_caf.txt` and CAF must be enabled in the main.json config - see [Configuration](configuration.md#main.json).
-
 Make sure you set the correct Squad $version every time you run this step - see [configuration](configuration.md).
 
 Also make sure that [all configuration files](configuration.md) are updated if new vehicles, factions or game modes are added to Squad.

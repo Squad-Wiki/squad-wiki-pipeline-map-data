@@ -47,26 +47,24 @@ Skip to step 6 if you are not using CAF files
 
 ![Add Component](/doc/images/sdk/sdk_add_component.png)
 
-10. Move the Function Start (this should be in the middle of the paste) and move it to the start.
+10. Open up the `Event Graph` in the BP_HUD.
 
-11. Open up the `Event Graph` in the BP_HUD.
-
-12. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node. 
+11. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node. 
 
 ![Copy Node](/doc/images/sdk/sdk_copy_delay.png)
 
-13. Paste the delay node at the end of `Wait for Start of Match`
+12. Paste the delay node at the end of `Wait for Start of Match`
 
-14. Drag the `Map Grab Assets` asset from the left bar into the blueprint.
+13. Drag the `Map Grab Assets` asset from the left bar into the blueprint.
 
 ![Drag Actor](/doc/images/sdk/sdk_drag_actor.png)
 
-15. Drag off the blue object reference and search `Map Grab Assets` and click on the function that appears.
+14. Drag off the blue object reference and search `Map Grab Assets` and click on the function that appears.
 
 ![Create new Function](/doc/images/sdk/sdk_create_new_function.png)
 
-16. Connect the Delay node with the new function node.
+15. Connect the Delay node with the new function node.
 
-17. If you are using CAF files click the CAF tickbox on the function.
+16. If you are using CAF files click the CAF tickbox on the function.
 
-18. Compile and save the blueprint.
+17. Compile and save the blueprint.

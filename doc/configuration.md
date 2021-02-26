@@ -152,9 +152,7 @@ Example:
 There are only two settings in this file:
 
 1) "version" - the current Squad release version. This is used to keep output files separate by version and for wiki commenting purposes.
-2) "caf" - boolean for if there is a CAF raw file. If there is not a separate raw output for CAF then set this to false.
-
-CAF stands for a playable faction in Squad that was added as DLC to the game (see [faction page](https://squad.gamepedia.com/Canadian_Army)). Because it is a DLC and not included in the Squad SDK, the export process works slightly differently and, if the flag is set, two exports (one from the Squad SDK and one for the CAF DLC) are merged together into one JSON file.
+2) "caf" - depreciated 
 
 Example:
 ```
