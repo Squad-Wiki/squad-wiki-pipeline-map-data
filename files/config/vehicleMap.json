@@ -378,7 +378,7 @@
     "BP_FV510_Woodland_C_DisplayName": "FV510",
 
     "BP_FV510UA_CTAS40_Woodland_C_Name": "FV510",
-    "BP_FV510UA_CTAS40_Woodland_C_DisplayName": "FV510 CTAS40",
+    "BP_FV510UA_CTAS40_Woodland_C_DisplayName": "FV520 CTAS40",
 
     "BP_FV510UA_C_Name": "FV510",
     "BP_FV510UA_C_DisplayName": "FV510 (Up-Armoured)",
@@ -387,7 +387,7 @@
     "BP_FV510UA_Woodland_C_DisplayName": "FV510 (Up-Armoured)",
 
     "BP_FV510UA_CTAS40_C_Name": "FV510",
-    "BP_FV510UA_CTAS40_C_DisplayName": "FV510 CTAS40 (Up-Armoured)",
+    "BP_FV510UA_CTAS40_C_DisplayName": "FV520 CTAS40 (Up-Armoured)",
 
 
 
@@ -518,8 +518,16 @@
     "BP_TAPV_C_Name": "TAPV",
     "BP_TAPV_C_DisplayName": "TAPV",
 
+    "BP_TAPV_C6_C_Name": "TAPV",
+    "BP_TAPV_C6_C_DisplayName": "TAPV",
+
+
     "BP_TAPV_Desert_C_Name": "TAPV",
     "BP_TAPV_Desert_C_DisplayName": "TAPV",
+
+    "BP_TAPV_C6_Desert_C_Name": "TAPV",
+    "BP_TAPV_C6_Desert_C_DisplayName": "TAPV C6",
+
 
 
 
