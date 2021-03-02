@@ -2922,7 +2922,7 @@
         },
         {
             "Name": "Al Basrah Invasion v1",
-            "rawName": "Albasrah_Invasion_v1",
+            "rawName": "Albasrah_invasion_v1",
             "levelName": "Albasrah_invasion_v1",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
@@ -3257,7 +3257,7 @@
         },
         {
             "Name": "Al Basrah Invasion v2",
-            "rawName": "Albasrah_Invasion_v2",
+            "rawName": "Albasrah_invasion_v2",
             "levelName": "Albasrah_invasion_v2",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -56008,7 +56008,7 @@
         },
         {
             "Name": "Yehorivka TC v2",
-            "rawName": "Yehorivka_TC_v2",
+            "rawName": "Yehorivka_TC_V2",
             "levelName": "Yehorivka_TC_V2",
             "lightingLevel": "LL_Yehorivka_MidDay",
             "lighting": "Partial Clouds Mid Day",
@@ -56249,7 +56249,7 @@
         },
         {
             "Name": "CAF AlBasrah Invasion v1",
-            "rawName": "CAF_AlBasrah_Invasion_v1",
+            "rawName": "CAF_AlBasrah_nvasion_v1",
             "levelName": "CAF_Al_Basrah_Invasion_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
