@@ -2058,7 +2058,7 @@
     "Maps": [
         {
             "Name": "Al Basrah AAS v1",
-            "rawName": "AlBasrah_AAS_v1",
+            "rawName": "Albasrah_AAS_v1",
             "levelName": "Albasrah_AAS_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -2337,7 +2337,7 @@
         },
         {
             "Name": "Al Basrah AAS v2",
-            "rawName": "AlBasrah_AAS_v2",
+            "rawName": "Albasrah_AAS_v2",
             "levelName": "Albasrah_AAS_v2",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -2608,7 +2608,7 @@
         },
         {
             "Name": "Al Basrah Insurgency v1",
-            "rawName": "AlBasrah_Insurgency_v1",
+            "rawName": "Albasrah_Insurgency_v1",
             "levelName": "Albasrah_Insurgency_v1",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
@@ -2922,7 +2922,7 @@
         },
         {
             "Name": "Al Basrah Invasion v1",
-            "rawName": "AlBasrah_Invasion_v1",
+            "rawName": "Albasrah_Invasion_v1",
             "levelName": "Albasrah_invasion_v1",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
@@ -3257,7 +3257,7 @@
         },
         {
             "Name": "Al Basrah Invasion v2",
-            "rawName": "AlBasrah_Invasion_v2",
+            "rawName": "Albasrah_Invasion_v2",
             "levelName": "Albasrah_invasion_v2",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -3608,7 +3608,7 @@
         },
         {
             "Name": "Al Basrah RAAS v1",
-            "rawName": "AlBasrah_RAAS_v1",
+            "rawName": "Albasrah_RAAS_v1",
             "levelName": "Albasrah_RAAS_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -3936,7 +3936,7 @@
         },
         {
             "Name": "Al Basrah Skirmish v1",
-            "rawName": "AlBasrah_Skirmish_v1",
+            "rawName": "Albasrah_Skirmish_v1",
             "levelName": "Albasrah_Skirmish_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -4104,7 +4104,7 @@
         },
         {
             "Name": "Al Basrah Skirmish v2",
-            "rawName": "AlBasrah_Skirmish_v2",
+            "rawName": "Albasrah_Skirmish_v2",
             "levelName": "Albasrah_Skirmish_v2",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
@@ -4239,7 +4239,7 @@
         },
         {
             "Name": "Al Basrah TA v1",
-            "rawName": "AlBasrah_TA_v1",
+            "rawName": "Albasrah_TA_v1",
             "levelName": "Albasrah_TA_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -4329,7 +4329,7 @@
         },
         {
             "Name": "Al Basrah TC v1",
-            "rawName": "AlBasrah_TC_v1",
+            "rawName": "Albasrah_TC_v1",
             "levelName": "Albasrah_TC_v1",
             "lightingLevel": "LL_AlBasrah_MidDay",
             "lighting": "Sunny Mid Day",
@@ -4568,7 +4568,7 @@
         },
         {
             "Name": "Al Basrah TC v2",
-            "rawName": "AlBasrah_TC_v2",
+            "rawName": "Albasrah_TC_v2",
             "levelName": "Albasrah_TC_v2",
             "lightingLevel": "LL_AlBasrah_Sunset",
             "lighting": "Sunrise",
@@ -39723,7 +39723,7 @@
         },
         {
             "Name": "Mestia AAS v1",
-            "rawName": "Mestia_AAS_v1",
+            "rawName": "Mestia_AAS_V1",
             "levelName": "Mestia_AAS_V1",
             "lightingLevel": "LL_Mestia_Sunset",
             "lighting": "Sunset",
@@ -39926,7 +39926,7 @@
         },
         {
             "Name": "Mestia Invasion v1",
-            "rawName": "Mestia_Invasion_v1",
+            "rawName": "Mestia_Invasion_V1",
             "levelName": "Mestia_Invasion_V1",
             "lightingLevel": "LL_Mestia_Sunset",
             "lighting": "Sunset",
@@ -40135,7 +40135,7 @@
         },
         {
             "Name": "Mestia Invasion v2",
-            "rawName": "Mestia_Invasion_v2",
+            "rawName": "Mestia_Invasion_V2",
             "levelName": "Mestia_Invasion_V2",
             "lightingLevel": "LL_Mestia_MidDay",
             "lighting": "Sunny Afternoon",
