@@ -2053,6 +2053,55 @@
                     "icon": "map_ifv"
                 }
             ]
+        },
+        {
+            "faction": "Canadian Army",
+            "setup_Name": "Royal Newfoundland Regiment",
+            "type": "Light Infantry",
+            "shortname": "RNR",
+            "badge": "R_NFLD_R",
+            "vehicles": [
+                {
+                    "type": "MSVS Logistics Truck",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_CAF_Util_Desert_Logi_C",
+                    "icon": "map_truck_logistics"
+                },
+                {
+                    "type": "MSVS Transport Truck",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_CAF_Util_Desert_C",
+                    "icon": "map_truck_transport"
+                },
+                {
+                    "type": "LUV-A1 Logistics",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_M-Gator_Logistics_ARID_C",
+                    "icon": "map_jeep_logistics"
+                },
+                {
+                    "type": "LUV-A1 Transport",
+                    "count": "2",
+                    "delay": 0,
+                    "respawnTime": 3,
+                    "rawType": "BP_M-Gator_Transport_ARID_C",
+                    "icon": "map_jeep_transport"
+                },
+                {
+                    "type": "TAPV C6",
+                    "count": "1",
+                    "delay": 0,
+                    "respawnTime": 5,
+                    "rawType": "BP_TAPV_C6_Desert_C",
+                    "icon": "map_jeep_turret"
+                }
+            ]
         }
     ],
     "Maps": [
@@ -2961,7 +3010,7 @@
             "team1": {
                 "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -4010,7 +4059,7 @@
             "team1": {
                 "faction": "British Army",
                 "teamSetupName": "1st Battalion, Grenadier Guards",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -6123,7 +6172,7 @@
             "team1": {
                 "faction": "Russian Ground Forces",
                 "teamSetupName": "Russian battalion tactical group",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -6660,7 +6709,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -7181,7 +7230,7 @@
             "team1": {
                 "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -10349,7 +10398,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -10608,7 +10657,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -12815,7 +12864,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -13240,7 +13289,7 @@
             "team1": {
                 "faction": "Middle Eastern Alliance",
                 "teamSetupName": "MEA Combined Arms Battalion",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -13736,7 +13785,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -16823,7 +16872,7 @@
             "team1": {
                 "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -19650,7 +19699,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -20028,7 +20077,7 @@
             "team1": {
                 "faction": "Russian Ground Forces",
                 "teamSetupName": "Russian battalion tactical group",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -24889,7 +24938,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -25409,7 +25458,7 @@
             "team1": {
                 "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -25913,7 +25962,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -30496,7 +30545,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -31078,7 +31127,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -34219,7 +34268,7 @@
             "team1": {
                 "faction": "Russian Ground Forces",
                 "teamSetupName": "Russian battalion tactical group",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -39945,7 +39994,7 @@
             "team1": {
                 "faction": "Russian Ground Forces",
                 "teamSetupName": "Russian battalion tactical group",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -40154,7 +40203,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -41209,7 +41258,7 @@
             "team1": {
                 "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -43174,7 +43223,7 @@
             "team2": {
                 "faction": "Russian Ground Forces",
                 "teamSetupName": "Russian battalion tactical group",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -43300,7 +43349,7 @@
             "team1": {
                 "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -44695,7 +44744,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -44986,7 +45035,7 @@
             "team1": {
                 "faction": "Russian Ground Forces",
                 "teamSetupName": "Russian battalion tactical group",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -47791,7 +47840,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -49114,7 +49163,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -49402,7 +49451,7 @@
             "team1": {
                 "faction": "Russian Ground Forces",
                 "teamSetupName": "Russian battalion tactical group",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
@@ -49673,7 +49722,7 @@
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US Brigade Combat Team",
-                "tickets": "150",
+                "tickets": "200",
                 "playerPercent": "50",
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",

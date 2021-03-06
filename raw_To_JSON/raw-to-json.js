@@ -41,7 +41,7 @@ let loop = async(remaninglines, output, output2) => {
     currentMap = {}
     let tempLane = ""
     currentSetup = {}
-
+    
     while(remaninglines.indexOf("\n") >= -1){
         let lineEnd = remaninglines.indexOf("\n")
         let line = remaninglines.substring(0, lineEnd - 1)
@@ -99,16 +99,21 @@ let loop = async(remaninglines, output, output2) => {
                 }
                 break;
             case "Data":
+                
                 if(line.includes("name:")){
+                    if(currentSetup != undefined) {
+                        console.log(currentSetup)
+                        finishedSetups.push(currentSetup)
+                        currentSetup = undefined
+                    }
                     //// New Map Detected
                     if(Object.keys(currentMap).length === 0) {
                         currentMap.Name = line.substring(13, line.length)
                         break;
                     }
             
-
                     if(currentMap.rawName.includes("CAF")) {
-                        tempName = currentMap.rawName.substring(4, currentMap.rawName.length)
+                        tempName = currentMap.Name.substring(4, currentMap.Name.length)
                     }
                     else{
                         tempName = currentMap.Name
@@ -120,7 +125,6 @@ let loop = async(remaninglines, output, output2) => {
                     currentMap.mapName = mapPage
                     currentMap.gamemode = gamemodeinfo.gamemode
                     currentMap.layerVersion = layerVersion
-
                     if(currentMap.border == undefined){
                         currentMap.mapSize = ("0x0 km")
                     }
@@ -157,6 +161,10 @@ let loop = async(remaninglines, output, output2) => {
 
                 if(line.includes("mapRawName:")){
                     currentMap.rawName = line.substring(19, line.length)
+                }
+
+                if(line.includes("mapLevelName:")){
+                    currentMap.levelName = line.substring(21, line.length)
                 }
 
                 if(line.includes("team:")){
@@ -280,7 +288,6 @@ let loop = async(remaninglines, output, output2) => {
                 break;
             default:
                 if(line = "\r") break
-                console.log(line)
                 throw new Error("Invalid Data Type:" + line)
                 break;
         }
@@ -288,12 +295,16 @@ let loop = async(remaninglines, output, output2) => {
         if (remaninglines.indexOf("\n") == -1) {
             tempBorderInfo = await borderCaculator(currentMap.border)
                         currentMap.mapSize = tempBorderInfo.mapSize
+                        if(currentMap.border == undefined){
+                            currentMap.mapSizeType = 0
+                        }
+                        else {
                         if(currentMap.border.length > 2){
                             currentMap.mapSizeType = "Playable Area"
                         }
                         else {
                             currentMap.mapSizeType = "Minimap Size"
-                        }
+                        }}
             finishedJson.push(currentMap)
             break; // If there are no new line characters we have no more lines left
         }
@@ -309,6 +320,14 @@ let loop = async(remaninglines, output, output2) => {
 
 
 borderCaculator = async(border) => {
+    if( border == undefined){
+        output = {}
+        output.mapSize = `0x0 km`
+        output.x = 
+        output.y = 0
+        return output
+    }
+
     distance = {}
     distance.maxx = 0, distance.maxy = 0, distance.lowx = 9999999999, distance.lowy = 9999999999
     border.forEach(borderelement => {
