@@ -77,7 +77,7 @@ In the future we are considering extending the pipeline to extract more and more
 ## Contributing
 Feel free to use this pipeline or parts of it for other games or game wikis.
 
-If you want to contribute to the pipeline for the [Squad Wiki](https://squad.gamepedia.com/Squad_Wiki), considering joining the team in the [Squad Wiki Editorial](https://squad.gamepedia.com/Squad_Wiki_Editorial).
+If you want to contribute to the pipeline for the [Squad Wiki](https://squad.gamepedia.com/Squad_Wiki), consider joining the team in the [Squad Wiki Editorial](https://squad.gamepedia.com/Squad_Wiki_Editorial).
 
 
 ## Contact

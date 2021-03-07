@@ -12,56 +12,59 @@ The entire pipeline is run on your **local PC**. It consists of two main parts:
 
 The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is required. You will find instructions on how to install the Squad SDK [here](https://squad.gamepedia.com/Squad_SDK#Downloading_the_Epic_Games_Launcher).
 
-Please note, you have to re-install this Blueprint after every new release version of the Squad SDK. To find out more about Blueprints, see [official documentation](https://docs.unrealengine.com/en-US/Engine/Blueprints/GettingStarted/index.html). You can see all versions of the Squad SDK [here](https://squad.gamepedia.com/Squad_SDK#Version_history).
+Please note, you will have to repeat steps 4-15 after every new release version of the Squad SDK. To find out more about Blueprints, see [official documentation](https://docs.unrealengine.com/en-US/Engine/Blueprints/GettingStarted/index.html). You can see all versions of the Squad SDK [here](https://squad.gamepedia.com/Squad_SDK#Version_history).
 
 
 1. Place the blueprint within the SDK folders. It's recommended that the Blueprint is placed at `/SquadEditor/Squad/Content/Wiki/`.
 
-2. Navigate to `SquadEditor/Squad/Config` and open up `DefaultGame.ini`. Under `[/Script/Engine.AssetManagerSettings]` the line
- `+PrimaryAssetTypesToScan=(PrimaryAssetType="Map",AssetBaseClass=/Script/Engine.World,bHasBlueprintClasses=False,bIsEditorOnly=True,Directories=((Path="/Game/Maps")))` must be added.
+2. Open the Squad SDK. 
 
-3. Open the Squad SDK and navigate to where the Blueprint was placed and open it.
+Skip to step 6 if you are not using CAF files
 
-4. Navigate to `/Content/UI/` within the SDK and open the Blueprint called `BP_HUD`.
+3. Open up the project settings by mousing over Edit in the top left and clicking on `Project Settings`.
 
-5. Create a new function in the BP_HUD Blueprint and name it `MapGrabAssets`.
+![Project Settings](/doc/images/sdk/sdk_project_settings.png)
 
-![BP_HUD Blueprint](/doc/images/sdk/sdk_new_function.png)
+4. Open Up the `Asset Manager`
 
-6. Open up the blueprint `MapGrabAssets` again and select the entire script.
+![Asset Manager](/doc/images/sdk/sdk_asset_manager.png)
 
-![script selection](/doc/images/sdk/sdk_select_function.png)
+5. Under `Primary Asset Types To Scan` add `/CanadianArmedForces` to the directory list for elements 1-4
 
-7. Copy the selected script and paste it into the BP_HUD Blueprint.
+![Add Element](/doc/images/sdk/sdk_add_directory.png)
 
-8. Move the Function Start (this should be in the middle of the paste) and move it to the start.
+6. Under `Primary Asset Types To Scan` click the plus icon.
 
-![Function Start](/doc/images/sdk/sdk_move_1.png)
+![Add New Asset](/doc/images/sdk/sdk_add_primary_asset.png)
 
-9. Connect the Function Start to the first node in the Blueprint.
+7. Set the new `Primary Asset type` to `Map`, the `Asset Base Class` to `World` and the directory to `/Game/Maps`
 
-![Blueprint Connect](/doc/images/sdk/sdk_move_2.png)
+![Asset Configure](/doc/images/sdk/sdk_new_primary_asset.png)
 
-10. Naviagate to the top right of the function and locate the nodes that reset arrays.
+8. Navigate to `/Content/UI/` within the SDK and open the Blueprint called `BP_HUD`.
 
-11. Right click each variable (including the `PWorldSettings`) and promote them to variables. 
+9. Click `Add Component` and search `Map Grab Assets` and click on it.
 
-![Promote to Variable](/doc/images/sdk/sdk_create_variable.png)
+![Add Component](/doc/images/sdk/sdk_add_component.png)
 
-12. The previous step will create new nodes for each variable, remove these nodes. 
+10. Open up the `Event Graph` in the BP_HUD.
 
-![Remove Nodes](/doc/images/sdk/sdk_delete_variable.png)
-
-13. Open up the `Event Graph` in the BP_HUD.
-
-14. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node. 
+11. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node. 
 
 ![Copy Node](/doc/images/sdk/sdk_copy_delay.png)
 
-15. Paste the delay node at the end of `Wait for Start of Match`
+12. Paste the delay node at the end of `Wait for Start of Match`
 
-16. Drag the `MapGrabAssets` function from the left bar into the blueprint.
+13. Drag the `Map Grab Assets` asset from the left bar into the blueprint.
 
-17. Connect the Delay node with the function node. ![Connect Nodes](/doc/images/sdk/sdk_attatch_function.png)
+![Drag Actor](/doc/images/sdk/sdk_drag_actor.png)
 
-18. Compile and save the blueprint.
+14. Drag off the blue object reference and search `Map Grab Assets` and click on the function that appears.
+
+![Create new Function](/doc/images/sdk/sdk_create_new_function.png)
+
+15. Connect the Delay node with the new function node.
+
+16. If you are using CAF files click the CAF tickbox on the function.
+
+17. Compile and save the blueprint.

@@ -22,25 +22,26 @@ All *node commands* must be run from this root folder of the pipeline.
 ### 1) SDK
 Once [installation](/doc/installation.md) is complete the SDK data extraction will activate upon any map loading in the SDK. To extract all data you must open up the very first gameplay layer. This layer should be Al Basrah AAS v1.
 
-Before running the SDK data extraction, open up the `Output Log` and type in `[Wiki]` within the filters. ![Output Filter](/doc/images/sdk/sdk_output.png)
-
 Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. It will automatically cycle through all the maps and layers - this will take quite a long time. ![Hit Play](/doc/images/sdk/sdk_play.png)
 
-All data will output in the `Output Log`. Upon completion of the SDK data extraction you must select all in the output and manually paste it into a text editor and save it in `files/input/raw.txt`.
+All data will output to the file `Squad SDK\SquadEditor\Squad\wiki\raw.txt`.
 
 In case you want to disable the SDK data extraction in your Squad SDK you must unlink the function node within BP_HUD.
+
+
+
+
+
 
 ### 2) raw_To_JSON
 This will convert raw data from the SDK into a more manageable JSON file.
 
 #### Command
 ```
-node rawtojson/raw-to-json.js
+node raw_To_JSON/raw-to-json.js
 ```
 #### Input
 The output from the SDK must be put in `files/input/raw.txt`.
-
-If you have CAF data this must be put in `files/input/raw_caf.txt` and CAF must be enabled in the main.json config - see [Configuration](configuration.md#main.json).
 
 Make sure you set the correct Squad $version every time you run this step - see [configuration](configuration.md).
 

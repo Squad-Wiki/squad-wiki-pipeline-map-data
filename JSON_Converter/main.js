@@ -25,6 +25,9 @@ const inputJson = require('../files/temp/finished.json')
 const inputJsonCAF = require('../files/temp/finishedCAF.json')
 const factionMap = require('../files/config/factionMap.json')
 const vehicleMap = require('../files/config/vehicleMap.json')
+const flagMap = require(`../files/config/map/flagMap.json`)
+const setupBlacklist = require(`../files/config/blacklists/setups.json`)
+const layerBlacklist = require(`../files/config/blacklists/layers.json`)
 
 const async = require('async')
 
@@ -53,57 +56,65 @@ let numOfVehComb = 0
 
 
 let convertVehicle = async(team, mapName) => {
-    let conVehicles = []
-    await asyncForEach(team.Vehicles, async(vehicle) => {
+    let convehicles = []
+    await asyncForEach(team.vehicles, async(vehicle) => {
         numOfVeh++
 
         // Attempt to Map the SDK name to a map. If the name/displayname is invalid throw an error.
-        let conVehicleName = vehicleMap[`${vehicle.Type}_Name`]
+        let conVehicleName = vehicleMap[`${vehicle.rawType}_Name`]
         if(conVehicleName === undefined) {
-            throw(`${vehicle.Type} is not in the Map file... (Name Invalid or Non Existant) Team: ${team.Faction} | MapName: ${mapName}`)
+            throw(`${vehicle.rawType} is not in the Map file... (Name Invalid or Non Existant) Team: ${team.faction} | MapName: ${mapName}`)
         }
         log2(`------${conVehicleName}`)
 
-        let conVehicleDisplayName = vehicleMap[`${vehicle.Type}_DisplayName`]
+        let conVehicleDisplayName = vehicleMap[`${vehicle.rawType}_DisplayName`]
         if(conVehicleDisplayName === undefined) {
-            throw(`${vehicle.Type} is not in the Map file... (Display Name Invalid or Non Existant) Team: ${team.Faction} | MapName: ${mapName}`)
+            throw(`${vehicle.rawType} is not in the Map file... (Display Name Invalid or Non Existant) Team: ${team.faction} | MapName: ${mapName}`)
         }
         log2(`--------${conVehicleDisplayName}`)
 
         let tempObject = {}
 
-        tempObject.Type = vehicle.Type
+
+        let tempstring = vehicle.icon
+        let tempstrings = tempstring.split("_")
+        if(tempstrings.length > 1) tempstrings.shift()
+        tempstrings.push(`vehicle`)
+        tempstrings.push(`icon.png`)
+
+        tempObject.rawType = vehicle.rawType
         tempObject.Name = conVehicleName
         tempObject.DisplayName = conVehicleDisplayName
-        tempObject.Count = vehicle.Count
-        tempObject.Delay = vehicle.Delay
+        tempObject.Count = vehicle.count
+        tempObject.Delay = vehicle.delay
+        tempObject.icon = tempstrings.join("_")
 
-        conVehicles.push(tempObject)
+        convehicles.push(tempObject)
     })
-    return conVehicles
+    return convehicles
 }
 
 // While running through each vehicle twice is not the most efficent it is simplier to split the operations into two functions
 
-const combineVehicles = async(team) => {
+const combinevehicles = async(team) => {
     let combVeh = []
-    delete team.Vehicles[0].Type
-    combVeh.push(team.Vehicles[0])
-    for(let i = 1; i < team.Vehicles.length; i++){
+    delete team.vehicles[0].rawType
+    combVeh.push(team.vehicles[0])
+    for(let i = 1; i < team.vehicles.length; i++){
         numOfVehComb++
 
-        team.Vehicles[i]
+        team.vehicles[i]
         let found = false
         for(let j = 0; j < combVeh.length; j++){
-            if ((combVeh[j].Name == team.Vehicles[i].Name) && (combVeh[j].DisplayName == team.Vehicles[i].DisplayName) && (combVeh[j].Delay == team.Vehicles[i].Delay) ){
-                combVeh[j].Count = parseInt(combVeh[j].Count) + parseInt(team.Vehicles[i].Count)
+            if ((combVeh[j].Name == team.vehicles[i].Name) && (combVeh[j].DisplayName == team.vehicles[i].DisplayName) && (combVeh[j].Delay == team.vehicles[i].Delay) ){
+                combVeh[j].Count = parseInt(combVeh[j].Count) + parseInt(team.vehicles[i].Count)
                 found = true
             }
         }
 
         if(!found) {
-            delete team.Vehicles[i].Type
-            combVeh.push(team.Vehicles[i])
+            delete team.vehicles[i].rawType
+            combVeh.push(team.vehicles[i])
         }
     }
 
@@ -112,68 +123,167 @@ const combineVehicles = async(team) => {
 
 
 const main = async() => {
-
     let conMaps = {}
+    conMaps.Setups = []
     conMaps.Maps = []
+    log('Preparing to loop through each Setup....')
+
+    await asyncForEach(inputJson.Setups, async (setup) => {
+        let blacklisted = false
+        await asyncForEach(setupBlacklist.blacklist, async (black) => {
+            if(black == setup.setup_Name) blacklisted = true
+        })
+
+        if(blacklisted) return
+
+        let confactionSetup = factionMap[setup.faction]
+        if(confactionSetup === undefined) throw(`${setup.faction} is not in the map file (${setup.setup_Name})`)
+
+        let setupObject = {}
+        conVeh = await convertVehicle(setup,setup.setup_Name)
+        setup.vehicles = conVeh
+        combVeh = await combinevehicles(setup)
+        setupObject.faction = confactionSetup
+        setupObject.longName = setup.setup_Name
+        setupObject.name = setup.shortname
+        setupObject.type = setup.type
+        setupObject.badge = setup.badge + `_Division_Image.png`
+        setupObject.vehicles = combVeh
+        conMaps.Setups.push(setupObject)
+    })
+    
     log('Preparing to loop through each Map....')
     await asyncForEach(inputJson.Maps, async (layer) => {
         log2(`-${layer.Name}`)
+        let blacklisted = false
+        await asyncForEach(layerBlacklist.blacklist, async (black) => {
+            if(black == layer.rawName) blacklisted = true
+        })
+        if(blacklisted) return
         // ------------------------------
-        // ----- Faction Conversion -----
+        // ----- faction Conversion -----
         // ------------------------------
     
-        let conFaction1 = factionMap[layer.Team1.Faction]
-        let conFaction2 = factionMap[layer.Team2.Faction]
-        if(conFaction1 === undefined) {
-            throw(`${layer.Team1.Faction} is not in the Map file...`)
+        let confaction1 = factionMap[layer.team1.faction]
+        let confaction2 = factionMap[layer.team2.faction]
+        let conteam1Veh = []
+        let conteam2Veh = []
+        if(confaction1 === undefined) {
+            if(layer.team1.allowedAlliances === undefined) {
+                throw(`${layer.team1.faction} is not in the Map file... (${layer.Name})`)
+            }
+            else {
+                confaction1 = layer.team1.allowedAlliances.join(" or ")
+                await asyncForEach(layer.team1.allowedAlliances, async (alliance) => {
+                    let temp = factionMap[alliance]
+                    await asyncForEach(temp, async(allianceFaction) => {
+                        if (layer.team1.factionSetups !== undefined) {
+                            await asyncForEach(layer.team1.factionSetups, async(setup) => {
+                                let ficon = flagMap[allianceFaction.split(` `).join(`_`)]
+                                conteam1Veh.push({
+                                    "Name": `${allianceFaction}#${setup}`,
+                                    "DisplayName": setup,
+                                    "Count": -1,
+                                    "Delay": -1,
+                                    "icon": ficon
+                                })
+                            })
+                        }
+                        else {
+                            let ficon = flagMap[allianceFaction.split(` `).join(`_`)]
+                                conteam1Veh.push({
+                                    "Name": `${allianceFaction}#Divisions`,
+                                    "DisplayName": allianceFaction,
+                                    "Count": -1,
+                                    "Delay": -1,
+                                    "icon": ficon
+                                })
+                        }
+                    })
+                })
+            }
         }
-        log2(`---${conFaction1}`)
-    
-        // Vehicle Conversion
-        let conTeam1Veh = await convertVehicle(layer.Team1, layer.Name)
-    
-        if(conFaction2 === undefined) {
-            throw(`${layer.Team2.Faction} is not in the Map file...`)
+        else {
+            // Vehicle Conversion
+            conteam1Veh = await convertVehicle(layer.team1, layer.Name)
         }
-        log2(`---${conFaction2}`)
-
-        // Vehicle Conversion
-        let conTeam2Veh = await convertVehicle(layer.Team2,layer.Name)
+        log2(`---${confaction1}`)
     
-        log(`${layer.Name}: ${conFaction1} vs ${conFaction2}`)
-        log(`${layer.Name}: Tickets: ${layer.Team1.Tickets} and ${layer.Team2.Tickets}`)
-        log(`Capture points: ${layer.CapturePoints}`)
+    
+        if(confaction2 === undefined) {
+            if(layer.team2.allowedAlliances === undefined) {
+                throw(`${layer.team2.faction} is not in the Map file... (${layer.Name})`)
+            }
+            else {
+                confaction2 = layer.team2.allowedAlliances.join(" or ")
+                await asyncForEach(layer.team2.allowedAlliances, async (alliance) => {
+                    let temp = factionMap[alliance]
+                    await asyncForEach(temp, async(allianceFaction) => {
+                        if (layer.team2.factionSetups !== undefined) {
+                            await asyncForEach(layer.team2.factionSetups, async(setup) => {
+                                let ficon = flagMap[allianceFaction.split(` `).join(`_`)]
+                                conteam2Veh.push({
+                                    "Name": `${allianceFaction}#${setup}`,
+                                    "DisplayName": setup,
+                                    "Count": -1,
+                                    "Delay": -1,
+                                    "icon": ficon
+                                })
+                            })
+                        }
+                        else {
+                            let ficon = flagMap[allianceFaction.split(` `).join(`_`)]
+                                conteam2Veh.push({
+                                    "Name": `${allianceFaction}#Divisions`,
+                                    "DisplayName": allianceFaction,
+                                    "Count": -1,
+                                    "Delay": -1,
+                                    "icon": ficon
+                                })
+                        }
+                    })
+                })
+            }
+        }
+        else {
+            // Vehicle Conversion
+            conteam2Veh = await convertVehicle(layer.team2,layer.Name)
+        }
+        log2(`---${confaction2}`)
+    
+        log(`${layer.Name}: ${confaction1} vs ${confaction2}`)
+        log(`${layer.Name}: Tickets: ${layer.team1.tickets} and ${layer.team2.tickets}`)
+        log(`Capture points: ${layer.capturePoints}`)
     
         let tempObject = {}
         tempObject.Name = layer.Name
     
-        tempObject.Team1 = {}
-        tempObject.Team1.Faction = conFaction1
-        tempObject.Team1.Tickets = layer.Team1.Tickets
-        tempObject.Team1.Vehicles = conTeam1Veh
+        tempObject.team1 = {}
+        tempObject.team1.faction = confaction1
+        tempObject.team1.tickets = layer.team1.tickets
+        tempObject.team1.vehicles = conteam1Veh
     
-        tempObject.Team2 = {}
-        tempObject.Team2.Faction = conFaction2
-        tempObject.Team2.Tickets = layer.Team2.Tickets
-        tempObject.Team2.Vehicles = conTeam2Veh
+        tempObject.team2 = {}
+        tempObject.team2.faction = confaction2
+        tempObject.team2.tickets = layer.team2.tickets
+        tempObject.team2.vehicles = conteam2Veh
     
-        tempObject.CapturePoints = layer.CapturePoints
+        tempObject.CapturePoints = layer.capturePoints
         tempObject.Flags = layer.Flags
     
         conMaps.Maps.push(tempObject)
     })
 
-    console.log(conMaps.Maps.length)
 
     fs.writeFileSync(`./files/output/debug/ConvertedJson_${mainconfig.version}.json`, JSON.stringify(conMaps, null, 4))
 
     await asyncForEach(conMaps.Maps, async(layer) => {
-        let combTeam1Veh = await combineVehicles(layer.Team1)
+        let combteam1Veh = await combinevehicles(layer.team1)
 
-        let combTeam2Veh = await combineVehicles(layer.Team2)
+        let combteam2Veh = await combinevehicles(layer.team2)
 
-        conMaps.Maps[conMaps.Maps.indexOf(layer)].Team1.Vehicles = combTeam1Veh
-        conMaps.Maps[conMaps.Maps.indexOf(layer)].Team2.Vehicles = combTeam2Veh
+        conMaps.Maps[conMaps.Maps.indexOf(layer)].team1.vehicles = combteam1Veh
+        conMaps.Maps[conMaps.Maps.indexOf(layer)].team2.vehicles = combteam2Veh
     })
 
     fs.writeFileSync('./files/output/ConvertedJsonCombined.json', JSON.stringify(conMaps, null, 4))
