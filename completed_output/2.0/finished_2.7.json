@@ -2036,8 +2036,6 @@
             "rawName": "AlBasrah_AAS_v1",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_AAS_v1",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -2347,8 +2345,6 @@
             "rawName": "AlBasrah_AAS_v2",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_AAS_v2",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -2649,8 +2645,6 @@
             "rawName": "AlBasrah_Insurgency_v1",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_Insurgency_v1",
-            "lightingLevel": "LL_AlBasrah_Sunset",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -3000,8 +2994,6 @@
             "rawName": "AlBasrah_Invasion_v1",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_invasion_v1",
-            "lightingLevel": "LL_AlBasrah_Sunset",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -3329,8 +3321,6 @@
             "rawName": "AlBasrah_Invasion_v2",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_invasion_v2",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -3721,8 +3711,6 @@
             "rawName": "AlBasrah_RAAS_v1",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_RAAS_v1",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -4085,8 +4073,6 @@
             "rawName": "AlBasrah_Skirmish_v1",
             "minimapTexture": "albasrah_minimap_skirmish_v1",
             "levelName": "Albasrah_Skirmish_v1",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -4274,8 +4260,6 @@
             "rawName": "AlBasrah_Skirmish_v2",
             "minimapTexture": "albasrah_minimap_skirmish_v2",
             "levelName": "Albasrah_Skirmish_v2",
-            "lightingLevel": "LL_AlBasrah_Sunset",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -4423,8 +4407,6 @@
             "rawName": "AlBasrah_TA_v1",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_TA_v1",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -4522,8 +4504,6 @@
             "rawName": "AlBasrah_TC_v1",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_TC_v1",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -4789,8 +4769,6 @@
             "rawName": "AlBasrah_TC_v2",
             "minimapTexture": "albasrah_minimap",
             "levelName": "Albasrah_TC_v2",
-            "lightingLevel": "LL_AlBasrah_Sunset",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -5056,8 +5034,6 @@
             "rawName": "Belaya_AAS_v1",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_AAS_v1",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -5641,8 +5617,6 @@
             "rawName": "Belaya_AAS_v2",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_AAS_v2",
-            "lightingLevel": "LL_Belaya_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -6219,8 +6193,6 @@
             "rawName": "Belaya_Invasion_v1",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_Invasion_v1",
-            "lightingLevel": "LL_Belaya_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -6841,8 +6813,6 @@
             "rawName": "Belaya_Invasion_v2",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_Invasion_v2",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -7445,8 +7415,6 @@
             "rawName": "Belaya_Invasion_v3",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_Invasion_v3",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -8057,8 +8025,6 @@
             "rawName": "Belaya_RAAS_v1",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_RAAS_v1",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -8670,8 +8636,6 @@
             "rawName": "Belaya_RAAS_v2",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_RAAS_v2",
-            "lightingLevel": "LL_Belaya_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -9292,8 +9256,6 @@
             "rawName": "Belaya_RAAS_v3",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_RAAS_v3",
-            "lightingLevel": "LL_Belaya_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -9923,8 +9885,6 @@
             "rawName": "Belaya_Skirmish_v1",
             "minimapTexture": "Belaya_Minimap_Skirmish_v1",
             "levelName": "Belaya_Skirmish_v1",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -10139,8 +10099,6 @@
             "rawName": "Belaya_TC_v1",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "Belaya_TC_v1",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -10727,8 +10685,6 @@
             "rawName": "Chora_AAS_v1",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_AAS_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "17",
@@ -10932,8 +10888,6 @@
             "rawName": "Chora_AAS_v2",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_AAS_v2",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "36",
@@ -11127,8 +11081,6 @@
             "rawName": "Chora_AAS_v3",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_AAS_v3",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "36",
@@ -11323,8 +11275,6 @@
             "rawName": "Chora_Insurgency_v1",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_Insurgency_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "29",
@@ -11606,8 +11556,6 @@
             "rawName": "Chora_Invasion_v1",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_Invasion_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "28",
@@ -11893,8 +11841,6 @@
             "rawName": "Chora_Invasion_v2",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_Invasion_v2",
-            "lightingLevel": "LL_Chora_Dawn",
-            "lighting": "Early Dawn (Dark)",
             "border": [
                 {
                     "point": "28",
@@ -12180,8 +12126,6 @@
             "rawName": "Chora_RAAS_v1",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_RAAS_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -12406,8 +12350,6 @@
             "rawName": "Chora_RAAS_v2",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_RAAS_v2",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "30",
@@ -12593,8 +12535,6 @@
             "rawName": "Chora_Skirmish_v1",
             "minimapTexture": "Chora_Minimap_Skirmish_v1",
             "levelName": "Chora_Skirmish_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "12",
@@ -12706,8 +12646,6 @@
             "rawName": "Chora_TC_v1",
             "minimapTexture": "Chora_Minimap",
             "levelName": "Chora_TC_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "17",
@@ -12886,8 +12824,6 @@
             "rawName": "Fallujah_AAS_v1",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_AAS_v1",
-            "lightingLevel": "LL_Fallujah_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -13335,8 +13271,6 @@
             "rawName": "Fallujah_AAS_v2",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_AAS_v2",
-            "lightingLevel": "LL_Fallujah_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -13766,8 +13700,6 @@
             "rawName": "Fallujah_Insurgency_v1",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_Insurgency_v1",
-            "lightingLevel": "LL_Fallujah_MidDay2",
-            "lighting": "Dusty Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -14219,8 +14151,6 @@
             "rawName": "Fallujah_Invasion_v1",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_Invasion_v1",
-            "lightingLevel": "LL_Fallujah_MidDay2",
-            "lighting": "Dusty Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -14703,8 +14633,6 @@
             "rawName": "Fallujah_Invasion_v2",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_Invasion_v2",
-            "lightingLevel": "LL_Fallujah_MidDay2",
-            "lighting": "Dusty Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -15267,8 +15195,6 @@
             "rawName": "Fallujah_Invasion_v3",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_Invasion_v3",
-            "lightingLevel": "LL_Fallujah_MidDay2",
-            "lighting": "Dusty Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -15768,8 +15694,6 @@
             "rawName": "Fallujah_RAAS_v1",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_RAAS_v1",
-            "lightingLevel": "LL_Fallujah_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -16157,8 +16081,6 @@
             "rawName": "Fallujah_RAAS_v2",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_RAAS_v2",
-            "lightingLevel": "LL_Fallujah_Morning",
-            "lighting": "Clear Morning",
             "border": [
                 {
                     "point": "0",
@@ -16589,8 +16511,6 @@
             "rawName": "Fallujah_RAAS_v3",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_RAAS_v3",
-            "lightingLevel": "LL_Fallujah_Morning",
-            "lighting": "Clear Morning",
             "border": [
                 {
                     "point": "0",
@@ -17037,8 +16957,6 @@
             "rawName": "Fallujah_Skirmish_v1",
             "minimapTexture": "Fallujah_Minimap_Skirmish",
             "levelName": "Fallujah_Skirmish_v1",
-            "lightingLevel": "LL_Fallujah_Night",
-            "lighting": "Clear Night",
             "border": [
                 {
                     "point": "0",
@@ -17232,8 +17150,6 @@
             "rawName": "Fallujah_Skirmish_v2",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_Skirmish_v2",
-            "lightingLevel": "LL_Fallujah_Sandstorm",
-            "lighting": "Sand Storm Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -17517,9 +17433,6 @@
             "rawName": "Fallujah_TC_v1",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_TC_v1",
-            "lightingLevel": "LL_Fallujah_MidDay",
-            "lighting": "Partial Clouds Mid Day",
-            
             "border": [
                 {
                     "point": "0",
@@ -17896,8 +17809,6 @@
             "rawName": "Fallujah_TC_v2",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "Fallujah_TC_v2",
-            "lightingLevel": "LL_Fallujah_Sandstorm",
-            "lighting": "Sand Storm Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -18274,8 +18185,6 @@
             "rawName": "FoolsRoad_AAS_v1",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_AAS_v1",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -18478,8 +18387,6 @@
             "rawName": "FoolsRoad_AAS_v2",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_AAS_v2",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -18684,8 +18591,6 @@
             "rawName": "FoolsRoad_Destruction_v1",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_Destruction_v1",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -18921,8 +18826,6 @@
             "rawName": "FoolsRoad_Invasion_1",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_Invasion_v1",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -19179,8 +19082,6 @@
             "rawName": "FoolsRoad_RAAS_v1",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_RAAS_v1",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -19411,8 +19312,6 @@
             "rawName": "FoolsRoad_RAAS_v2",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_RAAS_v2",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -19616,8 +19515,6 @@
             "rawName": "FoolsRoad_RAAS_v3",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_RAAS_v3",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -19840,8 +19737,6 @@
             "rawName": "FoolsRoad_Skirmish_v1",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_Skirmish_v1",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -19954,8 +19849,6 @@
             "rawName": "FoolsRoad_Skirmish_v2",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_Skirmish_v2",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -20084,8 +19977,6 @@
             "rawName": "FoolsRoad_TC_v1",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "Fools_Road_TC_v1",
-            "lightingLevel": "LL_Fools_Road_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "4",
@@ -20300,8 +20191,6 @@
             "rawName": "Gorodok_AAS_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_AAS_v1",
-            "lightingLevel": "LL_Gorodok_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -20721,8 +20610,6 @@
             "rawName": "Gorodok_AAS_v2",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_AAS_v2",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -21127,8 +21014,6 @@
             "rawName": "Gorodok_Destruction_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_Destruction_v1",
-            "lightingLevel": "LL_Gorodok_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -21517,8 +21402,6 @@
             "rawName": "Gorodok_Insurgency_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_Insurgency_v1",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -21943,8 +21826,6 @@
             "rawName": "Gorodok_Invasion_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_Invasion_v1",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -22374,8 +22255,6 @@
             "rawName": "Gorodok_Invasion_v2",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_Invasion_v2",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -22841,8 +22720,6 @@
             "rawName": "Gorodok_RAAS_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_RAAS_v1",
-            "lightingLevel": "LL_Gorodok_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -23286,8 +23163,6 @@
             "rawName": "Gorodok_RAAS_v2",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_RAAS_v2",
-            "lightingLevel": "LL_Gorodok_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -23717,8 +23592,6 @@
             "rawName": "Gorodok_RAAS_v3",
             "minimapTexture": "Gorodok_Minimap_RAAS_v3",
             "levelName": "Gorodok_RAAS_v3",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -24120,8 +23993,6 @@
             "rawName": "Gorodok_RAAS_v4",
             "minimapTexture": "Gorodok_Minimap_RAAS_v4",
             "levelName": "Gorodok_RAAS_v4",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -24361,8 +24232,6 @@
             "rawName": "Gorodok_RAAS_v5",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_RAAS_v5",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -24784,8 +24653,6 @@
             "rawName": "Gorodok_Skirmish_v1",
             "minimapTexture": "Gorodok_Minimap_Skirmish_v1",
             "levelName": "Gorodok_Skirmish_v1",
-            "lightingLevel": "LL_Gorodok_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -24982,8 +24849,6 @@
             "rawName": "Gorodok_TC_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "Gorodok_TC_v1",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -25360,8 +25225,6 @@
             "rawName": "JensensRange_GB-MIL",
             "minimapTexture": "Jensens_Range_Minimap",
             "levelName": "Jensens_Range_v1",
-            "lightingLevel": "LL_Jensens_Range_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -25571,8 +25434,6 @@
             "rawName": "JensensRange_US-RUS",
             "minimapTexture": "Jensens_Range_Minimap",
             "levelName": "Jensens_Range_v2",
-            "lightingLevel": "LL_Jensens_Range_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -25764,8 +25625,6 @@
             "rawName": "JensensRange_MEA-INS",
             "minimapTexture": "Jensens_Range_Minimap",
             "levelName": "Jensens_Range_v3",
-            "lightingLevel": "LL_Jensens_Range_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "51",
@@ -26074,8 +25933,6 @@
             "rawName": "Kamdesh_AAS_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_AAS_v1",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -26524,8 +26381,6 @@
             "rawName": "Kamdesh_Insurgency_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_Insurgency_v1",
-            "lightingLevel": "LL_Kamdesh_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -27205,8 +27060,6 @@
             "rawName": "Kamdesh_Insurgency_v2",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_Insurgency_v2",
-            "lightingLevel": "LL_Kamdesh_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -27832,8 +27685,6 @@
             "rawName": "Kamdesh_Invasion_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_Invasion_v1",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -28427,8 +28278,6 @@
             "rawName": "Kamdesh_Invasion_v2",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_Invasion_v2",
-            "lightingLevel": "LL_Kamdesh_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -29004,8 +28853,6 @@
             "rawName": "Kamdesh_Invasion_v3",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_Invasion_v3",
-            "lightingLevel": "LL_Kamdesh_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -29581,8 +29428,6 @@
             "rawName": "Kamdesh_RAAS_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_RAAS_v1",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -30088,8 +29933,6 @@
             "rawName": "Kamdesh_RAAS_v2",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_RAAS_v2",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -30541,8 +30384,6 @@
             "rawName": "Kamdesh_RAAS_v3",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_RAAS_v3",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -31003,8 +30844,6 @@
             "rawName": "Kamdesh_RAAS_v4",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_RAAS_v4",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -31445,8 +31284,6 @@
             "rawName": "Kamdesh_Skirmish_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_Skirmish_v1",
-            "lightingLevel": "LL_Kamdesh_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -31785,8 +31622,6 @@
             "rawName": "Kamdesh_TC_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_TC_v1",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -32229,8 +32064,6 @@
             "rawName": "Kamdesh_TC_v2",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "Kamdesh_TC_v2",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -32754,8 +32587,6 @@
             "rawName": "Kohat_AAS_v1",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_AAS_v1",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -33221,8 +33052,6 @@
             "rawName": "Kohat_AAS_v2",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_AAS_v2",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -33680,8 +33509,6 @@
             "rawName": "Kohat_Insurgency_v1",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_Insurgency_v1",
-            "lightingLevel": "LL_Kohat_Early_Morning",
-            "lighting": "Early Morning",
             "border": [
                 {
                     "point": "0",
@@ -34278,8 +34105,6 @@
             "rawName": "Kohat_Invasion_v1",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_Invasion_v1",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -34942,8 +34767,6 @@
             "rawName": "Kohat_Invasion_v2",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_Invasion_v2",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -35542,8 +35365,6 @@
             "rawName": "Kohat_RAAS_v1",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_RAAS_v1",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -36020,8 +35841,6 @@
             "rawName": "Kohat_RAAS_v2",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_RAAS_v2",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -36480,8 +36299,6 @@
             "rawName": "Kohat_RAAS_v3",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_RAAS_v3",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -36964,8 +36781,6 @@
             "rawName": "Kohat_RAAS_v4",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_RAAS_v4",
-            "lightingLevel": "LL_Kohat_Early_Morning",
-            "lighting": "Early Morning",
             "border": [
                 {
                     "point": "0",
@@ -37442,8 +37257,6 @@
             "rawName": "Kohat_Skirmish_v1",
             "minimapTexture": "kohat_minimap_skirmish",
             "levelName": "Kohat_Skirmish_v1",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -37772,8 +37585,6 @@
             "rawName": "Kohat_TC_v1",
             "minimapTexture": "kohat_minimap",
             "levelName": "Kohat_TC_v1",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -38249,8 +38060,6 @@
             "rawName": "Kokan_AAS_v1",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "Kokan_Valley_AAS_v1",
-            "lightingLevel": "LL_Kokan_Valley_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "2",
@@ -38621,8 +38430,6 @@
             "rawName": "Kokan_Insurgency_v1",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "Kokan_Valley_Insurgency_v1",
-            "lightingLevel": "LL_Kokan_Valley_MidDay_Sunny",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "15",
@@ -38885,8 +38692,6 @@
             "rawName": "Kokan_Invasion_v1",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "Kokan_Valley_Invasion_v1",
-            "lightingLevel": "LL_Kokan_Valley_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "2",
@@ -39117,8 +38922,6 @@
             "rawName": "Kokan_RAAS_v1",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "Kokan_Valley_RAAS_v1",
-            "lightingLevel": "LL_Kokan_Valley_Overcast",
-            "lighting": "Overcast",            
             "border": [
                 {
                     "point": "2",
@@ -39332,8 +39135,6 @@
             "rawName": "Kokan_RAAS_v2",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "Kokan_Valley_RAAS_v2",
-            "lightingLevel": "LL_Kokan_Valley_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "2",
@@ -39555,8 +39356,6 @@
             "rawName": "Kokan_Skirmish_v1",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "Kokan_Valley_Skirmish_v1",
-            "lightingLevel": "LL_Kokan_Valley_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "2",
@@ -39687,8 +39486,6 @@
             "rawName": "Kokan_TC_v1",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "Kokan_Valley_TC_v1",
-            "lightingLevel": "LL_Kokan_Valley_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "2",
@@ -39894,8 +39691,6 @@
             "rawName": "LashkarValley_AAS_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_AAS_v1",
-            "lightingLevel": "LL_Lashkar_Daytime",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -40331,8 +40126,6 @@
             "rawName": "LashkarValley_AAS_v2",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_AAS_v2",
-            "lightingLevel": "LL_Lashkar_Daytime",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -40786,8 +40579,6 @@
             "rawName": "LashkarValley_Insurgency_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_Insurgency_v1",
-            "lightingLevel": "LL_Lashkar_Early_Morning",
-            "lighting": "Early Morning",
             "border": [
                 {
                     "point": "0",
@@ -41356,8 +41147,6 @@
             "rawName": "LashkarValley_Invasion_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_Invasion_v1",
-            "lightingLevel": "LL_Lashkar_Rainstorm",
-            "lighting": "Rain Storm",
             "border": [
                 {
                     "point": "0",
@@ -41948,8 +41737,6 @@
             "rawName": "LashkarValley_RAAS_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_RAAS_v1",
-            "lightingLevel": "LL_Lashkar_Early_Morning",
-            "lighting": "Early Morning",
             "border": [
                 {
                     "point": "0",
@@ -42433,8 +42220,6 @@
             "rawName": "LashkarValley_Skirmish_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_Skirmish_v1",
-            "lightingLevel": "LL_Lashkar_Daytime",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -42771,8 +42556,6 @@
             "rawName": "LashkarValley_TC_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_TC_v1",
-            "lightingLevel": "LL_Lashkar_Rainstorm",
-            "lighting": "Rain Storm",
             "border": [
                 {
                     "point": "0",
@@ -43218,8 +43001,6 @@
             "rawName": "LashkarValley_TC_v2",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_TC_v2",
-            "lightingLevel": "LL_Lashkar_Rainstorm",
-            "lighting": "Rain Storm",
             "border": [
                 {
                     "point": "0",
@@ -43566,8 +43347,6 @@
             "rawName": "LashkarValley_TC_v3",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "Lashkar_Valley_TC_v3",
-            "lightingLevel": "LL_Lashkar_Early_Morning",
-            "lighting": "Early Morning",
             "border": [
                 {
                     "point": "0",
@@ -44004,8 +43783,6 @@
             "rawName": "Logar_AAS_v1",
             "minimapTexture": "Logar_Valley_Minimap",
             "levelName": "Logar_Valley_AAS_v1",
-            "lightingLevel": "LL_Logar_Valley_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "4",
@@ -44202,8 +43979,6 @@
             "rawName": "Logar_AAS_v2",
             "minimapTexture": "Logar_Valley_Minimap",
             "levelName": "Logar_Valley_AAS_v2",
-            "lightingLevel": "LL_Logar_Valley_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "4",
@@ -44371,8 +44146,6 @@
             "rawName": "Logar_Insurgency_v1",
             "minimapTexture": "Logar_Valley_Minimap",
             "levelName": "Logar_Valley_Insurgency_v1",
-            "lightingLevel": "LL_Logar_Valley_Evening",
-            "lighting": "Evening",
             "border": [
                 {
                     "point": "23",
@@ -44617,8 +44390,6 @@
             "rawName": "Logar_RAAS_v1",
             "minimapTexture": "Logar_Valley_Minimap",
             "levelName": "Logar_Valley_RAAS_v1",
-            "lightingLevel": "LL_Logar_Valley_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "4",
@@ -44816,8 +44587,6 @@
             "rawName": "Logar_Skirmish_v1",
             "minimapTexture": "Logar_Valley_Minimap",
             "levelName": "Logar_Valley_Skirmish_v1",
-            "lightingLevel": "LL_Logar_Valley_Evening",
-            "lighting": "Evening",
             "border": [
                 {
                     "point": "4",
@@ -44939,8 +44708,6 @@
             "rawName": "Logar_TC_v1",
             "minimapTexture": "Logar_Valley_Minimap",
             "levelName": "Logar_Valley_TC_v1",
-            "lightingLevel": "LL_Logar_Valley_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "4",
@@ -45128,8 +44895,6 @@
             "rawName": "Mestia_AAS_v1",
             "minimapTexture": "T_Mestia_Minimap",
             "levelName": "Mestia_AAS_V1",
-            "lightingLevel": "LL_Mestia_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "3",
@@ -45361,8 +45126,6 @@
             "rawName": "Mestia_Invasion_v1",
             "minimapTexture": "T_Mestia_Minimap",
             "levelName": "Mestia_Invasion_V1",
-            "lightingLevel": "LL_Mestia_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "3",
@@ -45592,8 +45355,6 @@
             "rawName": "Mestia_Invasion_v2",
             "minimapTexture": "T_Mestia_Minimap",
             "levelName": "Mestia_Invasion_V2",
-            "lightingLevel": "LL_Mestia_MidDay",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "3",
@@ -45815,8 +45576,6 @@
             "rawName": "Mestia_RAAS_v1",
             "minimapTexture": "T_Mestia_Minimap",
             "levelName": "Mestia_RAAS_v1",
-            "lightingLevel": "LL_Mestia_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "3",
@@ -46047,8 +45806,6 @@
             "rawName": "Mestia_Skirmish_v1",
             "minimapTexture": "T_Mestia_Minimap",
             "levelName": "Mestia_Skirmish_v1",
-            "lightingLevel": "LL_Mestia_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "3",
@@ -46169,8 +45926,6 @@
             "rawName": "Mestia_TC_v1",
             "minimapTexture": "T_Mestia_Minimap",
             "levelName": "Mestia_TC_v1",
-            "lightingLevel": "LL_Mestia_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "3",
@@ -46331,8 +46086,6 @@
             "rawName": "Mutaha_AAS_v1",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "Mutaha_AAS_v1",
-            "lightingLevel": "LL_Mutaha_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -46571,8 +46324,6 @@
             "rawName": "Mutaha_AAS_v2",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "Mutaha_AAS_v2",
-            "lightingLevel": "LL_Mutaha_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -46749,8 +46500,6 @@
             "rawName": "Mutaha_Invasion_v1",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "Mutaha_Invasion_v1",
-            "lightingLevel": "LL_Mutaha_Moonlit",
-            "lighting": "Dusk",
             "border": [
                 {
                     "point": "0",
@@ -47107,8 +46856,6 @@
             "rawName": "Mutaha_RAAS_v1",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "Mutaha_RAAS_v1",
-            "lightingLevel": "LL_Mutaha_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -47366,8 +47113,6 @@
             "rawName": "Mutaha_Skirmish_v1",
             "minimapTexture": "Mutaha_Minimap_Skirmish_v1",
             "levelName": "Mutaha_Skirmish_v1",
-            "lightingLevel": "LL_Mutaha_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -47525,8 +47270,6 @@
             "rawName": "Mutaha_TC_v1",
             "minimapTexture": "Mutaha_Minimap_TC_v1",
             "levelName": "Mutaha_TC_v1",
-            "lightingLevel": "LL_Mutaha_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -47705,8 +47448,6 @@
             "rawName": "Mutaha_TC_v2",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "Mutaha_TC_v2",
-            "lightingLevel": "LL_Mutaha_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -47966,8 +47707,6 @@
             "rawName": "Narva_AAS_v1",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_AAS_v1",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "22",
@@ -48189,8 +47928,6 @@
             "rawName": "Narva_AAS_v2",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_AAS_v2",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "20",
@@ -48394,8 +48131,6 @@
             "rawName": "Narva_AAS_v3",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_AAS_v3",
-            "lightingLevel": "LL_Narva_Foggy",
-            "lighting": "Foggy",
             "border": [
                 {
                     "point": "15",
@@ -48625,8 +48360,6 @@
             "rawName": "Narva_Destruction_v1",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_Destruction_v1",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "9",
@@ -48853,8 +48586,6 @@
             "rawName": "Narva_Invasion_v1",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_Invasion_v1",
-            "lightingLevel": "LL_Narva_Morning",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "12",
@@ -49085,8 +48816,6 @@
             "rawName": "Narva_Invasion_v2",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_Invasion_v2",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "7",
@@ -49317,8 +49046,6 @@
             "rawName": "Narva_RAAS_v1",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_RAAS_v1",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "13",
@@ -49576,8 +49303,6 @@
             "rawName": "Narva_Skirmish_v1",
             "minimapTexture": "Narva_Minimap_Skirmish_v1",
             "levelName": "Narva_Skirmish_v1",
-            "lightingLevel": "LL_Narva_Overcast",
-            "lighting": "Overcast",
             "team1": {
                 "faction": "United States Army",
                 "teamSetupName": "US 149th Brigade, Kentucky Army National Guard",
@@ -49683,8 +49408,6 @@
             "rawName": "Narva_TA_v1",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_TA_v1",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "2",
@@ -49755,8 +49478,6 @@
             "rawName": "Narva_TC_v1",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_TC_v1",
-            "lightingLevel": "LL_Narva_Foggy",
-            "lighting": "Foggy",
             "border": [
                 {
                     "point": "15",
@@ -49971,8 +49692,6 @@
             "rawName": "Narva_TC_v2",
             "minimapTexture": "Narva_Minimap",
             "levelName": "Narva_TC_v2",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "13",
@@ -50205,8 +49924,6 @@
             "rawName": "Skorpo_AAS_v1",
             "minimapTexture": "Skorpo_Minimap_AAS_v1",
             "levelName": "Skorpo_AAS_v1",
-            "lightingLevel": "LL_Skorpo_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -50505,8 +50222,6 @@
             "rawName": "Skorpo_Invasion_v1",
             "minimapTexture": "Skorpo_Minimap_Invasion_v1",
             "levelName": "Skorpo_Invasion_v1",
-            "lightingLevel": "LL_Skorpo_Afternoon",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -50915,8 +50630,6 @@
             "rawName": "Skorpo_Invasion_v2",
             "minimapTexture": "Skorpo_Minimap_Invasion_v2",
             "levelName": "Skorpo_Invasion_v2",
-            "lightingLevel": "LL_Skorpo_Afternoon",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -51141,8 +50854,6 @@
             "rawName": "Skorpo_RAAS_v1",
             "minimapTexture": "Skorpo_Minimap",
             "levelName": "Skorpo_RAAS_v1",
-            "lightingLevel": "LL_Skorpo_Foggy",
-            "lighting": "Foggy",
             "border": [
                 {
                     "point": "0",
@@ -51498,8 +51209,6 @@
             "rawName": "Skorpo_RAAS_v2",
             "minimapTexture": "Skorpo_Minimap_RAAS_v2",
             "levelName": "Skorpo_RAAS_v2",
-            "lightingLevel": "LL_Skorpo_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -51835,8 +51544,6 @@
             "rawName": "Skorpo_RAAS_v3",
             "minimapTexture": "Skorpo_Minimap",
             "levelName": "Skorpo_RAAS_v3",
-            "lightingLevel": "LL_Skorpo_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -52235,8 +51942,6 @@
             "rawName": "Skorpo_RAAS_v4",
             "minimapTexture": "Skorpo_Minimap",
             "levelName": "Skorpo_RAAS_v4",
-            "lightingLevel": "LL_Skorpo_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -52636,8 +52341,6 @@
             "rawName": "Skorpo_Skirmish_v1",
             "minimapTexture": "Skorpo_Minimap_Skirmish_v1",
             "levelName": "Skorpo_Skirmish_v1",
-            "lightingLevel": "LL_Skorpo_Foggy",
-            "lighting": "Foggy",
             "border": [
                 {
                     "point": "0",
@@ -52798,8 +52501,6 @@
             "rawName": "Skorpo_TC_v1",
             "minimapTexture": "Skorpo_Minimap_TC_v1",
             "levelName": "Skorpo_TC_v1",
-            "lightingLevel": "LL_Skorpo_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -53044,8 +52745,6 @@
             "rawName": "Skorpo_TC_v2",
             "minimapTexture": "Skorpo_Minimap_TC_v2",
             "levelName": "Skorpo_TC_v2",
-            "lightingLevel": "LL_Skorpo_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -53332,8 +53031,6 @@
             "rawName": "Skorpo_TC_v3",
             "minimapTexture": "Skorpo_Minimap",
             "levelName": "Skorpo_TC_v3",
-            "lightingLevel": "LL_Skorpo_Afternoon",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -53692,8 +53389,6 @@
             "rawName": "Sumari_AAS_v1",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "Sumari_AAS_v1",
-            "lightingLevel": "LL_Sumari_Early_Morning",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "3",
@@ -54026,8 +53721,6 @@
             "rawName": "Sumari_Insurgency_v1",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "Sumari_Insurgency_v1",
-            "lightingLevel": "LL_Sumari_Early_Morning",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "2",
@@ -54254,8 +53947,6 @@
             "rawName": "Sumari_Invasion_v1",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "Sumari_Invasion_v1",
-            "lightingLevel": "LL_Sumari_Early_Morning",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "3",
@@ -54388,8 +54079,6 @@
             "rawName": "Sumari_RAAS_v1",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "Sumari_RAAS_v1",
-            "lightingLevel": "LL_Sumari_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -54558,8 +54247,6 @@
             "rawName": "Sumari_RAAS_v2",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "Sumari_RAAS_v2",
-            "lightingLevel": "LL_Sumari_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -54701,8 +54388,6 @@
             "rawName": "Sumari_Skirmish_v1",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "Sumari_Skirmish_v1",
-            "lightingLevel": "LL_Sumari_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "2",
@@ -54833,8 +54518,6 @@
             "rawName": "Sumari_TC_v1",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "Sumari_TC_v1",
-            "lightingLevel": "LL_Sumari_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -54995,8 +54678,6 @@
             "rawName": "Tallil_AAS_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_AAS_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -55327,8 +55008,6 @@
             "rawName": "Tallil_AAS_v2",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_AAS_v2",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -55686,8 +55365,6 @@
             "rawName": "Tallil_Invasion_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_Invasion_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_Morning",
-            "lighting": "Morning Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -56008,8 +55685,6 @@
             "rawName": "Tallil_Invasion_v2",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_Invasion_v2",
-            "lightingLevel": "LL_Tallil_Outskirts_Morning",
-            "lighting": "Morning Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -56311,8 +55986,6 @@
             "rawName": "Tallil_Invasion_v3",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_Invasion_v3",
-            "lightingLevel": "LL_Tallil_Outskirts_Morning",
-            "lighting": "Morning Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -56642,8 +56315,6 @@
             "rawName": "Tallil_RAAS_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_RAAS_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -56812,8 +56483,6 @@
             "rawName": "Tallil_RAAS_v2",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_RAAS_v2",
-            "lightingLevel": "LL_Tallil_Outskirts_Morning",
-            "lighting": "Morning Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -57135,8 +56804,6 @@
             "rawName": "Tallil_RAAS_v3",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_RAAS_v3",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -57450,8 +57117,6 @@
             "rawName": "Tallil_RAAS_v4",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_RAAS_v4",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -57782,8 +57447,6 @@
             "rawName": "Tallil_Skirmish_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap_Skirmish_v1",
             "levelName": "Tallil_Outskirts_Skirmish_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -57939,8 +57602,6 @@
             "rawName": "Tallil_Skirmish_v2",
             "minimapTexture": "Tallil_Outskirts_Minimap_Skirmish_v2",
             "levelName": "Tallil_Outskirts_Skirmish_v2",
-            "lightingLevel": "LL_Tallil_Outskirts_Morning",
-            "lighting": "Morning Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -58107,8 +57768,6 @@
             "rawName": "Tallil_Skirmish_v3",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_Skirmish_v3",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -58482,8 +58141,6 @@
             "rawName": "Tallil_Tanks_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_Tanks_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -58668,8 +58325,6 @@
             "rawName": "Tallil_Tanks_v2",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_Tanks_v2",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -58836,8 +58491,6 @@
             "rawName": "Tallil_TA_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_TA_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -58947,8 +58600,6 @@
             "rawName": "Tallil_TC_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "Tallil_Outskirts_TC_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -59467,8 +59118,6 @@
             "rawName": "Tutorial_Infantry",
             "minimapTexture": "Infantry_Tutorial_Minimap",
             "levelName": "Infantry_Tutorial",
-            "lightingLevel": "Tutorial_Crucible_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -59650,8 +59299,6 @@
             "rawName": "Yehorivka_AAS_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_AAS_v1",
-            "lightingLevel": "LL_Yehorivka_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -59955,8 +59602,6 @@
             "rawName": "Yehorivka_AAS_v2",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_AAS_v2",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -60269,8 +59914,6 @@
             "rawName": "Yehorivka_Destruction_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_Destruction_v1",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -60524,8 +60167,6 @@
             "rawName": "Yehorivka_Invasion_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_Invasion_v1",
-            "lightingLevel": "LL_Yehorivka_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -60846,8 +60487,6 @@
             "rawName": "Yehorivka_Invasion_v2",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_Invasion_v2",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -61159,8 +60798,6 @@
             "rawName": "Yehorivka_RAAS_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_RAAS_v1",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -61496,8 +61133,6 @@
             "rawName": "Yehorivka_RAAS_v2",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_RAAS_v2",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -61737,8 +61372,6 @@
             "rawName": "Yehorivka_RAAS_v3",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_RAAS_v3",
-            "lightingLevel": "LL_Yehorivka_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -62074,8 +61707,6 @@
             "rawName": "Yehorivka_RAAS_v4",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_RAAS_v4",
-            "lightingLevel": "LL_Yehorivka_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -62333,8 +61964,6 @@
             "rawName": "Yehorivka_RAAS_v5",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_RAAS_v5",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -62637,8 +62266,6 @@
             "rawName": "Yehorivka_Skirmish_v1",
             "minimapTexture": "Yehorivka_Minimap_Skirmish_v1",
             "levelName": "Yehorivka_Skirmish_v1",
-            "lightingLevel": "LL_Yehorivka_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "2",
@@ -62751,8 +62378,6 @@
             "rawName": "Yehorivka_Skirmish_v2",
             "minimapTexture": "Yehorivka_Minimap_Skirmish_v2",
             "levelName": "Yehorivka_Skirmish_v2",
-            "lightingLevel": "LL_Yehorivka_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "13",
@@ -62863,8 +62488,6 @@
             "rawName": "Yehorivka_Skirmish_v3",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_Skirmish_v3",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -63012,8 +62635,6 @@
             "rawName": "Yehorivka_TA_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_TA_v1",
-            "lightingLevel": "LL_Yehorivka_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -63123,8 +62744,6 @@
             "rawName": "Yehorivka_TC_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_TC_v1",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -63411,8 +63030,6 @@
             "rawName": "Yehorivka_TC_v2",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "Yehorivka_TC_V2",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -63681,8 +63298,6 @@
             "rawName": "CAF_AlBasrah_Invasion_v1",
             "minimapTexture": "albasrah_minimap",
             "levelName": "CAF_Al_Basrah_Invasion_v1",
-            "lightingLevel": "LL_AlBasrah_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -63973,8 +63588,6 @@
             "rawName": "CAF_AlBasrah_Invasion_v2",
             "minimapTexture": "albasrah_minimap",
             "levelName": "CAF_Al_Basrah_Invasion_v2",
-            "lightingLevel": "LL_AlBasrah_Sunset",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -64274,8 +63887,6 @@
             "rawName": "CAF_Belaya_AAS_v1",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "CAF_Belaya_AAS_v1",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -64832,8 +64443,6 @@
             "rawName": "CAF_Belaya_RAAS_v1",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "CAF_Belaya_RAAS_v1",
-            "lightingLevel": "LL_Belaya_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -65438,8 +65047,6 @@
             "rawName": "CAF_Belaya_RAAS_v2",
             "minimapTexture": "Belaya_Minimap",
             "levelName": "CAF_Belaya_RAAS_v2",
-            "lightingLevel": "LL_Belaya_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -66008,8 +65615,6 @@
             "rawName": "CAF_Chora_AAS_v1",
             "minimapTexture": "Chora_Minimap",
             "levelName": "CAF_Chora_AAS_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "16",
@@ -66195,8 +65800,6 @@
             "rawName": "CAF_Chora_RAAS_v1",
             "minimapTexture": "Chora_Minimap",
             "levelName": "CAF_Chora_RAAS_v1",
-            "lightingLevel": "LL_Chora_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -66393,8 +65996,6 @@
             "rawName": "CAF_Fallujah_Invasion_v1",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "CAF_Fallujah_Invasion_v1",
-            "lightingLevel": "LL_Fallujah_Night",
-            "lighting": "Clear Night",
             "border": [
                 {
                     "point": "0",
@@ -66868,8 +66469,6 @@
             "rawName": "CAF_Fallujah_RAAS_v1",
             "minimapTexture": "T_Fallujah_Minimap",
             "levelName": "CAF_Fallujah_RAAS_v1",
-            "lightingLevel": "LL_Fallujah_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -67292,8 +66891,6 @@
             "rawName": "CAF_Fools_Road_RAAS_v1",
             "minimapTexture": "Fools_Road_Minimap",
             "levelName": "CAF_Fools_Road_RAAS_v1",
-            "lightingLevel": "LL_Fools_Road_Evening",
-            "lighting": "Sunny Afternoon",
             "border": [
                 {
                     "point": "4",
@@ -67470,8 +67067,6 @@
             "rawName": "CAF_GooseBay_AAS_v1",
             "minimapTexture": "CAF_GooseBay_Minimap",
             "levelName": "CAF_Goose_Bay_AAS_v1",
-            "lightingLevel": "LL_Goose_Bay_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -67945,8 +67540,6 @@
             "rawName": "CAF_GooseBay_Invasion_v1",
             "minimapTexture": "CAF_GooseBay_Minimap",
             "levelName": "CAF_Goose_Bay_Invasion_v1",
-            "lightingLevel": "LL_Goose_Bay_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -68228,8 +67821,6 @@
             "rawName": "CAF_GooseBay_Invasion_v2",
             "minimapTexture": "CAF_GooseBay_Minimap",
             "levelName": "CAF_Goose_Bay_Invasion_v2",
-            "lightingLevel": "LL_Goose_Bay_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -68475,8 +68066,6 @@
             "rawName": "CAF_GooseBay_RAAS_v1",
             "minimapTexture": "CAF_GooseBay_Minimap",
             "levelName": "CAF_Goose_Bay_RAAS_v1",
-            "lightingLevel": "LL_Goose_Bay_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -68788,8 +68377,6 @@
             "rawName": "CAF_GooseBay_Skirmish_v1",
             "minimapTexture": "CAF_GooseBay_Minimap",
             "levelName": "CAF_Goose_Bay_Skirmish_v1",
-            "lightingLevel": "LL_Goose_Bay_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -68926,8 +68513,6 @@
             "rawName": "CAF_Gorodok_AAS_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "CAF_Gorodok_AAS_v1",
-            "lightingLevel": "LL_Gorodok_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -69311,8 +68896,6 @@
             "rawName": "CAF_Gorodok_Invasion_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "CAF_Gorodok_Invasion_v1",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -69705,8 +69288,6 @@
             "rawName": "CAF_Gorodok_RAAS_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "CAF_Gorodok_RAAS_v1",
-            "lightingLevel": "LL_Gorodok_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -70136,8 +69717,6 @@
             "rawName": "CAF_Gorodok_RAAS_v2",
             "minimapTexture": "gorodok_minimap",
             "levelName": "CAF_Gorodok_RAAS_v2",
-            "lightingLevel": "LL_Gorodok_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -70563,8 +70142,6 @@
             "rawName": "CAF_Gorodok_TC_v1",
             "minimapTexture": "gorodok_minimap",
             "levelName": "CAF_Gorodok_TC_v1",
-            "lightingLevel": "LL_Gorodok_Evening",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -70950,8 +70527,6 @@
             "rawName": "CAF_JensensRange_CAF-RUS",
             "minimapTexture": "Jensens_Range_Minimap",
             "levelName": "CAF_Jensens_Range_v4",
-            "lightingLevel": "LL_Jensens_Range_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "53",
@@ -71197,8 +70772,6 @@
             "rawName": "CAF_Kamdesh_Invasion_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "CAF_Kamdesh_Invasion_v1",
-            "lightingLevel": "LL_Kamdesh_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -71666,8 +71239,6 @@
             "rawName": "CAF_Kamdesh_RAAS_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "CAF_Kamdesh_RAAS_v1",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -72117,8 +71688,6 @@
             "rawName": "CAF_Kamdesh_TC_v1",
             "minimapTexture": "Kamdesh_Minimap",
             "levelName": "CAF_Kamdesh_TC_v1",
-            "lightingLevel": "LL_Kamdesh_Stormy",
-            "lighting": "Stormy",
             "border": [
                 {
                     "point": "0",
@@ -72534,8 +72103,6 @@
             "rawName": "CAF_Kohat_Invasion_v1",
             "minimapTexture": "kohat_minimap",
             "levelName": "CAF_Kohat_Invasion_v1",
-            "lightingLevel": "LL_Kohat_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -72990,8 +72557,6 @@
             "rawName": "CAF_Kokan_Valley_RAAS_v1",
             "minimapTexture": "T_Kokan_Minimap",
             "levelName": "CAF_Kokan_Valley_RAAS_v1",
-            "lightingLevel": "LL_Kokan_Valley_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "2",
@@ -73169,8 +72734,6 @@
             "rawName": "CAF_Lashkar_Valley_Invasion_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "CAF_Lashkar_Valley_Invasion_v1",
-            "lightingLevel": "LL_Lashkar_Early_Morning",
-            "lighting": "Early Morning",
             "border": [
                 {
                     "point": "0",
@@ -73653,8 +73216,6 @@
             "rawName": "CAF_Lashkar_Valley_RAAS_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "CAF_Lashkar_Valley_RAAS_v1",
-            "lightingLevel": "LL_Lashkar_Rainstorm",
-            "lighting": "Rain Storm",
             "border": [
                 {
                     "point": "0",
@@ -74111,8 +73672,6 @@
             "rawName": "CAF_Lashkar_Valley_TC_v1",
             "minimapTexture": "T_Lashkar_Minimap",
             "levelName": "CAF_Lashkar_Valley_TC_v1",
-            "lightingLevel": "LL_Lashkar_Rainstorm",
-            "lighting": "Rain Storm",
             "border": [
                 {
                     "point": "0",
@@ -74531,8 +74090,6 @@
             "rawName": "CAF_Logar_Valley_RAAS_v1",
             "minimapTexture": "Logar_Valley_Minimap",
             "levelName": "CAF_Logar_Valley_RAAS_v1",
-            "lightingLevel": "LL_Logar_Valley_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "4",
@@ -74712,8 +74269,6 @@
             "rawName": "CAF_Manic_AAS_v1",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_AAS_v1",
-            "lightingLevel": "LL_Manic-5_MidDay",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -74981,8 +74536,6 @@
             "rawName": "CAF_Manic_AAS_v2",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_AAS_v2",
-            "lightingLevel": "LL_Manic-5_MidDay",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -75223,8 +74776,6 @@
             "rawName": "CAF_Manic_Invasion_v1",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_Invasion_v1",
-            "lightingLevel": "LL_Manic-5_MidDay",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -75491,8 +75042,6 @@
             "rawName": "CAF_Manic_Invasion_v2",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_Invasion_v2",
-            "lightingLevel": "LL_Manic-5_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -75759,8 +75308,6 @@
             "rawName": "CAF_Manic_RAAS_v1",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_RAAS_v1",
-            "lightingLevel": "LL_Manic-5_MidDay",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -76069,8 +75616,6 @@
             "rawName": "CAF_Manic_RAAS_v2",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_RAAS_v2",
-            "lightingLevel": "LL_Manic-5_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -76310,8 +75855,6 @@
             "rawName": "CAF_Manic_RAAS_v3",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_RAAS_v3",
-            "lightingLevel": "LL_Manic-5_MidDay",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -76593,8 +76136,6 @@
             "rawName": "CAF_Manic_RAAS_v4",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_RAAS_v4",
-            "lightingLevel": "LL_Manic-5_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -76837,8 +76378,6 @@
             "rawName": "CAF_Manic_Skirmish_v1",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_Skirmish_v1",
-            "lightingLevel": "LL_Manic-5_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "0",
@@ -76996,8 +76535,6 @@
             "rawName": "CAF_Manic_Skirmish_v2",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_Skirmish_v2",
-            "lightingLevel": "LL_Manic-5_MidDay",
-            "lighting": "Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -77128,8 +76665,6 @@
             "rawName": "CAF_Manic_TC_v2",
             "minimapTexture": "T_Manic-5_Minimap",
             "levelName": "CAF_Manic-5_TC_v1",
-            "lightingLevel": "LL_Manic-5_Sunset",
-            "lighting": "Sunset",
             "border": [
                 {
                     "point": "0",
@@ -77353,8 +76888,6 @@
             "rawName": "CAF_Mestia_RAAS_v1",
             "minimapTexture": "T_Mestia_Minimap",
             "levelName": "CAF_Mestia_RAAS_v1",
-            "lightingLevel": "LL_Mestia_Overcast",
-            "lighting": "Overcast",
             "border": [
                 {
                     "point": "3",
@@ -77540,8 +77073,6 @@
             "rawName": "CAF_Mutaha_AAS_v1",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "CAF_Mutaha_AAS_v1",
-            "lightingLevel": "LL_Mutaha_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -77807,8 +77338,6 @@
             "rawName": "CAF_Mutaha_RAAS_v1",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "CAF_Mutaha_RAAS_v1",
-            "lightingLevel": "LL_Mutaha_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -78057,8 +77586,6 @@
             "rawName": "CAF_Mutaha_RAAS_v2",
             "minimapTexture": "Mutaha_Minimap",
             "levelName": "CAF_Mutaha_RAAS_v2",
-            "lightingLevel": "LL_Mutaha_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -78318,8 +77845,6 @@
             "rawName": "CAF_Narva_RAAS_v1",
             "minimapTexture": "Narva_Minimap",
             "levelName": "CAF_Narva_RAAS_v1",
-            "lightingLevel": "LL_Narva_MidDay_Clouds",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "11",
@@ -78568,8 +78093,6 @@
             "rawName": "CAF_Skorpo_RAAS_v1",
             "minimapTexture": "Skorpo_Minimap",
             "levelName": "CAF_Skorpo_RAAS_v1",
-            "lightingLevel": "LL_Skorpo_Midday",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -78898,8 +78421,6 @@
             "rawName": "CAF_Sumari_AAS_v1",
             "minimapTexture": "Sumari_Minimap",
             "levelName": "CAF_Sumari_AAS_v1",
-            "lightingLevel": "LL_Sumari_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "3",
@@ -79077,8 +78598,6 @@
             "rawName": "CAF_Tallil_Outskirts_RAAS_v1",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "CAF_Tallil_Outskirts_RAAS_v1",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay2",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -79400,8 +78919,6 @@
             "rawName": "CAF_Tallil_Outskirts_RAAS_v2",
             "minimapTexture": "Tallil_Outskirts_Minimap",
             "levelName": "CAF_Tallil_Outskirts_RAAS_v2",
-            "lightingLevel": "LL_Tallil_Outskirts_MidDay",
-            "lighting": "Sunny Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -79696,8 +79213,6 @@
             "rawName": "CAF_Yehorivka_Invasion_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "CAF_Yehorivka_Invasion_v1",
-            "lightingLevel": "LL_Yehorivka_Sunrise",
-            "lighting": "Sunrise",
             "border": [
                 {
                     "point": "0",
@@ -79964,8 +79479,6 @@
             "rawName": "CAF_Yehorivka_RAAS_v1",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "CAF_Yehorivka_RAAS_v1",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
@@ -80310,8 +79823,6 @@
             "rawName": "CAF_Yehorivka_TC_v2",
             "minimapTexture": "Yehorivka_Minimap",
             "levelName": "CAF_Yehorivka_TC_V1",
-            "lightingLevel": "LL_Yehorivka_MidDay",
-            "lighting": "Partial Clouds Mid Day",
             "border": [
                 {
                     "point": "0",
