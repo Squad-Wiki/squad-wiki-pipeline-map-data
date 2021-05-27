@@ -13,7 +13,7 @@ const json = require('./json');
 const { wikiformat } = require('./json/json');
 var cookieJar = request.jar()
 
-var url = "https://squad.gamepedia.com/api.php"
+var url = "https://squad.fandom.com/api.php"
 
 async function asyncForEach(array, callback) {
     for (let index = 0; index < array.length; index++) {
@@ -102,7 +102,7 @@ const main = async() => {
                         })
 
                         fs.appendFileSync('./files/output/debug/CargoDebug.txt', tempData)
-                        //wikiUpload(map[0].MapLayerInfo.MapPage, tempData, csrftoken)
+                        wikiUpload(map[0].MapLayerInfo.MapPage, tempData, csrftoken)
                     }
                     for(var divisionKey in WikiFormat.finisheddivisions) {
                         let faction = WikiFormat.finisheddivisions[divisionKey]

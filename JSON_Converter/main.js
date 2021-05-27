@@ -128,6 +128,7 @@ const main = async() => {
     conMaps.Maps = []
     log('Preparing to loop through each Setup....')
 
+    console.log(inputJson.Setups)
     await asyncForEach(inputJson.Setups, async (setup) => {
         let blacklisted = false
         await asyncForEach(setupBlacklist.blacklist, async (black) => {
@@ -151,6 +152,8 @@ const main = async() => {
         setupObject.vehicles = combVeh
         conMaps.Setups.push(setupObject)
     })
+
+    //console.log(conMaps)
     
     log('Preparing to loop through each Map....')
     await asyncForEach(inputJson.Maps, async (layer) => {
@@ -257,6 +260,7 @@ const main = async() => {
     
         let tempObject = {}
         tempObject.Name = layer.Name
+        tempObject.mapName = layer.mapName
     
         tempObject.team1 = {}
         tempObject.team1.faction = confaction1

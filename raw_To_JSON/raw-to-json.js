@@ -10,6 +10,9 @@ const gamemodes = require('../files/config/gamemodes.json')
 
 const layers = []
 
+let currentMap = {}
+let currentVeh = []
+
 const findGamemode = async(text) => {
     let location = -1
 
@@ -30,6 +33,79 @@ const findGamemode = async(text) => {
     }
 }
 
+const addToObject = async(object, dataType, data, objecttype) => {
+    if(data.includes(" | ")){
+        let seperate1 = data.substring(0, data.indexOf(" |"))
+        let seperate2 = data.substring(data.indexOf("| ") + 2, data.length)
+        data = {}
+        data[seperate1] = seperate2
+    }
+    if(dataType == "icon") data = data.substring(data.indexOf('.', data.indexOf(".") + 1) + 1,data.length)
+    object.type = objecttype
+    if(object.currentObject == undefined) object.currentObject = {}
+
+    if(object.currentObject[dataType] != undefined) {
+        if(Array.isArray(object.currentObject[dataType])){
+            object.currentObject[dataType].push(data)
+        }
+        else {
+            temp = object.currentObject[dataType]
+            object.currentObject[dataType] = []
+            object.currentObject[dataType].push(temp)
+            object.currentObject[dataType].push(data)
+        }
+    }
+    else {
+        if(dataType == "priority"){
+            object.currentObject[dataType] = []
+            object.currentObject[dataType].push(data)
+        }
+        else {
+            object.currentObject[dataType] = data
+        }
+    }
+    
+    return object
+}
+
+
+const finishObject = async(object) => {
+    if(object.type == "") return null
+    if(currentMap[object.type] == undefined){
+        currentMap[object.type] = []
+        if(object.currentObject != {}) {
+            currentMap[object.type].push(object.currentObject)
+            object = {
+                'type': "",
+                'currentObject': {}
+            }
+        }
+    }
+    else {
+        currentMap[object.type].push(object.currentObject)
+        object = {
+            'type': "",
+            'currentObject': {}
+        }
+    }
+    returnObject = object
+    return returnObject
+}
+
+
+const finishObjectveh = async(object) => {
+    if(object.type == "") return null
+    currentVeh.push(object.currentObject)
+
+    object = {
+        'type': "",
+        'currentObject': {}
+    }
+    
+    returnObject = object
+    return returnObject
+}
+
 
 let loop = async(remaninglines, output, output2) => {
 
@@ -40,8 +116,19 @@ let loop = async(remaninglines, output, output2) => {
     let temp = null
     currentMap = {}
     let tempLane = ""
-    currentSetup = {}
-    
+    let currentSetup = {}
+    let currentRole = {}
+ 
+    let workingObject = {
+        'type' : "",
+        'currentObject': {}
+    }
+
+    let workingObjectVeh = {
+        'type' : "",
+        'currentObject': {}
+    }
+
     while(remaninglines.indexOf("\n") >= -1){
         let lineEnd = remaninglines.indexOf("\n")
         let line = remaninglines.substring(0, lineEnd - 1)
@@ -49,11 +136,11 @@ let loop = async(remaninglines, output, output2) => {
 
 
         prefix = line.substring(line.indexOf("[") + 1, line.indexOf("]"))
+        let data = "", datatype = ""
+        datatype = line.substring(prefix.length + 3, line.indexOf(":"))
+        data = line.substring(line.indexOf(":") + 2, line.length)
         switch(prefix) {
             case "Setup_Data":
-                datatype = line.substring(prefix.length + 3, line.indexOf(":"))
-                data = line.substring(line.indexOf(":") + 2, line.length)
-                
                 if(Object.keys(currentSetup).length === 0) {
                     currentSetup[datatype] = data
                     break;
@@ -67,8 +154,7 @@ let loop = async(remaninglines, output, output2) => {
                 currentSetup[datatype] = data
                 break;
             case "Setup":
-                datatype = line.substring(prefix.length + 3, line.indexOf(":"))
-                data = line.substring(line.indexOf(":") + 2, line.length)
+
                 if(datatype == 'New_Veh') {
                     datatype = "vehicles"
                     if(currentSetup[datatype] == undefined) currentSetup[datatype] = []
@@ -98,11 +184,35 @@ let loop = async(remaninglines, output, output2) => {
                     currentSetup[datatype] = data
                 }
                 break;
+            case "Role":
+                if(datatype == "inventory") {
+                    data = data.substring(data.indexOf(".") + 1,data.length)
+                }
+                if(datatype == `object_name`) {
+                    if(currentSetup.roles == undefined) currentSetup.roles = []
+                    currentSetup.roles.push(currentRole)
+                    currentRole = {}
+                }
+                let role = currentRole
+                if(role[datatype] != undefined) {
+                    if(Array.isArray(role[datatype])){
+                        role[datatype].push(data)
+                    }
+                    else {
+                        temp = role[datatype]
+                        role[datatype] = []
+                        role[datatype].push(temp)
+                        role[datatype].push(data)
+                    }
+                }
+                else {
+                    role[datatype] = data
+                }
+            break;
             case "Data":
                 
                 if(line.includes("name:")){
                     if(currentSetup != undefined) {
-                        console.log(currentSetup)
                         finishedSetups.push(currentSetup)
                         currentSetup = undefined
                     }
@@ -153,6 +263,10 @@ let loop = async(remaninglines, output, output2) => {
                             "INDEPENDENT"
                         ]
                     }
+
+                    await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+
                     finishedJson.push(currentMap)
                     currentMap = {}
                     currentMap.Name = line.substring(13, line.length)
@@ -165,6 +279,10 @@ let loop = async(remaninglines, output, output2) => {
 
                 if(line.includes("mapLevelName:")){
                     currentMap.levelName = line.substring(21, line.length)
+                }
+
+                if(line.includes("minimapTexture:")){
+                    currentMap.minimapTexture = line.substring(23, line.length)
                 }
 
                 if(line.includes("team:")){
@@ -183,11 +301,7 @@ let loop = async(remaninglines, output, output2) => {
                     currentMap.lighting = temp
                 }
                 break;
-
-
             case "Team":
-                datatype = line.substring(prefix.length + 3, line.indexOf(":"))
-                data = line.substring(line.indexOf(":") + 2, line.length)
                 if(datatype == 'New_Veh') {
                     datatype = "vehicles"
                     if(team[datatype] == undefined) team[datatype] = []
@@ -198,7 +312,8 @@ let loop = async(remaninglines, output, output2) => {
                     tempdata.delay = parseInt(data.substring(data.indexOf("Spawn Time: ") + 12, data.indexOf(" | Respawn Time: ")))
                     tempdata.respawnTime = parseInt(data.substring(data.indexOf(" | Respawn Time: ") + 17, data.indexOf(" | Raw Name:")))
                     tempdata.rawType = data.substring(data.indexOf(".") + 1, data.indexOf(" | Icon: "))
-                    tempdata.icon = data.substring(data.indexOf('.', data.indexOf(".") + 1) + 1, data.length)
+                    tempdata.icon = data.substring(data.indexOf('.', data.indexOf(".") + 1) + 1, data.indexOf(" | spawner_Size: "))
+                    tempdata.spawner_Size = data.substring(data.indexOf(" | spawner_Size: ") + 17, data.length)
                     data = tempdata
 
                 }
@@ -228,8 +343,6 @@ let loop = async(remaninglines, output, output2) => {
                 }
                 break;
             case "Flags":
-                datatype = line.substring(prefix.length + 3, line.indexOf(":"))
-                data = line.substring(line.indexOf(":") + 2, line.length)
                 if(datatype == "Lane") {
                     tempLane = data
                     break;
@@ -276,12 +389,81 @@ let loop = async(remaninglines, output, output2) => {
                 }
                 break;
             case "Border":
-                borderpos = {}
-                borderpos.x = parseInt(line.substring(line.indexOf("X=") + 2, line.indexOf(" Y=")))
-                borderpos.y = parseInt(line.substring(line.indexOf("Y=") + 2, line.indexOf(" Z=")))
-                borderpos.z = parseInt(line.substring(line.indexOf("Z=") + 2, line.length - 1))
-                if(currentMap.border == undefined) currentMap.border = []
-                currentMap.border.push(borderpos)
+                if(datatype == "point"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "border")
+                break;
+                case "PointMain":
+                if(datatype == "name"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "pointsMain")
+                break;
+            case "Point":
+                if(datatype == "name"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "points")
+                break;
+            case "Spawner":
+                if(datatype == "name"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "spawners")
+                break;
+            case "Vehicle":
+                if(datatype == "raw_Name"){
+                    let returnObject = await finishObjectveh(workingObjectVeh)
+                    if(returnObject !== null ) workingObjectVeh = returnObject
+                }
+                workingObjectVeh = await addToObject(workingObjectVeh, datatype, data, "veh")
+                break;
+            case "Asset":
+                if(datatype == "type"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "assets")
+                break;
+            case "Staging":
+                if(datatype == "name"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "staging")
+                break;
+            case "ProtectionZone":
+                if(datatype == "name"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "protectionzone")
+                break;
+            case "Lanes":
+                if(datatype == "laneName"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "lane")
+                break;
+            case "HexAnchors":
+                if(datatype == "team"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "hexAnchors")
+                break;
+            case "Hexs":
+                if(datatype == "hex_name"){
+                    let returnObject = await finishObject(workingObject)
+                    if(returnObject !== null ) workingObject = returnObject
+                }
+                workingObject = await addToObject(workingObject, datatype, data, "hexs") 
                 break;
             case "Error":
                 throw new Error(line)
@@ -305,13 +487,34 @@ let loop = async(remaninglines, output, output2) => {
                         else {
                             currentMap.mapSizeType = "Minimap Size"
                         }}
+
+            
+            currentMap[workingObject.type].push(workingObject.currentObject)
+            currentVeh.push(workingObjectVeh.currentObject)
+
+            if(currentMap.rawName.includes("CAF")) {
+                tempName = currentMap.Name.substring(4, currentMap.Name.length)
+            }
+            else{
+                tempName = currentMap.Name
+            }
+            let gamemodeinfo = await findGamemode(tempName)
+
+            let mapPage = tempName.substring(0, gamemodeinfo.location - 1).replaceAll("_", " ")
+            let layerVersion = tempName.substring(gamemodeinfo.location + gamemodeinfo.gamemode.length + 1)
+            currentMap.mapName = mapPage
+            currentMap.gamemode = gamemodeinfo.gamemode
+            currentMap.layerVersion = layerVersion
+            
             finishedJson.push(currentMap)
             break; // If there are no new line characters we have no more lines left
         }
     }
+
     writejson = {}
     writejson.Setups = finishedSetups
     writejson.Maps = finishedJson
+    writejson.Vehicles = currentVeh
     
     fs.writeFileSync(output, JSON.stringify(writejson, null, 4))
     fs.writeFileSync(output2, JSON.stringify(writejson, null, 4))
@@ -323,16 +526,14 @@ borderCaculator = async(border) => {
     if( border == undefined){
         output = {}
         output.mapSize = `0x0 km`
-        output.x = 
-        output.y = 0
         return output
     }
 
     distance = {}
     distance.maxx = 0, distance.maxy = 0, distance.lowx = 9999999999, distance.lowy = 9999999999
     border.forEach(borderelement => {
-        absx = borderelement.x
-        absy = borderelement.y
+        absx = borderelement.location_x
+        absy = borderelement.location_y
         if(absx > distance.maxx) distance.maxx = absx
         if(absy > distance.maxy) distance.maxy = absy
         if(absx < distance.lowx) distance.lowx = absx
@@ -363,5 +564,6 @@ main = async() => {
     await loop(remaninglines, output, output2)
     //fs.writeFileSync(`./layers.json`,layers)
 }
+
 
 main()

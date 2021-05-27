@@ -1,4 +1,4 @@
-var url = "https://squad.gamepedia.com/api.php"
+var url = "https://squad.fandom.com/api.php"
 const request = require('request');
 
 module.exports = {
