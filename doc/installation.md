@@ -1,12 +1,9 @@
 # Pipeline Installation
+
 The entire pipeline is run on your **local PC**. It consists of two main parts:
-1. One **Unreal Engine Blueprint** "*MapGrabAssets.uasset*" to be added to the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) for exporting the game data.
+
+1. One **Unreal Engine Blueprint** "_MapGrabAssets.uasset_" to be added to the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) for exporting the game data.
 2. Different **JavaScripts** for processing, converting and uploading the exported game data to the wiki.
-
-
-
-
-
 
 ### Installing Blueprint MapGrabAssets.uasset
 
@@ -14,10 +11,9 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 Please note, you will have to repeat steps 4-15 after every new release version of the Squad SDK. To find out more about Blueprints, see [official documentation](https://docs.unrealengine.com/en-US/Engine/Blueprints/GettingStarted/index.html). You can see all versions of the Squad SDK [here](https://squad.gamepedia.com/Squad_SDK#Version_history).
 
-
 1. Place the blueprint within the SDK folders. It's recommended that the Blueprint is placed at `/SquadEditor/Squad/Content/Wiki/`.
 
-2. Open the Squad SDK. 
+2. Open the Squad SDK.
 
 Skip to step 6 if you are not using CAF files
 
@@ -49,7 +45,7 @@ Skip to step 6 if you are not using CAF files
 
 10. Open up the `Event Graph` in the BP_HUD.
 
-11. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node. 
+11. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node.
 
 ![Copy Node](/doc/images/sdk/sdk_copy_delay.png)
 
@@ -65,6 +61,10 @@ Skip to step 6 if you are not using CAF files
 
 15. Connect the Delay node with the new function node.
 
-16. If you are using CAF files click the CAF tickbox on the function.
+16. Drag off the blue object reference again and search get capture zones.
 
-17. Compile and save the blueprint.
+![Get Capture Zones](/doc/images/sdk/sdk_get_caputre.png)
+
+17. Place node between `Event BeginPlay` and `Parent: BeginPlay`.
+
+18. Compile and save the blueprint.
