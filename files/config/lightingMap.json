@@ -1,4 +1,9 @@
 {
+    "LL_Anvil_Mid_Day": "Sunny Mid Day",
+    "LL_Anvil_Mid_Day2": "Cloudy Mid Day",
+    "LL_Anvil_Dawn": "Sunrise",
+    "LL_Anvil_Night": "Night",
+
     "LL_AlBasrah_MidDay": "Sunny Mid Day",
     "LL_AlBasrah_Sunset": "Sunrise",
 
@@ -29,6 +34,8 @@
 
     "LL_Kohat_MidDay": "Sunny Mid Day",
     "LL_Kohat_Early_Morning": "Early Morning",
+
+    "LL_Infantry_Tutorial_MidDay": "Sunny Mid Day",
 
     "LL_Kokan_Valley_Overcast": "Overcast",
     "LL_Kokan_Valley_MidDay_Sunny": "Sunny Mid Day",
