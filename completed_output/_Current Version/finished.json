@@ -5960,7 +5960,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -6365,7 +6365,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -6694,7 +6694,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -7492,7 +7492,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -7720,7 +7720,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "UK 1st Battalion, Grenadier Guards",
                 "tickets": "150",
                 "playerPercent": "50",
@@ -8259,7 +8259,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "400",
                 "playerPercent": "50",
@@ -10638,7 +10638,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -12442,7 +12442,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -14289,7 +14289,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -14668,7 +14668,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "UK 1st Battalion, Grenadier Guards",
                 "tickets": "150",
                 "playerPercent": "50",
@@ -19213,7 +19213,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -23935,7 +23935,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -26971,7 +26971,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -27229,7 +27229,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -27461,7 +27461,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -27666,7 +27666,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -33185,7 +33185,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -35750,7 +35750,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -37612,7 +37612,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "UK 1st Battalion, Grenadier Guards",
                 "tickets": "150",
                 "playerPercent": "50",
@@ -38423,7 +38423,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "99999",
                 "playerPercent": "50",
@@ -40918,7 +40918,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -41923,7 +41923,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -42992,7 +42992,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -44653,7 +44653,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -45568,7 +45568,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -46094,7 +46094,7 @@
                 ]
             },
             "team2": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "UK 1st Battalion, Grenadier Guards",
                 "tickets": "150",
                 "playerPercent": "50",
@@ -46431,7 +46431,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "400",
                 "playerPercent": "50",
@@ -50759,7 +50759,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -51703,7 +51703,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -52659,7 +52659,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -53664,7 +53664,7 @@
                 ]
             },
             "team2": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "UK 1st Battalion, Grenadier Guards",
                 "tickets": "150",
                 "playerPercent": "50",
@@ -54646,7 +54646,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -57725,7 +57725,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -60449,7 +60449,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -61244,7 +61244,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "250",
                 "playerPercent": "50",
@@ -67118,7 +67118,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "UK 1st Battalion, Grenadier Guards",
                 "tickets": "150",
                 "playerPercent": "50",
@@ -68805,7 +68805,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -69073,7 +69073,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -69377,7 +69377,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
@@ -71570,7 +71570,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "300",
                 "playerPercent": "50",
@@ -72466,7 +72466,7 @@
                 }
             ],
             "team1": {
-                "[Team] ": "Team] British Army",
+                "faction": "British Army",
                 "teamSetupName": "British Armed Forces",
                 "tickets": "200",
                 "playerPercent": "50",
