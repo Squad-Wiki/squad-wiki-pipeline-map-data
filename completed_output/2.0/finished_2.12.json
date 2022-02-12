@@ -24732,7 +24732,8 @@
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
                 "actions": "4",
-                "commander": "true"
+                "commander": "true",
+                "vehicles": []
             },
             "team2": {
                 "faction": "Middle Eastern Alliance",
@@ -24742,7 +24743,8 @@
                 "disabledVeh": "true",
                 "intelOnEnemy": "3",
                 "actions": "4",
-                "commander": "true"
+                "commander": "true",
+                "vehicles": []
             },
             "type": "AAS Graph",
             "Flag": "01-Market Center",
