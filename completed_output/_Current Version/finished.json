@@ -29219,6 +29219,2006 @@
             "mapSizeType": "Minimap Size"
         },
         {
+            "Name": "CAF Goose Bay AAS v1",
+            "rawName": "CAF_GooseBay_AAS_v1",
+            "levelName": "CAF_Goose_Bay_AAS_v1",
+            "minimapTexture": "CAF_GooseBay_Minimap",
+            "lightingLevel": "LL_Goose_Bay_MidDay",
+            "lighting": "Sunny Mid Day",
+            "border": [
+                {
+                    "point": "0",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                },
+                {
+                    "point": "1",
+                    "location_x": "192682.65625",
+                    "location_y": "192295.09375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "2",
+                    "location_x": "189925.875",
+                    "location_y": "-58459.859375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "3",
+                    "location_x": "132277.03125",
+                    "location_y": "-169883.875",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "4",
+                    "location_x": "-201137.453125",
+                    "location_y": "-201008.3125",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "5",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                }
+            ],
+            "team1": {
+                "faction": "Canadian Army",
+                "teamSetupName": "CAF Battlegroup",
+                "tickets": "300",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "TAPV M2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 5,
+                        "rawType": "BP_TAPV_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV III C6 RWS",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_LAV_RWS_C6_C",
+                        "icon": "map_apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "TAPV C6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 5,
+                        "rawType": "BP_TAPV_C6_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_Cage_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "Russian Ground Forces",
+                "teamSetupName": "Russian battalion tactical group",
+                "tickets": "300",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 10,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Tigr-M Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "Tigr-M RWS Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_RWS_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BMP-2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_BMP2_C",
+                        "icon": "map_trackedifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BMP-2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_BMP2_C",
+                        "icon": "map_trackedifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "T-72B3",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_T72B3_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "T-72B3",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_T72B3_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "type": "AAS Graph",
+            "Flag": [
+                "01-Sheshatshiu",
+                "02-FOB Inkpen",
+                "03-NORAD Ground Station",
+                "04-CFB Goose Bay",
+                "05-OP Hebb",
+                "06-Postville"
+            ],
+            "capturePoints": "6",
+            "mapName": "Goose Bay",
+            "gamemode": "AAS",
+            "layerVersion": "v1",
+            "mapSize": "3.9x3.7 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
+            "Name": "CAF Goose Bay AAS v2",
+            "rawName": "CAF_GooseBay_AAS_v2",
+            "levelName": "CAF_Goose_Bay_AAS_v2",
+            "minimapTexture": "CAF_GooseBay_Minimap",
+            "lightingLevel": "LL_Goose_Bay_MidDay",
+            "lighting": "Sunny Mid Day",
+            "border": [
+                {
+                    "point": "0",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                },
+                {
+                    "point": "1",
+                    "location_x": "192682.65625",
+                    "location_y": "192295.09375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "2",
+                    "location_x": "189925.875",
+                    "location_y": "-58459.859375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "3",
+                    "location_x": "132277.03125",
+                    "location_y": "-169883.875",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "4",
+                    "location_x": "-201137.453125",
+                    "location_y": "-201008.3125",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "5",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                }
+            ],
+            "team1": {
+                "faction": "Canadian Army",
+                "teamSetupName": "CAF Battlegroup",
+                "tickets": "300",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "TAPV M2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 5,
+                        "rawType": "BP_TAPV_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV III C6 RWS",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_LAV_RWS_C6_C",
+                        "icon": "map_apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "TAPV C6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 5,
+                        "rawType": "BP_TAPV_C6_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_Cage_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "Russian Ground Forces",
+                "teamSetupName": "Russian battalion tactical group",
+                "tickets": "300",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 10,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Tigr-M Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "Tigr-M RWS Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_RWS_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BMP-2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_BMP2_C",
+                        "icon": "map_trackedifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BMP-2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 15,
+                        "rawType": "BP_BMP2_C",
+                        "icon": "map_trackedifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "T-72B3",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_T72B3_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "T-72B3",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_T72B3_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "type": "AAS Graph",
+            "Flag": [
+                "01-Train Yard",
+                "02-Naval Refueling Station",
+                "03-Taqqut Coop",
+                "04-Fishing Village",
+                "05-5 Wing HQ",
+                "06-Happy Valley",
+                "07-Shipping Center"
+            ],
+            "capturePoints": "7",
+            "mapName": "Goose Bay",
+            "gamemode": "AAS",
+            "layerVersion": "v2",
+            "mapSize": "3.9x3.7 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
+            "Name": "CAF Goose Bay Invasion v1",
+            "rawName": "CAF_GooseBay_Invasion_v1",
+            "levelName": "CAF_Goose_Bay_Invasion_v1",
+            "minimapTexture": "CAF_GooseBay_Minimap",
+            "lightingLevel": "LL_Goose_Bay_Overcast",
+            "lighting": "Overcast",
+            "border": [
+                {
+                    "point": "0",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                },
+                {
+                    "point": "1",
+                    "location_x": "187383.5",
+                    "location_y": "191983.546875",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "2",
+                    "location_x": "191364.703125",
+                    "location_y": "-58977.15625",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "3",
+                    "location_x": "142257.515625",
+                    "location_y": "-195561.0625",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "4",
+                    "location_x": "-201137.453125",
+                    "location_y": "-201008.3125",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "5",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                }
+            ],
+            "team1": {
+                "faction": "Canadian Army",
+                "teamSetupName": "CAF Battlegroup",
+                "tickets": "900",
+                "playerPercent": "50",
+                "disabledVeh": "false",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 10,
+                        "respawnTime": 15,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "TAPV M2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_TAPV_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 20,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "TAPV M2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_TAPV_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "LAV III M2 RWS",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_LAV_RWS_M2_C",
+                        "icon": "map_apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV III M2 RWS",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 0,
+                        "rawType": "BP_LAV_RWS_M2_C",
+                        "icon": "map_apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 20,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "Russian Ground Forces",
+                "teamSetupName": "Russian battalion tactical group",
+                "tickets": "200",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "T-72B3",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_T72B3_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Tigr-M RWS Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_RWS_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BTR-80",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 6,
+                        "rawType": "BP_BTR80_RUS_C",
+                        "icon": "apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "BRDM-2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_BRDM-2_RUS_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Tigr-M RWS Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_RWS_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "Car"
+                    }
+                ]
+            },
+            "type": "Invasion Random Graph",
+            "Flag": [
+                "00-Team1 Main",
+                "01-CaptureZoneCluster",
+                "02-CaptureZoneCluster",
+                "03-CaptureZoneCluster",
+                "04-CaptureZoneCluster",
+                "05-CaptureZoneCluster"
+            ],
+            "capturePoints": "5",
+            "mapName": "Goose Bay",
+            "gamemode": "Invasion",
+            "layerVersion": "v1",
+            "mapSize": "3.9x4.0 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
+            "Name": "CAF Goose Bay Invasion v2",
+            "rawName": "CAF_GooseBay_Invasion_v2",
+            "levelName": "CAF_Goose_Bay_Invasion_v2",
+            "minimapTexture": "CAF_GooseBay_Minimap",
+            "lightingLevel": "LL_Goose_Bay_Overcast",
+            "lighting": "Overcast",
+            "border": [
+                {
+                    "point": "0",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                },
+                {
+                    "point": "1",
+                    "location_x": "187383.5",
+                    "location_y": "191983.546875",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "2",
+                    "location_x": "191364.703125",
+                    "location_y": "-58977.15625",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "3",
+                    "location_x": "142257.515625",
+                    "location_y": "-195561.0625",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "4",
+                    "location_x": "-201137.453125",
+                    "location_y": "-201008.3125",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "5",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                }
+            ],
+            "team1": {
+                "faction": "Canadian Army",
+                "teamSetupName": "CAF Battlegroup",
+                "tickets": "200",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_Cage_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 14,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 6,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 14,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "LAV III C6 RWS",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_LAV_RWS_C6_C",
+                        "icon": "map_apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "TAPV M2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_TAPV_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "TAPV M2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_TAPV_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "Irregular Militia Forces",
+                "teamSetupName": "Local Militia Group",
+                "tickets": "900",
+                "playerPercent": "50",
+                "disabledVeh": "false",
+                "intelOnEnemy": "3",
+                "actions": "0",
+                "commander": "false",
+                "vehicles": [
+                    {
+                        "type": "BMP-1",
+                        "count": 2,
+                        "delay": 10,
+                        "respawnTime": 15,
+                        "rawType": "BP_BMP1_MIL_C",
+                        "icon": "map_trackedifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "T-62",
+                        "count": 1,
+                        "delay": 15,
+                        "respawnTime": 20,
+                        "rawType": "BP_T62_MIL_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Ural-375D Logistics Truck",
+                        "count": 5,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Ural_375_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Ural-375D Transport Truck",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 3,
+                        "rawType": "BP_Ural_375_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Technical DShK Shielded",
+                        "count": 2,
+                        "delay": 0,
+                        "respawnTime": 5,
+                        "rawType": "BP_Technical_Dshk_Shielded_MIL_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "Logistics Pickup Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Technical4Seater_Logi_Camo_C",
+                        "icon": "map_jeep_logistics",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "Technical SPG-9",
+                        "count": 2,
+                        "delay": 5,
+                        "respawnTime": 10,
+                        "rawType": "BP_Technical_SPG9_MIL_C",
+                        "icon": "map_jeep_antitank",
+                        "spawner_Size": "Car"
+                    }
+                ]
+            },
+            "type": "Invasion Random Graph",
+            "Flag": [
+                "100-Team1 Main",
+                "05-CaptureZoneCluster",
+                "04-CaptureZoneCluster",
+                "03-CaptureZoneCluster",
+                "02-CaptureZoneCluster",
+                "01-CaptureZoneCluster"
+            ],
+            "capturePoints": "5",
+            "mapName": "Goose Bay",
+            "gamemode": "Invasion",
+            "layerVersion": "v2",
+            "mapSize": "3.9x4.0 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
+            "Name": "CAF Goose Bay Invasion v3",
+            "rawName": "CAF_GooseBay_Invasion_v3",
+            "levelName": "CAF_Goose_Bay_Invasion_v3",
+            "minimapTexture": "CAF_GooseBay_Minimap",
+            "lightingLevel": "LL_Goose_Bay_Sunset_Fog",
+            "lighting": "Sunset",
+            "border": [
+                {
+                    "point": "0",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                },
+                {
+                    "point": "1",
+                    "location_x": "187383.5",
+                    "location_y": "191983.546875",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "2",
+                    "location_x": "191364.703125",
+                    "location_y": "-58977.15625",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "3",
+                    "location_x": "142257.515625",
+                    "location_y": "-195561.0625",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "4",
+                    "location_x": "-201137.453125",
+                    "location_y": "-201008.3125",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "5",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                }
+            ],
+            "team1": {
+                "faction": "United States Army",
+                "teamSetupName": "US Brigade Combat Team",
+                "tickets": "800",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "M939 Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_US_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "M939 Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_US_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "M939 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_US_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "M939 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_US_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "M939 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_US_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "M-ATV M240",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MATV_M240_Woodland_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "M-ATV M2 HB",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MATV_Woodland_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "M1126 CROWS M2 HB",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_M1126_Woodland_C",
+                        "icon": "apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "M1126 CROWS M2 HB",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_M1126_Woodland_C",
+                        "icon": "apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 5,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "Russian Ground Forces",
+                "teamSetupName": "Russian Battalion Tactical Group",
+                "tickets": "200",
+                "playerPercent": "50",
+                "disabledVeh": "false",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Tigr-M Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "Tigr-M Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "BTR-80",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_BTR80_RUS_C",
+                        "icon": "apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BTR-80",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_BTR80_RUS_C",
+                        "icon": "apc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "MT-LBM 6MA",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MTLBM_6MA_RUS_C",
+                        "icon": "map_trackedapc",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 10,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "type": "Invasion Random Graph",
+            "Flag": [
+                "00-Team1 Main",
+                "01-CaptureZoneCluster",
+                "02-CaptureZoneCluster",
+                "03-CaptureZoneCluster"
+            ],
+            "capturePoints": "3",
+            "mapName": "Goose Bay",
+            "gamemode": "Invasion",
+            "layerVersion": "v3",
+            "mapSize": "3.9x4.0 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
+            "Name": "CAF Goose Bay RAAS v1",
+            "rawName": "CAF_GooseBay_RAAS_v1",
+            "levelName": "CAF_Goose_Bay_RAAS_v1",
+            "minimapTexture": "CAF_GooseBay_Minimap",
+            "lightingLevel": "LL_Goose_Bay_MidDay",
+            "lighting": "Sunny Mid Day",
+            "border": [
+                {
+                    "point": "0",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                },
+                {
+                    "point": "1",
+                    "location_x": "192682.65625",
+                    "location_y": "192295.09375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "2",
+                    "location_x": "189925.875",
+                    "location_y": "-58459.859375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "3",
+                    "location_x": "132277.03125",
+                    "location_y": "-169883.875",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "4",
+                    "location_x": "-201137.453125",
+                    "location_y": "-201008.3125",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "5",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                }
+            ],
+            "team1": {
+                "faction": "Canadian Army",
+                "teamSetupName": "CAF Battlegroup",
+                "tickets": "350",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 9,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 14,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 14,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "TAPV M2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_TAPV_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Leopard 2A6M CAN",
+                        "count": 1,
+                        "delay": 9,
+                        "respawnTime": 20,
+                        "rawType": "BP_2A6_Woodland_C",
+                        "icon": "map_tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "LAV 6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 14,
+                        "rawType": "BP_LAV6_Woodland_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "UH-60M",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_UH60_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "Russian Ground Forces",
+                "teamSetupName": "Russian battalion tactical group",
+                "tickets": "350",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BRDM-2",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_BRDM-2_RUS_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "Car"
+                    },
+                    {
+                        "type": "T-72B3",
+                        "count": 1,
+                        "delay": 9,
+                        "respawnTime": 20,
+                        "rawType": "BP_T72B3_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 6,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "T-72B3",
+                        "count": 1,
+                        "delay": 9,
+                        "respawnTime": 20,
+                        "rawType": "BP_T72B3_C",
+                        "icon": "tank",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "Mi-8",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_MI8_C",
+                        "icon": "map_transporthelo",
+                        "spawner_Size": "Helicopter"
+                    },
+                    {
+                        "type": "BTR-82A",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 10,
+                        "rawType": "BP_BTR82A_RUS_C",
+                        "icon": "map_ifv",
+                        "spawner_Size": "APC"
+                    }
+                ]
+            },
+            "type": "RAASLane Graph",
+            "lanes": {
+                "Alpha": [
+                    "00-Team1 Main",
+                    "A1-BP_CaptureZoneCluster",
+                    "A2-BP_CaptureZoneCluster",
+                    "A3-BP_CaptureZoneCluster",
+                    "A4-BP_CaptureZoneCluster",
+                    "A5-BP_CaptureZoneCluster",
+                    "A6-BP_CaptureZoneCluster"
+                ],
+                "Bravo": [
+                    "00-Team1 Main",
+                    "B1-BP_CaptureZoneCluster",
+                    "B2-BP_CaptureZoneCluster",
+                    "B3-BP_CaptureZoneCluster",
+                    "B4-BP_CaptureZoneCluster",
+                    "B5-BP_CaptureZoneCluster",
+                    "B6-BP_CaptureZoneCluster"
+                ],
+                "Charlie": [
+                    "00-Team1 Main",
+                    "C1-BP_CaptureZoneCluster",
+                    "C2-BP_CaptureZoneCluster",
+                    "C3-BP_CaptureZoneCluster2",
+                    "C4-BP_CaptureZoneCluster",
+                    "C5-BP_CaptureZoneCluster",
+                    "C6-BP_CaptureZoneCluster"
+                ]
+            },
+            "capturePoints": "6",
+            "mapName": "Goose Bay",
+            "gamemode": "RAAS",
+            "layerVersion": "v1",
+            "mapSize": "3.9x3.7 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
+            "Name": "CAF Goose Bay Skirmish v1",
+            "rawName": "CAF_GooseBay_Skirmish_v1",
+            "levelName": "CAF_Goose_Bay_Skirmish_v1",
+            "minimapTexture": "CAF_GooseBay_Minimap",
+            "lightingLevel": "LL_Goose_Bay_MidDay",
+            "lighting": "Sunny Mid Day",
+            "border": [
+                {
+                    "point": "0",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                },
+                {
+                    "point": "1",
+                    "location_x": "192682.65625",
+                    "location_y": "192295.09375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "2",
+                    "location_x": "189925.875",
+                    "location_y": "-58459.859375",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "3",
+                    "location_x": "132277.03125",
+                    "location_y": "-169883.875",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "4",
+                    "location_x": "-201137.453125",
+                    "location_y": "-201008.3125",
+                    "location_z": "-24898.273438"
+                },
+                {
+                    "point": "5",
+                    "location_x": "-201564.984375",
+                    "location_y": "201353.40625",
+                    "location_z": "-24898.285156"
+                }
+            ],
+            "team1": {
+                "faction": "Canadian Army",
+                "teamSetupName": "CAF 3rd Battallion PPCLI",
+                "tickets": "150",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "0",
+                "commander": "false",
+                "vehicles": [
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "MSVS Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_CAF_Util_Woodland_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "MBT"
+                    },
+                    {
+                        "type": "TAPV C6",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_TAPV_C6_C",
+                        "icon": "map_jeep_turret",
+                        "spawner_Size": "APC"
+                    }
+                ]
+            },
+            "team2": {
+                "faction": "Russian Ground Forces",
+                "teamSetupName": "RU 205th Detached Mechanized Cossacks Brigade",
+                "tickets": "150",
+                "playerPercent": "50",
+                "disabledVeh": "true",
+                "intelOnEnemy": "3",
+                "actions": "4",
+                "commander": "true",
+                "vehicles": [
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Transport Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_C",
+                        "icon": "map_truck_transport",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "KamAZ 5350 Logistics Truck",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 3,
+                        "rawType": "BP_Kamaz_5350_Logi_C",
+                        "icon": "map_truck_logistics",
+                        "spawner_Size": "APC"
+                    },
+                    {
+                        "type": "Tigr-M Kord",
+                        "count": 1,
+                        "delay": 0,
+                        "respawnTime": 6,
+                        "rawType": "BP_Tigr_C",
+                        "icon": "map_jeep",
+                        "spawner_Size": "Car"
+                    }
+                ]
+            },
+            "type": "AAS Graph",
+            "Flag": [
+                "01-NORAD Ground Station",
+                "02-CFB Goose Bay",
+                "03-Airfield Defenses",
+                "04-Refinery",
+                "05-Postville"
+            ],
+            "capturePoints": "5",
+            "mapName": "Goose Bay",
+            "gamemode": "Skirmish",
+            "layerVersion": "v1",
+            "mapSize": "3.9x3.7 km",
+            "mapSizeType": "Playable Area"
+        },
+        {
             "Name": "CAF Gorodok AAS v1",
             "rawName": "CAF_Gorodok_AAS_v1",
             "levelName": "CAF_Gorodok_AAS_v1",
@@ -38474,7 +40474,7 @@
                 "99-Jensen's Test Track"
             ],
             "capturePoints": "3",
-            "mapName": "en's",
+            "mapName": "Jensen's",
             "gamemode": "Training",
             "layerVersion": "Range",
             "mapSize": "0.0x2.0 km",
@@ -104626,6 +106626,7 @@
             "type": "TC Hex Zone",
             "Number of Hexes": "70",
             "capturePoints": "70",
+            "mapName": "Yehorivka",
             "mapSize": "0.5x5.0 km",
             "mapSizeType": "Playable Area",
             "gamemode": "TC",
