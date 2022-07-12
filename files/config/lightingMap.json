@@ -69,5 +69,10 @@
     "LL_Manic-5_MidDay": "Mid Day",
     "LL_Manic-5_Sunset": "Sunset",
     "LL_Manic-5_Overcast": "Overcast",
-    "LL_Nanisivik_SnowStorm": "Snowstorm"
+    "LL_Nanisivik_SnowStorm": "Snowstorm",
+    "LL_PPG_Storm": "Storm",
+    "LL_PPG_Ocean_Sunrise": "Sunrise",
+    "LL_Black_Coast_OvercastDay": "Overcast",
+    "LL_Black_Coast_ClearSunnyDay": "Sunny Mid Day",
+    "LL_Black_Coast_FoggyDay": "Foggy"
 }
