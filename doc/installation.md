@@ -63,7 +63,7 @@ Skip to step 6 if you are not using CAF files
 
 16. Drag off the blue object reference again and search get capture zones.
 
-![Get Capture Zones](/doc/images/sdk/sdk_get_caputre.png)
+![Get Capture Zones](doc/images/sdk/sdk_get_capture.png)
 
 17. Place node between `Event BeginPlay` and `Parent: BeginPlay`.
 
