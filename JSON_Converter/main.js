@@ -126,7 +126,7 @@ const main = async() => {
     log('Preparing to loop through each Setup....')
 
 
-    await asyncForEach(inputJson.Setups, async (setup) => {
+    /* await asyncForEach(inputJson.Setups, async (setup) => {
         let blacklisted = false
         await asyncForEach(setupBlacklist.blacklist, async (black) => {
             if(black == setup.setup_Name) blacklisted = true
@@ -148,7 +148,7 @@ const main = async() => {
         setupObject.badge = setup.badge + `_Division_Image.png`
         setupObject.vehicles = combVeh
         conMaps.Setups.push(setupObject)
-    })
+    }) */
 
     //console.log(conMaps)
     
