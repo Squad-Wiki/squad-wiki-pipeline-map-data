@@ -214,7 +214,6 @@ let loop = async (remaninglines, output, output2) => {
                 }
                 break;
             case "Data":
-
                 if (line.includes("name:")) {
                     if (currentSetup != undefined) {
                         finishedSetups.push(currentSetup)
@@ -519,7 +518,7 @@ let loop = async (remaninglines, output, output2) => {
 
             let mapPage = tempName.substring(0, gamemodeinfo.location - 1).replaceAll("_", " ")
             let layerVersion = tempName.substring(gamemodeinfo.location + gamemodeinfo.gamemode.length + 1)
-            //currentMap.mapName = mapPage
+            currentMap.mapName = mapPage
             currentMap.gamemode = gamemodeinfo.gamemode
             currentMap.layerVersion = layerVersion
 
