@@ -10,3 +10,5 @@ files/input/*
 !files/input/.gitkeep
 files/temp/*
 !files/temp/.gitkeep
+.vs/*
+/layers.txt
