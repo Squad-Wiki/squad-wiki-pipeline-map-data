@@ -73,6 +73,7 @@ Listed by Discord user names:
 
 - **Shanomac99**#9407 - programming and operation
 - **Usgu**#2705 - concept, coordination and documentation
+- **werewolfboy13**#0666 - contributor and documentation
 - **[RIP] Rosarch**#1541 - contributor
 
 This project would not have been possible without the invaluable help and support from [Offworld Industries](https://www.offworldindustries.com/), especially the developers **Virus.exe** and **FuzzHead**.

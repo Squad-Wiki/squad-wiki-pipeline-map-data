@@ -22,7 +22,6 @@ const log2 = (message) =>{
 log("SDK Exporter starting up, checking dependencies...")
 
 const inputJson = require('../files/temp/finished.json')
-const inputJsonCAF = require('../files/temp/finishedCAF.json')
 const factionMap = require('../files/config/factionMap.json')
 const vehicleMap = require('../files/config/vehicleMap.json')
 const flagMap = require(`../files/config/map/flagMap.json`)
@@ -32,12 +31,10 @@ const layerBlacklist = require(`../files/config/blacklists/layers.json`)
 const async = require('async')
 
 
-log("Depdencies are good.")
+log("Dependencies are good.")
 
 log("Starting Conversion")
 
-
-if(mainconfig.caf) inputJson.Maps = inputJson.Maps.concat(inputJsonCAF.Maps) // Combine vanilla and CAF layers
 
 
 // --------------------------------
