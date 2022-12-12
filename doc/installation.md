@@ -68,3 +68,5 @@ Skip to step 6 if you are not using CAF files
 17. Place node between `Event BeginPlay` and `Parent: BeginPlay`.
 
 18. Compile and save the blueprint.
+
+19. Run `yarn install` in the root directory of the script.
