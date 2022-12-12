@@ -12,3 +12,4 @@ files/temp/*
 !files/temp/.gitkeep
 .vs/*
 /layers.txt
+package-lock.json
