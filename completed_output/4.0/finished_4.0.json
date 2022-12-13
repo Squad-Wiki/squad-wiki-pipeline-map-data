@@ -78936,6 +78936,12 @@
           "location_z": "2100.0"
         },
         {
+          "point": "2",
+          "location_x": "-196670.890625",
+          "location_y": "194648.25",
+          "location_z": "2100.0"
+        },
+        {
           "point": "3",
           "location_x": "-196665.5",
           "location_y": "-196943.890625",
@@ -78954,8 +78960,20 @@
         "tickets": "900",
         "playerPercent": "50",
         "disabledVeh": "false",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
         "vehicles": [
           {
+            "type": "MSVS Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_CAF_Util_Woodland_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "MBT"
+          },
+          {
             "type": "LUVW Logistics",
             "count": 1,
             "delay": 0,
@@ -79026,6 +79044,33 @@
             "rawType": "BP_LUVW_M2_C",
             "icon": "map_jeep",
             "spawner_Size": "Car"
+          },
+          {
+            "type": "Coyote",
+            "count": 1,
+            "delay": 15,
+            "respawnTime": 10,
+            "rawType": "BP_LAV2_Coyote_Woodland_C",
+            "icon": "T_map_wheeledrecon",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Coyote",
+            "count": 1,
+            "delay": 15,
+            "respawnTime": 10,
+            "rawType": "BP_LAV2_Coyote_Woodland_C",
+            "icon": "T_map_wheeledrecon",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "LUV-A1 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 0,
+            "rawType": "BP_M-Gator_Transport_C",
+            "icon": "map_jeep_transport",
+            "spawner_Size": "QuadBike"
           },
           {
             "type": "LUV-A1 Logistics",
@@ -79039,6 +79084,10 @@
         ]
       },
       "team2": {
+        "faction": "United States Army",
+        "teamSetupName": "US 1st Cavalry Regiment",
+        "tickets": "200",
+        "playerPercent": "50",
         "disabledVeh": "true",
         "intelOnEnemy": "3",
         "actions": "4",
@@ -79079,6 +79128,42 @@
             "rawType": "BP_US_Util_Woodland_Logi_C",
             "icon": "map_truck_logistics",
             "spawner_Size": "APC"
+          },
+          {
+            "type": "M-ATV M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_Woodland_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "M-ATV M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_Woodland_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "M-ATV CROWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_CROWS_Woodland_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "M-ATV CROWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_CROWS_Woodland_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
           },
           {
             "type": "M2A3",
@@ -79130,8 +79215,13 @@
       "type": "Invasion Random Graph",
       "Flag": [
         "00-Team1 Main",
-        "01-CaptureZoneCluster"
+        "01-CaptureZoneCluster",
+        "02-CaptureZoneCluster",
+        "03-CaptureZoneCluster",
+        "04-CaptureZoneCluster",
+        "05-CaptureZoneCluster"
       ],
+      "capturePoints": "5",
       "mapName": "Manic-5",
       "gamemode": "Invasion",
       "layerVersion": "v2",
@@ -102294,6 +102384,20 @@
       "minimapTexture": "Sumari_Minimap",
       "lightingLevel": "LL_Sumari_MidDay",
       "lighting": "Partial Clouds Mid Day",
+      "border": [
+        {
+          "point": "2",
+          "location_x": "-63973.0",
+          "location_y": "-44728.0",
+          "location_z": "-6731.0"
+        },
+        {
+          "point": "3",
+          "location_x": "66033.0",
+          "location_y": "85297.0",
+          "location_z": "-3617.0"
+        }
+      ],
       "team1": {
         "faction": "Australian Defence Force",
         "teamSetupName": "ADF 1st Battalion, Royal Australian Regiment",
@@ -102311,6 +102415,33 @@
             "respawnTime": 3,
             "rawType": "BP_Aussie_Util_Truck_C",
             "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
             "spawner_Size": "APC"
           },
           {
@@ -102345,6 +102476,9 @@
       "team2": {
         "faction": "Insurgent Forces",
         "teamSetupName": "Local Insurgent Cell",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
         "intelOnEnemy": "3",
         "actions": "2",
         "commander": "true",
@@ -102354,7 +102488,7 @@
             "count": 6,
             "delay": 0,
             "respawnTime": 1,
-            "rawType": "BP_minsk_C",
+            "rawType": "BP_Minsk_blue_C",
             "icon": "map_motorcycle",
             "spawner_Size": "Bike"
           },
@@ -102423,7 +102557,10 @@
           }
         ]
       },
+      "type": "AAS Graph",
       "Flag": [
+        "01-Tri Commons",
+        "02-Abdel's Farm",
         "03-Walled Courts",
         "04-Market",
         "05-Gas Station"
@@ -102432,15 +102569,8 @@
       "mapName": "Sumari Bala",
       "gamemode": "Seed",
       "layerVersion": "v2",
-      "mapSize": "0x0 km",
-      "border": [
-        {
-          "point": "2",
-          "location_x": "-63973.0",
-          "location_y": "-44728.0",
-          "location_z": "-6731.0"
-        }
-      ]
+      "mapSize": "0.6x0.4 km",
+      "mapSizeType": "Minimap Size"
     },
     {
       "Name": "Sumari Bala Seed v1",
