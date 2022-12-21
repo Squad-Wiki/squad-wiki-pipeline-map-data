@@ -4,6 +4,3849 @@
   ],
   "Maps": [
     {
+      "Name": "Anvil AAS v1",
+      "rawName": "Anvil_AAS_v1",
+      "levelName": "Anvil_AAS_v1",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Mid_Day",
+      "lighting": "Sunny Mid Day",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 5th Battalion, Royal Australian Regiment",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "UH-60M",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 6,
+            "rawType": "BP_UH60_AUS_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Russian Ground Forces",
+        "teamSetupName": "Russian Battalion Tactical Group",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M RWS Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_RWS_Desert_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M RWS Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_RWS_Desert_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "BTR-80",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_BTR80_RUS_Desert_C",
+            "icon": "map_apc",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Mi-8",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 6,
+            "rawType": "BP_MI8_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "type": "AAS Graph",
+      "Flag": [
+        "01-Vineyard",
+        "02-Orchard",
+        "03-Lavender Farm",
+        "04-Qalat",
+        "05-Poppy Farms"
+      ],
+      "capturePoints": "5",
+      "mapName": "Anvil",
+      "gamemode": "AAS",
+      "layerVersion": "v1",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil AAS v2",
+      "rawName": "Anvil_AAS_v2",
+      "levelName": "Anvil_AAS_v2",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Dawn",
+      "lighting": "Sunrise",
+      "border": [
+        {
+          "point": "2",
+          "location_x": "-204000.0",
+          "location_y": "-204000.0",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "102000.0",
+          "location_y": "102000.0",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 1st Battalion, Royal Australian Regiment",
+        "tickets": "350",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "ASLAV",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_ASLAV_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "ASLAV",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_ASLAV_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Russian Ground Forces",
+        "teamSetupName": "Russian Battalion Tactical Group",
+        "tickets": "350",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M RWS Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_RWS_Desert_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "BTR-82A",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_BTR82A_RUS_Desert_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "BTR-82A",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_BTR82A_RUS_Desert_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          }
+        ]
+      },
+      "type": "AAS Graph",
+      "Flag": [
+        "01-Urban North",
+        "02-Market",
+        "03-Police Station",
+        "04-Hemp Farms",
+        "05-Central Mansion",
+        "06-Insurgent Hideout"
+      ],
+      "capturePoints": "6",
+      "mapName": "Anvil",
+      "gamemode": "AAS",
+      "layerVersion": "v2",
+      "mapSize": "2.0x2.0 km",
+      "mapSizeType": "Minimap Size"
+    },
+    {
+      "Name": "Anvil Invasion v1",
+      "rawName": "Anvil_Invasion_v1",
+      "levelName": "Anvil_Invasion_v1",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Dawn",
+      "lighting": "Sunrise",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 5th Battalion, Royal Australian Regiment",
+        "tickets": "200",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Insurgent Forces",
+        "teamSetupName": "Local Insurgent Cell",
+        "tickets": "800",
+        "playerPercent": "50",
+        "disabledVeh": "false",
+        "intelOnEnemy": "3",
+        "actions": "2",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "Minsk 400",
+            "count": 4,
+            "delay": 0,
+            "respawnTime": 1,
+            "rawType": "BP_Minsk_black_C",
+            "icon": "map_motorcycle",
+            "spawner_Size": "Bike"
+          },
+          {
+            "type": "Transport Pickup Truck",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Transport_INS_C",
+            "icon": "map_jeep_transport",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Logistics Pickup Truck",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Logi_INS_C",
+            "icon": "map_jeep_logistics",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Logistics Pickup Truck",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Logi_INS_C",
+            "icon": "map_jeep_logistics",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Logistics Pickup Truck",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Logi_INS_C",
+            "icon": "map_jeep_logistics",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Ural-375D Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_375_Logi_INS_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Technical DShK Shielded",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Technical_Dshk_Shielded_INS_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Technical DShK Shielded",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Technical_Dshk_Shielded_INS_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Shitty Technical DShK",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M1151_Technical_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Shitty Technical DShK",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M1151_Technical_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "MT-LB ZU-23-2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MTLB_ZU23_INS_C",
+            "icon": "map_antiair",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Armored Technical SPG-9",
+            "count": 1,
+            "delay": 5,
+            "respawnTime": 10,
+            "rawType": "BP_Technical_SPG9_INS_Armoured_C",
+            "icon": "map_jeep_antitank",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Minsk 400",
+            "count": 4,
+            "delay": 0,
+            "respawnTime": 0,
+            "rawType": "BP_Minsk_blue_C",
+            "icon": "map_motorcycle",
+            "spawner_Size": "Bike"
+          }
+        ]
+      },
+      "type": "Invasion Random Graph",
+      "Flag": [
+        "00-Team1 Main",
+        "01-BP_CaptureZoneCluster",
+        "02-BP_CaptureZoneCluster",
+        "03-BP_CaptureZoneCluster",
+        "04-BP_CaptureZoneCluster",
+        "05-BP_CaptureZoneCluster",
+        "06-BP_CaptureZoneCluster"
+      ],
+      "capturePoints": "6",
+      "mapName": "Anvil",
+      "gamemode": "Invasion",
+      "layerVersion": "v1",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil Invasion v2",
+      "rawName": "Anvil_Invasion_v2",
+      "levelName": "Anvil_Invasion_v2",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Night",
+      "lighting": "Night",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "56259.632813",
+          "location_y": "48721.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-57738.15625",
+          "location_y": "-181310.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-110186.1875",
+          "location_y": "-135417.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-157788.65625",
+          "location_y": "-199528.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 1st Battalion, Royal Australian Regiment",
+        "tickets": "800",
+        "playerPercent": "50",
+        "disabledVeh": "false",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Insurgent Forces",
+        "teamSetupName": "Local Insurgent Cell",
+        "tickets": "200",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "2",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "Minsk 400",
+            "count": 3,
+            "delay": 0,
+            "respawnTime": 1,
+            "rawType": "BP_Minsk_black_C",
+            "icon": "map_motorcycle",
+            "spawner_Size": "Bike"
+          },
+          {
+            "type": "Transport Pickup Truck",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Transport_INS_C",
+            "icon": "map_jeep_transport",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Ural-375D Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_375_Logi_INS_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Logistics Pickup Truck",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Logi_INS_C",
+            "icon": "map_jeep_logistics",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Logistics Pickup Truck",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Logi_INS_C",
+            "icon": "map_jeep_logistics",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Logistics Pickup Truck",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Technical_Logi_INS_C",
+            "icon": "map_jeep_logistics",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Technical DShK Shielded",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Technical_Dshk_Shielded_INS_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Technical DShK Shielded",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Technical_Dshk_Shielded_INS_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Shitty Technical DShK",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M1151_Technical_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Technical Mortar",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Technical2Seater_White_Mortar_C",
+            "icon": "map_jeep_artillery",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "MT-LB ZU-23-2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MTLB_ZU23_INS_C",
+            "icon": "map_antiair",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Armored Technical SPG-9",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_Technical_SPG9_INS_Armoured_C",
+            "icon": "map_jeep_antitank",
+            "spawner_Size": "Car"
+          }
+        ]
+      },
+      "type": "Invasion Random Graph",
+      "Flag": [
+        "00-Team1 Main",
+        "01-CaptureZoneCluster",
+        "02-CaptureZoneCluster",
+        "03-CaptureZoneCluster",
+        "04-CaptureZoneCluster",
+        "05-CaptureZoneCluster",
+        "06-CaptureZoneCluster"
+      ],
+      "capturePoints": "6",
+      "mapName": "Anvil",
+      "gamemode": "Invasion",
+      "layerVersion": "v2",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil RAAS v1",
+      "rawName": "Anvil_RAAS_v1",
+      "levelName": "Anvil_RAAS_v1",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Mid_Day",
+      "lighting": "Sunny Mid Day",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Russian Ground Forces",
+        "teamSetupName": "Russian Battalion Tactical Group",
+        "tickets": "400",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "BTR-82A",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_BTR82A_RUS_Desert_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "BMP-2",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 15,
+            "rawType": "BP_BMP2_Desert_C",
+            "icon": "map_trackedifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "T-72B3",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_T72B3_Desert_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "Mi-8",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MI8_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Middle Eastern Alliance",
+        "teamSetupName": "MEA Combined Arms Battalion",
+        "tickets": "400",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "Ural-4320 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_MEA_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Simir MG3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_MG3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir MG3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_MG3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_Kord_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_Kord_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "MT-LBM 6MA S8",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_MTLBM_6MA_MEA_C",
+            "icon": "map_trackedapc",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "BMP-2",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 15,
+            "rawType": "BP_BMP2_MEA_C",
+            "icon": "map_trackedifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "T-72S",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_T72AV_MEA_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "Mi-17",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MI17_MEA_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "type": "RAASLane Graph",
+      "lanes": {
+        "West": [
+          "00-Team1 Main",
+          "01W-BP_CaptureZoneCluster",
+          "02W-BP_CaptureZoneCluster",
+          "03W-BP_CaptureZoneCluster",
+          "04W-BP_CaptureZoneCluster"
+        ],
+        "East": [
+          "00-Team1 Main",
+          "01E-BP_CaptureZoneCluster",
+          "02E-BP_CaptureZoneCluster",
+          "03E-BP_CaptureZoneCluster",
+          "04E-BP_CaptureZoneCluster"
+        ],
+        "Center": [
+          "00-Team1 Main",
+          "01C-BP_CaptureZoneCluster",
+          "02C-BP_CaptureZoneCluster",
+          "03C-BP_CaptureZoneCluster",
+          "04C-BP_CaptureZoneCluster"
+        ]
+      },
+      "capturePoints": "4",
+      "mapName": "Anvil",
+      "gamemode": "RAAS",
+      "layerVersion": "v1",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil RAAS v2",
+      "rawName": "Anvil_RAAS_v2",
+      "levelName": "Anvil_RAAS_v2",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Mid_Day",
+      "lighting": "Sunny Mid Day",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Canadian Army",
+        "teamSetupName": "CAF LdSH Regiment Heavy Armor Troop",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "MSVS Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_CAF_Util_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "MSVS Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_CAF_Util_Desert_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "MSVS Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_CAF_Util_Desert_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "MSVS Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_CAF_Util_Desert_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "M113A3 C6",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M113A3_C6_Desert_C",
+            "icon": "map_trackedjeep",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M113A3 M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M113A3_M2_Desert_C",
+            "icon": "map_trackedjeep",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M113A3 TLAV",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M113A3_TLAV_Desert_C",
+            "icon": "map_trackedapc",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M113A3 TLAV",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_M113A3_TLAV_Desert_C",
+            "icon": "map_trackedapc",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Coyote",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 10,
+            "rawType": "BP_LAV2_Coyote_C",
+            "icon": "T_map_wheeledrecon",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Leopard 2A6M CAN",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_2A6_Desert_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "CH-146",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_CH146_Desert_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Middle Eastern Alliance",
+        "teamSetupName": "MEA 60th Prince Assur Armored Brigade",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "Ural-4320 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_MEA_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Simir MG3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_MG3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir MG3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_MG3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_Kord_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_Kord_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "MT-LBM 6MA S8",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_MTLBM_6MA_MEA_C",
+            "icon": "map_trackedapc",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "MT-LBM 6MA S8",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_MTLBM_6MA_MEA_C",
+            "icon": "map_trackedapc",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "BMP-1",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 15,
+            "rawType": "BP_BMP1_MEA_C",
+            "icon": "map_trackedifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "T-72S",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_T72AV_MEA_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "Mi-17",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MI17_MEA_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "type": "RAASLane Graph",
+      "lanes": {
+        "West": [
+          "00-Team1 Main",
+          "01-BP_CaptureZoneCluster",
+          "02-BP_CaptureZoneCluster",
+          "03-BP_CaptureZoneCluster",
+          "04-BP_CaptureZoneCluster",
+          "05-BP_CaptureZoneCluster",
+          "06-BP_CaptureZoneCluster",
+          "07-BP_CaptureZoneCluster",
+          "08-BP_CaptureZoneCluster",
+          "09-BP_CaptureZoneCluster"
+        ]
+      },
+      "capturePoints": "9",
+      "mapName": "Anvil",
+      "gamemode": "RAAS",
+      "layerVersion": "v2",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil RAAS v3",
+      "rawName": "Anvil_RAAS_v3",
+      "levelName": "Anvil_RAAS_v3",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Mid_Day",
+      "lighting": "Sunny Mid Day",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 3rd Brigade",
+        "tickets": "400",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "ASLAV",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 10,
+            "rawType": "BP_ASLAV_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M1A1",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_AUS_M1A1_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "MRH-90",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MRH90_Mag58_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Middle Eastern Alliance",
+        "teamSetupName": "MEA Combined Arms Battalion",
+        "tickets": "400",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "Ural-4320 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_MEA_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Ural-4320 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Ural_4320_logi_MEA_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Simir MG3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_MG3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir MG3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_MG3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_Kord_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Simir Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_Safir_Kord_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "MT-LBM 6MA S8",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_MTLBM_6MA_MEA_C",
+            "icon": "map_trackedapc",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "BMP-2",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 15,
+            "rawType": "BP_BMP2_MEA_C",
+            "icon": "map_trackedifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "T-72S",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_T72AV_MEA_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "Mi-17",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MI17_MEA_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "type": "RAASLane Graph",
+      "lanes": {
+        "West": [
+          "00-Team1 Main",
+          "01W-BP_CaptureZoneCluster",
+          "02W-BP_CaptureZoneCluster",
+          "03W-BP_CaptureZoneCluster",
+          "04W-BP_CaptureZoneCluster"
+        ],
+        "East": [
+          "00-Team1 Main",
+          "01E-BP_CaptureZoneCluster",
+          "02E-BP_CaptureZoneCluster",
+          "03E-BP_CaptureZoneCluster",
+          "04E-BP_CaptureZoneCluster"
+        ],
+        "Center": [
+          "00-Team1 Main",
+          "01C-BP_CaptureZoneCluster",
+          "02C-BP_CaptureZoneCluster",
+          "03C-BP_CaptureZoneCluster",
+          "04C-BP_CaptureZoneCluster"
+        ]
+      },
+      "capturePoints": "4",
+      "mapName": "Anvil",
+      "gamemode": "RAAS",
+      "layerVersion": "v3",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil RAAS v4",
+      "rawName": "Anvil_RAAS_v4",
+      "levelName": "Anvil_RAAS_v4",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Mid_Day",
+      "lighting": "Sunny Mid Day",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 3rd Brigade",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "ASLAV",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_ASLAV_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "ASLAV",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_ASLAV_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "M1A1",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_AUS_M1A1_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "M1A1",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_AUS_M1A1_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "MRH-90",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MRH90_Mag58_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Russian Ground Forces",
+        "teamSetupName": "Russian Battalion Tactical Group",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "BTR-82A",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_BTR82A_RUS_Desert_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "BTR-82A",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_BTR82A_RUS_Desert_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "T-72B3",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_T72B3_Desert_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "T-72B3",
+            "count": 1,
+            "delay": 10,
+            "respawnTime": 20,
+            "rawType": "BP_T72B3_Desert_C",
+            "icon": "map_tank",
+            "spawner_Size": "MBT"
+          },
+          {
+            "type": "Mi-8",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MI8_C",
+            "icon": "map_transporthelo",
+            "spawner_Size": "Helicopter"
+          }
+        ]
+      },
+      "type": "RAASLane Graph",
+      "lanes": {
+        "West": [
+          "00-Team1 Main",
+          "01-BP_CaptureZoneCluster",
+          "02-BP_CaptureZoneCluster",
+          "03-BP_CaptureZoneCluster",
+          "04-BP_CaptureZoneCluster",
+          "05-BP_CaptureZoneCluster",
+          "06-BP_CaptureZoneCluster",
+          "07-BP_CaptureZoneCluster",
+          "08-BP_CaptureZoneCluster",
+          "09-BP_CaptureZoneCluster"
+        ]
+      },
+      "capturePoints": "9",
+      "mapName": "Anvil",
+      "gamemode": "RAAS",
+      "layerVersion": "v4",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil Skirmish v1",
+      "rawName": "Anvil_Skirmish_v1",
+      "levelName": "Anvil_Skirmish_v1",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Mid_Day2",
+      "lighting": "Cloudy Mid Day",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 5th Battalion, Royal Australian Regiment",
+        "tickets": "200",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Russian Ground Forces",
+        "teamSetupName": "RU 205th Detached Mechanized Cossacks Brigade",
+        "tickets": "200",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          }
+        ]
+      },
+      "type": "AAS Graph",
+      "Flag": [
+        "01-Vineyard",
+        "02-Orchard",
+        "03-Lavender Farm",
+        "04-Qalat",
+        "05-Poppy Farms"
+      ],
+      "capturePoints": "5",
+      "mapName": "Anvil",
+      "gamemode": "Skirmish",
+      "layerVersion": "v1",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
+      "Name": "Anvil TC v1",
+      "rawName": "Anvil_TC_v1",
+      "levelName": "Anvil_TC_v1",
+      "minimapTexture": "Anvil_Minimap",
+      "lightingLevel": "LL_Anvil_Mid_Day2",
+      "lighting": "Cloudy Mid Day",
+      "border": [
+        {
+          "point": "0",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "1",
+          "location_x": "-193686.09375",
+          "location_y": "-149870.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "2",
+          "location_x": "-193375.15625",
+          "location_y": "-137400.171875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "3",
+          "location_x": "-199403.3125",
+          "location_y": "-99681.859375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "4",
+          "location_x": "-194415.40625",
+          "location_y": "-58115.3125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "5",
+          "location_x": "-191060.59375",
+          "location_y": "-8188.085938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "6",
+          "location_x": "-190707.96875",
+          "location_y": "64958.214844",
+          "location_z": "0.0"
+        },
+        {
+          "point": "7",
+          "location_x": "-171340.71875",
+          "location_y": "77396.257813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "8",
+          "location_x": "-112384.6875",
+          "location_y": "75138.015625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "9",
+          "location_x": "-29752.0",
+          "location_y": "90903.632813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "10",
+          "location_x": "24365.703125",
+          "location_y": "83428.625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "11",
+          "location_x": "78074.632813",
+          "location_y": "91856.960938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "12",
+          "location_x": "97244.523438",
+          "location_y": "76528.765625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "13",
+          "location_x": "93970.210938",
+          "location_y": "23087.460938",
+          "location_z": "0.0"
+        },
+        {
+          "point": "14",
+          "location_x": "86816.1875",
+          "location_y": "-15057.507813",
+          "location_z": "0.0"
+        },
+        {
+          "point": "15",
+          "location_x": "73532.359375",
+          "location_y": "-51640.453125",
+          "location_z": "0.0"
+        },
+        {
+          "point": "16",
+          "location_x": "90210.921875",
+          "location_y": "-82862.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "17",
+          "location_x": "95243.125",
+          "location_y": "-121982.40625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "18",
+          "location_x": "86483.890625",
+          "location_y": "-164142.375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "19",
+          "location_x": "82614.859375",
+          "location_y": "-190562.109375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "20",
+          "location_x": "55682.144531",
+          "location_y": "-190430.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "21",
+          "location_x": "26109.796875",
+          "location_y": "-182342.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "22",
+          "location_x": "-9265.242188",
+          "location_y": "-178727.640625",
+          "location_z": "0.0"
+        },
+        {
+          "point": "23",
+          "location_x": "-54078.15625",
+          "location_y": "-188360.796875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "24",
+          "location_x": "-120391.1875",
+          "location_y": "-187712.234375",
+          "location_z": "0.0"
+        },
+        {
+          "point": "25",
+          "location_x": "-169738.65625",
+          "location_y": "-194923.671875",
+          "location_z": "0.0"
+        },
+        {
+          "point": "26",
+          "location_x": "-198614.09375",
+          "location_y": "-171384.265625",
+          "location_z": "0.0"
+        }
+      ],
+      "team1": {
+        "faction": "Australian Defence Force",
+        "teamSetupName": "ADF 3rd Brigade",
+        "tickets": "400",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "PMV Mag58",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV Mag58 x3",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 5,
+            "rawType": "BP_PMV_Mag58x3_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "PMV RWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_PMV_RWS_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "ASLAV",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_ASLAV_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          }
+        ]
+      },
+      "team2": {
+        "faction": "Russian Ground Forces",
+        "teamSetupName": "Russian Battalion Tactical Group",
+        "tickets": "400",
+        "playerPercent": "50",
+        "disabledVeh": "true",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
+        "vehicles": [
+          {
+            "type": "KamAZ 5350 Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Desert_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "KamAZ 5350 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Kamaz_5350_Logi_Desert_C",
+            "icon": "map_truck_logistics",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_Desert_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M RWS Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_RWS_Desert_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "Tigr-M RWS Kord",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_Tigr_RWS_Desert_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "BTR-82A",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 10,
+            "rawType": "BP_BTR82A_RUS_Desert_C",
+            "icon": "map_ifv",
+            "spawner_Size": "APC"
+          }
+        ]
+      },
+      "type": "TC Hex Zone",
+      "Number of Hexes": "56",
+      "capturePoints": "56",
+      "mapName": "Anvil",
+      "gamemode": "TC",
+      "layerVersion": "v1",
+      "mapSize": "2.1x2.1 km",
+      "mapSizeType": "Playable Area"
+    },
+    {
       "Name": "Al Basrah AAS v1",
       "rawName": "AlBasrah_AAS_v1",
       "levelName": "Albasrah_AAS_v1",
@@ -78936,6 +82779,12 @@
           "location_z": "2100.0"
         },
         {
+          "point": "2",
+          "location_x": "-196670.890625",
+          "location_y": "194648.25",
+          "location_z": "2100.0"
+        },
+        {
           "point": "3",
           "location_x": "-196665.5",
           "location_y": "-196943.890625",
@@ -78954,8 +82803,20 @@
         "tickets": "900",
         "playerPercent": "50",
         "disabledVeh": "false",
+        "intelOnEnemy": "3",
+        "actions": "4",
+        "commander": "true",
         "vehicles": [
           {
+            "type": "MSVS Transport",
+            "count": 1,
+            "delay": 6,
+            "respawnTime": 3,
+            "rawType": "BP_CAF_Util_Woodland_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "MBT"
+          },
+          {
             "type": "LUVW Logistics",
             "count": 1,
             "delay": 0,
@@ -79026,6 +82887,33 @@
             "rawType": "BP_LUVW_M2_C",
             "icon": "map_jeep",
             "spawner_Size": "Car"
+          },
+          {
+            "type": "Coyote",
+            "count": 1,
+            "delay": 15,
+            "respawnTime": 10,
+            "rawType": "BP_LAV2_Coyote_Woodland_C",
+            "icon": "T_map_wheeledrecon",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "Coyote",
+            "count": 1,
+            "delay": 15,
+            "respawnTime": 10,
+            "rawType": "BP_LAV2_Coyote_Woodland_C",
+            "icon": "T_map_wheeledrecon",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "LUV-A1 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 0,
+            "rawType": "BP_M-Gator_Transport_C",
+            "icon": "map_jeep_transport",
+            "spawner_Size": "QuadBike"
           },
           {
             "type": "LUV-A1 Logistics",
@@ -79039,6 +82927,10 @@
         ]
       },
       "team2": {
+        "faction": "United States Army",
+        "teamSetupName": "US 1st Cavalry Regiment",
+        "tickets": "200",
+        "playerPercent": "50",
         "disabledVeh": "true",
         "intelOnEnemy": "3",
         "actions": "4",
@@ -79079,6 +82971,42 @@
             "rawType": "BP_US_Util_Woodland_Logi_C",
             "icon": "map_truck_logistics",
             "spawner_Size": "APC"
+          },
+          {
+            "type": "M-ATV M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_Woodland_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "M-ATV M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_Woodland_C",
+            "icon": "map_jeep",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "M-ATV CROWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_CROWS_Woodland_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
+          },
+          {
+            "type": "M-ATV CROWS M2",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 6,
+            "rawType": "BP_MATV_CROWS_Woodland_C",
+            "icon": "map_jeep_turret",
+            "spawner_Size": "Car"
           },
           {
             "type": "M2A3",
@@ -79130,8 +83058,13 @@
       "type": "Invasion Random Graph",
       "Flag": [
         "00-Team1 Main",
-        "01-CaptureZoneCluster"
+        "01-CaptureZoneCluster",
+        "02-CaptureZoneCluster",
+        "03-CaptureZoneCluster",
+        "04-CaptureZoneCluster",
+        "05-CaptureZoneCluster"
       ],
+      "capturePoints": "5",
       "mapName": "Manic-5",
       "gamemode": "Invasion",
       "layerVersion": "v2",
@@ -102294,6 +106227,20 @@
       "minimapTexture": "Sumari_Minimap",
       "lightingLevel": "LL_Sumari_MidDay",
       "lighting": "Partial Clouds Mid Day",
+      "border": [
+        {
+          "point": "2",
+          "location_x": "-63973.0",
+          "location_y": "-44728.0",
+          "location_z": "-6731.0"
+        },
+        {
+          "point": "3",
+          "location_x": "66033.0",
+          "location_y": "85297.0",
+          "location_z": "-3617.0"
+        }
+      ],
       "team1": {
         "faction": "Australian Defence Force",
         "teamSetupName": "ADF 1st Battalion, Royal Australian Regiment",
@@ -102311,6 +106258,33 @@
             "respawnTime": 3,
             "rawType": "BP_Aussie_Util_Truck_C",
             "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Transport",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_C",
+            "icon": "map_truck_transport",
+            "spawner_Size": "APC"
+          },
+          {
+            "type": "HX60 Logistics",
+            "count": 1,
+            "delay": 0,
+            "respawnTime": 3,
+            "rawType": "BP_Aussie_Util_Truck_Logi_C",
+            "icon": "map_truck_logistics",
             "spawner_Size": "APC"
           },
           {
@@ -102345,6 +106319,9 @@
       "team2": {
         "faction": "Insurgent Forces",
         "teamSetupName": "Local Insurgent Cell",
+        "tickets": "300",
+        "playerPercent": "50",
+        "disabledVeh": "true",
         "intelOnEnemy": "3",
         "actions": "2",
         "commander": "true",
@@ -102354,7 +106331,7 @@
             "count": 6,
             "delay": 0,
             "respawnTime": 1,
-            "rawType": "BP_minsk_C",
+            "rawType": "BP_Minsk_blue_C",
             "icon": "map_motorcycle",
             "spawner_Size": "Bike"
           },
@@ -102423,7 +106400,10 @@
           }
         ]
       },
+      "type": "AAS Graph",
       "Flag": [
+        "01-Tri Commons",
+        "02-Abdel's Farm",
         "03-Walled Courts",
         "04-Market",
         "05-Gas Station"
@@ -102432,18 +106412,11 @@
       "mapName": "Sumari Bala",
       "gamemode": "Seed",
       "layerVersion": "v2",
-      "mapSize": "0x0 km",
-      "border": [
-        {
-          "point": "2",
-          "location_x": "-63973.0",
-          "location_y": "-44728.0",
-          "location_z": "-6731.0"
-        }
-      ]
+      "mapSize": "0.6x0.4 km",
+      "mapSizeType": "Minimap Size"
     },
     {
-      "Name": "Sumari Bala Seed v1",
+      "Name": "Sumari Bala Seed v3",
       "rawName": "Sumari_Seed_v3",
       "levelName": "Sumari_Seed_v3",
       "minimapTexture": "Sumari_Minimap",
@@ -102624,7 +106597,7 @@
       "capturePoints": "5",
       "mapName": "Sumari Bala",
       "gamemode": "Seed",
-      "layerVersion": "v1",
+      "layerVersion": "v3",
       "mapSize": "0.6x0.4 km",
       "mapSizeType": "Minimap Size"
     },
@@ -118447,6 +122420,8 @@
       "rawName": "BlackCoast_AAS_v1",
       "levelName": "BlackCoast_AAS_v1",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_OvercastDay",
+      "lighting": "Overcast",
       "border": [
         {
           "point": "0",
@@ -118820,6 +122795,8 @@
       "rawName": "BlackCoast_AAS_v2",
       "levelName": "BlackCoast_AAS_v2",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_ClearSunnyDay",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -119220,6 +123197,8 @@
       "rawName": "BlackCoast_Invasion_v1",
       "levelName": "BlackCoast_Invasion_v1",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_FoggyDay",
+      "lighting": "Foggy",
       "border": [
         {
           "point": "0",
@@ -119674,6 +123653,8 @@
       "rawName": "BlackCoast_Invasion_v2",
       "levelName": "BlackCoast_Invasion_v2",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_OvercastDay",
+      "lighting": "Overcast",
       "border": [
         {
           "point": "0",
@@ -120111,6 +124092,8 @@
       "rawName": "BlackCoast_Invasion_v3",
       "levelName": "BlackCoast_Invasion_v3",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_OvercastDay",
+      "lighting": "Overcast",
       "border": [
         {
           "point": "0",
@@ -120557,6 +124540,8 @@
       "rawName": "BlackCoast_Invasion_v4",
       "levelName": "BlackCoast_Invasion_v4",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_FoggyDay",
+      "lighting": "Foggy",
       "border": [
         {
           "point": "0",
@@ -121004,6 +124989,8 @@
       "rawName": "BlackCoast_RAAS_v1",
       "levelName": "BlackCoast_RAAS_v1",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_ClearSunnyDay",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -121451,23 +125438,23 @@
       "lanes": {
         "Alpha": [
           "00-Team1 Main",
-          "A1-CaptureZoneCluster",
-          "A2-CaptureZoneCluster",
-          "A3-CaptureZoneCluster",
-          "A4-CaptureZoneCluster",
-          "A5-CaptureZoneCluster",
-          "A6-CaptureZoneCluster",
-          "A7-CaptureZoneCluster",
-          "A8-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Bravo": [
           "00-Team1 Main",
-          "B1-CaptureZoneCluster",
-          "B2-CaptureZoneCluster",
-          "B3-CaptureZoneCluster",
-          "B4-CaptureZoneCluster",
-          "B5-CaptureZoneCluster",
-          "B6-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Charlie": [
           "00-Team1 Main",
@@ -121481,40 +125468,40 @@
         ],
         "Delta": [
           "00-Team1 Main",
-          "D1-CaptureZoneCluster",
-          "D2-CaptureZoneCluster",
-          "D3-CaptureZoneCluster",
-          "D4-CaptureZoneCluster",
-          "D5-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Echo": [
           "00-Team1 Main",
-          "E1-CaptureZoneCluster",
-          "E2-CaptureZoneCluster",
-          "E3-CaptureZoneCluster",
-          "E4-CaptureZoneCluster",
-          "E5-CaptureZoneCluster",
-          "E6-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Foxtrot": [
           "00-Team1 Main",
-          "F1-CaptureZoneCluster",
-          "F2-CaptureZoneCluster",
-          "F3-CaptureZoneCluster",
-          "F4-CaptureZoneCluster",
-          "F5-CaptureZoneCluster",
-          "F6-CaptureZoneCluster",
-          "F7-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Golf": [
           "00-Team1 Main",
-          "G1-CaptureZoneCluster",
-          "G2-CaptureZoneCluster",
-          "G3-CaptureZoneCluster",
-          "G4-CaptureZoneCluster",
-          "G5-CaptureZoneCluster",
-          "G6-CaptureZoneCluster",
-          "G7-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ]
       },
       "capturePoints": "7",
@@ -121529,6 +125516,8 @@
       "rawName": "BlackCoast_RAAS_v2",
       "levelName": "BlackCoast_RAAS_v2",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_ClearSunnyDay",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -121940,22 +125929,22 @@
       "lanes": {
         "Alpha": [
           "00-Team1 Main",
-          "A1-CaptureZoneCluster",
-          "A2-CaptureZoneCluster",
-          "A3-CaptureZoneCluster",
-          "A4-CaptureZoneCluster",
-          "A5-CaptureZoneCluster",
-          "A6-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Bravo": [
           "00-Team1 Main",
-          "B1-CaptureZoneCluster",
-          "B2-CaptureZoneCluster",
-          "B3-CaptureZoneCluster",
-          "B4-CaptureZoneCluster",
-          "B5-CaptureZoneCluster",
-          "B6-CaptureZoneCluster",
-          "B7-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Charlie": [
           "00-Team1 Main",
@@ -121979,6 +125968,8 @@
       "rawName": "BlackCoast_RAAS_v3",
       "levelName": "BlackCoast_RAAS_v3",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_ClearSunnyDay",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -122399,22 +126390,22 @@
         ],
         "Bravo": [
           "00-Team1 Main",
-          "B1-CaptureZoneCluster",
-          "B2-CaptureZoneCluster",
-          "B3-CaptureZoneCluster",
-          "B4-CaptureZoneCluster",
-          "B5-CaptureZoneCluster",
-          "B6-CaptureZoneCluster",
-          "B7-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Charlie": [
           "00-Team1 Main",
-          "C1-CaptureZoneCluster",
-          "C2-CaptureZoneCluster",
-          "C3-CaptureZoneCluster",
-          "C4-CaptureZoneCluster",
-          "C5-CaptureZoneCluster",
-          "C6-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ]
       },
       "capturePoints": "6",
@@ -122429,6 +126420,8 @@
       "rawName": "BlackCoast_RAAS_v4",
       "levelName": "BlackCoast_RAAS_v4",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_ClearSunnyDay",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -122858,23 +126851,23 @@
       "lanes": {
         "Alpha": [
           "00-Team1 Main",
-          "A1-CaptureZoneCluster",
-          "A2-CaptureZoneCluster",
-          "A3-CaptureZoneCluster",
-          "A4-CaptureZoneCluster",
-          "A5-CaptureZoneCluster",
-          "A6-CaptureZoneCluster",
-          "A7-CaptureZoneCluster",
-          "A8-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Bravo": [
           "00-Team1 Main",
-          "B1-CaptureZoneCluster",
-          "B2-CaptureZoneCluster",
-          "B3-CaptureZoneCluster",
-          "B4-CaptureZoneCluster",
-          "B5-CaptureZoneCluster",
-          "B6-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Charlie": [
           "00-Team1 Main",
@@ -122888,40 +126881,40 @@
         ],
         "Delta": [
           "00-Team1 Main",
-          "D1-CaptureZoneCluster",
-          "D2-CaptureZoneCluster",
-          "D3-CaptureZoneCluster",
-          "D4-CaptureZoneCluster",
-          "D5-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Echo": [
           "00-Team1 Main",
-          "E1-CaptureZoneCluster",
-          "E2-CaptureZoneCluster",
-          "E3-CaptureZoneCluster",
-          "E4-CaptureZoneCluster",
-          "E5-CaptureZoneCluster",
-          "E6-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Foxtrot": [
           "00-Team1 Main",
-          "F1-CaptureZoneCluster",
-          "F2-CaptureZoneCluster",
-          "F3-CaptureZoneCluster",
-          "F4-CaptureZoneCluster",
-          "F5-CaptureZoneCluster",
-          "F6-CaptureZoneCluster",
-          "F7-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ],
         "Golf": [
           "00-Team1 Main",
-          "G1-CaptureZoneCluster",
-          "G2-CaptureZoneCluster",
-          "G3-CaptureZoneCluster",
-          "G4-CaptureZoneCluster",
-          "G5-CaptureZoneCluster",
-          "G6-CaptureZoneCluster",
-          "G7-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ]
       },
       "capturePoints": "7",
@@ -122936,6 +126929,8 @@
       "rawName": "BlackCoast_Seed_v1",
       "levelName": "BlackCoast_Seed_v1",
       "minimapTexture": "Black_Coast_Minimap_Seed_v1",
+      "lightingLevel": "LL_Black_Coast_OvercastDay",
+      "lighting": "Overcast",
       "border": [
         {
           "point": "0",
@@ -123155,6 +127150,8 @@
       "rawName": "BlackCoast_Skirmish_v1",
       "levelName": "BlackCoast_Skirmish_v1",
       "minimapTexture": "Black_Coast_Minimap",
+      "lightingLevel": "LL_Black_Coast_ClearSunnyDay",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -123411,6 +127408,8 @@
       "rawName": "Harju_AAS_v1",
       "levelName": "Harju_AAS_v1",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -123687,6 +127686,8 @@
       "rawName": "Harju_AAS_v2",
       "levelName": "Harju_AAS_v2",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -123925,6 +127926,8 @@
       "rawName": "Harju_AAS_v3",
       "levelName": "Harju_AAS_v3",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -124208,6 +128211,8 @@
       "rawName": "Harju_Invasion_v1",
       "levelName": "Harju_Invasion_v1",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -124558,6 +128563,8 @@
       "rawName": "Harju_Invasion_v2",
       "levelName": "Harju_Invasion_v2",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Overcastday",
+      "lighting": "Overcast",
       "border": [
         {
           "point": "0",
@@ -124933,6 +128940,8 @@
       "rawName": "Harju_Invasion_v3",
       "levelName": "Harju_Invasion_v3",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -125280,6 +129289,8 @@
       "rawName": "Harju_Invasion_v4",
       "levelName": "Harju_Invasion_v4",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -125600,6 +129611,8 @@
       "rawName": "Harju_Invasion_v5",
       "levelName": "Harju_Invasion_v5",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Overcastday",
+      "lighting": "Overcast",
       "border": [
         {
           "point": "0",
@@ -125930,6 +129943,8 @@
       "rawName": "Harju_RAAS_v1",
       "levelName": "Harju_RAAS_v1",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -126214,6 +130229,8 @@
       "rawName": "Harju_RAAS_v2",
       "levelName": "Harju_RAAS_v2",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Overcastday",
+      "lighting": "Overcast",
       "border": [
         {
           "point": "0",
@@ -126526,6 +130543,8 @@
       "rawName": "Harju_RAAS_v3",
       "levelName": "Harju_RAAS_v3",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -126883,6 +130902,17 @@
       "lanes": {
         "Alpha": [
           "00-Team1 Main",
+          "A1-CaptureZoneCluster",
+          "A2-CaptureZoneCluster",
+          "A3-CaptureZoneCluster",
+          "A4-CaptureZoneCluster",
+          "A5-CaptureZoneCluster",
+          "A6-CaptureZoneCluster",
+          "A7-CaptureZoneCluster",
+          "A8-CaptureZoneCluster"
+        ],
+        "Bravo": [
+          "00-Team1 Main",
           "",
           "",
           "",
@@ -126891,17 +130921,6 @@
           "",
           "",
           ""
-        ],
-        "Bravo": [
-          "00-Team1 Main",
-          "B1-CaptureZoneCluster",
-          "B2-CaptureZoneCluster",
-          "B3-CaptureZoneCluster",
-          "B4-CaptureZoneCluster",
-          "B5-CaptureZoneCluster",
-          "B6-CaptureZoneCluster",
-          "B7-CaptureZoneCluster",
-          "B8-CaptureZoneCluster"
         ],
         "Charlie": [
           "00-Team1 Main",
@@ -126925,6 +130944,8 @@
       "rawName": "Harju_RAAS_v4",
       "levelName": "Harju_RAAS_v4",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -127315,6 +131336,8 @@
       "rawName": "Harju_RAAS_v5",
       "levelName": "Harju_RAAS_v5",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -127620,6 +131643,8 @@
       "rawName": "Harju_RAAS_v6",
       "levelName": "Harju_RAAS_v6",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -127977,14 +132002,14 @@
       "lanes": {
         "Alpha": [
           "00-Team1 Main",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          "",
-          ""
+          "A1-CaptureZoneCluster",
+          "A2-CaptureZoneCluster",
+          "A3-CaptureZoneCluster",
+          "A4-CaptureZoneCluster",
+          "A5-CaptureZoneCluster",
+          "A6-CaptureZoneCluster",
+          "A7-CaptureZoneCluster",
+          "A8-CaptureZoneCluster"
         ],
         "Bravo": [
           "00-Team1 Main",
@@ -127999,12 +132024,12 @@
         ],
         "Charlie": [
           "00-Team1 Main",
-          "C1-CaptureZoneCluster",
-          "C2-CaptureZoneCluster",
-          "C3-CaptureZoneCluster",
-          "C4-CaptureZoneCluster",
-          "C5-CaptureZoneCluster",
-          "C6-CaptureZoneCluster"
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
         ]
       },
       "capturePoints": "6",
@@ -128019,6 +132044,8 @@
       "rawName": "Harju_Seed_v1",
       "levelName": "Harju_Seed_v1",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Morning",
+      "lighting": "Morning Sunrise",
       "border": [
         {
           "point": "0",
@@ -128185,6 +132212,8 @@
       "rawName": "Harju_Skirmish_v1",
       "levelName": "Harju_Skirmish_v1",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -128351,6 +132380,8 @@
       "rawName": "Harju_Skirmish_v2",
       "levelName": "Harju_Skirmish_v2",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
@@ -128517,6 +132548,8 @@
       "rawName": "Harju_TC_v1",
       "levelName": "Harju_TC_v1",
       "minimapTexture": "Harju_Minimap",
+      "lightingLevel": "LL_Harju_Sunnyday",
+      "lighting": "Sunny Mid Day",
       "border": [
         {
           "point": "0",
