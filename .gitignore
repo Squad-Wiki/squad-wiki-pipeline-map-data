@@ -1,4 +1,4 @@
-node_modules/*
+# Files created by the workflow that are not public facing.
 files/config/tokens/*
 !files/config/tokens/wiki.example.json
 files/output/*
@@ -10,6 +10,12 @@ files/input/*
 !files/input/.gitkeep
 files/temp/*
 !files/temp/.gitkeep
-.vs/*
 /layers.txt
+
+# IDEs
+.vs/*
+
+# Package locks
 package-lock.json
+yarn.lock
+node_modules/*

@@ -1,3 +1,9 @@
+**! ! ! WARNING ! ! ! THIS IS OUT OF DATE AND NEEDS A REWRITE!!**
+
+**If you are needing a completed output please ask `werewolfboy13#0666` for a completed `raw.txt` in the squad wiki discord.**
+
+**A rewrite is planned for the new workflow.**
+
 # Pipeline Installation
 
 The entire pipeline is run on your **local PC**. It consists of two main parts:
