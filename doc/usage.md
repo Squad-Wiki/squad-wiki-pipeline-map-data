@@ -1,3 +1,7 @@
+**! ! ! WARNING ! ! ! THIS IS OUT OF DATE AND NEEDS A REWRITE!!**
+**If you are needing a completed please ask `werewolfboy13#0666` for a completed `raw.txt` in the squad wiki discord.**
+**A rewrite is planned for the new workflow.**
+
 
 # Pipeline Usage
 Once you have completed the [installation](installation.md) and [configuration](configuration.md), you can now proceed to the actual usage of the pipeline.
