@@ -4,6 +4,7 @@
     "JensensRange_Training_v2",
     "JensensRange_Training_v3",
     "CAF_JensensRange_Training_v4",
+    /*
     "JensensRange_Training_AUS-PLA",
     "JensensRange_Training_CAF-INS",
     "JensensRange_Training_GB-MIL",
@@ -11,6 +12,7 @@
     "JensensRange_Training_USMC-MEA",
     "PacificProvingGrounds_USMC-PLA",
     "PacificProvingGrounds_USMC-RUS",
+    */
     "Tutorial_Infantry",
     "Tutorial_Helicopter"
   ]
