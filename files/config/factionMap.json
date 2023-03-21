@@ -2,13 +2,14 @@
   "British Army": "British Army",
   "Insurgent Forces": "Insurgents",
   "Irregular Militia Forces": "Irregular Militia",
+  "Australian Defence Force": "Australian Defence Force",
   "United States Army": "US Army",
   "Russian Ground Forces": "Russian Ground Forces",
   "Canadian Army": "Canadian Army",
   "Middle Eastern Alliance": "Middle Eastern Alliance",
   "People's Liberation Army": "People's Liberation Army",
   "REDFOR": [ "Russian Ground Forces", "People's Liberation Army" ],
-  "BLUFOR": [ "US Army", "British Army", "Canadian Army" ],
+  "BLUFOR": [ "US Army", "British Army", "Canadian Army", "Australian Defence Force" ],
   "INDEPENDENT": [ "Middle Eastern Alliance", "Irregular Militia", "Insurgents" ],
   "Civilians": "Civilians"
 }
