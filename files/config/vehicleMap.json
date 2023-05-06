@@ -623,5 +623,35 @@
     "BP_Safir_MG3_C_DisplayName": "Simir MG3",
 
     "BP_Safir_Kornet_C_Name": "Simir",
-    "BP_Safir_Kornet_C_DisplayName": "Simir Kornet"
+    "BP_Safir_Kornet_C_DisplayName": "Simir Kornet",
+
+
+
+
+    "BP_Aussie_Util_Truck_C_Name": "MAN HX",
+    "BP_Aussie_Util_Truck_C_DisplayName": "HX60 Transport Truck",
+
+    "BP_Aussie_Util_Truck_Logi_C_Name": "MAN HX",
+    "BP_Aussie_Util_Truck_Logi_C_DisplayName": "HX60 Logistics Truck",
+
+    "BP_PMV_Mag58_C_Name": "Bushmaster PMV",
+    "BP_PMV_Mag58_C_DisplayName": "PMV Mag58",
+
+    "BP_PMV_Mag58x3_C_Name": "Bushmaster PMV",
+    "BP_PMV_Mag58x3_C_DisplayName": "PMV Mag58 x3",
+
+    "BP_PMV_RWS_C_Name": "Bushmaster PMV",
+    "BP_PMV_RWS_C_DisplayName": "PMV M2 RWS",
+
+    "BP_UH60_AUS_C_Name": "UH-60M",
+    "BP_UH60_AUS_C_DisplayName": "UH-60M",
+
+    "BP_ASLAV_C_Name": "ASLAV-25",
+    "BP_ASLAV_C_DisplayName": "ASLAV-25",
+
+    "BP_M113A3_C6_Desert_C_Name": "M113A3",
+    "BP_M113A3_C6_Desert_C_DisplayName": "M113A3 C6",
+
+    "BP_M113A3_M2_Desert_C_Name": "M113A3",
+    "BP_M113A3_M2_Desert_C_DisplayName": "M113A3 M2"
 }
