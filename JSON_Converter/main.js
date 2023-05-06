@@ -60,13 +60,13 @@ let convertVehicle = async(team, mapName) => {
         // Attempt to Map the SDK name to a map. If the name/displayname is invalid throw an error.
         let conVehicleName = vehicleMap[`${vehicle.rawType}_Name`]
         if(conVehicleName === undefined) {
-            throw(`${vehicle.rawType} vehicle is not in the Map file... (Name Invalid or Non Existant) Team: ${team.faction} | MapName: ${mapName}`)
+            throw(`${vehicle.rawType} vehicle is not configured in vehicleMap.json... (Name Invalid or Non Existant) Team: ${team.faction} | MapName: ${mapName}`)
         }
         log2(`------${conVehicleName}`)
 
         let conVehicleDisplayName = vehicleMap[`${vehicle.rawType}_DisplayName`]
         if(conVehicleDisplayName === undefined) {
-            throw(`${vehicle.rawType} vehicle is not in the Map file... (Display Name Invalid or Non Existant) Team: ${team.faction} | MapName: ${mapName}`)
+            throw(`${vehicle.rawType} vehicle is not configured in vehicleMap.json... (Display Name Invalid or Non Existant) Team: ${team.faction} | MapName: ${mapName}`)
         }
         log2(`--------${conVehicleDisplayName}`)
 
@@ -170,7 +170,7 @@ const main = async() => {
         let conteam2Veh = []
         if(confaction1 === undefined) {
             if(layer.team1.allowedAlliances === undefined) {
-                throw(`${layer.team1.faction} team is not in the Map file... (${layer.Name})`)
+                throw(`${layer.team1.faction} team is not configured in factionMap.json... (${layer.Name})`)
             }
             else {
                 confaction1 = layer.team1.allowedAlliances.join(" or ")
@@ -213,7 +213,7 @@ const main = async() => {
     
         if(confaction2 === undefined) {
             if(layer.team2.allowedAlliances === undefined) {
-                throw(`${layer.team2.faction} team is not in the Map file... (${layer.Name})`)
+                throw(`${layer.team2.faction} team is not configured in factionMap.json... (${layer.Name})`)
             }
             else {
                 confaction2 = layer.team2.allowedAlliances.join(" or ")

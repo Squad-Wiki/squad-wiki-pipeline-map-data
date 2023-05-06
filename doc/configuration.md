@@ -63,6 +63,8 @@ Example:
 ## factionMap.json
 This is used to convert from the JSON output to the correct Wiki pages and phrasing.
 
+Hint: For the WIKI NAME you need to use the actual page name of the faction - see [Factions](https://squad.fandom.com/wiki/Factions). The JSON NAME you can look up in `files/output/finished_$VERSION.json`.
+
 Format:
 ```
 {
@@ -73,11 +75,11 @@ Format:
 Example:
 ```
 {
- 	"Militia": "Irregular Militia"
+ 	"Irregular Militia Forces": "Irregular Militia"
 }
 ```
 
-
+Error that points to a missing faction configuration: "FACTION is not configured in factionMap.json... (MAP LAYER)"
 
 
 ## flagMap.json
@@ -200,7 +202,7 @@ Example:
 ## vehicleMap.json
 This is used to convert from the SDK naming convention for vehicles to names used on the wiki.
 
-**_Name** must correspond exactly to the existing vehicle wiki pages and **_DisplayName** is the vehicle name shown; for vehicle variants, the actual variant is shown in the _DisplayName. For example with the different [M-ATV vehicles](https://squad.gamepedia.com/M-ATV), the Standard and CROWS, will both have the _Name *"M-ATV"* but differing _DisplayNames, *"M-ATV"* and *"M-ATV CROWS"* respectively.
+Hint: **_Name** must correspond exactly to the existing vehicle wiki page name and **_DisplayName** is the vehicle name shown. For vehicle variants, the actual variant is shown in the _DisplayName. For example with the different [M-ATV vehicles](https://squad.fandom.com/wiki/M-ATV), the Standard and CROWS, will both have the _Name *"M-ATV"* but differing _DisplayNames, *"M-ATV"* and *"M-ATV CROWS"* respectively.
 
 Format:
 ```
@@ -218,7 +220,7 @@ Example:
 }
 ```
 
-
+Error that points to a missing vehicle configuration: "SDK RAW NAME vehicle is not configured in vehicleMap.json..."
 
 
 
