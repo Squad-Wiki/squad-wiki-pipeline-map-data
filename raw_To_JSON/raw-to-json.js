@@ -260,6 +260,9 @@ let loop = async (remaninglines, output, output2) => {
                             "INDEPENDENT"
                         ]
                     }
+                    console.log(currentMap.Name)
+                    console.log(currentMap.team1.faction)
+                    console.log(currentMap.team2.faction)
                     if (currentMap.team2.faction == "" && currentMap.team2.allowedAlliances == undefined) {
                         currentMap.team2.allowedAlliances = [
                             "BLUFOR",
@@ -410,76 +413,76 @@ let loop = async (remaninglines, output, output2) => {
                 }
                 workingObject = await addToObject(workingObject, datatype, data, "border")
                 break;
-            //     case "PointMain":
-            //     if(datatype == "name"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "pointsMain")
-            //     break;
-            // case "Point":
-            //     if(datatype == "name"){
-            //          let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "points")
-            //     break;
-            // case "Spawner":
-            //     if(datatype == "name"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "spawners")
-            //     break;
-            // case "Vehicle":
-            //     if(datatype == "raw_Name"){
-            //         let returnObject = await finishObjectveh(workingObjectVeh)
-            //         if(returnObject !== null ) workingObjectVeh = returnObject
-            //     }
-            //     workingObjectVeh = await addToObject(workingObjectVeh, datatype, data, "veh")
-            //     break;
-            // case "Asset":
-            //     if(datatype == "type"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "assets")
-            //     break;
-            // case "Staging":
-            //     if(datatype == "name"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "staging")
-            //     break;
-            // case "ProtectionZone":
-            //     if(datatype == "name"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "protectionzone")
-            //     break;
-            // case "Lanes":
-            //     if(datatype == "laneName"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "lane")
-            //     break;
-            // case "HexAnchors":
-            //     if(datatype == "team"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "hexAnchors")
-            //     break;
-            // case "Hexs":
-            //     if(datatype == "hex_name"){
-            //         let returnObject = await finishObject(workingObject)
-            //         if(returnObject !== null ) workingObject = returnObject
-            //     }
-            //     workingObject = await addToObject(workingObject, datatype, data, "hexs") 
-            //     break; 
+                 case "PointMain":
+                 if(datatype == "name"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "pointsMain")
+                 break;
+             case "Point":
+                 if(datatype == "name"){
+                      let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "points")
+                 break;
+             case "Spawner":
+                 if(datatype == "name"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "spawners")
+                 break;
+             case "Vehicle":
+                 if(datatype == "raw_Name"){
+                     let returnObject = await finishObjectveh(workingObjectVeh)
+                     if(returnObject !== null ) workingObjectVeh = returnObject
+                 }
+                 workingObjectVeh = await addToObject(workingObjectVeh, datatype, data, "veh")
+                 break;
+             case "Asset":
+                 if(datatype == "type"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "assets")
+                 break;
+             case "Staging":
+                 if(datatype == "name"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "staging")
+                 break;
+             case "ProtectionZone":
+                 if(datatype == "name"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "protectionzone")
+                 break;
+             case "Lanes":
+                 if(datatype == "laneName"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "lane")
+                 break;
+            case "HexAnchors":
+                 if(datatype == "team"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "hexAnchors")
+                 break;
+             case "Hexs":
+                 if(datatype == "hex_name"){
+                     let returnObject = await finishObject(workingObject)
+                     if(returnObject !== null ) workingObject = returnObject
+                 }
+                 workingObject = await addToObject(workingObject, datatype, data, "hexs") 
+                 break; 
             case "Error":
                 throw new Error(line)
                 break;
