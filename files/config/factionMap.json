@@ -8,8 +8,11 @@
   "Canadian Army": "Canadian Army",
   "Middle Eastern Alliance": "Middle Eastern Alliance",
   "People's Liberation Army": "People's Liberation Army",
+  "United States Marine Corps": "United States Marine Corps",
+  "Canadian Armed Forces": "Canadian Armed Forces",
+  "British Armed Forces": "British Armed Forces",
   "REDFOR": [ "Russian Ground Forces", "People's Liberation Army" ],
-  "BLUFOR": [ "US Army", "British Army", "Canadian Army", "Australian Defence Force" ],
+  "BLUFOR": [ "US Army", "British Army", "Canadian Army", "Australian Defence Force", "United States Marine Corps", "Canadian Armed Forces", "British Armed Forces" ],
   "INDEPENDENT": [ "Middle Eastern Alliance", "Irregular Militia", "Insurgents" ],
   "Civilians": "Civilians"
 }
