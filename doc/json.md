@@ -28,7 +28,7 @@ This is documentation for the non-converted output JSON file.
   - `action` - Number of commander actions
   - `commander` - Boolean to tell if there is a commander.
 
-- `type` - Caputre point type.
+- `type` - Capture point type.
 
 - `Flag` - Array of flags.
 
