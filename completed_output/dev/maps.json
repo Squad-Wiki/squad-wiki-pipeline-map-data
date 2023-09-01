@@ -965,14 +965,6 @@
         },
         "points": {
             "type": "RAASLane Graph",
-            "pointsOrder": [
-                "00-Team1 Main",
-                "01C-BP_CaptureZoneCluster",
-                "02C-BP_CaptureZoneCluster",
-                "03C-BP_CaptureZoneCluster",
-                "04C-BP_CaptureZoneCluster",
-                "100-Team2 Main"
-            ],
             "lanes": {
                 "West": {
                     "name": "West",
@@ -1508,7 +1500,16 @@
                             }
                         ],
                         "pointPosition": 6
-                    }
+                    },
+                    "pointsOrder": [
+                        "00-Team1 Main",
+                        "01W-BP_CaptureZoneCluster",
+                        "02W-BP_CaptureZoneCluster",
+                        "03W-BP_CaptureZoneCluster",
+                        "04W-BP_CaptureZoneCluster",
+                        "100-Team2 Main"
+                    ],
+                    "numberOfPoints": 6
                 },
                 "East": {
                     "name": "East",
@@ -2191,7 +2192,16 @@
                             }
                         ],
                         "pointPosition": 6
-                    }
+                    },
+                    "pointsOrder": [
+                        "00-Team1 Main",
+                        "01E-BP_CaptureZoneCluster",
+                        "02E-BP_CaptureZoneCluster",
+                        "03E-BP_CaptureZoneCluster",
+                        "04E-BP_CaptureZoneCluster",
+                        "100-Team2 Main"
+                    ],
+                    "numberOfPoints": 6
                 },
                 "Center": {
                     "name": "Center",
@@ -2812,7 +2822,16 @@
                             }
                         ],
                         "pointPosition": 6
-                    }
+                    },
+                    "pointsOrder": [
+                        "00-Team1 Main",
+                        "01C-BP_CaptureZoneCluster",
+                        "02C-BP_CaptureZoneCluster",
+                        "03C-BP_CaptureZoneCluster",
+                        "04C-BP_CaptureZoneCluster",
+                        "100-Team2 Main"
+                    ],
+                    "numberOfPoints": 6
                 }
             }
         },
