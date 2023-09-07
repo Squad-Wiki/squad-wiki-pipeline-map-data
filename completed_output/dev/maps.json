@@ -2471,7 +2471,30 @@
                             "location_y": -112631,
                             "location_z": 4486.3125
                         },
-                        "points": []
+                        "points": [
+                            {
+                                "name": "Urban South",
+                                "objectName": "01-UrbanSouth",
+                                "location_x": -157124,
+                                "location_y": -112631,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -157124,
+                                        "location_y": -112631,
+                                        "location_z": -5513.6875,
+                                        "sphereRadius": "7000.0",
+                                        "boxExtent": {
+                                            "location_x": 6999.9990234375,
+                                            "location_y": 3900,
+                                            "location_z": 3900
+                                        },
+                                        "capsuleRadius": "3900.0",
+                                        "capsuleLength": "7000.0"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "02-BP_CaptureZoneCluster",
@@ -2481,7 +2504,105 @@
                             "location_y": -91496.96875,
                             "location_z": 4486.3125
                         },
-                        "points": []
+                        "points": [
+                            {
+                                "name": "Market",
+                                "objectName": "02-Market",
+                                "location_x": -114700.1171875,
+                                "location_y": -82510.8984375,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -114791.9921875,
+                                        "location_y": -81916,
+                                        "location_z": -6301.6875,
+                                        "sphereRadius": "4000.0",
+                                        "boxExtent": {
+                                            "location_x": 4681.82958984375,
+                                            "location_y": 3956.480224609375,
+                                            "location_z": 2500
+                                        },
+                                        "capsuleRadius": "2500.0",
+                                        "capsuleLength": "4000.0"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Vineyard",
+                                "objectName": "02-Vineyard",
+                                "location_x": -109824,
+                                "location_y": -97165,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -105925.9921875,
+                                        "location_y": -95102,
+                                        "location_z": -6779.6875,
+                                        "sphereRadius": "5177.178711",
+                                        "boxExtent": {
+                                            "location_x": 3891.28173828125,
+                                            "location_y": 3539.899169921875,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -109864.9921875,
+                                        "location_y": -96406,
+                                        "location_z": -6779.6875,
+                                        "sphereRadius": "3879.793701",
+                                        "boxExtent": {
+                                            "location_x": 2743.4853515625,
+                                            "location_y": 2743.4853515625,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -107672.9921875,
+                                        "location_y": -96971,
+                                        "location_z": -6779.6875,
+                                        "sphereRadius": "3879.793701",
+                                        "boxExtent": {
+                                            "location_x": 3119.72021484375,
+                                            "location_y": 3119.72021484375,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -112156.9921875,
+                                        "location_y": -98653,
+                                        "location_z": -6779.6875,
+                                        "sphereRadius": "5542.5625",
+                                        "boxExtent": {
+                                            "location_x": 4371.28271484375,
+                                            "location_y": 4371.28271484375,
+                                            "location_z": 1600
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Market Bridge",
+                                "objectName": "02-MarketBridge",
+                                "location_x": -123941.9921875,
+                                "location_y": -94815,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -123836.9921875,
+                                        "location_y": -94220,
+                                        "location_z": -6383.6875,
+                                        "sphereRadius": "5000.0",
+                                        "boxExtent": {
+                                            "location_x": 4191.9052734375,
+                                            "location_y": 5606.10205078125,
+                                            "location_z": 3000.004638671875
+                                        },
+                                        "capsuleRadius": "3000.0",
+                                        "capsuleLength": "5000.0"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "03-BP_CaptureZoneCluster",
@@ -2491,7 +2612,118 @@
                             "location_y": -49908.3359375,
                             "location_z": 1495.4375
                         },
-                        "points": []
+                        "points": [
+                            {
+                                "name": "Police Station",
+                                "objectName": "03-PoliceStation",
+                                "location_x": -78217,
+                                "location_y": -42525,
+                                "location_z": 0,
+                                "objects": [
+                                    {
+                                        "location_x": -76139.9921875,
+                                        "location_y": -42010,
+                                        "location_z": -6278.6875,
+                                        "sphereRadius": "2101.885254",
+                                        "boxExtent": {
+                                            "location_x": 840.7047119140625,
+                                            "location_y": 1072.9105224609375,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -75939.9921875,
+                                        "location_y": -41750,
+                                        "location_z": -6278.6875,
+                                        "sphereRadius": "2123.707764",
+                                        "boxExtent": {
+                                            "location_x": 1071.384033203125,
+                                            "location_y": 895.6959228515625,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -78534.9921875,
+                                        "location_y": -42785,
+                                        "location_z": -6278.6875,
+                                        "sphereRadius": "3396.945801",
+                                        "boxExtent": {
+                                            "location_x": 2426.05712890625,
+                                            "location_y": 2039.050048828125,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -79564.9921875,
+                                        "location_y": -41475,
+                                        "location_z": -6278.6875,
+                                        "sphereRadius": "2272.291016",
+                                        "boxExtent": {
+                                            "location_x": 1304.927001953125,
+                                            "location_y": 948.93182373046875,
+                                            "location_z": 1600
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Orchard",
+                                "objectName": "03-Orchard",
+                                "location_x": -71027,
+                                "location_y": -59005,
+                                "location_z": 0,
+                                "objects": [
+                                    {
+                                        "location_x": -68729.9921875,
+                                        "location_y": -59445,
+                                        "location_z": -6768.6875,
+                                        "sphereRadius": "5000.0",
+                                        "boxExtent": {
+                                            "location_x": 4949.7470703125,
+                                            "location_y": 4949.75146484375,
+                                            "location_z": 2000.0067138671875
+                                        },
+                                        "capsuleRadius": "2000.0",
+                                        "capsuleLength": "5000.0"
+                                    },
+                                    {
+                                        "location_x": -74569.9921875,
+                                        "location_y": -58590,
+                                        "location_z": -6768.6875,
+                                        "sphereRadius": "5000.0",
+                                        "boxExtent": {
+                                            "location_x": 4362.99853515625,
+                                            "location_y": 4794.408203125,
+                                            "location_z": 1500.000732421875
+                                        },
+                                        "capsuleRadius": "1500.0",
+                                        "capsuleLength": "5000.0"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Orchard Bridge",
+                                "objectName": "03-OrchardBridge",
+                                "location_x": -79502,
+                                "location_y": -48195,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -79182,
+                                        "location_y": -46975,
+                                        "location_z": -6313.6875,
+                                        "sphereRadius": "5200.0",
+                                        "boxExtent": {
+                                            "location_x": 5369.59375,
+                                            "location_y": 6191.93701171875,
+                                            "location_z": 3500.00439453125
+                                        },
+                                        "capsuleRadius": "3500.0",
+                                        "capsuleLength": "5200.0"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "04-BP_CaptureZoneCluster",
@@ -2501,7 +2733,100 @@
                             "location_y": -34520,
                             "location_z": 4486.3125
                         },
-                        "points": []
+                        "points": [
+                            {
+                                "name": "Holdout",
+                                "objectName": "04-Holdout",
+                                "location_x": -41797,
+                                "location_y": -24105,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -44944.9921875,
+                                        "location_y": -26040,
+                                        "location_z": -5988.6875,
+                                        "sphereRadius": "7000.000977",
+                                        "boxExtent": {
+                                            "location_x": 5653.33154296875,
+                                            "location_y": 6881.22216796875,
+                                            "location_z": 2000.0010986328125
+                                        },
+                                        "capsuleRadius": "2000.0",
+                                        "capsuleLength": "7000.0"
+                                    },
+                                    {
+                                        "location_x": -37794.9921875,
+                                        "location_y": -19890,
+                                        "location_z": -5548.6875,
+                                        "sphereRadius": "5000.000488",
+                                        "boxExtent": {
+                                            "location_x": 5588.0869140625,
+                                            "location_y": 4378.83447265625,
+                                            "location_z": 2500.007080078125
+                                        },
+                                        "capsuleRadius": "2500.0",
+                                        "capsuleLength": "5000.0"
+                                    },
+                                    {
+                                        "location_x": -38419.9921875,
+                                        "location_y": -16665,
+                                        "location_z": -5548.6875,
+                                        "sphereRadius": "5000.0",
+                                        "boxExtent": {
+                                            "location_x": 3330.267578125,
+                                            "location_y": 5358.16455078125,
+                                            "location_z": 2500.006103515625
+                                        },
+                                        "capsuleRadius": "2500.0",
+                                        "capsuleLength": "5000.0"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Lavender Farm",
+                                "objectName": "04-LavenderFarm_9",
+                                "location_x": -32327.001953125,
+                                "location_y": -44935,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -27300.001953125,
+                                        "location_y": -43676,
+                                        "location_z": -5758.6875,
+                                        "sphereRadius": "3130.310303",
+                                        "boxExtent": {
+                                            "location_x": 2400.019287109375,
+                                            "location_y": 1216.0382080078125,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -33200,
+                                        "location_y": -43836,
+                                        "location_z": -5758.6875,
+                                        "sphereRadius": "4581.753906",
+                                        "boxExtent": {
+                                            "location_x": 3840.030517578125,
+                                            "location_y": 1920.061279296875,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -32852,
+                                        "location_y": -48085,
+                                        "location_z": -5988.6875,
+                                        "sphereRadius": "5500.0",
+                                        "boxExtent": {
+                                            "location_x": 5500.01123046875,
+                                            "location_y": 3000.01220703125,
+                                            "location_z": 3000.00927734375
+                                        },
+                                        "capsuleRadius": "3000.0",
+                                        "capsuleLength": "5500.0"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "05-BP_CaptureZoneCluster",
@@ -2511,7 +2836,138 @@
                             "location_y": -52785,
                             "location_z": 4486.3125
                         },
-                        "points": []
+                        "points": [
+                            {
+                                "name": "Village",
+                                "objectName": "05-Village",
+                                "location_x": 15777.998046875,
+                                "location_y": -39000,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": 18725.005859375,
+                                        "location_y": -41745,
+                                        "location_z": -6263.6875,
+                                        "sphereRadius": "5999.999023",
+                                        "boxExtent": {
+                                            "location_x": 6835.39892578125,
+                                            "location_y": 5341.66748046875,
+                                            "location_z": 3500.000732421875
+                                        },
+                                        "capsuleRadius": "3500.0",
+                                        "capsuleLength": "6000.0"
+                                    },
+                                    {
+                                        "location_x": 12735.005859375,
+                                        "location_y": -38685,
+                                        "location_z": -6263.6875,
+                                        "sphereRadius": "5999.999512",
+                                        "boxExtent": {
+                                            "location_x": 5340.85546875,
+                                            "location_y": 6835.171875,
+                                            "location_z": 3500.000732421875
+                                        },
+                                        "capsuleRadius": "3500.0",
+                                        "capsuleLength": "6000.0"
+                                    },
+                                    {
+                                        "location_x": 19215.005859375,
+                                        "location_y": -34785,
+                                        "location_z": -5323.6875,
+                                        "sphereRadius": "5000.0",
+                                        "boxExtent": {
+                                            "location_x": 5000,
+                                            "location_y": 5000,
+                                            "location_z": 5000
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Riverside",
+                                "objectName": "05-Riverside",
+                                "location_x": 8947.998046875,
+                                "location_y": -48715,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": 8255.005859375,
+                                        "location_y": -48690,
+                                        "location_z": -6043.6875,
+                                        "sphereRadius": "3554.780518",
+                                        "boxExtent": {
+                                            "location_x": 2696.4365234375,
+                                            "location_y": 2619.01904296875,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": 10875.005859375,
+                                        "location_y": -47700,
+                                        "location_z": -6043.6875,
+                                        "sphereRadius": "2238.8479",
+                                        "boxExtent": {
+                                            "location_x": 1043.6806640625,
+                                            "location_y": 1167.548828125,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": 9095.005859375,
+                                        "location_y": -50250,
+                                        "location_z": -6043.6875,
+                                        "sphereRadius": "2771.28125",
+                                        "boxExtent": {
+                                            "location_x": 1768.546142578125,
+                                            "location_y": 1845.9637451171875,
+                                            "location_z": 1600
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Qalat",
+                                "objectName": "05-Qalat",
+                                "location_x": 8212.998046875,
+                                "location_y": -66395,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": 8090.005859375,
+                                        "location_y": -66705,
+                                        "location_z": -6043.6875,
+                                        "sphereRadius": "6048.272461",
+                                        "boxExtent": {
+                                            "location_x": 4610.05859375,
+                                            "location_y": 4532.6494140625,
+                                            "location_z": 1600
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Qalat Bridge",
+                                "objectName": "05-QalatBridge",
+                                "location_x": -597.001953125,
+                                "location_y": -57030,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": 2257.998046875,
+                                        "location_y": -57820,
+                                        "location_z": -6003.6875,
+                                        "sphereRadius": "4000.0",
+                                        "boxExtent": {
+                                            "location_x": 4714.109375,
+                                            "location_y": 4165.14599609375,
+                                            "location_z": 2500.00341796875
+                                        },
+                                        "capsuleRadius": "2500.0",
+                                        "capsuleLength": "4000.0"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "06-BP_CaptureZoneCluster",
@@ -2521,7 +2977,118 @@
                             "location_y": -126234.0390625,
                             "location_z": 4486.3125
                         },
-                        "points": []
+                        "points": [
+                            {
+                                "name": "Waterfall Village",
+                                "objectName": "06-WaterfallVillage",
+                                "location_x": 40684.9375,
+                                "location_y": -145879.375,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": 43499.984375,
+                                        "location_y": -145645.015625,
+                                        "location_z": -3823.6875,
+                                        "sphereRadius": "5000.0",
+                                        "boxExtent": {
+                                            "location_x": 3822.923828125,
+                                            "location_y": 5445.1142578125,
+                                            "location_z": 3000.015380859375
+                                        },
+                                        "capsuleRadius": "3000.0",
+                                        "capsuleLength": "5000.0"
+                                    },
+                                    {
+                                        "location_x": 37919.984375,
+                                        "location_y": -149100.015625,
+                                        "location_z": -3823.6875,
+                                        "sphereRadius": "4999.999512",
+                                        "boxExtent": {
+                                            "location_x": 5758.650390625,
+                                            "location_y": 5511.97802734375,
+                                            "location_z": 3000.0322265625
+                                        },
+                                        "capsuleRadius": "3000.0",
+                                        "capsuleLength": "5000.0"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Upper Poppy Farms",
+                                "objectName": "06-UpperPoppyFarms",
+                                "location_x": -5820.00390625,
+                                "location_y": -130750,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -5729.994140625,
+                                        "location_y": -131790,
+                                        "location_z": -5308.6875,
+                                        "sphereRadius": "5684.620117",
+                                        "boxExtent": {
+                                            "location_x": 3327.08447265625,
+                                            "location_y": 4322.6630859375,
+                                            "location_z": 1600
+                                        }
+                                    },
+                                    {
+                                        "location_x": -3239.994140625,
+                                        "location_y": -135345,
+                                        "location_z": -5308.6875,
+                                        "sphereRadius": "2028.814331",
+                                        "boxExtent": {
+                                            "location_x": 991.3837890625,
+                                            "location_y": 757.1300048828125,
+                                            "location_z": 1600
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Plateau Village",
+                                "objectName": "06-PlateauVillage",
+                                "location_x": -36895.0625,
+                                "location_y": -131429.375,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -37085.015625,
+                                        "location_y": -131395.015625,
+                                        "location_z": -1548.6875,
+                                        "sphereRadius": "5000.0",
+                                        "boxExtent": {
+                                            "location_x": 4745.9638671875,
+                                            "location_y": 5115.84423828125,
+                                            "location_z": 2000.0107421875
+                                        },
+                                        "capsuleRadius": "2000.0",
+                                        "capsuleLength": "5000.0"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Lower Poppy Farms",
+                                "objectName": "06-LowerPoppyFarms",
+                                "location_x": -12019.0546875,
+                                "location_y": -96877.3984375,
+                                "location_z": 4486.3125,
+                                "objects": [
+                                    {
+                                        "location_x": -12349.994140625,
+                                        "location_y": -96865,
+                                        "location_z": -5748.6875,
+                                        "sphereRadius": "7000.0",
+                                        "boxExtent": {
+                                            "location_x": 4000,
+                                            "location_y": 7000.00732421875,
+                                            "location_z": 4000.012451171875
+                                        },
+                                        "capsuleRadius": "4000.0",
+                                        "capsuleLength": "7000.0"
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "Main",
@@ -2639,7 +3206,7 @@
                 {
                     "type": "Minsk 400",
                     "icon": "map_motorcycle",
-                    "rawType": "BP_Minsk_blue_C",
+                    "rawType": "BP_Minsk_black_C",
                     "count": 4,
                     "delay": 0,
                     "respawnTime": 1
@@ -2735,7 +3302,7 @@
                 {
                     "type": "Minsk 400",
                     "icon": "map_motorcycle",
-                    "rawType": "BP_Minsk_green_C",
+                    "rawType": "BP_Minsk_blue_C",
                     "count": 4,
                     "delay": 0,
                     "respawnTime": 0
@@ -11169,5 +11736,8 @@
                 }
             ]
         }
-    }
+    },
+    "mapsavailable": [
+        "Anvil_Invasion_v1"
+    ]
 }
