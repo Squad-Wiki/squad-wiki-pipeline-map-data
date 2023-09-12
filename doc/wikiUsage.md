@@ -1,6 +1,6 @@
 **! ! ! WARNING ! ! ! THIS IS OUT OF DATE AND NEEDS A REWRITE!!**
 
-**If you are needing a completed output please ask `werewolfboy13#0666` for a completed `raw.txt` in the squad wiki discord.**
+**The Wiki portion of this piepline is currently non-functional.**
 
 **A rewrite is planned for the new workflow.**
 

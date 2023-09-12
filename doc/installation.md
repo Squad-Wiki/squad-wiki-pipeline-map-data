@@ -8,71 +8,90 @@
 
 The entire pipeline is run on your **local PC**. It consists of two main parts:
 
-1. One **Unreal Engine Blueprint** "_MapGrabAssets.uasset_" to be added to the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) for exporting the game data.
-2. Different **JavaScripts** for processing, converting and uploading the exported game data to the wiki.
+1. Adding the  **Unreal Engine Blueprints**, **Data Table**, and **Data Structure** to the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) for exporting the game data.
+2. Different **JavaScripts** for converting and uploading the exported game data to the wiki.
 
 ### Installing Blueprint MapGrabAssets.uasset
 
 The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is required. You will find instructions on how to install the Squad SDK [here](https://squad.gamepedia.com/Squad_SDK#Downloading_the_Epic_Games_Launcher).
 
-Please note, you will have to repeat steps 4-15 after every new release version of the Squad SDK. To find out more about Blueprints, see [official documentation](https://docs.unrealengine.com/en-US/Engine/Blueprints/GettingStarted/index.html). You can see all versions of the Squad SDK [here](https://squad.gamepedia.com/Squad_SDK#Version_history).
 
-1. Place the blueprint within the SDK folders. It's recommended that the Blueprint is placed at `/SquadEditor/Squad/Content/Wiki/`.
+1. Create a new folder in `/SquadEditor/Squad/Content/` named `Wiki`.
 
-2. Open the Squad SDK.
+2. Place the *LightingLayers.uasset*, *LightingLayersStructure.uasset*, and *MapGrabAsset4_0.uasset* within the wiki folder.
 
-Skip to step 6 if you are not using CAF files
+3. Open the Squad SDK.
 
-3. Open up the project settings by mousing over Edit in the top left and clicking on `Project Settings`.
+4. Open up the project settings by mousing over `Edit` in the top left and clicking on `Project Settings`.
 
 ![Project Settings](/doc/images/sdk/sdk_project_settings.png)
 
-4. Open Up the `Asset Manager`
+5. Open Up the `Asset Manager` section.
 
 ![Asset Manager](/doc/images/sdk/sdk_asset_manager.png)
-
-5. Under `Primary Asset Types To Scan` add `/CanadianArmedForces` to the directory list for elements 1-4
-
-![Add Element](/doc/images/sdk/sdk_add_directory.png)
 
 6. Under `Primary Asset Types To Scan` click the plus icon.
 
 ![Add New Asset](/doc/images/sdk/sdk_add_primary_asset.png)
 
-7. Set the new `Primary Asset type` to `Map`, the `Asset Base Class` to `World` and the directory to `/Game/Maps`
+7. Set the new `Primary Asset type` to `Map`, the `Asset Base Class` to `World` and the directory to `/Game/`.
 
 ![Asset Configure](/doc/images/sdk/sdk_new_primary_asset.png)
 
-8. Navigate to `/Content/UI/` within the SDK and open the Blueprint called `BP_HUD`.
+8. Open up the `Play Squad` section under **`Level Editor`**.
 
-9. Click `Add Component` and search `Map Grab Assets` and click on it.
+![Play Squad](/doc/images/sdk/sdk_play_squad.png)
+
+9. Untick the `Limit Data Loading` textbox.
+
+![Limit Data Loading](/doc/images/sdk/sdk_limit_data_loading_checkbox.png)
+
+10. Close the setttings and navigate to `/Content/UI/` within the SDK and open the Blueprint called `BP_HUD`.
+
+11. Click `Add Component` and search `Map Grab Asset 4 0` and click on it.
 
 ![Add Component](/doc/images/sdk/sdk_add_component.png)
 
-10. Open up the `Event Graph` in the BP_HUD.
+12. Navigate to the `On BeginPlay` section towards the top of the blueprint and break the link from `Event BeginPlay` to the `Branch` node.
 
-11. Navigate to `Wait for Start of Match` near the top of the blueprint and copy the delay node.
+![Break Link](/doc/images/sdk/sdk_break_all_links.png)
 
-![Copy Node](/doc/images/sdk/sdk_copy_delay.png)
-
-12. Paste the delay node at the end of `Wait for Start of Match`
-
-13. Drag the `Map Grab Assets` asset from the left bar into the blueprint.
+13. Drag the `Map Grab Assets 4 0` asset from the left bar into the blueprint.
 
 ![Drag Actor](/doc/images/sdk/sdk_drag_actor.png)
 
-14. Drag off the blue object reference and search `Map Grab Assets` and click on the function that appears.
+14. Drag off the blue object reference and search `Grab Points` and click on the function that appears.
 
 ![Create new Function](/doc/images/sdk/sdk_create_new_function.png)
 
-15. Connect the Delay node with the new function node.
+15. Connect the execute nodes on the `Event BeginPlay`, `Grab Points`, and `Branch`.
 
-16. Drag off the blue object reference again and search get capture zones.
+![Connect Nodes](/doc/images/sdk/sdk_final_grab_points.png)
 
-![Get Capture Zones](/doc/images/sdk/sdk_get_capture.png)
+16. Naviage to the end of the comment and then create a new function `Grab Asset` and connect the execute node to the `Request Player Data` blueprint.
 
-17. Place node between `Event BeginPlay` and `Parent: BeginPlay`.
+![Grab Asset](/doc/images/sdk/sdk_grab_asset_function.png)
 
-18. Compile and save the blueprint.
+17. Compile and save the blueprint.
 
-19. Run `yarn install` in the root directory of the script.
+18. Navigate to  `/Content/Gameplay/Gamemodes/Destruction` and open the `BP_DestructionObjectiveArea` blueprint.
+
+19. Add the `Map Grab Assets 4 0` component to this blueprint.
+
+20. Find the `Initilization of Objective` comment and add the `Destruction Objective Graber` function in between `Event BeginPlay` and `Switch Has Authority`
+
+![Objective Grabber](/doc/images/sdk/sdk_destruction_objective_grabber.png)
+
+21. Compile and save the blueprint.
+
+22. Navigate to  `/Content/Gameplay/Gamemodes/Objectives` and open the `BP_ObjectiveSpawnLocation` blueprint.
+
+23. If prompited make sure to `Open Full Blueprint Editor`.
+
+23. Add the `Map Grab Assets 4 0` component to this blueprint.
+
+24. Find the `Event BeginPlay` and add the `Destruction Grabber` function there.
+
+![Destruction Grabber](/doc/images/sdk/sdk_destruction_grabber.png)
+
+25. Compile and save the blueprint.

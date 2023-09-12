@@ -125,29 +125,6 @@ Example:
 ```
 
 
-
-## lightingMap.json
-This is used to assign the lighting level and convert it to the type of lighting.
-
-Format:
-```
-{
-	"LIGHTINGLEVEL": "WEATHER/LIGHTING"
-}
-```
-
-Example:
-```
-{
-	"LL_AlBasrah_MidDay": "Sunny Mid Day",
-    "LL_AlBasrah_Sunset": "Sunrise"
-}
-```
-
-
-
-
-
 ## main.json
 There are only two settings in this file:
 
@@ -161,39 +138,6 @@ Example:
  	"caf": false
 }
 ```
-
-
-
-
-
-
-
-## rawtojson.json
-This is used to convert from the SDK naming convention for factions to names used on the wiki.
-
-Format:
-```
-{
- 	"Teams": {
-      	"FACTION1SDK NAME": "READABLE NAME FACTION1",
-      	"FACTION2SDK NAME": "READABLE NAME FACTION2"
- 	}
-}
-```
-
-Example:
-```
-{
- 	"Teams": {
-      	"INS": "Insurgency",
-      	"MIL": "Militia"
- 	}
-}
-```
-
-
-
-
 
 
 
