@@ -1,4 +1,18 @@
-# Squad Wiki Pipeline: Map Data
+<div align="center">
+<img src="doc/images/Squad_Wiki_Logo.png" alt="Squad Wiki Pipeline Logo" width="500"/>
+
+#### Squad Wiki Pipeline: Map Data
+
+![GitHub release (with filter)](https://img.shields.io/github/v/release/Squad-Wiki/squad-wiki-pipeline-map-data)
+![GitHub](https://img.shields.io/github/license/Squad-Wiki/squad-wiki-pipeline-map-data)
+![GitHub issues](https://img.shields.io/github/issues-raw/Squad-Wiki/squad-wiki-pipeline-map-data)
+
+![Discord](https://img.shields.io/discord/553984341143846912?style=flat&logo=discord&logoColor=FFC200)
+![GitHub Repo stars](https://img.shields.io/github/stars/Squad-Wiki/squad-wiki-pipeline-map-data)
+
+</div>
+
+## About
 
 The **Squad Wiki Pipeline** (in short: "pipeline") allows the extraction of game data for the tactical first-person-shooter [Squad](http://store.steampowered.com/app/393380/) by [Offworld Industries](https://www.offworldindustries.com/). The data is extracted from the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) (not the game files!) and then uploaded to the [Squad Wiki](https://squad.gamepedia.com/Squad_Wiki). All of this is performed by the pipeline semi-automatically.
 
