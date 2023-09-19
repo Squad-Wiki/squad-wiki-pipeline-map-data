@@ -22,11 +22,12 @@ This pipeline currently only extracts **map layer** and **map vehicle assets** d
 
 ![Squad Wiki Pipeline breakdown](/doc/images/Squad-Wiki-Pipeline.png)
 
-The pipeline consists of three components:
+The pipeline consists of four components:
 
-1. Export the game data from the [Squad SDK](https://squad.gamepedia.com/Squad_SDK)
-2. Convert SDK labels into names used on the wiki
-3. Upload the data to Data pages on the wiki
+1. Export the game data from the [Squad SDK](https://squad.gamepedia.com/Squad_SDK).
+2. Convert SDK labels into names used on the wiki.
+3. Upload the data to Data pages on the wiki.
+4. Have the wiki display the data.
 
 The last to steps create interim output files which are used as input files for the following step.
 
@@ -38,7 +39,7 @@ With **step 3** the data is uploaded to the wiki with the goal of making the dat
 
 Cargo tables allow the automatic re-use of its data on many wiki pages. Therefore, we only have to update the Cargo data and all wiki pages are automatically updated with the latest data. The data is pulled from the Cargo tables using [Scribunto](https://www.mediawiki.org/wiki/Extension:Scribunto). Scribunto allows powerful programming (using the [programming language Lua](<https://en.wikipedia.org/wiki/Lua_(programming_language)>)) to manipulate and visualize the data onto wiki pages - everything done automatically.
 
-If you want to learn more about the wiki-side programming and maintenance, see our [Squad Wiki Cargo Maintenence documentation](https://squad.gamepedia.com/Squad_Wiki_Editorial/Cargo_Maintenance). Below documentation focuses exclusively on the first four steps that make up the pipeline.
+If you want to learn more about the wiki-side programming and maintenance, see our [Squad Wiki Cargo Maintenence documentation](https://squad.gamepedia.com/Squad_Wiki_Editorial/Cargo_Maintenance). Below documentation focuses exclusively on the first three steps that make up the pipeline.
 
 ## Latest output files
 
