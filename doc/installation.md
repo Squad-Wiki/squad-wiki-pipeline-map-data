@@ -84,9 +84,9 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 21. Compile and save the blueprint.
 
-22. Navigate to  `/Content/Gameplay/Gamemodes/Objectives` and open the `BP_ObjectiveSpawnLocation` blueprint.
+22. Navigate to  `/Content/Gameplay/Objectives` and open the `BP_ObjectiveSpawnLocation` blueprint.
 
-23. If prompited make sure to `Open Full Blueprint Editor`.
+23. If prompted make sure to `Open Full Blueprint Editor`.
 
 23. Add the `Map Grab Assets 4 0` component to this blueprint.
 
@@ -95,3 +95,6 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 ![Destruction Grabber](/doc/images/sdk/sdk_destruction_grabber.png)
 
 25. Compile and save the blueprint.
+
+
+Installation is complete at this point. See the [SDK configuration](./sdkConfiguration.md) for the next steps.
