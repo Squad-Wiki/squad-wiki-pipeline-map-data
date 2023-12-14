@@ -1,6 +1,6 @@
 # SDK Data Extraction Usage
 
-Once [installation](/doc/installation.md) is complete the SDK data extraction will activate upon any map loading in the SDK. To extract all data you must open up the very first gameplay layer. This layer should be Anvil AAS v1.
+Once [installation](/doc/installation.md) is complete the SDK data extraction will activate upon any map loading in the SDK. To extract all data you must open up the very first gameplay layer listed in the maps folder. This layer is currently Anvil AAS v1.
 
 Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. It will automatically cycle through all the maps and layers - this will take quite a long time. 
 
