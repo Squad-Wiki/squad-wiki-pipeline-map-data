@@ -1,24 +1,17 @@
-**! ! ! WARNING ! ! ! THIS IS OUT OF DATE AND NEEDS A REWRITE!!**
-
-**If you are needing a completed output please ask `werewolfboy13#0666` for a completed `raw.txt` in the squad wiki discord.**
-
-**A rewrite is planned for the new workflow.**
-
 # Pipeline Installation
 
 The entire pipeline is run on your **local PC**. It consists of two main parts:
 
-1. Adding the  **Unreal Engine Blueprints**, **Data Table**, and **Data Structure** to the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) for exporting the game data.
+1. Adding the **Unreal Engine Blueprints**, **Data Table**, and **Data Structure** to the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) for exporting the game data.
 2. Different **JavaScripts** for converting and uploading the exported game data to the wiki.
 
 ### Installing Blueprint MapGrabAssets.uasset
 
 The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is required. You will find instructions on how to install the Squad SDK [here](https://squad.gamepedia.com/Squad_SDK#Downloading_the_Epic_Games_Launcher).
 
-
 1. Create a new folder in `/SquadEditor/Squad/Content/` named `Wiki`.
 
-2. Place the *LightingLayers.uasset*, *LightingLayersStructure.uasset*, and *MapGrabAsset4_0.uasset* within the wiki folder.
+2. Place the _LightingLayers.uasset_, _LightingLayersStructure.uasset_, and _MapGrabAsset4_0.uasset_ within the wiki folder.
 
 3. Open the Squad SDK.
 
@@ -74,7 +67,7 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 17. Compile and save the blueprint.
 
-18. Navigate to  `/Content/Gameplay/Gamemodes/Destruction` and open the `BP_DestructionObjectiveArea` blueprint.
+18. Navigate to `/Content/Gameplay/Gamemodes/Destruction` and open the `BP_DestructionObjectiveArea` blueprint.
 
 19. Add the `Map Grab Assets 4 0` component to this blueprint.
 
@@ -84,17 +77,16 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 21. Compile and save the blueprint.
 
-22. Navigate to  `/Content/Gameplay/Objectives` and open the `BP_ObjectiveSpawnLocation` blueprint.
+22. Navigate to `/Content/Gameplay/Objectives` and open the `BP_ObjectiveSpawnLocation` blueprint.
 
 23. If prompted make sure to `Open Full Blueprint Editor`.
 
-23. Add the `Map Grab Assets 4 0` component to this blueprint.
+24. Add the `Map Grab Assets 4 0` component to this blueprint.
 
-24. Find the `Event BeginPlay` and add the `Destruction Grabber` function there.
+25. Find the `Event BeginPlay` and add the `Destruction Grabber` function there.
 
 ![Destruction Grabber](/doc/images/sdk/sdk_destruction_grabber.png)
 
 25. Compile and save the blueprint.
-
 
 Installation is complete at this point. See the [SDK configuration](./sdkConfiguration.md) for the next steps.
