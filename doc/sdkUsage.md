@@ -2,7 +2,7 @@
 
 Once [installation](/doc/installation.md) is complete the SDK data extraction will activate upon any map loading in the SDK. To extract all data you must open up the very first gameplay layer listed in the maps folder. This layer is currently Anvil AAS v1.
 
-Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. It will automatically cycle through all the maps and layers - this will take quite a long time. 
+Once the above is completed hit `Play` to initiate the map loading, then the SDK data extraction will start. It will automatically cycle through all the maps and layers - this will take quite a long time.
 
 ![Hit Play](/doc/images/sdk/sdk_play.png)
 
@@ -10,7 +10,8 @@ If the pipeline ends right away (the game spits you back out into the editor) th
 
 All data will output to the file `Squad SDK\SquadEditor\Squad\grabAssets\maps.json`.
 
+Before this data can be used it's recommended to change the encoding to UTF-8. UE4 automatically exports to UTF-16BOM which has some incompatibilities.
+
 In case you want to disable the SDK data extraction in your Squad SDK you must unlink the function node within BP_HUD.
 
 The pipeline is smart and will resume where you left off. If your editor crashed or you paused the piepline simply load back up into the first layer and hit play. The pipeline will find the next not logged map and resume from there.
-
