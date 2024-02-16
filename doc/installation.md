@@ -73,7 +73,7 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 20. Add the `Map Grab Assets 4 0` component to this blueprint.
 
-21. Find the `Initilization of Objective` comment and add the `Destruction Objective Graber` function in between `Event BeginPlay` and `Switch Has Authority`
+21. Find the `Initilization of Objective` comment and add the `Destruction Objective Grabber` function in between `Event BeginPlay` and `Switch Has Authority`
 
 ![Objective Grabber](/doc/images/sdk/sdk_destruction_objective_grabber.png)
 
