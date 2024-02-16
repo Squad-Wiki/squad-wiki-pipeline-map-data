@@ -63,7 +63,7 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 ![Connect Nodes](/doc/images/sdk/sdk_final_grab_points.png)
 
-17. Naviage to the end of the comment and then create a new function `Grab Asset` and connect the execute node to the `Request Player Data` blueprint.
+17. Navigate to the end of the comment and then create a new function `Grab Asset` and connect the execute node to the `Request Player Data` blueprint.
 
 ![Grab Asset](/doc/images/sdk/sdk_grab_asset_function.png)
 
