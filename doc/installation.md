@@ -71,7 +71,7 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 ![Connect Nodes](/doc/images/sdk/sdk_final_grab_points.png)
 
-19. Naviage to the end of the comment and then create a new function `Grab Asset` and connect the execute node to the `Request Player Data` blueprint.
+17. Navigate to the end of the comment and then create a new function `Grab Asset` and connect the execute node to the `Request Player Data` blueprint.
 
 ![Grab Asset](/doc/images/sdk/sdk_grab_asset_function.png)
 
@@ -81,7 +81,7 @@ The latest version of the [Squad SDK](https://squad.gamepedia.com/Squad_SDK) is 
 
 22. Add the `Map Grab Assets 4 0` component to this blueprint.
 
-23. Find the `Initilization of Objective` comment and add the `Destruction Objective Graber` function in between `Event BeginPlay` and `Switch Has Authority`
+21. Find the `Initilization of Objective` comment and add the `Destruction Objective Grabber` function in between `Event BeginPlay` and `Switch Has Authority`
 
 ![Objective Grabber](/doc/images/sdk/sdk_destruction_objective_grabber.png)
 
