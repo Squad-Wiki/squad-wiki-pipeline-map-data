@@ -4,10 +4,21 @@
 
 ### Added
 
-- Added SeaLevel logging under map info. (sh4rkman closes #122)
-- Added logging for progression of map. (sh4rkman)
-- Added singleUse within vehicle data. If true the vehicle only spawns once. (closes #124)
-- Added fallback for invalid gamemode
+- Map Info  
+  - Added `SeaLevel` (closes #122)
+  - Added `commanderDisabled`, if false commander is disabled on the layer
+  - Added `boatsAvailable` boolean (informative only)
+  - Added `tanksAvailable` boolean (informative only)
+  - Added `helicoptersAvailable` boolean (informative only)
+  - Added Player Spawn Objects within `mapAssets[]` (close #90):
+    - `spawnGroups[]` - Holding the clickable spawns positions on the map
+    - `spawnPoints[]` - Holding the real player spawns positions around spawnGroups
+- Units
+  - Added `unitIcon`, holding the generalist icon for the unit typ (eg: T_UnitType_CombinedArms)
+  - Added `singleUse` within vehicle data. If true the vehicle only spawns once. (closes #124)
+- Others
+  - Added logging for progression of map.
+  - Added fallback for invalid gamemode
 
 ### Changed
 
@@ -16,7 +27,9 @@
 - Changed the way skirmish is logged in `capturePoints` (closes #126)
     - Changed `type` from `"AAS Graph"` to `"Skirmish Graph"` 
     - Changed pointsOrder to have `invalidForSkirmishGameMode` listed when in skirmish as gamemode can have multiple points connected to one.
+    - Added `links`
     - Fixed numberOfPoints calculation
+
 ### Removed
 
 ### Deprecated
