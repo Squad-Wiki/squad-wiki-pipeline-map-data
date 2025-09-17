@@ -38,3 +38,4 @@
 
 - Objectives capzones now have proper scaling (fixes #121)
 - Fixed typo in map limiter log (sh4rkman)
+- Fixed factionID being blank within Units data.
