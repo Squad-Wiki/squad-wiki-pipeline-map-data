@@ -39,3 +39,4 @@
 - Objectives capzones now have proper scaling (fixes #121)
 - Fixed typo in map limiter log (sh4rkman)
 - Fixed factionID being blank within Units data.
+- Fixed a bug where a layer would be logged again if you started the pipeline after a crash/not completing a previous run. (fixes #127)
