@@ -13,6 +13,11 @@
   - Added Player Spawn Objects within `mapAssets[]` (close #90):
     - `spawnGroups[]` - Holding the clickable spawns positions on the map
     - `spawnPoints[]` - Holding the real player spawns positions around spawnGroups
+  - Added `unitMapSize`, shows the "Unit" size of the map. (This can be infrenced from the available units, but this is another possible variable to use.)
+  - Added `FOBRadiusType`, shows what size radius is used.
+  - Added `FOBRadiusDisplayName`, nice version of `FOBRadiusType`.
+  - Added `FOBExclusionRadius` number, holds the exclusion zone of FOBs.
+  - Added `FOBConstructionRadius` number, holds the construction zone of FOBs.
 - Units
   - Added `unitIcon`, holding the generalist icon for the unit typ (eg: T_UnitType_CombinedArms)
   - Added `singleUse` within vehicle data. If true the vehicle only spawns once. (closes #124)
@@ -40,3 +45,4 @@
 - Fixed typo in map limiter log (sh4rkman)
 - Fixed factionID being blank within Units data.
 - Fixed a bug where a layer would be logged again if you started the pipeline after a crash/not completing a previous run. (fixes #127)
+- Fixed lighting levels not showing up. **Only `lighting` is now valid, there are no more lightingLevels. (fixes #128)
