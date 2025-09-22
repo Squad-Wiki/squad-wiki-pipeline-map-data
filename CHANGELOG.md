@@ -34,6 +34,7 @@
     - Changed pointsOrder to have `invalidForSkirmishGameMode` listed when in skirmish as gamemode can have multiple points connected to one.
     - Added `links`.
     - Fixed numberOfPoints calculation.
+- Changed empty `team1Anchors` and `team2Anchors` in TC maps from 0 -> -1 to indicate null. (Related to #124)
 
 ### Removed
 
@@ -46,3 +47,4 @@
 - Fixed factionID being blank within Units data.
 - Fixed a bug where a layer would be logged again if you started the pipeline after a crash/not completing a previous run (fixes #127).
 - Fixed lighting levels not showing up. **Only `lighting` is now valid, there are no more lightingLevels (fixes #128).
+- Fixed `team1Anchors` duplicating into `team2Anchors` (fixes #124).
