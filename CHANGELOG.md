@@ -1,3 +1,11 @@
+## [2.1-squad-10.0.0]
+
+### Added
+- Map Info
+  - Added `mapCameraActor` holding the spawn screen camera position and rotation
+
+- Version bump of MapGrabAssets to 4.2
+
 ## [2.1-squad-9.0.2]
 
 - Version bump of MapGrabAssets to 4.1
