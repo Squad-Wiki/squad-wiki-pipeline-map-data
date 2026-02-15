@@ -1,3 +1,4 @@
+# DEPRECIATED
 **! ! ! WARNING ! ! ! THIS IS OUT OF DATE AND NEEDS A REWRITE!!**
 
 **The Wiki portion of this piepline is currently non-functional.**

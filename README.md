@@ -53,23 +53,17 @@ Documentation on how to install this pipeline can be read [here](doc/installatio
 
 Documentation on how to configure this pipeline for the SDK can be read [here](doc/sdkConfiguration.md)
 
-Documentation on how to configure this pipeline for the wiki can be read [here](doc/wikiConfiguration.md)
-
 ## Usage
 
 Documentation on how to use this pipeline for the SDK data extraction can be read [here](doc/sdkUsage.md)
 
-Documentation on how to use this pipeline for the wiki upload can be read [here](doc/wikiUsage.md)
 
 Documentation about the output JSON file can be read [here](doc/json.md)
 
-## Wiki Side Documentation
-
-You can find more documentation for the usage of the pipeline [here](https://squad.gamepedia.com/Squad_Wiki_Editorial/Cargo_Maintenance) - this documentation covers the practical operation of the pipline on the wiki-side.
 
 ## Project Status and Roadmap
 
-We have developed this pipeline in 2020 for the maintenance of the [Squad Wiki](https://squad.gamepedia.com/Squad_Wiki). We are utlizing the pipeline every time a new version of Squad is released. We are constantly improving the pipeline and make more and more use of the Cargo data on the wiki.
+We have developed this pipeline in 2020 for the maintenance of the [Squad Wiki](https://squad.gamepedia.com/Squad_Wiki). We are utlizing the pipeline every time a new version of Squad is released. We are constantly improving the pipeline.
 
 In the future we are considering extending the pipeline to extract more and more game data for the wiki.
 
@@ -87,7 +81,7 @@ The pipeline was created and is being operated by the team in the [Squad Wiki Ed
 
 Listed by Discord user names:
 
-- **shanomac99** - programming and operation
+- **shanomac99** - programming, operation, documentation
 - **usgu** - concept, coordination and documentation
 - **werewolfboy13** - contributor and documentation
 

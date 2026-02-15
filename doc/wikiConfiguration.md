@@ -1,3 +1,4 @@
+# DEPRECIATED
 # Pipeline Configuration
 The following files must be configured before running the pipeline.
 
